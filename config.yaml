@@ -1,0 +1,82 @@
+# Raymond Leigh signal job settings.
+# Change numbers here, not in the code. Every run reads this file.
+
+provinces_priority: ["QC", "ON"]    # get the province bonus (quoted: YAML reads a bare ON as true)
+provinces_allowed: ["QC", "ON", "BC", "AB", "SK", "MB", "NB", "NS", "PE", "NL"]
+
+lookback_days: 180                  # first run loads 6 months; later runs only add new rows
+expire_days: 180                    # signals older than this stop counting
+
+scoring:
+  province_bonus: 10
+  extra_source_bonus: 20            # per additional distinct source naming the same company
+  recency:                          # multiplier by signal age in days
+    - {max_days: 30, mult: 1.0}
+    - {max_days: 90, mult: 0.7}
+    - {max_days: 180, mult: 0.3}
+  hot_threshold: 60
+  sequence_threshold: 35
+  hot_list_size: 30
+
+seao:
+  floor_amount: 25000               # smaller awards are ignored
+  exclude_keywords: [logiciel, licence, software, hébergement, expertise, services professionnels, étude, formation,
+                     nolisement, honoraires, consultation, audit, assurance, traduction, juridique]
+  min_amount: 100000
+  points_large: 30                  # award >= min_amount
+  points_small: 15                  # award below min_amount but on-topic
+  # UNSPSC segment prefixes kept (construction, landscaping/snow, cleaning, transport, heavy machinery, material handling, vehicles)
+  unspsc_prefixes: ["70", "72", "76", "78", "22", "24", "25"]
+  keywords: [déneigement, deneigement, excavation, pavage, asphalte, terrassement, transport, camionnage,
+             nivelage, aqueduc, égout, egout, démolition, demolition, entretien, chargeuse, balai,
+             snow, paving, hauling, grading, earthwork, sewer]
+
+canadabuys:
+  min_amount: 100000
+  points: 30                        # services/construction contracts the supplier performs (borrower side)
+  vendor_points: 10                 # equipment the supplier sold to government (vendor side)
+  # the file rarely fills product codes, so titles decide. Construction contracts are always kept.
+  service_keywords: [construction, renovation, repair, maintenance, snow, removal, hauling, excavation, paving,
+                     landscaping, grounds, installation, demolition, dredging, transport, moving, road, bridge,
+                     roofing, fencing, vegetation, brushing, grading, clearing, paving, asphalt, culvert, dock,
+                     wharf, marine works, environmental remediation, site preparation, earthwork, crane, towing,
+                     déneigement, entretien, réparation, travaux, transport, excavation]
+  equipment_keywords: [lathe, mill, cnc, forklift, trailer, truck, excavator, loader, backhoe, generator, compressor,
+                       crane, tractor, mower, boat, vessel, bus, van, skid steer, press, welding, saw, grader,
+                       dozer, sweeper, plow, chariot élévateur, remorque, camion, chargeuse]
+  exclude_keywords: [software, logiciel, consulting, consultation, professional services, services professionnels,
+                     informatique, IT services, licence, license, subscription, abonnement, training, formation,
+                     engineering services, research, study, étude, audit, legal, translation]
+
+grants:
+  # program name keyword (matched against program name and department) -> points
+  programs:
+    - {match: "Regional Tariff Response", points: 30}
+    - {match: "Business Scale-up", points: 30}
+    - {match: "Regional Economic Growth", points: 30}
+    - {match: "Strategic Innovation Fund", points: 30}
+    - {match: "Jobs and Growth", points: 30}
+    - {match: "Industrial Research Assistance", points: 15}
+    - {match: "CanExport", points: 15}
+  min_amount: 25000
+
+lmia:
+  points: 20
+  # NOC 2021 code prefixes for equipment-heavy work
+  noc_prefixes: ["721", "722", "723", "724", "733", "734", "941", "942", "951", "952", "8211", "8411"]
+
+jobbank:
+  points: 15
+  min_postings: 3
+  noc_prefixes: ["721", "722", "723", "724", "733", "734", "941", "942", "951", "952"]
+
+exclude_name_patterns:              # not businesses we can finance
+  - "universit"
+  - "college|collège|cégep|cegep"
+  - "ville de|city of|municipalit|town of|township|county of|comté|mrc "
+  - "hôpital|hopital|hospital|santé|health authority"
+  - "school board|commission scolaire|centre de services scolaire"
+  - "association|associat|foundation|fondation|société de développement|chamber of commerce|chambre de commerce"
+  - "gouvernement|government|ministère|ministry|minister"
+  - "first nation|première nation|band council"
+  - "toromont|wajax|brandt|strongco|finning|cervus|garda|grand & toy|bell canada|telus|rogers|hydro-qu|hydro one"  # large companies
