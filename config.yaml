@@ -59,6 +59,7 @@ grants:
     - {match: "Industrial Research Assistance", points: 15}
     - {match: "CanExport", points: 15}
   min_amount: 25000
+  skip_programs: ["Youth Employment", "Emploi jeunesse", "Youth"]   # wage subsidies, not growth capital
 
 lmia:
   points: 20
@@ -80,3 +81,4 @@ exclude_name_patterns:              # not businesses we can finance
   - "gouvernement|government|ministère|ministry|minister"
   - "first nation|première nation|band council"
   - "toromont|wajax|brandt|strongco|finning|cervus|garda|grand & toy|bell canada|telus|rogers|hydro-qu|hydro one"  # large companies
+  - "otis|pomerleau|construction djl|eurovia|colas|kiewit|aecon|ellisdon|ledcor|graham construction|pcl constr|bird construction|ebc inc|cegerco|groupe sm|wsp|stantec|cima\\+|englobe|veolia|gfl|waste management|sodexo|compass group|aramark|cintas"

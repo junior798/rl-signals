@@ -43,6 +43,8 @@ def parse_frame(df, cfg: dict, excl: list[str], since: date) -> list[dict]:
         if not when or when < since:
             continue
         prog = str(row.get(c_prog) or "")
+        if any(k.lower() in prog.lower() for k in cfg.get("skip_programs", [])):
+            continue
         pts = program_points(f"{prog} {row.get(c_org) or ''}", cfg)
         if pts <= 0:
             continue

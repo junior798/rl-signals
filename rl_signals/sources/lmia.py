@@ -21,7 +21,7 @@ def _load(path) -> pd.DataFrame:
         raw = pd.read_excel(path, header=None)
     for i in range(min(15, len(raw))):
         cells = [str(v).lower() for v in raw.iloc[i].tolist()]
-        if any(c.strip().startswith("employer") for c in cells) and any("occupation" in c for c in cells):
+        if any(c.strip() == "employer" for c in cells) and any(c.strip() == "occupation" for c in cells):
             df = raw.iloc[i + 1:].copy()
             df.columns = [str(v).strip() for v in raw.iloc[i].tolist()]
             return df.dropna(how="all")

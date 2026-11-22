@@ -33,7 +33,8 @@ def run(args) -> int:
     cfg = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
     excl = cfg["exclude_name_patterns"]
     allowed = set(cfg["provinces_allowed"])
-    names = list(SOURCES) if args.sources == "all" else [s.strip() for s in args.sources.split(",")]
+    # jobbank is kept but off by default: its open file has no employer names, so it cannot name companies
+    names = ["seao", "canadabuys", "grants", "lmia"] if args.sources == "all" else [s.strip() for s in args.sources.split(",")]
     days = args.days or cfg["lookback_days"]
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -53,6 +54,7 @@ def run(args) -> int:
         try:
             found = SOURCES[name].fetch(cfg[name], excl, days)
             found = [s for s in found if not s["province"] or s["province"] in allowed]
+            found = list({s["signal_id"]: s for s in found}.values())  # same award can appear in several files
             fresh = [dict(s, added_on=date.today().isoformat()) for s in found if s["signal_id"] not in known]
             for s in fresh:
                 known[s["signal_id"]] = s

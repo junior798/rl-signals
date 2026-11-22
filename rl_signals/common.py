@@ -148,7 +148,14 @@ def signal_id(*parts) -> str:
     return hashlib.sha1("|".join(str(p) for p in parts).encode()).hexdigest()[:16]
 
 
+def first_part(value) -> str:
+    """Bilingual files write 'English name|Nom français'. Keep the first one."""
+    s = "" if value is None or str(value).lower() == "nan" else str(value)
+    return s.split("|")[0].strip()
+
+
 def make_signal(*, source, signal_type, company, province, city, when, amount, points, detail, url="", ref="") -> dict:
+    company, city = first_part(company), first_part(city)
     return {
         "signal_id": signal_id(source, ref or company, when, amount),
         "source": source,
