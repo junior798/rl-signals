@@ -7,6 +7,10 @@ from .common import parse_date
 from .situations import describe
 
 
+# sources that describe the same kind of event; a company in both counts once when stacking
+GROUP = {"fedcontracts": "canadabuys"}
+
+
 def recency_mult(days_old: int, cfg: dict) -> float:
     for step in cfg["scoring"]["recency"]:
         if days_old <= step["max_days"]:
@@ -32,8 +36,9 @@ def score_companies(signals: list[dict], cfg: dict, today: date | None = None) -
             c["city"] = s["city"]
         value = float(s.get("points") or 0) * recency_mult(age, cfg)
         # one counted signal per source: the strongest
-        if value > c["best"].get(s["source"], (0, None))[0]:
-            c["best"][s["source"]] = (value, s)
+        g = GROUP.get(s["source"], s["source"])
+        if value > c["best"].get(g, (0, None))[0]:
+            c["best"][g] = (value, s)
         c["signals"].append(s)
         c["latest"] = max(c["latest"], d)
 

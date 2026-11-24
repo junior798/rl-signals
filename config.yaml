@@ -1,7 +1,7 @@
 # Raymond Leigh signal job settings.
 # Change numbers here, not in the code. Every run reads this file.
 
-provinces_priority: ["QC", "ON"]    # get the province bonus (quoted: YAML reads a bare ON as true)
+provinces_priority: ["ON", "BC", "AB"]  # get the province bonus; Quebec is deliberately left out (quoted: YAML reads a bare ON as true)
 provinces_allowed: ["QC", "ON", "BC", "AB", "SK", "MB", "NB", "NS", "PE", "NL"]
 
 lookback_days: 180                  # first run loads 6 months; later runs only add new rows
@@ -48,6 +48,19 @@ canadabuys:
                      informatique, IT services, licence, license, subscription, abonnement, training, formation,
                      engineering services, research, study, étude, audit, legal, translation]
 
+fedcontracts:
+  min_amount: 100000
+  points: 30                        # construction, repair and maintenance work (borrower side)
+  vendor_points: 10                 # vehicles and equipment sold to government (vendor side)
+  service_keywords: [repair, maintenance, snow, road, highway, street, paving, excavat, landscap, grounds, demolition,
+                     dredg, haul, transport of, moving, rental of motor, rental of other vehicles, rental of machinery,
+                     construction, installation, clearing, cleaning of]
+  equipment_keywords: [road motor vehicles, other equipment, ships and boats, machinery, tractors, trailers,
+                       construction equipment, material handling, earth moving, generators, pumps, compressors]
+  exclude_keywords: [information technology, software, computer, consult, professional services, engineering services,
+                     architectural, tuition, advertising, travel, research, scientific, pharmaceutical, medical,
+                     fuel, office, management consulting, legal, translation, aircraft, protection services, audit]
+
 grants:
   # program name keyword (matched against program name and department) -> points
   programs:
@@ -81,4 +94,5 @@ exclude_name_patterns:              # not businesses we can finance
   - "gouvernement|government|ministère|ministry|minister"
   - "first nation|première nation|band council"
   - "toromont|wajax|brandt|strongco|finning|cervus|garda|grand & toy|bell canada|telus|rogers|hydro-qu|hydro one"  # large companies
+  - "ford motor|general motors|siemens|xerox|amazon web|microsoft|ibm |dell |cgi |deloitte|kpmg|accenture|bell |irving|seaspan|lockheed|general dynamics|polaris government"
   - "otis|pomerleau|construction djl|eurovia|colas|kiewit|aecon|ellisdon|ledcor|graham construction|pcl constr|bird construction|ebc inc|cegerco|groupe sm|wsp|stantec|cima\\+|englobe|veolia|gfl|waste management|sodexo|compass group|aramark|cintas"

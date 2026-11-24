@@ -16,9 +16,9 @@ from pathlib import Path
 import yaml
 
 from .score import score_companies
-from .sources import canadabuys, grants, jobbank, lmia, seao
+from .sources import canadabuys, fedcontracts, grants, jobbank, lmia, seao
 
-SOURCES = {"seao": seao, "canadabuys": canadabuys, "grants": grants, "lmia": lmia, "jobbank": jobbank}
+SOURCES = {"seao": seao, "canadabuys": canadabuys, "fedcontracts": fedcontracts, "grants": grants, "lmia": lmia, "jobbank": jobbank}
 
 
 def write_csv(path: Path, rows: list[dict], cols: list[str]):
@@ -34,7 +34,7 @@ def run(args) -> int:
     excl = cfg["exclude_name_patterns"]
     allowed = set(cfg["provinces_allowed"])
     # jobbank is kept but off by default: its open file has no employer names, so it cannot name companies
-    names = ["seao", "canadabuys", "grants", "lmia"] if args.sources == "all" else [s.strip() for s in args.sources.split(",")]
+    names = ["seao", "canadabuys", "fedcontracts", "grants", "lmia"] if args.sources == "all" else [s.strip() for s in args.sources.split(",")]
     days = args.days or cfg["lookback_days"]
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 

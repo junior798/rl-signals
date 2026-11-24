@@ -139,3 +139,28 @@ def test_two_lists_line_matches_sources():
     b = dict(signal_type="contract_award", points=30, amount=200000, detail="Federal contract: Road repair ($200,000)")
     out = describe([a, b], {"seao", "canadabuys"})
     assert "adding people" not in out["first_line"] and "City of Laval" in out["first_line"]
+
+
+def test_fedcontracts_rules():
+    from rl_signals.sources import fedcontracts
+    df = pd.DataFrame({
+        "reference_number": ["a", "b", "c", "d", "e"],
+        "vendor_name": ["KD Construction", "Ford Motor Company of Canada Ltd.", "Acme IT", "North Trucks Ltd", "Small Job Co"],
+        "vendor_postal_code": ["L4N1A1", "L6J5E4", "K1A0B1", "T2P1A1", "V5K0A1"],
+        "contract_date": [RECENT] * 5,
+        "description_en": ["Highways, Roads and Streets", "Road motor vehicles", "Information technology consultants",
+                           "Road motor vehicles", "Repair and maintenance - Office buildings"],
+        "contract_value": ["250000", "900000", "500000", "300000", "40000"],
+        "commodity_type": ["C", "G", "S", "G", "S"],
+        "country_of_vendor": ["CA"] * 5, "owner_org_title": ["Parks Canada"] * 5,
+    })
+    out = fedcontracts.parse_frame(df, CFG["fedcontracts"], EXCL, SINCE)
+    got = {(s["company"], s["signal_type"], s["province"]) for s in out}
+    assert got == {("KD Construction", "contract_award", "ON"), ("North Trucks Ltd", "sold_equipment_to_gov", "AB")}
+
+
+def test_federal_sources_stack_once():
+    base = dict(company_key="kd|ON", company="KD", city="", province="ON", url="", date=RECENT, amount=1, detail="x",
+                signal_type="contract_award", points=30)
+    rows = score_companies([dict(base, signal_id="1", source="canadabuys"), dict(base, signal_id="2", source="fedcontracts")], CFG)
+    assert rows[0]["sources"] == "canadabuys" and rows[0]["situation"] != "9 Two or more lists"
