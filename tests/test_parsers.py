@@ -131,3 +131,11 @@ def test_situations_and_first_lines():
     assert two["situation"] == "9 Two or more lists" and "Loaders" in two["likely_equipment"]
     h = describe([hire], {"lmia"})
     assert h["first_line"] == "Saw you got approval to bring on more automotive service technicians."
+
+
+def test_two_lists_line_matches_sources():
+    from rl_signals.situations import describe
+    a = dict(signal_type="contract_award", points=30, amount=500000, detail="Quebec public contract: Pavage ($500,000) for Ville de Laval.")
+    b = dict(signal_type="contract_award", points=30, amount=200000, detail="Federal contract: Road repair ($200,000)")
+    out = describe([a, b], {"seao", "canadabuys"})
+    assert "adding people" not in out["first_line"] and "City of Laval" in out["first_line"]

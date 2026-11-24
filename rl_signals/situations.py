@@ -92,6 +92,20 @@ def first_line(sit: str, detail: str) -> str:
     }[sit[0]]
 
 
+def multi_line(sources: set[str], signals: list[dict]) -> str:
+    contract = max((s for s in signals if s.get("signal_type") == "contract_award"),
+                   key=lambda s: float(s.get("amount") or 0), default=None)
+    b = buyer_of(contract.get("detail", "")) if contract else ""
+    w = f" with {b}" if b else ""
+    if contract and "lmia" in sources:
+        return f"Saw you won new work{w} and you're adding people at the same time."
+    if contract and "grants" in sources:
+        return f"Saw you won new work{w} and your federal funding came through this year."
+    if contract:
+        return f"Saw you picked up several new contracts this year, including work{w}."
+    return "Saw your federal funding came through and you're adding people at the same time."
+
+
 def likely_need(sit: str, contract_total: float) -> str:
     """Rough financing range from the situation and the total value of contracts won."""
     if sit.startswith(("5", "6")):
@@ -118,7 +132,7 @@ def describe(signals: list[dict], sources: set[str]) -> dict:
     base_sit = situation_of(best)
     return {
         "situation": sit,
-        "first_line": first_line(sit, best.get("detail", "")),
+        "first_line": multi_line(sources, signals) if sit[0] == "9" else first_line(sit, best.get("detail", "")),
         "likely_equipment": SITUATIONS[base_sit if sit[0] == "9" else sit][0],
         "likely_need": likely_need(base_sit, contract_total),
         "ask": SITUATIONS[sit][1],
