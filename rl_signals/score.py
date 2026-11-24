@@ -4,6 +4,7 @@ from __future__ import annotations
 from datetime import date
 
 from .common import parse_date
+from .situations import describe
 
 
 def recency_mult(days_old: int, cfg: dict) -> float:
@@ -46,7 +47,8 @@ def score_companies(signals: list[dict], cfg: dict, today: date | None = None) -
         score = round(base + bonus, 1)
         top = max(c["best"].values(), key=lambda t: t[0])[1]
         tier = "hot" if score >= sc["hot_threshold"] else "sequence" if score >= sc["sequence_threshold"] else "hold"
-        rows.append({
+        info = describe(c["signals"], set(c["best"]))
+        rows.append({**info,
             "company": c["company"], "city": c["city"], "province": c["province"], "score": score, "tier": tier,
             "sources": ", ".join(sorted(c["best"])), "signal_count": len(c["signals"]),
             "top_signal_type": top["signal_type"], "trigger_event": top["detail"],

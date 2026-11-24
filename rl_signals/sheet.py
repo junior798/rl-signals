@@ -7,8 +7,9 @@ import os
 
 SIGNAL_COLS = ["signal_id", "source", "signal_type", "company", "company_key", "city", "province", "date",
                "amount", "points", "detail", "url", "added_on"]
-COMPANY_COLS = ["company", "city", "province", "score", "tier", "sources", "signal_count", "top_signal_type",
-                "trigger_event", "latest_signal", "company_key"]
+COMPANY_COLS = ["company", "city", "province", "score", "tier", "situation", "first_line", "ask", "likely_equipment",
+                "likely_need", "sources", "signal_count", "top_signal_type", "trigger_event", "latest_signal",
+                "company_key"]
 RUN_COLS = ["run_at", "source", "status", "signals_found", "new_signals", "note"]
 
 

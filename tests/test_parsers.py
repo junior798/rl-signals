@@ -115,3 +115,19 @@ def test_scoring_stacks_sources_and_province():
     assert len(rows) == 1  # the 400-day-old signal expired
     r = rows[0]
     assert r["score"] == 30 + 20 + 20 + 10 and r["tier"] == "hot" and r["sources"] == "grants, lmia"
+
+
+def test_situations_and_first_lines():
+    from rl_signals.situations import describe
+    snow = dict(signal_type="contract_award", points=30, amount=4005090,
+                detail="Quebec public contract: Déneigement et entretien hivernal ($4,005,090) for Ville de Québec.")
+    hire = dict(signal_type="lmia_hiring", points=20, amount=3,
+                detail="Approved to hire foreign workers: 72410-Automotive service technicians, truck and bus mechanics (3 positions)")
+    one = describe([snow], {"seao"})
+    assert one["situation"] == "1 Snow contract"
+    assert one["first_line"] == "Saw you picked up snow removal work with the City of Québec this season."
+    assert one["likely_need"] == "$250K-$750K"
+    two = describe([snow, hire], {"seao", "lmia"})
+    assert two["situation"] == "9 Two or more lists" and "Loaders" in two["likely_equipment"]
+    h = describe([hire], {"lmia"})
+    assert h["first_line"] == "Saw you got approval to bring on more automotive service technicians."
