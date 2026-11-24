@@ -64,6 +64,13 @@ fedcontracts:
 grants:
   # program name keyword (matched against program name and department) -> points
   programs:
+    # programs that pay for part of an equipment purchase: the rest needs financing
+    - {match: "Green Freight", points: 30}
+    - {match: "Supply Management Processing Investment", points: 30}
+    - {match: "Agricultural Clean Technology", points: 30}
+    - {match: "Green Industrial Facilities", points: 30}
+    - {match: "Forest Industry Transformation", points: 30}
+    - {match: "Productivity, digitalization and expansion", points: 30}
     - {match: "Regional Tariff Response", points: 30}
     - {match: "Business Scale-up", points: 30}
     - {match: "Regional Economic Growth", points: 30}

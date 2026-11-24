@@ -13,7 +13,7 @@ SNOW = r"deneige|snow|deglac|abrasif|epandage|tassement de la neige"
 CIVIL = (r"excavat|pavage|asphalt|paving|terrass|nivel|route|chaussee|ponceau|pont |aqueduc|egout|granul|grading|"
          r"road|culvert|bridge|ditch|voirie")
 TRANSPORT = r"transport|camionn|hauling|autobus|collecte|dechet|ordures|towing|remorqu|conteneur"
-GROWTH = r"tariff|rtri|scale|regi|economic growth|strategic innovation"
+GROWTH = r"tariff|rtri|scale|regi|economic growth|strategic innovation|green freight|processing investment|clean technology|green industrial|forest industry|productivity"
 
 SITUATIONS = {
     "1 Snow contract": ("Loaders, plow trucks, sidewalk machines, snow blowers", "Are you adding equipment for this winter?"),
