@@ -633,6 +633,9 @@ def old_contracts(o: Out, days: int):
             desc = str(x.description_en or "")
             if not (str(x.commodity_type).upper() == "C" or work.search(desc)):
                 continue
+            if re.search(r"consult|architect|engineering services|business services|design|professional|management services|research", desc, re.I) \
+                    or re.search(r"architect|engineer|consult|design|planning|associates", str(x.vendor_name), re.I):
+                continue  # advisors don't own the equipment
             prov = post.get(str(x.vendor_postal_code or "")[:1].upper(), "")
             if not prov:
                 continue
@@ -650,6 +653,7 @@ def alberta_grants(o: Out, days: int):
     corp = g.Recipient.fillna("").str.contains(r"\b(?:LTD|LIMITED|INC|CORP|CORPORATION|ULC|LLP|CO\.)\b", case=False)
     g = g[corp & ~g.Recipient.fillna("").str.contains(r"SOCIETY|ASSOCIATION|FOUNDATION|CHURCH|SCHOOL|UNIVERSITY|COLLEGE|HOSPITAL|CO-OP|COOPERATIVE|AUTHORITY|COUNTY|TOWN OF|CITY OF|FIRST NATION|METIS|CHILD|DAYCARE|DAY CARE|CARE CENTRE|HOMES? FOR|SENIOR", case=False)]
     g = g[~g.Ministry.fillna("").str.contains(r"EDUCATION|HEALTH|SENIORS|CHILDREN|SOCIAL|MENTAL|INDIGENOUS|ARTS|CULTURE|PUBLIC SAFETY|JUSTICE", case=False)]
+    g = g[~g.Program.fillna("").str.contains(r"SURFACE RIGHTS|COMPENSATION|COMP\. PAY|QUAL-|WAGE TOP|CHILD|DAYCARE|SUBSIDY-CHILD", case=False)]
     agg = g.groupby(["Recipient", "Ministry", "Program"]).agg(d=("d", "max"), v=("v", "sum")).reset_index()
     for _, x in agg.iterrows():
         o.add(x.Recipient, 129, "Alberta grant payments", x.d, x.v, None, "AB", f"{x.Ministry}: {x.Program}")
