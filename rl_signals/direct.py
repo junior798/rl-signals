@@ -597,6 +597,8 @@ def toronto_permits(o: Out, days: int):
              t.PERMIT_TYPE.fillna("").str.contains("Non-Residential", case=False) | \
              (t.PERMIT_TYPE.fillna("").isin(["Building Additions/Alterations", "New Building"]) & ~resi & (use.str.strip() != ""))
     cost = pd.to_numeric(t.EST_CONST_COST.fillna("").str.replace(",", ""), errors="coerce").fillna(0)
+    print("toronto permits:", len(t), "in window,", int(nonres.sum()), "non-residential,", int((nonres & (cost >= 100000)).sum()),
+          "over $100K,", int((nonres & (cost >= 100000) & t.BUILDER_NAME.notna()).sum()), "with a builder named", flush=True)
     for _, x in t[nonres & (cost >= 100000)].iterrows():
         desc = str(x.DESCRIPTION or "")
         o.add(x.BUILDER_NAME, 3, "Toronto building permits", x.ISSUED_DATE, x.EST_CONST_COST, "Toronto", "ON", f"{x.WORK}: {desc[:180]}")
@@ -682,7 +684,19 @@ def agco(o: Out, days: int):
 def bc_liquor(o: Out, days: int):
     u = ("https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/"
          "liquor-regulation-licensing/reports/all_liquor_licensed_establishments_in_bc.xlsx")
-    b = pd.read_excel(io.BytesIO(get(u, timeout=300).content), sheet_name=0, dtype=str).fillna("")
+    content = None
+    for attempt in range(6):  # this server often drops the first connections from cloud machines
+        try:
+            r = requests.get(u, headers={**UA, "Connection": "close"}, timeout=120)
+            r.raise_for_status()
+            content = r.content
+            break
+        except Exception as e:
+            print("bc_liquor retry", attempt, e, flush=True)
+            time.sleep(20 + 20 * attempt)
+    if content is None:
+        raise RuntimeError("BC liquor file could not be downloaded after 6 tries")
+    b = pd.read_excel(io.BytesIO(content), sheet_name=0, dtype=str).fillna("")
     b = b[b["Licence Type"].str.contains("Food Primary|Liquor Primary|Manufacturer", case=False)]
     seen = load_state("bc_liquor_seen")
     today = dt.date.today().isoformat()
