@@ -11,6 +11,12 @@ on:
       sources:
         description: "all, or a list like canadabuys,grants"
         default: "canadabuys,fedcontracts,grants,lmia"
+      direct_days:
+        description: "Days back for the other sources"
+        default: "14"
+      direct_sources:
+        description: "all, or a list like calgary,jobbank"
+        default: "all"
 
 permissions:
   contents: write                 # lets the job save the new signals back into this repo
@@ -18,7 +24,7 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,6 +35,10 @@ jobs:
       - name: Run
         run: |
           python -m rl_signals run --state data/signals.csv --days "${{ inputs.days || '21' }}" --sources "${{ inputs.sources || 'canadabuys,fedcontracts,grants,lmia' }}"
+      - name: Run the other sources (permits, licences, approvals, aircraft, wells, Job Bank)
+        if: always()
+        run: |
+          python -m rl_signals direct --days "${{ inputs.direct_days || '14' }}" --sources "${{ inputs.direct_sources || 'all' }}"
       - name: Save new signals for n8n
         if: always()
         run: |
@@ -36,7 +46,7 @@ jobs:
           date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last_run.txt
           git config user.name "rl-signals bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/signals.csv data/new_signals.csv data/last_run.txt
+          git add data/signals.csv data/new_signals.csv data/last_run.txt data/new_direct.csv data/direct_runs.csv
           git commit -m "Weekly signals $(date -u +%Y-%m-%d)" || echo "nothing new"
           git push
       - name: Keep CSV copies of this run

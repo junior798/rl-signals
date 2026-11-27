@@ -94,9 +94,22 @@ def run(args) -> int:
     return 1 if failed else 0
 
 
+def run_direct(args) -> int:
+    from . import direct
+    only = [x.strip() for x in args.sources.split(",")] if args.sources != "all" else None
+    rows, runs = direct.run_all(args.days or 14, only)
+    write_csv(Path("data/new_direct.csv"), rows, direct.COLS)
+    write_csv(Path("data/direct_runs.csv"), runs, ["run_at", "source", "status", "signals_found", "new_signals", "note"])
+    print(f"Wrote data/new_direct.csv ({len(rows)} rows)")
+    return 1 if any(r["status"] != "ok" for r in runs) else 0
+
+
 def main():
     p = argparse.ArgumentParser(prog="rl_signals")
     sub = p.add_subparsers(dest="cmd", required=True)
+    dr = sub.add_parser("direct")
+    dr.add_argument("--sources", default="all")
+    dr.add_argument("--days", type=int, default=14)
     r = sub.add_parser("run")
     r.add_argument("--sources", default="all")
     r.add_argument("--days", type=int, default=0)
@@ -104,7 +117,7 @@ def main():
     r.add_argument("--config", default="config.yaml")
     r.add_argument("--state", default="", help="CSV that keeps every signal between runs (repo mode, no Google keys)")
     args = p.parse_args()
-    sys.exit(run(args))
+    sys.exit(run_direct(args) if args.cmd == "direct" else run(args))
 
 
 if __name__ == "__main__":
