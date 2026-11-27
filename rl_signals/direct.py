@@ -515,16 +515,18 @@ JB_KW = {
     224: ["AZ driver", "long haul truck driver"], 175: ["dental assistant"], 67: ["controller", "chief financial officer", "finance manager"],
 }
 # A posting only counts if its title really is that job. Job Bank search also returns loosely related postings.
-JB_TITLE = {
-    134: r"\bcnc\b", 135: r"weld|fabricat", 136: r"millwright|industrial mechanic|maintenance mechanic",
-    137: r"machine operator|machine tender|moulding|molding|extrusion|press operator|printing press|machine tool operator",
-    138: r"heavy equipment|crane|excavator|bulldozer|loader operator|grader operator|backhoe",
+JB_TITLE = {  # keep identical to the Supabase table jobbank_title_rules; the Monday quality check compares against it
+    134: r"\bcnc\b", 135: r"weld|fabricat",
+    136: r"millwright|industrial mechanic|maintenance mechanic|production machinery|rig mechanic|mechanic, (production|knitting|industrial)|machinery mechanic",
+    137: r"machine operator|machine tender|moulding|molding|extrusion|press operator|press brake|printing press|machine tool operator|machining|lathe|process operator|bindery|cutter operator|sign maker|operator, machine",
+    138: r"heavy equipment|heavy.duty equipment|equipment operator, heavy|crane|excavator|bulldozer|dozer|loader operator|grader operator|backhoe|bobcat|concrete (pump|spreader)|snow removal equipment|crusher",
     139: r"estimator|superintendent|site super", 140: r"forklift|warehouse (lead|supervisor|team lead)",
     141: r"electrician|hvac|refrigeration|heating|gas fitter|air conditioning",
-    77: r"farm supervisor|farm manager|greenhouse", 80: r"automotive service tech|heavy.duty|diesel|truck mechanic|automotive tech|motor vehicle mechanic",
-    88: r"pilot|aircraft maintenance|\bame\b", 124: r"logging|feller|harvester operator|forestry|skidder",
+    77: r"farm (supervisor|manager|operation supervisor|workers? supervisor)|greenhouse",
+    80: r"automotive service tech|heavy.duty (mechanic|tech)|diesel|truck mechanic|automotive tech|motor vehicle mechanic|mechanic, (truck|heavy)",
+    88: r"pilot|aircraft maintenance|\bame\b", 124: r"logging|feller|harvester operator|forestry|skidder|log loader",
     181: r"\bmri\b|sonograph|radiolog|x-ray|imaging|ultrasound", 218: r"kitchen manager|kitchen supervisor",
-    220: r"baker|bakery", 224: r"truck driver|\baz\b|long.haul|class 1|tractor.trailer",
+    220: r"baker|bakery", 224: r"truck driver|driver, truck|\baz\b|long.haul|class 1|tractor.trailer|transport driver",
     175: r"dental", 67: r"controller|chief financial|finance manager|\bcfo\b",
 }
 JB_PROV = ["ON", "BC", "AB", "SK", "MB", "NS", "NB", "NL", "PE"]
