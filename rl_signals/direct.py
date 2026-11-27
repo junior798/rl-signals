@@ -478,6 +478,19 @@ JB_KW = {
     124: ["logging", "feller buncher"], 181: ["MRI technologist", "sonographer"], 218: ["kitchen manager"], 220: ["baker"],
     224: ["AZ driver", "long haul truck driver"], 175: ["dental assistant"], 67: ["controller", "chief financial officer", "finance manager"],
 }
+# A posting only counts if its title really is that job. Job Bank search also returns loosely related postings.
+JB_TITLE = {
+    134: r"\bcnc\b", 135: r"weld|fabricat", 136: r"millwright|industrial mechanic|maintenance mechanic",
+    137: r"machine operator|machine tender|moulding|molding|extrusion|press operator|printing press|machine tool operator",
+    138: r"heavy equipment|crane|excavator|bulldozer|loader operator|grader operator|backhoe",
+    139: r"estimator|superintendent|site super", 140: r"forklift|warehouse (lead|supervisor|team lead)",
+    141: r"electrician|hvac|refrigeration|heating|gas fitter|air conditioning",
+    77: r"farm supervisor|farm manager|greenhouse", 80: r"automotive service tech|heavy.duty|diesel|truck mechanic|automotive tech|motor vehicle mechanic",
+    88: r"pilot|aircraft maintenance|\bame\b", 124: r"logging|feller|harvester operator|forestry|skidder",
+    181: r"\bmri\b|sonograph|radiolog|x-ray|imaging|ultrasound", 218: r"kitchen manager|kitchen supervisor",
+    220: r"baker|bakery", 224: r"truck driver|\baz\b|long.haul|class 1|tractor.trailer",
+    175: r"dental", 67: r"controller|chief financial|finance manager|\bcfo\b",
+}
 JB_PROV = ["ON", "BC", "AB", "SK", "MB", "NS", "NB", "NL", "PE"]
 
 
@@ -528,10 +541,10 @@ def jobbank(o: Out, days: int):
         if (r["id"], r["signal"]) in seen:
             continue
         seen.add((r["id"], r["signal"]))
-        if r["signal"] == 67:
-            if not re.search(r"controller|chief financial|finance manager|cfo", r["title"], re.I) or \
-                    re.search(r"traffic|air|pest|quality|inventory|production|access|flight", r["title"], re.I):
-                continue
+        if not re.search(JB_TITLE[r["signal"]], r["title"], re.I):
+            continue
+        if r["signal"] == 67 and re.search(r"traffic|air|pest|quality|inventory|production|access|flight", r["title"], re.I):
+            continue
         city = re.sub(r"\s*\([A-Z]{2}\)\s*$", "", r["loc"])
         o.add(r["employer"], r["signal"], "Job Bank", r["date"], None, city, r["prov"], r["title"])
 
