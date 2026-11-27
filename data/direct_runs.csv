@@ -1,10 +1,7 @@
 run_at,source,status,signals_found,new_signals,note
-2026-11-27 15:52 UTC,calgary,ok,61,,0s
-2026-11-27 15:52 UTC,vancouver_permits,ok,133,,0s
-2026-11-27 15:52 UTC,toronto_permits,ok,0,,5s
-2026-11-27 15:52 UTC,old_contracts,ok,1821,,11s
-2026-11-27 15:52 UTC,alberta_grants,ok,0,,4s
-2026-11-27 15:52 UTC,agco,ok,11,,0s
-2026-11-27 15:52 UTC,bc_liquor,FAILED,0,,"download failed: https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/reports/all_liquor_licensed_establishments_in_bc.xlsx: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-2026-11-27 15:52 UTC,ichsc,ok,0,,0s
-2026-11-27 15:52 UTC,alberta_cor,ok,0,,1s
+2026-11-27 15:57 UTC,toronto_permits,ok,0,,1s
+2026-11-27 15:57 UTC,alberta_grants,ok,101,,4s
+2026-11-27 15:57 UTC,agco,ok,0,,0s
+2026-11-27 15:57 UTC,bc_liquor,FAILED,0,,"download failed: https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/reports/all_liquor_licensed_establishments_in_bc.xlsx: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+2026-11-27 15:57 UTC,ichsc,ok,0,,1s
+2026-11-27 15:57 UTC,alberta_cor,ok,0,,1s
