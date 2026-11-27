@@ -1,16 +1,10 @@
 run_at,source,status,signals_found,new_signals,note
-2026-11-27 06:46 UTC,calgary,ok,32,,8s
-2026-11-27 06:46 UTC,vancouver_permits,ok,133,,0s
-2026-11-27 06:46 UTC,vancouver_licences,ok,22,,9s
-2026-11-27 06:46 UTC,vancouver_awards,ok,0,,0s
-2026-11-27 06:46 UTC,edmonton_licences,ok,16,,1s
-2026-11-27 06:46 UTC,nova_scotia,ok,4,,1s
-2026-11-27 06:46 UTC,toronto_awards,ok,9,,1s
-2026-11-27 06:46 UTC,dinesafe,ok,198,,3s
-2026-11-27 06:46 UTC,child_care,ok,15,,1s
-2026-11-27 06:46 UTC,access_environment,ok,136,,0s
-2026-11-27 06:46 UTC,ero,ok,62,,2s
-2026-11-27 06:46 UTC,aer_licences,ok,72,,7s
-2026-11-27 06:46 UTC,aer_spud,ok,622,,3s
-2026-11-27 06:46 UTC,aircraft,ok,3362,,3s
-2026-11-27 06:46 UTC,jobbank,ok,1563,,211s
+2026-11-27 15:52 UTC,calgary,ok,61,,0s
+2026-11-27 15:52 UTC,vancouver_permits,ok,133,,0s
+2026-11-27 15:52 UTC,toronto_permits,ok,0,,5s
+2026-11-27 15:52 UTC,old_contracts,ok,1821,,11s
+2026-11-27 15:52 UTC,alberta_grants,ok,0,,4s
+2026-11-27 15:52 UTC,agco,ok,11,,0s
+2026-11-27 15:52 UTC,bc_liquor,FAILED,0,,"download failed: https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/liquor-regulation-licensing/reports/all_liquor_licensed_establishments_in_bc.xlsx: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+2026-11-27 15:52 UTC,ichsc,ok,0,,0s
+2026-11-27 15:52 UTC,alberta_cor,ok,0,,1s

@@ -1,0 +1,932 @@
+Licence Num,lic,fac,addr,city,svc
+0002160,E & R Ultrasound Inc. ,E & R Ultrasound,968 Albion Road,Etobicoke,General Ultrasound|Radiography
+0010105,Canadian Teleradiology Services Inc. ,Kente X-Ray & Ultrasound Ltd.,470 Dundas Street East,Belleville,General Ultrasound|Mammography|Radiography
+0016104,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,35 Upper Centennial Parkway,Stoney Creek,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+0036164,Golden Radiology Inc. ,Golden Radiology,1880 Eglinton Avenue East,Scarborough,General Ultrasound|Radiography
+0050100,Sunlark Imaging Inc. ,Best Care Imaging,1670 Dufferin Street,Toronto,General Ultrasound|Radiography
+0055287,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates Limited - Columbus Centre,8333 Weston Road,Woodbridge,Bone Mineral DXA|Mammography|Radiography|Vascular Ultrasound
+0056104,1405067 Ontario Inc. ,CCMSU Medical Imaging,240 Duncan Mill Road,North York,Radiography
+0056809,Sylvan Brook Holdings Ltd. ,Memorial Ave. X-Ray and Ultrasound,119 Memorial Avenue,Orillia,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+0068591,J.B.V. Management Services Ltd. ,Whitby Medical X-Ray and Ultrasound,220 Dundas Street West,Whitby,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+0072798,2456462 Ontario Limited ,Cliffside X-Ray & Ultrasound Services,2010 Eglinton Avenue West,York,Radiography
+0086164,KMH Cardiology Centres Inc. ,KMH  Cardiology Centres Inc.,751B Victoria Street South,Kitchener,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+0092384,2659428 Ontario Inc. ,GNMI MRI & CT,10 Kingsbridge Garden Circle,Mississauga,Fluoroscopy|General Ultrasound
+0093490,8021619 Canada Inc. ,Lucan Diagnostic Imaging,268 Main Street,Lucan,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+0097684,9471006 Canada Inc. ,Kingston Imaging Services,797 Princess Street,Kingston,Mobile General Ultrasound|Mobile Vascular Ultrasound
+0099490,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,555 Prince Charles Drive North,Welland,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography
+0101893,London X-Ray Associates ,London X-Ray Associates,450 Central Avenue,London,Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+0144166,Medical Centre Holdings (Peterborough) Limited ,Medical Centre Diagnostic Services,707 Charlotte Street,Peterborough,General Ultrasound
+0156467,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,1081 Carling Avenue,Ottawa,General Ultrasound|Radiography
+0156468,Merivale Medical Imaging Inc. ,Merivale-Hunt Club,1145 Hunt Club Road,Ottawa,General Ultrasound|Vascular Ultrasound
+0157522,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,Torbram and North Park X-Ray and Ultrasound,2130 North Park Drive,Brampton,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+0171218,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,260 Nebo Road,Hamilton,Radiography
+0176794,Insight Diagnostic Imaging Corp. ,Central Toronto Diagnostic Imaging,658 Danforth Avenue,Toronto,General Ultrasound|Mammography|Radiography
+0177489,Andrew D. Dueck Medicine Professional Corporation ,East Toronto Vascular Clinic,1805 Queen Street East,Toronto,General Ultrasound|Pulmonary Function A - Pure Screening|Vascular Ultrasound
+0200177,B & D Diagnostic Imaging Inc. ,North Scarborough X-Ray & Ultrasound,3420 Finch Avenue East,Scarborough,General Ultrasound|Radiography
+0203501,2851409 Ontario Ltd. ,Belle River Imaging Services,1679 Essex County Road 22,Belle River,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+0208101,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,520 Ellesmere Road,Scarborough,Bone Mineral DXA|General Ultrasound
+0210879,2865842 Ontario Inc. ,Whitby Health Center,3800 Brock Street North,Whitby,Ophthalmic Ultrasound
+0256401,2392789 Ontario Inc. ,Brantford Radiology Group,221 Brant Avenue,Brantford,General Ultrasound|Radiography|Vascular Ultrasound
+0258207,Create West Fertility Inc. ,Create West Fertility Inc.,56 Aberfoyle Crescent,Etobicoke,General Ultrasound
+0277601,Dr. Jeff S. Charendoff ,Dr. Jeff Charendoff,491 Eglinton Avenue West,Toronto,General Ultrasound|Urologic Ultrasound
+0283159,Dr. Keon M. Nia Medicine Professional Corporation ,Dr. Keon M. Nia Medicine Professional Corporation,125 Steamship Bay Road,Gravenhurst,Ophthalmic Ultrasound
+0301510,Imagus Inc. ,Ancaster X-Ray and Ultrasound,1144 Wilson Street West,Ancaster,General Ultrasound|Radiography|Vascular Ultrasound
+0309136,Clearview Diagnostic Imaging Inc. ,True North Imaging - Burlington Diagnostic Imaging,3115 Harvester Road,Burlington,Obs/Gyn Ultrasound
+0331166,Dr. Chaim J. Goldberg ,Goldberg Centre,2235 Kennedy Road,Scarborough,Ophthalmic Ultrasound
+0336467,One Vascular Corp. ,One Vascular - Waterloo,826 King Street North,Waterloo,Ophthalmic Ultrasound|Vascular Ultrasound
+0372397,1405067 Ontario Inc. ,CCMSU Medical Imaging,240 Duncan Mill Road,North York,General Ultrasound|Vascular Ultrasound
+0391536,2134579 Ontario Inc. ,Finch Weston X-Ray & Ultrasound,2100 Finch Avenue West,North York,General Ultrasound|Radiography
+0406443,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,100 Consilium Place,Scarborough,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+0423694,2189299 Ontario Inc. ,ONE Fertility,3210 Harvester Road,Burlington,General Ultrasound
+0456976,Hillson Medicine Professional Corporation ,Hillson Medicine Professional Corporation,384 West Street North,Orillia,Ophthalmic Ultrasound
+0460477,Premier Imaging West Ottawa Inc. ,Avantia Medical Imaging,5709 Hazeldean Road,Stittsville,General Ultrasound|Radiography|Vascular Ultrasound
+0465477,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,1849 Yonge Street,Toronto,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+0477482,2376440 Ontario Inc. ,WELL Health Diagnostic Centres,1122 Lasalle Boulevard,Sudbury,Bone Mineral DXA|Radiography
+0479414,Sleep Medicine Health Network Inc. ,Diagnostic Sleep Clinic,60 Champlain Street,North Bay,Sleep Studies
+0492134,Quinte Regional Sleep Clinic Inc. ,Quinte Regional Sleep Clinic Inc.,150 Sidney Street,Belleville,Sleep Studies
+0499537,Clearview Diagnostic Imaging Inc. ,True North Imaging - Belmont,430 The Boardwalk,Waterloo,General Ultrasound
+0589576,Clearview Diagnostic Imaging Inc. ,True North Imaging - Twig Path,130 King Street West,Toronto,General Ultrasound
+0604290,2324317 Ontario Ltd. ,Clear Medical Imaging,250 Tecumseh Road East,Windsor,General Ultrasound|Radiography
+0604590,2822113 Ontario Inc. ,Lumea,5 Quarry Ridge Road,Barrie,Ophthalmic Ultrasound
+0609526,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,707 Ross Avenue East,Timmins,Obs/Gyn Ultrasound
+0614160,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,955 Queen Street East,Sault Ste. Marie,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+0632295,2259351 Ontario Inc. ,Riverside Cardiology & Diagnostic Imaging,15 Canmotor Avenue,Etobicoke,Bone Mineral DXA|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+0659906,Kevin C. Leonard Medicine Professional Corporation ,Kevin C. Leonard Medicine Professional Corporation,1832 County Road 2,Elizabethtown,Ophthalmic Ultrasound
+0673329,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,279 Wharncliffe Road North,London,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+0682091,Insight Diagnostic Imaging Corp. ,(Don Mills) Insight Diagnostic Imaging,720 Spadina Avenue,Toronto,Radiography
+0715399,2537431 Ontario Inc. ,Sure Care diagnostics,420 Erb Street West,Waterloo,Bone Mineral DXA|General Ultrasound|Mammography|Obs/Gyn Ultrasound|Radiography
+0735119,2440708 Ontario Inc. ,Elite Diagnostic Inc.,56 Queen Street North,Bolton,Bone Mineral DXA|General Ultrasound|Mammography|Ophthalmic Ultrasound|Vascular Ultrasound
+0747966,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,520 Ellesmere Road,Scarborough,Radiography
+0762129,Respiratory Services Limited ,Respiratory Services Limited,1849 Yonge Street,Toronto,Pulmonary Function - Other Fee Codes|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing
+0780453,2324317 Ontario Ltd. ,Clear Medical Imaging,3850 Dougall Avenue,Windsor,General Ultrasound|Radiography|Vascular Ultrasound
+0793127,KCB Imaging Inc. ,Don Valley X-Ray and Ultrasound,855 Broadview Avenue,Toronto,Bone Mineral DXA|General Ultrasound|Radiography
+0823597,Ms. Maribeth Sabongui ,Diagnostic Assessment Centre,4810 Sheppard Avenue East,Scarborough,Mobile General Ultrasound|Mobile Vascular Ultrasound
+0841536,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,955 Queen Street East,Sault Ste. Marie,General Ultrasound|Radiography
+0844166,Canadian Medical Licences Inc. ,Canadian Medical Licences Inc.,770 Broadview Avenue,Ottawa,Radiography
+0847286,Dr. Raymond M. Stein ,Bochner Eye Institute,40 Prince Arthur Avenue,Toronto,Ophthalmic Ultrasound
+0850846,2836918 Ontario Inc. ,Barclay Diagnostic Imaging,"589 Lake Street, Suite 104",St. Catharines,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+0896467,2392789 Ontario Inc. ,Brantford Radiology Group,40 Shellington Place,Brantford,General Ultrasound
+0899634,2345171 Ontario Inc. ,Guelph Medical Imaging,1030 Gordon Street,Guelph,General Ultrasound|Radiography|Vascular Ultrasound
+0899840,Limvex Inc. ,Downsview Clinic - Cardiology and Ultrasound,906 Sheppard Avenue West,North York,General Ultrasound
+0901510,2324317 Ontario Ltd. ,Clear Medical Imaging,1608 Tecumseh Road West,Windsor,Radiography
+0911893,2456462 Ontario Limited ,Port Hope X-Ray & Ultrasound,249 Ontario Street,Port Hope,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+0917765,7523203 Canada Inc. ,Ontario Diagnostic Centres (ODC) - Milton,611 Holly Avenue,Milton,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+0919681,2324317 Ontario Ltd. ,Clear Medical Imaging,186 Talbot Street South,Essex,General Ultrasound|Radiography|Vascular Ultrasound
+0938961,Dr. Donald R. Nixon ,Dr. Donald R. Nixon,190 Memorial Avenue,Orillia,Ophthalmic Ultrasound
+0954510,Medical Centre Holdings (Peterborough) Limited ,Medical Centre Diagnostic Services,707 Charlotte Street,Peterborough,Mammography|Radiography
+0957098,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,300 King Street West,Oshawa,Bone Mineral DXA|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+0969265,2352767 Ontario Inc. ,North York Diagnostic and Cardiac Centre,250 Marlee Avenue,North York,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+0972397,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,1545 Carling Avenue,Ottawa,General Ultrasound|Radiography
+0984310,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,150 Katimavik Road,Kanata,Radiography
+0991166,2324317 Ontario Ltd. ,Clear Medical Imaging,700 Tecumseh Road East,Windsor,Fluoroscopy|General Ultrasound|Ophthalmic Ultrasound|Radiography
+1012598,1000943046 Ontario Inc. ,North York Diagnostic and Cardiac Centre,250 Marlee Avenue,North York,General Ultrasound|Radiography
+1013514,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,105 Main Street,Delhi,General Ultrasound|Vascular Ultrasound
+1018336,Medscan Medical Imaging Inc. ,Ontario Radiology (OR) - Humber,100 Humber College Boulevard,Etobicoke,General Ultrasound|Radiography
+1019605,7155816 Canada Ltd. ,Advance Medical Imaging,219 Main Street East,Hawkesbury,General Ultrasound|Radiography|Vascular Ultrasound
+1019914,9035958 Canada Inc. ,TLC Laser Eye Centers (Waterloo),31 Kingsbury Drive,Kitchener,Eye Surgery
+1021308,Delta Scan Medical Imaging Inc. ,Delta Scan Medical Imaging Inc.,1158 Winston Churchill Boulevard,Oakville,Bone Mineral DXA|General Ultrasound|Radiography
+1023508,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+1023713,King Clinic Inc. ,King Clinic Inc.,20 Doctors Lane,King City,General Ultrasound
+1023856,2729351 Ontario Inc. ,2729351 Ontario Inc.,60 Swayne Street,Cobourg,Ophthalmic Ultrasound
+1039876,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,325 Winterberry Drive,Stoney Creek,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1043918,Kingston Medical Imaging Inc. ,Kingston Medical Imaging Inc.,836 John Marks Avenue,Kingston,Radiography
+1046680,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,BramNorth Radiology,2 Dewside Drive,Brampton,Bone Mineral DXA|General Ultrasound|Radiography
+1055313,Asset Adam Corp ,Rossland Diagnostic Clinic,300 Rossland Road East,Ajax,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+1057016,8909750 Canada Inc. ,Toronto East X-Ray and Ultrasound,1145 Morningside Avenue,Scarborough,Radiography
+1057538,One Vascular Corp. ,One Vascular Imaging - Hamilton,35 Upper Centennial Parkway,Stoney Creek,General Ultrasound|Vascular Ultrasound
+1063914,Dr. Robert Shenker Medicine Professional Corporation ,Cosmetic Surgery Clinic of Waterloo,50 Albert Street,Waterloo,Plastic Surgery
+1064419,Thomas Hannam Medicine Professional Corporation ,Hannam Fertility Centre,160 Bloor Street East,Toronto,General Ultrasound
+1066440,2456462 Ontario Limited ,Old Mill Radiology and Ultrasound Services,230 Browns Line,Etobicoke,Radiography
+1072608,Windflower Diagnostic Imaging Inc. ,Windflower Ultrasound,200 Windflower Gate,Woodbridge,General Ultrasound
+1095686,2662939 Ontario Inc. ,Essex County Respiratory Services,1775 Sprucewood Avenue,Lasalle,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+1096910,AFG Imaging Inc. ,AFG Imaging,4303 Village Centre Court,Mississauga,Mobile General Ultrasound
+1097398,Medscan Medical Imaging Inc. ,Ontario Radiology (OR) - Albion,1525 Albion Road,Etobicoke,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1102447,Insight Diagnostic Imaging Corp. ,Victoria Terrace X-Ray & Ultrasound,1448 Lawrence Avenue East,North York,Bone Mineral DXA|General Ultrasound|Radiography
+1106997,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,216 West Street,Simcoe,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Radiography|Vascular Ultrasound
+1112352,1049604 Ontario Inc. ,Stouffville Radiological Services,6212 Main Street,Stouffville,General Ultrasound
+1114314,Frontier Diagnostics Guelph Inc. ,Frontier Diagnostics,649 Scottsdale Drive,Guelph,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1115291,1000695826 Ontario Inc. ,Metro Central Ultrasound,27 Queen Street East,Toronto,General Ultrasound|Vascular Ultrasound
+1123910,Ontario Mobile Imaging Inc. ,Ontario Mobile Imaging Inc.,100 Matheson Boulevard,Mississauga,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+1124016,1001462340 Ontario Inc. ,Eagle Vision Institute,195 The West Mall,Toronto,Ophthalmic Ultrasound
+1128788,Chryssa McAlister Medicine Professional Corporation ,Chryssa McAlister Medicine Professional Corporation,564 Belmont Avenue West,Kitchener,Ophthalmic Ultrasound
+1134842,8909750 Canada Inc. ,Toronto East X-Ray and Ultrasound,1145 Morningside Avenue,Scarborough,General Ultrasound
+1138903,Dr. Charles K.N. Chan ,Kainam Pulmonary Investigation,600 Sherbourne Street,Toronto,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+1141335,The Digestive Health Clinic Inc. ,Village East Medical/Digestive Health Clinic,1031 Brock Road,Pickering,GI-Endoscopy
+1147879,Hitek Medical Imaging Inc. ,Hitek Leslie Medical Imaging,4800 Leslie Street,North York,Mammography
+1149497,318816 Ontario Ltd. ,Malton Medical Radiology & Ultrasound,3530 Derry Road East,Mississauga,General Ultrasound|Radiography
+1154419,2324317 Ontario Ltd. ,Clear Medical Imaging,1568 Ouellette Avenue,Windsor,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1154514,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,1062 Ghislain Street,Hawkesbury,Bone Mineral DXA|General Ultrasound|Radiography
+1155846,Toronto Vascular Ultrasound Inc. ,Lawrence and Midland Radiology Centre,2683 Lawrence Avenue East,Scarborough,Bone Mineral DXA|General Ultrasound|Radiography
+1165189,Non-Invasive Cerebrovascular Laboratory Inc. ,Noninvasive Cerebrovascular Laboratory,724 Arlington Park Place,Kingston,Vascular Ultrasound
+1192028,Bowmanville Centre For Sleep Disorders Inc. ,Bowmanville Centre For Sleep Disorders Inc.,222 King Street East,Bowmanville,Sleep Studies
+1203541,1853805 Ontario Ltd. ,1853805 Ontario Ltd.,26 Hospital Drive,Peterborough ,Ophthalmic Ultrasound
+1208542,Merivale Medical Imaging Inc. ,Merivale Medical Imaging,110 Michael Cowpland Drive,Kanata,Radiography
+1215393,Toronto Vascular Ultrasound Inc. ,Toronto Vascular Ultrasound,217 Davenport Road,Toronto,Vascular Ultrasound
+1236356,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates - Oakdale,2065 Finch Avenue West,North York,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1236624,Inspiration Research Limited ,Inspiration Research Limited,340 College Street,Toronto,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+1238765,CVL NEWMARKET INC. ,Canadian Vascular Laboratories,535 Mulock Drive,Newmarket,Radiography
+1239760,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,631 Queenston Road,Hamilton,General Ultrasound|Radiography|Vascular Ultrasound
+1255307,Georgian Imaging Incorporated ,Georgian Radiology Consultants - Yonge,480 Huronia Road,Barrie,Radiography
+1259588,J.B.V. Management Services Ltd. ,Scarborough Radiology,2374 Eglinton Avenue East,Scarborough,Bone Mineral DXA|General Ultrasound|Radiography
+1275988,ReGen Scientific Inc. ,ReGen Scientific Inc.,181 University Avenue,Toronto,General Ultrasound|Radiography
+1276899,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,6633 Highway 7 East,Markham,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+1277724,1000597619 Ontario Inc. ,FirstSight Medical Imaging Centre,2900 Steeles Avenue East,Markham,General Ultrasound
+1280501,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,260 Nebo Road,Hamilton,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+1300104,Cristina Ana Pop Medicine Professional Corporation ,Cabbagetown Women's Clinic,1624 Queen Street East,Toronto,Abortion
+1305104,2456462 Ontario Limited ,New Dufferin Diagnostic Imaging,150 Eglinton Avenue East,Toronto,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+1309436,Georgian Imaging Services ,Georgian Radiology Consultants - Little Lake,11 Lakeside Terrace,Barrie,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+1309439,2727475 Ontario Inc. ,2727475 Ontario Inc.,29 Toronto Street South,Uxbridge,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+1313367,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+1315320,Mr. Udaya Shankar Padmakaran ,Sleep Care Solutions – Osler Sleep Clinic,135 Queen's Plate Drive,Etobicoke,Sleep Studies
+1330087,Levine Myers Medicine Professional Corporation ,Bowmanville X-Ray and Ultrasound,222 King Street East,Bowmanville,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+1341170,Taj Imaging Inc. ,ONTARIO IMAGING CENTER CALEDON,18371 Hurontario Street,Caledon,Radiography
+1344410,GTA East Medical Imaging Corp. ,Lighthouse Medical Imaging - Finch,4168 Finch Avenue East,Scarborough,Vascular Ultrasound
+1355103,Dr. Stephen Eugene Kosar ,Dr. Stephen E. Kosar,2009 Long Lake Road,Sudbury,Ophthalmic Ultrasound
+1356617,Pearce Medical Services Inc. ,Windsor Vascular Lab,3555 North Service Road East,Windsor,General Ultrasound|Vascular Ultrasound
+1357216,Lung Diagnostics Niagara Inc. ,Lung Diagnostics Niagara Inc.,4728 Dorchester Road,Niagara Falls,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing
+1366497,MyHealth Partners Inc. ,WELL Health Diagnostic Centres (Port Perry),462 Paxton Street,Port Perry,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+1376959,Superior Diagnostic Imaging Centre ,Superior Diagnostic Imaging Centre,230 Cumberland Street North,Thunder Bay,Computed Tomography
+1391236,J.B.V. Management Services Ltd. ,Heart Lake X-Ray & Ultrasound,10425 Kennedy Road North,Brampton,General Ultrasound|Radiography
+1391442,The Dove Corporation ,Plantagenet Imaging,2741 Chamberland Street,Rockland,General Ultrasound|Radiography
+1401372,London X-Ray Associates Inc. ,London X-Ray Associates Inc.,440 Boler Road,London,General Ultrasound|Radiography|Vascular Ultrasound
+1408174,Kingston Medical Imaging Inc. ,Kingston MRI and Kingston CT,836 John Marks Avenue,Kingston,Computed Tomography|Magnetic Resonance Imaging
+1421306,One Vascular Corp. ,One Vascular - Burlington,2951 Walker's Line,Burlington,Obs/Gyn Ultrasound|Vascular Ultrasound
+1421632,One Vascular Corp. ,One Vascular Woodbridge,4600 Highway 7,Woodbridge,General Ultrasound|Vascular Ultrasound
+1423510,Tripod Medical Inc. ,Tripod Fertility,2225 Sheppard Avenue East,North York,Obs/Gyn Ultrasound
+1424304,Canadian Medical Licences Inc. ,Canadian Medical Licences Inc.,550 Terminal Avenue,Ottawa,Bone Mineral DXA|General Ultrasound|Radiography
+1437712,8021619 Canada Inc. ,Peel Diagnostic Centres,19834 Airport Road,Caledon,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+1454827,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,1615 Dundas Street East,Whitby,Fluoroscopy|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography
+1461001,2539393 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Meadowvale,7070 Saint Barbara Boulevard,Mississauga,Fluoroscopy|General Ultrasound|Radiography
+1462198,Kayode Oduwole Medicine Professional Corporation ,"New Jane X-Ray, Ultrasound",911A Jane Street,York,General Ultrasound|Radiography
+1464613,Diagnostic Services Network Inc. ,Diagnostic Services Network,274 Lynden Road,Brantford,Ophthalmic Ultrasound
+1464810,Dr. Omar Kify Medicine Professional Corporation ,Bank Respiratory Services,1385 Bank Street,Ottawa,Pulmonary Function - Other Fee Codes|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing
+1476703,Scarborough Diagnostic Radiology Inc. ,Markham-Lawrence X-Ray and Ultrasound,3585 Lawrence Avenue East,Scarborough,Bone Mineral DXA
+1477780,Healthwise Diagnostic Inc. ,Healthwise Diagnostics,12 Morgan Avenue,Thornhill,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+1481540,Toronto Endoscopy Clinic Inc. ,Toronto Endoscopy Clinic,790 Bay Street,Toronto,GI-Endoscopy
+1506131,Ancaster Endoscopy Clinic Inc. ,Ancaster Endoscopy Clinic,1144 Wilson Street West,Ancaster,GI-Endoscopy
+1509129,2479548 Ontario Inc. ,Yorkview X-Ray & Ultrasound,3695 Keele Street,North York,General Ultrasound|Radiography
+1539185,EFES Management Limited ,Chalmers Gate X-Ray & Ultrasound,328 Highway 7 East,Richmond Hill,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1544413,Clearview Diagnostic Imaging Inc. ,True North Imaging - Oakville,2035 Cornwall Road,Oakville,General Ultrasound
+1548875,Greater Niagara Medical Imaging Inc. ,GNMI X-Ray Ultrasound,1400 Ritson Road North,Oshawa,General Ultrasound|Radiography
+1575789,1001016462 Ontario Limited ,Mississauga Radiology,1525 Bristol Road West,Mississauga,General Ultrasound|Radiography|Vascular Ultrasound
+1649261,Dr. Amber Z. Sheikh Medicine Professional Corporation ,Niagara Eye Institute,4256 Portage Road,Niagara Falls,Ophthalmic Ultrasound
+1663135,Apex Diagnostic Services Inc. ,Apex Diagnostic Services,1757 Sherbrooke Street,Peterborough,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+1664966,2215429 Ontario Ltd. ,Specialized Ultrasound in Gynecology & Obstetrics,200 James Street South,Hamilton,General Ultrasound|Radiography
+1670323,East Toronto Eye Consultants Inc. ,Uptown Eye Specialists (Scarborough),2101 Brimley Road,Scarborough,Ophthalmic Ultrasound
+1716639,1739411 Ontario Inc. ,Universal Pulmonary Function Laboratory,2888 Bathurst Street,North York,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+1739204,Whitby Centre For Sleep Disorders Inc. ,Whitby Centre For Sleep Disorders,320 Byron Street South,Whitby,Sleep Studies
+1754000,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,2200 Fairview Street,Burlington,General Ultrasound|Radiography
+1754847,2403040 Ontario Inc. ,Canadian Vascular Laboratory,5293 Highway 7 East,Markham,Vascular Ultrasound
+1755537,Dr. Peter Agapitos ,Dr. Peter Agapitos,1919 Riverside Drive,Ottawa,Ophthalmic Ultrasound
+1783840,Hamilton Diagnostic Imaging Inc. ,Hamilton Diagnostic Imaging,304 Victoria Avenue North,Hamilton,General Ultrasound|Mammography|Radiography
+1791799,Kawartha Imaging Lindsay Ultrasound and X-Ray Inc. ,Kawartha Imaging Lindsay Ultrasound and X-Ray Inc.,86 Angeline Street South,Lindsay,Radiography
+1813156,1853805 Ontario Ltd. ,1853805 Ontario Ltd.,26 Hospital Drive,Peterborough,Ophthalmic Ultrasound
+1813587,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,21589 Richmond Street,Arva,General Ultrasound
+1816720,2137997 Ontario Inc. ,Central X-Ray & Ultrasound,459 Holland Street West,Bradford,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1826494,Clearview Diagnostic Imaging Inc. ,North York Ultrasound,4025 Yonge Street,North York,General Ultrasound|Vascular Ultrasound
+1851890,Clearview Diagnostic Imaging Inc. ,Twig Fertility,313 Eglinton Avenue West,Toronto,Obs/Gyn Ultrasound
+1876720,Med-Scan Ultrasound Services Ltd. ,Med-Scan Ultrasound Services Ltd.,2810 Major MacKenzie Drive,Maple,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+1876782,Dr. M. Mikhail Medicine Professional Corporation ,Dr. M. Mikhail Medicine Professional Corporation,149 King Street West,Oshawa,Ophthalmic Ultrasound
+1880121,1000595104 Ontario Inc. ,Ming Wui Medical Centre,2900 Markham Road,Scarborough,Radiography
+1923550,Toronto Vascular Ultrasound Inc. ,Scarborough Women's Imaging Centre,2025 Midland Avenue,Scarborough,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1927203,GTA ENDOSCOPY SERVICES INC. ,GTA ENDOSCOPY SERVICES INC.,305 Milner Avenue,Scarborough,GI-Endoscopy
+1932458,Bayview Pulmonary Services Inc. ,Bayview Pulmonary Services Inc.,240 Duncan Mill Road,North York,Pulmonary Function B - Lung Volumes & Diffusion
+1957327,Schroeder Ambulatory Centre ,Schroeder Ambulatory Centre,9355 Leslie Street,Richmond Hill,Computed Tomography|Magnetic Resonance Imaging
+1966725,Canadian Diagnostic Network Inc. ,Canadian Diagnostic Network,595 Montreal Road,Ottawa,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+1966730,Adrian Tsang Medicine Professional Corporation ,Adrian Tsang Medicine Professional Corporation,350 Sparks Street,Ottawa,Ophthalmic Ultrasound
+1982119,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,Hospital Gate X-Ray & Ultrasound,3075 Hospital Gate,Oakville,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+2004864,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,12050 Airport Road,Caledon,Obs/Gyn Ultrasound
+2013561,2489380 Ontario Inc. ,ONE Fertility Kitchener Waterloo,4271 King Street East,Kitchener,Mobile General Ultrasound
+2021087,One Vascular Corp. ,One Vascular - North York,1310 Don Mills Road,North York,General Ultrasound|Vascular Ultrasound
+2026913,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,Caledon X-Ray & Ultrasound,12560 Kennedy Road,Caledon,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2027798,Ophthalmology Associates SHSC ,Ophthalmology Associates SHSC,2075 Bayview Avenue,Toronto,Ophthalmic Ultrasound
+2045846,2456462 Ontario Limited ,Metro Radiology Ltd.,2010 Eglinton Avenue West,York,Radiography
+2046597,The Plastic Surgery Clinic Inc. ,The Plastic Surgery Clinic Inc.,1421 Hurontario Street,Mississauga,Plastic Surgery
+2049359,Rolando R. Cepeda Medicine Professional Corporation ,Main Ultrasound,1057 Main Street West,Hamilton,Obs/Gyn Ultrasound
+2055985,2582124 Ontario Inc. ,Physicians Diagnostic X-Ray & Ultrasound Services,660 Eglinton Avenue West,Mississauga,General Ultrasound|Radiography|Vascular Ultrasound
+2073604,Clearview Diagnostic Imaging Inc. ,True North Imaging - Markham Repro,377 Church Street,Markham,General Ultrasound
+2076728,1001494461 Ontario Inc. ,ONSITE DIAGNOSTIC IMAGING,219 Sheppard Avenue West,North York,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+2086353,Dr. Alan L. MacDonald ,Dr. Alan L. MacDonald,262B Main Street North,Markham,Ophthalmic Ultrasound
+2089444,Rajinder Rathee Medicine Professional Corporation ,Rajinder Rathee Medicine Professional Corporation,18 Wynford Drive,North York,Ophthalmic Ultrasound
+2092219,1519648 Ontario Inc. ,North Bay Vascular Services,107 Shirreff Avenue,North Bay,Vascular Ultrasound
+2103687,Clearview Diagnostic Imaging Inc. ,True North Imaging - Generation Fertility Toronto West,56 Aberfoyle Crescent,Etobicoke,General Ultrasound
+2105556,Specialty Medical Partners (HVI) Inc. ,Humber Valley Cardiovascular Imaging,398 Steeles Avenue West,Thornhill,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Vascular Ultrasound
+2108575,Lebro Management Limited ,Erie St. Clair Radiology (ESR) Clinics,2224 Walker Road,Windsor,Bone Mineral DXA|General Ultrasound|Ophthalmic Ultrasound|Radiography|Vascular Ultrasound
+2108881,Durham Pulmonary and Sleep Services Inc. ,Durham Pulmonary and Sleep Services Inc.,601 Harwood Avenue South,Ajax,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+2122342,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,North West Brampton Radiology,645 Remembrance Road,Brampton,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+2130346,Limeworth X-Ray and Ultrasound Inc. ,Limeworth X-Ray & Ultrasound,849 Upper Wentworth Street,Hamilton,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+2131921,Clearview Diagnostic Imaging Inc. ,Etobicoke Diagnostic Imaging,110 Queen's Plate Drive,Etobicoke,General Ultrasound|Radiography
+2138487,Greater Niagara Medical Imaging Inc. ,GNMI X-Ray & Ultrasound,200 Brock Street North,Whitby,General Ultrasound|Mammography|Radiography
+2142310,2848217 Ontario Inc. ,Erin Diagnostic Imaging,6 Thompson Crescent ,Erin ,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+2149972,A. Shoughary Medicine Professional Corporation ,A. Shoughary Medicine Professional Corporation,700 Mackay Street,Pembroke,Ophthalmic Ultrasound
+2150369,2345171 Ontario Inc. ,Guelph Medical Imaging,54 Cardigan Street,Guelph,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2151417,Scarborough North Pulmonary Function Services Inc. ,Scarborough North Pulmonary Function Services Inc.,4040 Finch Avenue East,Scarborough,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+2195305,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,11 King Street West,Toronto,Fluoroscopy|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+2200647,10375659 Canada Inc. ,Richmond Gardens X-Ray and Ultrasound,1735 Kipling Avenue,Etobicoke,General Ultrasound|Mammography|Radiography
+2200847,Dr. Vikram R. Comondore Medicine Professional Corporation ,Vaughan Pulmonary Function,3865 Major Mackenzie Drive,Vaughan,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+2201541,1000980102 Ontario Inc. ,Humber Diagnostic Center,1017 Wilson Avenue,North York,Bone Mineral DXA
+2211548,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,462 Birchmount Avenue,Scarborough,Bone Mineral DXA|General Ultrasound
+2251547,EXR Medical Imaging Inc. ,Milliken Finch Diagnostic Imaging,4040 Finch Avenue East,Scarborough,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+2273702,Levine Myers Medicine Professional Corporation ,Baywood X-Ray and Ultrasound,95 Bayly Street West,Ajax,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2283351,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,150 York Street,Toronto,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+2293188,Lebro Management Limited ,Erie St. Clair Radiology Clinics,2425 Tecumseh Road East,Windsor,Radiography
+2299605,Omega Fertility Centre Inc. ,Omega Fertility Center Inc.,373 Commissioners Road West,London,General Ultrasound|Obs/Gyn Ultrasound
+2301413,L.S.G. Holding Ltd. ,IVF Canada Markham,7191 Yonge Street,Thornhill,Obs/Gyn Ultrasound
+2311145,2345171 Ontario Inc. ,Guelph Medical Imaging,83 Dawson Road,Guelph,General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+2313077,Toronto West Cardiac and Medical Imaging Centre Ltd. ,Kennedy & Sheppard Diagnostic Clinic,4002 Sheppard Avenue East,Scarborough,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+2320846,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,236 Avenue Road,Toronto,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+2331095,1924911 Ontario Inc. ,Amherstburg X-Ray,433 Sandwich Street South,Amherstburg,Radiography
+2343444,K W Cardio Pulmonary Services Inc. ,K W Cardio Pulmonary Services,435 The Boardwalk,Waterloo,Pulmonary Function - Other Fee Codes|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+2343567,2548877 Ontario Inc. ,RR Imaging,234 Eglinton Avenue East,Toronto,General Ultrasound|Radiography
+2346477,Scarborough Diagnostic Radiology Inc. ,Markham-Lawrence X-Ray & Ultrasound,3585 Lawrence Avenue East,Scarborough,General Ultrasound|Radiography
+2349977,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,99 Kakulu Road,Kanata,General Ultrasound|Radiography
+2350366,1000138491 Ontario Inc. ,Ultimate Diagnostics,4190 Finch Avenue East,Scarborough,General Ultrasound|Radiography
+2351968,Ellesmere X-Ray Inc. ,EXR Medical Imaging - Pickering Location,1690 Dersan Street,Pickering,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2355930,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,790 Bay Street,Toronto,General Ultrasound|Radiography
+2363315,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,520 Ellesmere Road,Scarborough,General Ultrasound|Mammography
+2391559,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,245 Pelham Road,St. Catharines,Radiography
+2391566,MyHealth Sarnia Inc. ,WELL Health Diagnostic Centres,481 London Road,Sarnia,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2391568,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,220 Dundas Street West,Whitby,Bone Mineral DXA|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Vascular Ultrasound
+2428912,Scanlan and Jones Medicine Professional Corporation ,Huronia Eye Clinic,309 Midland Avenue,Midland,Ophthalmic Ultrasound
+2443052,David C. Schulz Medicine Professional Corporation ,David C. Schulz Medicine Professional Corporation,771 Erie Street,Stratford,Ophthalmic Ultrasound
+2460946,York X-Ray Management Limited ,York Ultrasound Consultants,1333 Sheppard Avenue East,North York,General Ultrasound|Vascular Ultrasound
+2465946,Dixon Diagnostics Ltd. ,Credit Valley X-Ray and Ultrasound,6590 Meadowvale Town Centre Circle,Mississauga,Bone Mineral DXA|General Ultrasound|Radiography
+2479120,Linde Canada Inc. ,Sleep Diagnostics Centre,1333 Sheppard Avenue East,North York,Sleep Studies
+2523136,2571535 Ontario Inc. ,Gillingham Ultrasound,60 Gillingham Drive,Brampton,Bone Mineral DXA|General Ultrasound
+2546447,Heart and Vascular Centre of Excellence Inc. ,Heart and Vascular Centre of Excellence,1525 Cornwall Road,Oakville,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+2546871,Canadian Teleradiology Services Inc. ,Yonge Sheppard X-Ray & Ultrasound,4841 Yonge Street,North York,General Ultrasound|Radiography
+2549971,2518621 Ontario Inc. ,Royal View X-Ray and Ultrasound ,1436 Royal York Road,Etobicoke,General Ultrasound|Radiography
+2585972,Sylvan Brook Holdings Ltd. ,Keelson X-Ray & Ultrasound,1020 Wilson Avenue,North York,Bone Mineral DXA|General Ultrasound|Radiography
+2587918,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,5400 Portage Road,Niagara Falls,Bone Mineral DXA|General Ultrasound|Radiography
+2601696,Clearview Diagnostic Imaging Inc. ,True North Imaging,2330 Kennedy Road,Scarborough,General Ultrasound|Radiography|Vascular Ultrasound
+2601890,One Vascular Corp. ,One Vascular Imaging London,460 Springbank Drive,London,General Ultrasound|Vascular Ultrasound
+2603076,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,200 Montclair Drive,Woodstock,Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2611505,GTA East Medical Imaging Corp. ,Lighthouse Medical Imaging - Sheppard,701 Sheppard Avenue East,North York,General Ultrasound
+2617999,Kelly Wilton Medicine Professional Corporation ,Guelph Pulmonary Function Lab,311 Woolwich Street,Guelph,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+2620058,2845360 Ontario Inc. ,Richmond Hill Diagnostic Centre,10243 Yong Street,Richmond Hill,Radiography
+2640846,2537431 Ontario Inc. ,Waterloo Nuclear & Radiography,380 King Street North,Waterloo,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2642434,Clearview Diagnostic Imaging Inc. ,True North Imaging,751 Victoria Street South,Kitchener,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2645846,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,1980 Ogilvie Road,Gloucester,Bone Mineral DXA|General Ultrasound|Radiography
+2649434,Hitek Medical Imaging Inc. ,Hitek Medical Imaging,4800 Leslie Street,North York,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+2651790,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,119 Langstaff Drive,Ottawa,Bone Mineral DXA|General Ultrasound|Radiography
+2658325,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,2494 Danforth Avenue,Toronto,General Ultrasound|Mammography|Radiography
+2658790,Thunder Bay Diagnostics Inc. ,Thunder Bay Diagnostics Inc.,63 Algoma Street North,Thunder Bay,General Ultrasound|Mammography|Vascular Ultrasound
+2671943,Imagerie Medicale Embrun-Casselman Inc. ,Imagerie Medicale Embrun-Casselman Inc.,629 Principale Street,Casselman,General Ultrasound|Radiography|Vascular Ultrasound
+2674525,Canadian Medical Licences Inc. ,Canadian Medical Licences Inc.,1081 Innisfil Beach Road,Innisfil,Ophthalmic Ultrasound
+2675538,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,2951 Walkers Line,Burlington,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+2678588,2203552 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - 71 King,71 King Street West,Mississauga,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2681045,2324317 Ontario Ltd. ,Clear Medical Imaging,2125 Front Road North,LaSalle,Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+2681532,Maytona Ventures Ltd. ,Queen West X-Ray and Ultrasound Services,400 Queen Street West,Brampton,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2685185,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates - City Centre,3420 Hurontario Street,Mississauga,General Ultrasound|Radiography|Vascular Ultrasound
+2699424,Sylvan Brook Holdings Ltd. ,Cachet X-Ray and Ultrasound,9255 Woodbine Avenue,Markham,General Ultrasound|Radiography
+2699434,Dr. Elizabeth Golesic Medicine Professional Corporation ,Dr. Elizabeth Golesic Medicine Professional Corporation,477 Queen Street East,Sault Ste. Marie,Ophthalmic Ultrasound
+2701551,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,325 Winterberry Drive,Stoney Creek,Radiography
+2761662,2580330 Ontario Inc. ,One Vascular Imaging - Niagara,4256 Portage Road,Niagara Falls,General Ultrasound|Vascular Ultrasound
+2771167,2601398 Ontario Inc. ,2601398 Ontario Inc.,2741 Chamberland Street,Rockland,Radiography
+2780785,Dr. Frank E. Bastianelli ,Focus Medical Ancillary Inc.,1105 Carling Avenue,Ottawa,Ophthalmic Ultrasound
+2815050,Sleep Medicine Health Network Inc. ,Toronto Sleep Clinic,1835 Yonge Street,Toronto,Sleep Studies
+2838225,Ivycroft Enterprises Inc. ,New Karma Ultrasound,435 The Boardwalk,Waterloo,General Ultrasound
+2842285,Sudbury Vascular Laboratory Ltd. ,Sudbury Vascular Laboratory,2140 Regent Street South,Sudbury,General Ultrasound|Vascular Ultrasound
+2853922,2771409 Ontario Inc. ,Taigu X-Ray and Ultrasound,3447 Kennedy Road,Scarborough,General Ultrasound|Radiography
+2857823,J.B.V. Management Services Ltd. ,J.B.V. Management Services Ltd.,6453 Morrison Street,Niagara Falls,Radiography
+2860601,Pickering Centre For Sleep Disorders Inc. ,Pickering Centre For Sleep Disorders,1099 Kingston Road,Pickering,Sleep Studies
+2869975,Clearview Diagnostic Imaging Inc. ,Canamera X-Ray and Ultrasound,350 Conestoga Boulevard,Cambridge,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+2876790,Yenott Inc. ,The Morgentaler Clinic,65 Bank Street,Ottawa,Abortion
+2896836,Mark Fava Medicine Professional Corporation ,Dr. Mark Fava,835 Paramount Drive,Stoney Creek,Ophthalmic Ultrasound
+2901413,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,300 Legget Drive,Kanata,General Ultrasound|Radiography
+2911175,Insight Diagnostic Imaging Corp. ,Central Toronto Diagnostic Imaging,658 Danforth Avenue,Toronto,Bone Mineral DXA|Mammography|Radiography
+2943444,Ultrascan Medical Diagnostic Imaging Corp. ,Ultrascan Medical Diagnostic Imaging,338 Waterloo Street,New Hamburg,General Ultrasound|Radiography
+2946427,Clearview Diagnostic Imaging Inc. ,True North Imaging,751 Victoria Street South,Kitchener,General Ultrasound|Radiography|Vascular Ultrasound
+2952163,Eugene S. Liu Medicine Professional Corporation ,Dr. Eugene Liu Ophthalmology,35 Sunday Drive,Aurora,Ophthalmic Ultrasound
+2968147,Margolin Medicine Professional Corporation ,Margolin Medicine Professional Corporation,801 Eglinton Avenue West,Toronto,Ophthalmic Ultrasound
+2984302,North York Sleep & Diagnostic Centre Inc. ,North York Sleep & Diagnostic Centre Inc.,2 Champagne Drive,North York,Sleep Studies
+2988099,10375659 Canada Inc. ,Richmond Gardens X-Ray & Ultrasound,1735 Kipling Avenue,Etobicoke,Bone Mineral DXA
+3005225,Dr. Brian J Chan Medicine Professional Corporation ,Hamilton Eye Physicians and Surgeons,1149 Barton Street East,Hamilton,Ophthalmic Ultrasound
+3011367,2341164 Ontario Inc. ,King-Mar Diagnostic Centre,3227 Eglinton Avenue East,Scarborough,General Ultrasound|Radiography
+3011387,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,1055 Fanshawe Park Road West,London,Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+3011914,Wisdom Medical Inc. ,Accurate Imaging Diagnostics,31 Disera Drive,Thornhill,Bone Mineral DXA|General Ultrasound|Radiography
+3018297,1609910 Ontario Inc. ,Sleep-Wake Disorders Clinic,2130 Lawrence Avenue East,Scarborough,Sleep Studies
+3023145,GraceMed GP Inc. ,GraceMed-McLean Clinic,343 - 50 Burnhamthorpe Road West,Mississauga,Plastic Surgery
+3031776,2352898 Ontario Inc. ,Northwest Imaging Associates,960 Lawrence Avenue West,North York,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+3033585,1000595104 Ontario Inc. ,Ming Wui Medical Centre,2900 Markham Road,Scarborough,General Ultrasound
+3033991,Sarnia Diagnostic Imaging Inc. ,Sarnia Diagnostic Imaging Inc.,704 Mara Street,Point Edward,Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3041449,Ultimate Diagnostics Inc. ,Ultimate Diagnostics Inc.,298 Sheppard Avenue East,North York,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+3043514,2566773 Ontario Inc. ,Cottrelle Diagnostic Imaging,10 Cottrelle Boulevard,Brampton,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3046724,One Vascular Corp. ,One Vascular - Oakville,1405 Cornwall Road,Oakville,General Ultrasound|Vascular Ultrasound
+3046918,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,5492 South River Drive,Manotick,Mobile General Ultrasound
+3054106,London X-Ray Associates Inc. ,London X-Ray Associates,1657 Dundas Street,London,Radiography
+3054654,Canadian Diagnostic Network East Inc. ,Canadian Diagnostic Network,80 Michael Cowpland Drive,Kanata,General Ultrasound|Radiography
+3058099,Dr. Selwyn L. Abel ,Dr. S.L. Abel,3101 Bloor Street West,Etobicoke,Ophthalmic Ultrasound
+3062794,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,GDI Caledon,12560 Kennedy Road,Caledon,General Ultrasound|Radiography
+3075544,EFES Management Limited ,Silver Star X-Ray & Ultrasound,385 Silver Star Boulevard,Scarborough,General Ultrasound|Radiography
+3076125,1335120 Ontario Ltd. ,1335120 Ontario Ltd.,206 Fifth Avenue,Timmins,General Ultrasound|Radiography
+3090625,Uptown Eye Specialists Inc. ,Uptown Eye Specialists (Etobicoke),135 Queen's Plate Drive,Etobicoke,Ophthalmic Ultrasound
+3092988,Toronto Birth Centre Inc. ,Toronto Birth Centre,525 Dundas Street East,Toronto,Midwifery
+3111683,2478187 Ontario Limited ,Brimley Wenlock X-Ray & Ultrasound,3333 Brimley Road,Scarborough,General Ultrasound|Radiography
+3116962,2392789 Ontario Inc. ,Brantford Radiology Group,25 Curtis Avenue North,Paris,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3121417,Georgian Imaging Services ,Georgian Radiology Consultants - Wellington,11 Lakeside Terrace,Barrie,General Ultrasound|Radiography|Vascular Ultrasound
+3122506,1908273 Ontario Ltd. ,Nuclear Complex Care,191 McNaughton Road East,Maple,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+3123625,Medi-Share Inc. ,Medi-Share Inc.,1986 Cedar Creek Road,Cambridge,Mobile Vascular Ultrasound
+3149489,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates Limited - Vaughan,8333 Weston Road,Woodbridge,General Ultrasound|Mammography|Radiography
+3150721,1000384458 Ontario Inc. ,City X-Ray Services,1980 St. Clair Avenue West,Toronto,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+3153812,Toronto Cardiac Diagnostics Inc. ,Toronto Cardiac Diagnostics Inc.,18 Wynford Drive,North York,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+3171114,2598407 Ontario Inc. ,Peak Sleep Oakville,420 North Service Road East,Oakville,Sleep Studies
+3177417,Premier Imaging Inc. ,Premier Imaging Inc.,4289 Innes Road,Orleans,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3180971,Bhatti Medicine Professional Corporation ,iCare Surgical Centre,2148 Carling Avenue,Ottawa,Ophthalmic Ultrasound
+3195382,The Kensington Eye Institute ,Kensington Health - Endoscopy Services,340 College Street,Toronto,GI-Endoscopy
+3197120,Ultrascan Medical Diagnostic Imaging Inc. ,Ultrascan Medical Diagnostic Imaging,338 Waterloo Street,New Hamburg,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3200843,2639003 Ontario Inc. ,Toronto CardioVascular Ultrasound,1033 Bay Street,Toronto,Vascular Ultrasound
+3201545,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,229 Broadway Avenue,Orangeville,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+3214899,Anwist Diagnostics Inc. ,Anwist Diagnostics,1720 Howard Avenue,Windsor,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+3218304,Dr. Ali Ahadian Medicine Professional Corporation ,Dr. Ali Ahadian,9080 Yonge Street,Richmond Hill,Ophthalmic Ultrasound
+3256753,Donvale Ultrasound Services Ltd. ,Donvale X-Ray,521 Victoria Park Avenue,Scarborough,Radiography
+3276351,Dr. Jacob Gelberg Medicine Professional Corporation ,BLC Medical Specialists,3155 Harvester Road,Burlington,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+3279068,Canadian Diagnostic Network East Inc. ,Canadian Diagnostic Network East Inc.,150 Katimavik Road,Kanata,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3284160,Blue Mountain Sleep Clinic Inc. ,Blue Mountain Sleep Clinic Inc.,945 - 3rd Avenue East,Owen Sound,Sleep Studies
+3300103,Asthma & Airway Centre ,The Toronto Asthma Centre,399 Bathurst Street,Toronto,Pulmonary Function - Other Fee Codes|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing
+3306447,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,738 Notre Dame Street,Embrun,General Ultrasound|Radiography
+3319513,1000168564 Ontario Inc. ,The Windsor Surgical Centre,10700 Tecumseh Road East,Windsor,Eye Surgery
+3324016,1000846610 Ontario Ltd. ,Mayfield Medical Imaging,12295 Hwy 50,Bolton,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+3362255,2539393 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Credit Valley,5055 Plantation Place,Mississauga,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+3363065,Dr. Andrew M. Davies ,Ophthalmology Clinic,123 Millennium Parkway,Belleville,Ophthalmic Ultrasound
+3374136,Greater Niagara Medical Imaging Inc. ,GNMI Medical Imaging - MRI & CT,464 Welland Avenue,St. Catharines,Computed Tomography|Magnetic Resonance Imaging
+3402156,Grand River Sleep Clinic Inc. ,Grand River Sleep Clinic Inc.,139 Grand River Street North,Paris,Sleep Studies
+3406312,Canadian Diagnostic Network East Inc. ,Canadian Diagnostic Network Inc.,2 Gurdwara Road,Nepean,General Ultrasound|Radiography|Vascular Ultrasound
+3406812,Dr. Vikram R. Comondore Medicine Professional Corporation ,Brampton Respirology,2250 Bovaird Drive East,Brampton,Pulmonary Function - Other Fee Codes|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing
+3407890,X-Ray Associates Inc. ,X-Ray Associates,955 Major Mackenzie Drive,Vaughan,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+3413583,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,"G04 - 2300 Eglinton Avenue West, ",Mississauga,Positron Emission Tomography
+3423195,Clearview Diagnostic Imaging Inc. ,True North Imaging,751 Victoria Street South,Kitchener,Bone Mineral DXA|Mammography|Radiography
+3424685,Huntsville CT (Computed Tomography) Clinic ,Huntsville CT Clinic,100 Frank Miller Drive,Huntsville,Computed Tomography
+3425711,Alysia Zhou Medicine Professional Corporation ,Alysia Zhou Medicine Professional Corporation,65 Angeline Street North,Lindsay,Ophthalmic Ultrasound
+3428306,9471006 Canada Inc. ,Kingston Imaging Services,797 Princess Street,Kingston,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3432501,Alpha Diagnostic Imaging Inc. ,Don Mills Diagnostic Imaging,1262 Don Mills Road,North York,Bone Mineral DXA|General Ultrasound|Radiography
+3433683,OHC Vascular Inc. ,OHC Vascular Inc.,1000 Middlegate Road,Mississauga,General Ultrasound|Vascular Ultrasound
+3452164,2482126 Ontario Limited ,Gore Diagnostic Imaging,4525 Ebenezer Road,Brampton,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+3461004,Imagus Inc. ,Charlton X-Ray and Ultrasound,25 Charlton Avenue East,Hamilton,Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+3461204,2324317 Ontario Ltd. ,Clear Medical Imaging,2421 Dougall Avenue,Windsor,Radiography
+3473798,2865842 Ontario Inc. ,Whitby Health Center,3800 Brock Street North,Whitby,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3476695,Create Fertility Clinic Inc. ,Create Fertility Centre,790 Bay Street,Toronto,General Ultrasound
+3487302,2088423 Ontario Ltd. ,Cobourg Sleep Clinic,900 Division Street,Cobourg,Sleep Studies
+3511991,Vitacorp Xray and Ultrasound Inc. ,VITACORP ISLINGTON STATION -WALK IN X RAY AND ULTRASOUND ETOBICOKE,1243 Islington Avenue,Etobicoke,General Ultrasound|Radiography|Vascular Ultrasound
+3512576,Precision Diagnostics Inc. ,"Apple-Med X-Ray, Ultrasound and Mammography",1077 North Service Road,Mississauga,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3544741,EFES Management Limited ,Georgetown X-Ray & Ultrasound,99 Sinclair Avenue,Georgetown,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3560322,Oakville Endoscopy Centre Inc. ,Oakville Endoscopy Centre Inc.,2125 Wyecroft Road,Oakville,GI-Endoscopy
+3570063,2845360 Ontario Inc. ,Richmond Hill Diagnostic Center,10243 Yonge Street,Richmond Hill,General Ultrasound|Vascular Ultrasound
+3577982,BSA Diagnostics Limited ,Kennedy and Sheppard Diagnostic Clinic,4002 Sheppard Avenue East,Scarborough,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+3612839,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,245 Pelham Road,St. Catharines,Bone Mineral DXA|Radiography
+3616430,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,437 Norwich Avenue,Woodstock,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+3617984,Camp Dorset Corporation ,Lions Camp Dorset,1087 Camp Dorset Road,Dorset,Dialysis
+3630988,Dr. G Beiko Medicine Professional Corporation ,Dr. G Beiko Professional Corporation,180 Vine Street South,St. Catherines,Ophthalmic Ultrasound
+3646159,1001329831 Ontario Inc. ,Stroud Ultrasound Diagnostics,7982 Yonge Street,Innisfil,General Ultrasound|Ophthalmic Ultrasound
+3660970,Clarity Eye Institute Inc. ,Clarity Eye Institute,1849 Yonge Street,Toronto,Ophthalmic Ultrasound
+3684649,Sylvan Brook Holdings Ltd. ,Huronia Medical Centre X-Ray & Ultrasound,240 Penetanguishene Road,Midland,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3700104,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,2075 Hadwen Road,Mississauga,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Vascular Ultrasound
+3704912,KMH MRI Inc. ,KMH MRI Inc.,50 Minthorn Boulevard,Markham,Magnetic Resonance Imaging
+3708734,TIDHI Clinic Inc. ,Toronto Immune and Digestive Health Institute (TIDHI Clinic Inc.),700 Lawrence Avenue West,North York,GI-Endoscopy
+3763195,Insight Diagnostic Imaging Corp. ,(Don Mills) Insight Diagnostic Imaging,658 Danforth Avenue,Toronto,Obs/Gyn Ultrasound
+3809136,2456462 Ontario Limited ,Metro Radiology (Bay & Gerrard),790 Bay Street,Toronto,General Ultrasound|Radiography
+3810104,Clinic Management & Technical Services ,Whitby Health Centre,198 Des Newman Boulevard,Whitby,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+3824216,York X-Ray Management Limited ,York Radiology Consultants & The Breast Centre,1333 Sheppard Avenue East,North York,Bone Mineral DXA|Mammography|Radiography
+3842356,Clearview Diagnostic Imaging Inc. ,True North Imaging,385 Fairway Road South,Kitchener,General Ultrasound|Radiography
+3851600,S. Sivakumar Medicine Professional Incorporated ,S. Sivakumar Medicine Professional Incorporated,46 Norfolk Street North,Simcoe,Ophthalmic Ultrasound
+3852223,Dr. Carman M. Iannicello ,Dr. Carman M. Iannicello,880 North Service Road,Windsor,Vascular Ultrasound
+3855279,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,1310 Don Mills Road,North York,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+3858202,Merivale Medical Imaging Inc. ,Merivale Medical Imaging Inc.,110 Michael Cowpland Drive,Kanata,General Ultrasound|Mammography|Vascular Ultrasound
+3862680,Dr. Jeffrey Martow ,Dr. Jeff Martow,377 Church Street,Markham,Ophthalmic Ultrasound
+3872770,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates - Oakdale,2065 Finch Avenue West,North York,Bone Mineral DXA|General Ultrasound|Radiography
+3876219,Alliston Diagnostic Centre Inc. ,Alliston Diagnostic Centre,117 Young Street,Alliston,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing|Radiography|Vascular Ultrasound
+3876784,Charm Ultrasound Inc. ,Charm Ultrasound Inc,101 Westmore Drive,Toronto,Mobile General Ultrasound|Mobile Vascular Ultrasound
+3885239,2324317 Ontario Ltd. ,Clear Medical Imaging,1275 Walker Road,Windsor,Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+3898523,TTMP Diagnostics Inc. ,TTMP Diagnostics Inc.,1000 Middlegate Road,Mississauga,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+3906255,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,723 Rymal Road West,Hamilton,General Ultrasound|Radiography
+3966782,2382219 Ontario Inc. ,Warden Woods X-Ray and Ultrasound,99 Firvalley Court,Scarborough,General Ultrasound|Radiography
+3979430,Gore Bay HSO ,Gore Bay Medical Centre X-Ray,70 Meredith Street,Gore Bay,Radiography
+3980103,Orangeville Medical Imaging Inc. ,Orangeville Medical Imaging,314 Broadway Avenue,Orangeville,Bone Mineral DXA|General Ultrasound|Mammography|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing|Radiography|Vascular Ultrasound
+3987671,Canadian Teleradiology Services Inc. ,Belleville X-Ray & Ultrasound Ltd.,150 Sidney Street,Belleville,General Ultrasound|Radiography|Vascular Ultrasound
+3996912,Insight Diagnostic Imaging Corp. ,Malvern Ultrasound & Mammography,658 Danforth Avenue ,Toronto,General Ultrasound|Mammography
+4001894,2539393 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Square One,3950 Grand Park Drive,Mississauga,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+4013891,Dialysis Management Clinics Inc. ,Dialysis Management Clinics Inc.,815 High Street,Peterborough,Dialysis
+4014432,Specialty Medical Partners (HVI) Inc. ,Kipling Heights Diagnostic Imaging,2291 Kipling Avenue,Etobicoke,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+4019989,2324317 Ontario Ltd. ,Clear Medical Imaging,857 Grand Avenue West,Chatham,General Ultrasound|Radiography|Vascular Ultrasound
+4023504,Toronto Queensway Ultrasound & X-Ray Diagnostics Ltd. ,Toronto Queensway Ultrasound & X-Ray Diagnostics Ltd.,523 The Queensway,Etobicoke,General Ultrasound|Radiography
+4023918,Clearview Diagnostic Imaging Inc. ,True North Imaging,65 University Avenue East,Waterloo,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+4026910,6081169 Canada Inc. ,Optimum MediSpa,5668 Main Street,Niagara Falls,Plastic Surgery
+4027423,Insight Diagnostic Imaging Corp. ,Spadina Bloor Ultrasound,720 Spadina Avenue,Toronto,General Ultrasound
+4028209,Dr. Delan Jinapriya ,Galen Eye Centre,27 Place d'Armes,Kingston,Ophthalmic Ultrasound
+4042591,1000101846 Ontario Inc. ,Ontario Radiology (OR) – North York,491 Lawrence Avenue West,North York,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+4052919,Kawartha Imaging Lindsay Ultrasound and X-Ray Inc. ,Kawartha Imaging Lindsay Ultrasound and X-Ray Inc.,86 Angeline Street South,Lindsay,General Ultrasound|Vascular Ultrasound
+4053917,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,2525 Old Bronte Road,Oakville,Mobile General Ultrasound|Mobile Vascular Ultrasound
+4076791,Levine Myers Medicine Professional Corporation ,King Street X-Ray & Ultrasound,1290 Keith Ross Court,Oshawa,General Ultrasound|Radiography|Vascular Ultrasound
+4076856,J.B.V. Management Services Ltd. ,Finchgate X-Ray and Ultrasound,40 Finchgate Boulevard,Brampton,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography
+4092520,Clearview Diagnostic Imaging Inc. ,True North Imaging,430 The Boardwalk,Waterloo,Mobile General Ultrasound|Mobile Vascular Ultrasound
+4093960,Toronto Vascular Centre Inc. ,Toronto Vascular Centre Inc.,1881 Yonge Street,Toronto,General Ultrasound|Vascular Ultrasound
+4097988,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile Obs/Gyn Ultrasound|Mobile Radiography
+4123551,Westminster Mobile Medical Imaging Inc. ,Westminster Mobile Medical Imaging Inc.,152 Newbold Court,London,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+4124581,2549416 Ontario Inc. ,Toronto Diagnostic Centre,1261 Kennedy Road,Scarborough,General Ultrasound
+4137151,Gottschalk Health Services Inc. ,Sleep Disorders Clinic - St. Catharines,282 Linwell Road,St. Catharines,Sleep Studies
+4137196,TTMP Diagnostics Inc. ,TTMP Diagnostics Inc.,1000 Middlegate Road,Mississauga,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+4139984,Ottawa Birth and Wellness Centre ,Ottawa Birth and Wellness Centre,2260 Walkley Road,Ottawa,Midwifery
+4140949,North Toronto Sleep Centre Inc. ,North Toronto Sleep Centre Inc.,4040 Finch Avenue East,Scarborough,Sleep Studies
+4152906,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,1960 Appleby Line,Burlington,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+4164804,TTMP Diagnostics Inc. ,OHC Nuclear,2800 Highpoint Drive,Milton,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+4171308,Bio-Test Laboratory Inc. ,Bio-Test Radiology Services,1929 Russell Road,Ottawa,Radiography
+4172891,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,Trafalgar X-Ray and Ultrasound,1235 Trafalgar Road,Oakville,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+4173982,2446695 Ontario Inc. ,Vaughan Sleep Clinic,200 Windflower Gate,Woodbridge,Sleep Studies
+4179104,Straight Sleep Inc. ,Sleep and Alertness Clinic,63 Lombard Street,Toronto,Sleep Studies
+4195960,Mr. Udaya Shankar Padmakaran ,SLEEP CARE Solutions Yonge & Davisville,1835 Yonge Street,Toronto,Sleep Studies
+4201319,London X-Ray Associates Inc. ,London X-Ray Associates Inc.,1657 Dundas Street,London,General Ultrasound|Vascular Ultrasound
+4208420,Canadian Teleradiology Services Inc. ,Cobourg X-Ray and Ultrasound,1005 Elgin Street West,Cobourg,General Ultrasound|Radiography|Vascular Ultrasound
+4220266,TBA Diagnostic Imaging Services Inc. ,Bathurst-Sheppard Diagnostic Imaging Centre,4430 Bathurst Street,North York,Radiography
+4223075,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,216 West Street,Simcoe,Vascular Ultrasound
+4262698,The Dove Corporation ,Clarence - Rockland Imaging,2741 Chamberland Street,Rockland,General Ultrasound|Radiography|Vascular Ultrasound
+4275127,Dr. Sukarno Chaudhry ,Kingsville Respiratory Lab,2125 Front Street,Lasalle,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing
+4276168,GI Health Centre Inc. ,GI Health Centre,1960 Appleby Line,Burlington,GI-Endoscopy
+4276791,Canadian Diagnostic Network East Inc. ,Canadian Diagnostic Network East Inc.,1 Centrepointe Drive,Nepean,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+4327119,D.J. Weinstock Medicine Professional Corporation ,D.J. Weinstock,206 Sheppard Avenue West,North York,Ophthalmic Ultrasound
+4360874,2858737 Ontario Inc. ,2858737 Ontario Ltd.,2464 Howard Avenue,Windsor,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Ophthalmic Ultrasound
+4361825,Mina Endo&Mind Inc. ,Canadian Place Endoscopy Clinic,1065 Canadian Place,Mississauga,GI-Endoscopy
+4363375,MedSleep Inc. ,West Ottawa Sleep Centre,1840 Woodward Avenue,Ottawa,Sleep Studies
+4405477,Canadian Diagnostic Network East Inc. ,Canadian Diagnostic Network,1220 Promenade Place D'Orleans,Orleans,Bone Mineral DXA|General Ultrasound|Radiography
+4412518,The Kensington Eye Institute ,The Kensington Eye Institute,340 College Street,Toronto,Eye Surgery
+4412910,Herzig Eye Institute Ottawa Inc. ,Herzig Eye Institute Ottawa,1730 St. Laurent Boulevard,Ottawa,Eye Surgery
+4413503,Advanced PET/CT Imaging Inc. ,Precision Diagnostic Imaging,2462 Howard Avenue,Windsor,Positron Emission Tomography
+4428801,S. Peng Medicine Professional Corporation ,S. Peng Medicine Professional Corporation,564 Belmont Avenue West,Kitchener,Ophthalmic Ultrasound
+4429580,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,7241 Bathurst Street,Thornhill,Bone Mineral DXA|General Ultrasound|Radiography
+4441238,Kawartha Diagnostic Imaging Ltd. ,Kawartha Diagnostic Imaging Ltd.,327 Charlotte Street,Peterborough,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+4443981,Dialysis Management Clinics Inc. ,Dialysis Management Clinics Inc.,1550 Kingston Road,Pickering,Dialysis
+4461442,Kingsway Imaging Centre Corporation ,Kingsway Imaging Centre Corporation,2050 Weston Road,York,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+4499203,Georgian Imaging Incorporated ,Georgian Radiology Consultants - Innisfil,7325 Yonge Street,Innisfil,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+4591009,Dr. David Lane ,Dr. David Lane,39 Commerce Road,Lindsay,Ophthalmic Ultrasound
+4600375,2071667 Ontario Inc. ,Appleton Clinic Sleep Centre,845 Wilson Avenue,North York,Sleep Studies
+4610057,Steve A Arshinoff Medicine Professional Corporation ,York Finch Eye Associates,2115 Finch Avenue West,North York,Ophthalmic Ultrasound
+4611989,MDAC Sleep Inc. ,MDAC Sleep Inc.,820 Red River Road,Thunder Bay,Pulmonary Function B - Lung Volumes & Diffusion|Sleep Studies
+4612369,Schroeder Ambulatory Centre ,Schroeder Ambulatory Centre,9355 Leslie Street,Richmond Hill,Orthopedics Surgery
+4614799,2655619 Ontario Inc. ,Windsor Sleep Disorders Clinic,55 Edinborough Street,Windsor,Sleep Studies
+4627346,Hitek Medical Imaging Inc. ,Hitek Medical Imaging,4789 Yonge Street,North York,Bone Mineral DXA|General Ultrasound|Radiography
+4646978,Merivale Medical Imaging Inc. ,Merivale Medical Imaging,1545A Merivale Road,Nepean,Bone Mineral DXA|Radiography
+4682097,Albany Medical Clinic ,Albany Medical Clinic,807 Broadview Avenue,Toronto,General Ultrasound
+4689533,2347225 Ontario Inc. ,Victoria X-Ray Ultrasound,1252 Lawrence Avenue East,North York,General Ultrasound|Radiography
+4706496,West Hill Medical Imaging Inc. ,West Hill Medical Imaging Inc.,4637 Kingston Road,Scarborough,General Ultrasound
+4726294,VEC Inc. ,Vaughan Endoscopy Clinic,4610 Highway 7,Woodbridge,GI-Endoscopy
+4750600,Asif Salyani Medicine Professional Corporation ,Medical Eye Consultants,16945 Leslie Street,Newmarket,Ophthalmic Ultrasound
+4751893,2324317 Ontario Ltd. ,Clear Medical Imaging,13278 Tecumseh Road East,Tecumseh,General Ultrasound|Radiography|Vascular Ultrasound
+4781632,2660572 Ontario Inc. ,Ontario Diagnostic Centre ODC - Woodbridge,8077 Islington Avenue,Woodbridge,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography
+4791326,2595249 Ontario Inc. ,Credit Valley Diagnostic Centre,100 Nipissing Road,Milton,General Ultrasound
+4791536,Dr. Frank Ritacca Medicine Professional Corporation ,Credit Valley Pulmonary Diagnostics,2300 Eglinton Avenue West,Mississauga,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+4901319,GTA East Medical Imaging Corp. ,Lighthouse Medical Imaging - Finch,4168 Finch Avenue East,Scarborough,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+4923529,2290777 Ontario Inc. ,Trenton Diagnostics Inc.,7 Metcalfe Street,Trenton,General Ultrasound|Radiography|Vascular Ultrasound
+4923987,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+4971684,MedSleep Inc. ,Medsleep Inc.,6453 Morrison Street,Niagara Falls,Sleep Studies
+4976719,Toronto West Cardiac and Radiology Institute Ltd. ,Toronto West Cardiac & Radiology Institute,4250 Weston Road,North York,Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+4979129,MedSleep Inc. ,Queensway Sleep Laboratory,190 Sherway Drive,Etobicoke,Sleep Studies
+4993143,Dr. Kevin R. Lachapelle ,Kevin Lachapelle Medicine Professional Corporation,1 Frankford Crescent,Trenton,Ophthalmic Ultrasound
+4999144,2537431 Ontario Inc. ,Sure Care St. Jacobs,826 King Street North,Waterloo,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+4999844,EFES Management Limited ,Jane Centre X-Ray & Ultrasound,2780 Jane Street,North York,General Ultrasound|Radiography
+5002106,One Vascular Corp. ,One Vascular - Mississauga,2575 Dundas Street West,Mississauga,Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+5005756,The Ottawa Fertility Centre Inc. ,Ottawa Fertility Centre,955 Green Valley Crescent,Ottawa,Obs/Gyn Ultrasound
+5006169,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,31 Centre Street South,Brampton,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing|Vascular Ultrasound
+5016914,MedSleep Inc. ,Superior Sleep Laboratory,264 McNabb Street,Sault Ste. Marie,Sleep Studies
+5038767,2282058 Ontario Limited ,Alton Towers X-Ray and Ultrasound,240 Alton Towers Circle,Scarborough,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5038832,Thunder Bay Radiology Inc. ,Thunder Bay Radiology Inc.,63 Algoma Street North,Thunder Bay,Radiography
+5041449,1000609517 Ontario Inc. ,Thorncliffe Radiology,45 Overlea Boulevard,Toronto,General Ultrasound
+5041744,Peterborough Radiology Associates Ltd. ,Medical Arts X-Ray,270 Charlotte Street,Peterborough,Radiography
+5041844,Edinborough Street Radiology Inc. ,Edinborough Street Radiology Inc.,2475 McDougall Street,Windsor,Bone Mineral DXA|General Ultrasound|Mammography|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Radiography|Vascular Ultrasound
+5043916,2203552 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Trillium,89 Queensway West,Mississauga,General Ultrasound
+5049912,2711518 Ontario Ltd. ,Rosedale Medical Imaging,600 Sherbourne Street,Toronto,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5050068,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,325 Milner Avenue,Scarborough,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+5051268,Dr. Manjula Misra ,Manjula Misra,1450 Highway 2,Courtice,Ophthalmic Ultrasound
+5051367,Canadian Diagnostic Network North Inc. ,Canadian Diagnostic Network,168 Charlotte Street,Ottawa,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+5051744,1000980102 Ontario Inc. ,Humber Diagnostic Centre,1017 Wilson Avenue,North York,General Ultrasound|Radiography
+5054894,1001299977 Ontario Inc. ,Sound Diagnosis,1919 Riverside Drive,Ottawa,Obs/Gyn Ultrasound
+5056225,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,1 Young Street,Hamilton,Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+5056976,Brantford Medical Imaging Inc. ,Brantford Medical Imaging,260 Lynden Road,Brantford,General Ultrasound
+5058023,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,20 Wynford Drive,North York,General Ultrasound|Radiography
+5058744,Sure Care Diagnostic Inc. ,Sure Care Diagnostic,2700 Dufferin Street,York,General Ultrasound|Radiography
+5061413,One Vascular Corp. ,One Vascular Imaging MILTON,2800 Highpoint Drive,Milton,General Ultrasound|Vascular Ultrasound
+5061463,Insight Diagnostic Imaging Corp. ,Coxwell Ultrasound,1577 Danforth Avenue,Toronto,General Ultrasound|Vascular Ultrasound
+5066420,2538427 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Clarkson,1654 Lakeshore Road West,Mississauga,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+5072418,Clearview Diagnostic Imaging Inc. ,Mobile Ultrasound,65 University Avenue East,Waterloo,Mobile General Ultrasound
+5076918,Specialty Medical Partners (HVI) Inc. ,PDS Diagnostic Imaging,2 Champagne Drive,North York,General Ultrasound|Radiography
+5081582,"Dr.'s Thomson, Howlett, Hawkes, Rosta, Saab, Baldauf, Greaves & McIver MPC ",Owen Sound Medical Imaging,1415 - 1st Avenue West,Owen Sound,General Ultrasound|Radiography|Vascular Ultrasound
+5094573,2659428 Ontario Inc. ,GNMI MRI & CT,10 Kingsbridge Garden Circle,Mississauga,Computed Tomography|Magnetic Resonance Imaging
+5095356,2324317 Ontario Ltd. ,Clear Medical Imaging,445 Grand Avenue West,Chatham,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5101514,Lebro Management Limited ,Erie St. Clair Radiology (ESR) Clinics,11811 Tecumseh Road East,Tecumseh,General Ultrasound|Radiography
+5106332,2601398 Ontario Inc. ,2601398 Ontario Inc.,9 Eric Devlin Lane,Perth,Ophthalmic Ultrasound
+5116153,1600379 Ontario Inc. ,Keele & Lawrence Ultrasound,2355 Keele Street,North York,General Ultrasound
+5120350,Trinity Medical Imaging Inc. ,Trinity Medical Imaging,1255 The Queensway,Etobicoke,General Ultrasound|Radiography
+5123616,Newlife Diagnostics Inc. ,Newlife Fertility Centre,4250 Sherwoodtowne Boulevard,Mississauga,Mobile General Ultrasound
+5149419,Robin Bruen & Shirin Yazdanian Medicine Professional Corporation ,Robin Bruen and Shirin Yazdanian Medicine Professional Corporation,274 Lynden Road,Brantford,Ophthalmic Ultrasound
+5168762,Unity Diagnostic Centre Inc. ,Unity Diagnostic Centre,3938 Cottrelle Boulevard,Brampton,General Ultrasound|Radiography
+5175509,Dr. Walter Liao ,Dr. Walter Liao,344 Consumers Road,North York,Ophthalmic Ultrasound
+5179105,1000882243 Ontario Inc. ,TRS Waterloo Sleep Institute,435 The Boardwalk,Waterloo,Sleep Studies
+5182135,Brimley Medical Diagnostic Centre Inc. ,"Brimley X-Ray,Ultrasound & BMD",2020 Brimley Road,Scarborough,Bone Mineral DXA|General Ultrasound|Radiography
+5185553,1049604 Ontario Inc. ,Stouffville Radiological Services X-ray/General and Vascular Ultrasound,6212 Main Street,Stouffville,General Ultrasound|Radiography|Vascular Ultrasound
+5196153,1000023282 Ontario Inc. ,Fenelon Falls Diagnostic Imaging,205 Francis Street East,Fenelon Falls,General Ultrasound|Radiography|Vascular Ultrasound
+5200302,1076254 Ontario Limited ,Sheppard Court X-Ray and Ultrasound,240 Penetanguishene Road,Midland,General Ultrasound
+5201893,Merivale Medical Imaging Inc. ,Merivale Medical Imaging - Limoges,601 Limoges Road,Limoges,General Ultrasound|Radiography|Vascular Ultrasound
+5205302,1000252112 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Roncesvalles,27 Roncesvalles Avenue,Toronto,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography
+5218300,Dr. V. Khokhotva Medicine Professional Corporation ,Rose City Endoscopy,2109 Ottawa Street,Windsor,GI-Endoscopy
+5221255,2387755 Ontario Inc. ,Clairhurst X-ray and Ultrasound,1466 Bathurst Street,Toronto,General Ultrasound|Radiography
+5225596,Mr. Udaya Shankar Padmakaran ,Toronto Lung Care Clinic,520 Ellesmere Road,Scarborough,Pulmonary Function B - Lung Volumes & Diffusion
+5230117,Cornwall Radiology Associates Inc. ,Cornwall Radiology Associates Inc.,820 McConnell Avenue,Cornwall,General Ultrasound|Radiography|Vascular Ultrasound
+5234768,1000134213 Ontario Inc. ,Humber Bay Medical Imaging,3101 Bloor Street West,Etobicoke,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+5254199,Workplace Medical Corp. ,Evans Radiology Services,233 Evans Avenue,Etobicoke,Radiography
+5259129,J.B.V. Management Services Ltd. ,Niagara Falls X-Ray & Ultrasound,6453 Morrison Street,Niagara Falls,Bone Mineral DXA|General Ultrasound|Radiography
+5261893,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,480 Bronte Street South,Milton,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+5265117,2549416 Ontario Inc. ,Toronto Diagnostic Centre,1261 Kennedy Road,Scarborough,Bone Mineral DXA|Radiography
+5280982,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,230 First Avenue,St. Thomas,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography
+5285202,Forest Hill Medical Imaging Inc. ,Forest Hill Medical Imaging,491 Eglinton Avenue West,Toronto,Fluoroscopy|General Ultrasound|Radiography
+5300569,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,15 Mountain Avenue South,Stoney Creek,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5306447,Canadian Diagnostic Network West Inc. ,Canadian Diagnostic Network,150 Katimavik Road,Kanata,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5306449,Credit Valley Diagnostic Centre Inc. ,Credit Valley Diagnostic Centre Inc.,2000 Credit Valley Road,Mississauga,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+5315511,Southmount Medical Imaging Inc. ,Southmount Medical Imaging Inc.,35 Upper Centennial Parkway,Stoney Creek,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+5320546,The Peterborough Clinic ,The Peterborough Clinic,26 Hospital Drive,Peterborough,General Ultrasound|Radiography
+5322447,Niagara Eye Care Centre Inc. ,Niagara Eye Care Centre Inc.,3460 Schmon Parkway,Thorold,Ophthalmic Ultrasound
+5324144,North Whitby X-Ray & Ultrasound Inc. ,North Whitby X-Ray and Ultrasound,5959 Anderson Street,Whitby,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+5324467,Clearview Diagnostic Imaging Inc. ,True North Imaging - Evolve,655 Bay Street,Toronto,General Ultrasound|Obs/Gyn Ultrasound
+5326698,Bay Cardiac Diagnostic Inc. ,Bay Cardiac Diagnostic Inc.,790 Bay Street,Toronto,Bone Mineral DXA|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+5341130,Ivycroft Enterprises Inc. ,Midtown Women's Imaging,379 Church Street,Markham,Obs/Gyn Ultrasound
+5344492,Clarity Eye Institute Inc. ,Clarity Eye Institute Inc.,9135 Keele Street,Concord,Ophthalmic Ultrasound
+5344747,2693333 Ontario Inc. ,MCF Reproductive & Ultrasound Services,2888 Bathurst Street,North York,General Ultrasound
+5356493,Specialty Medical Partners (HVI) Inc. ,Yonge & Eglinton Diagnostic Imaging,2401 Yonge Street,Toronto,Bone Mineral DXA|General Ultrasound|Radiography
+5381746,Nima Noordeh Medicine Professional Corporation ,Kingsway Eye Associates,3101 Bloor Street West,Etobicoke,Ophthalmic Ultrasound
+5391410,123 Edward Street Diagnostic Imaging Ltd. ,123 Edward Street Diagnostic Imaging Ltd.,123 Edward Street,Toronto,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5401322,Specialty Medical Partners (HVI) Inc. ,St. Clair Diagnostic Imaging,1223 St. Clair Avenue West,Toronto,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5401460,1000748207 Ontario Inc. ,Bronte Vascular Ultrasound,2525 Old Bronte Road,Oakville,General Ultrasound|Vascular Ultrasound
+5401822,The Kensington Eye Institute ,Kensington Diagnostic Imaging Centre,340 College Street,Toronto,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5403904,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,1105 Kingston Road,Pickering,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+5409190,1360397 Ontario Ltd. ,Peak Sleep Burlington,809 Brant Street,Burlington,Sleep Studies
+5409604,Trent Regional Sleep Clinic Inc. ,Trent Regional Sleep Clinic,849 Alexander Court,Peterborough,Sleep Studies
+5413507,1000073246 Ontario Inc. ,Harmony Ultrasound Imaging Inc.,1600 Steeles Avenue West,Concord,General Ultrasound
+5419181,MedSleep Inc. ,Tri-Hospital Sleep Laboratory West,3024 Hurontario Street,Mississauga,Sleep Studies
+5419692,1882601 Ontario Inc. ,York Region Sleep Disorders Centre,13291 Yonge Street,Richmond Hill,Pulmonary Function - Other Fee Codes|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Sleep Studies
+5426707,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,444 Douro Street,Stratford,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5426830,MR Imaging Corp ,Women's Ultrasound Centre,152 Cleopatra Drive,Nepean,Obs/Gyn Ultrasound
+5443511,Meridia Medical Inc. ,Meridia Medical,1881 Yonge Street,Toronto,General Ultrasound
+5443988,Ontario Fertility Centres Inc. ,Ontario Fertility Centres ,300 Rossland Road East,Ajax,Mobile General Ultrasound
+5446730,Specialty Medical Partners (HVI) Inc. ,Humber Valley Cardiac Imaging Vaughan,191 McNaughton Road East,Maple,General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography
+5456687,GTA East Medical Imaging Corp. ,Lighthouse Medical Imaging - Fairview,5 Fairview Mall Drive,North York,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+5456817,Hafeez Health Services Inc. ,Durham Medical Centre,605 Brock Street North,Whitby,General Ultrasound|Mammography|Vascular Ultrasound
+5460296,TBA Diagnostic Imaging Services Inc. ,Bathurst-Sheppard Diagnostic Imaging Centre,4430 Bathurst Street,North York,Bone Mineral DXA|General Ultrasound|Vascular Ultrasound
+5461810,Prism Eye Institute Inc. ,Prism Eye Institute Inc.,2201 Bristol Circle,Oakville,Ophthalmic Ultrasound
+5461818,1627837 Ontario Inc. ,Custom Vision & Cosmetic Centre,601 Westney Road South,Ajax,Ophthalmic Ultrasound
+5463510,1543730 Ontario Inc. ,Mississauga Vascular Lab and Ultrasound Imaging,755 Queensway East,Mississauga,General Ultrasound|Vascular Ultrasound
+5465096,2273044 Ontario Inc. ,iHealthCentre,6175 Highway 7,Woodbridge,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Radiography|Vascular Ultrasound
+5476409,Kingston Medical Imaging Inc. ,Kingston Medical Imaging Inc.,776 Blackburn Mews East,Kingston,General Ultrasound|Radiography|Vascular Ultrasound
+5476417,Two Thumbs Corp. ,Kingston Respiratory Services,725 Arlington Park Place,Kingston,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+5479040,Canadian Diagnostic Network East Inc. ,Canadian Diagnostic Network,1 Centrepointe Drive,Nepean,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5505751,2440708 Ontario Inc. ,Elite Diagnostics X-Ray & Ultrasound,157 Queen Street East,Brampton,General Ultrasound|Radiography
+5512851,Clearview Diagnostic Imaging Inc. ,Coronation X-Ray and Ultrasound,745 Coronation Boulevard,Cambridge,General Ultrasound|Radiography
+5515053,Sharda Medicine Professional Corporation ,Sharda Eye Institute,1 Young Street,Hamilton,Ophthalmic Ultrasound
+5516558,9471006 Canada Inc. ,Kingston Imaging Services,797 Princess Street,Kingston,Radiography
+5523772,2392789 Ontario Inc. ,Brantford Radiology Group,6 Borden Street,Brantford,General Ultrasound|Radiography
+5527691,2345171 Ontario Inc. ,Guelph Medical Imaging,83 Dawson Road,Guelph,Radiography
+5536975,Cornwall Radiology Associates Inc. ,Cornwall Radiology Associates Inc.,820 McConnell Avenue,Cornwall,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+5542672,Mississauga Sleep Medicine Centre Inc. ,Peak Sleep Mississauga,101 Queensway West,Mississauga,Sleep Studies
+5556035,Imagerie Medicale Embrun-Casselman Inc. ,Imagerie Médicale Embrun,869 Notre Dame Street,Embrun,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+5563222,Quantum Medical Imaging Services Inc. ,Quantum Medical Imaging Services Inc.,"2330 Kennedy Road, Suite 402",Scarborough,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5592602,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,4270 Innes Road,Orleans,General Ultrasound
+5601769,2442435 Ontario Inc. ,Mobile Diagnostic Imaging,19834 Airport Road,Caledon,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+5606887,Jane Wilson Imaging Centre Inc. ,Jane Wilson Imaging Centre,2141 Jane Street,North York,Fluoroscopy|General Ultrasound|Radiography
+5611024,Clearview Diagnostic Imaging Inc. ,True North Imaging - Oshawa,419 King Street West,Oshawa,Obs/Gyn Ultrasound
+5620970,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,525 Legget Drive,Kanata,Bone Mineral DXA|General Ultrasound|Radiography
+5634290,Dialysis Management Clinics Inc. ,Dialysis Management Clinics Inc.,7300 Warden Avenue,Markham,Dialysis
+5642197,Georgian Imaging Services ,Georgian Radiology Consultants - Collingwood,28 Huron Street,Collingwood,General Ultrasound|Radiography|Vascular Ultrasound
+5642199,2601398 Ontario Inc. ,2601398 Ontario Inc.,1596 Regent Street,Sudbury,General Ultrasound
+5655971,2744267 Ontario Ltd. ,Bolton Medical Imaging,170 McEwan Drive East,Bolton,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5655977,Dr. Jerrod S. Kent Medicine Professional Corporation ,Kent Eye Institute,2037 Long Lake Road,Sudbury,Ophthalmic Ultrasound
+5661478,1000812819 Ontario Inc. ,Hamilton Vascular Laboratory,849 Upper Wentworth Street,Hamilton,General Ultrasound|Vascular Ultrasound
+5701040,Medcan Health Management Inc. ,Medcan Health Management Inc.,150 York Street,Toronto,Radiography
+5701240,2324317 Ontario Ltd. ,Clear Medical Imaging,2464 Howard Avenue,Windsor,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+5711840,London X-Ray Associates Inc. ,London X-Ray Associates,3209 Wonderland Road South,London,General Ultrasound|Radiography
+5739908,Linde Canada Inc. ,Barrie Sleep Disorders Clinic,190 Cundles Road East,Barrie,Sleep Studies
+5755971,WNR Inc. ,Bathurst Medical Centre X-Ray & Ultrasound,4256 Bathurst Street,North York,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+5758151,Prism Eye Institute Inc. ,Prism Eye Institute,7700 Hurontario Street,Brampton,Ophthalmic Ultrasound
+5804857,Schroeder Ambulatory Centre ,Schroeder Ambulatory Centre,9355 Leslie Street,Richmond Hill,GI-Endoscopy
+5812004,Dr. Adil Bhatti ,iCare Surgical Centre,2148 Carling Avenue,Ottawa,Ophthalmic Ultrasound
+5820546,Cardiovascular Care Centre Inc. ,Cardiovascular Care Centre Inc.,200 Ronson Drive,Etobicoke,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+5820599,Albany Medical Clinic ,Albany Diagnostic Radiology,807 Broadview Avenue,Toronto,Bone Mineral DXA|Fluoroscopy|Mammography|Pulmonary Function B - Lung Volumes & Diffusion|Radiography|Vascular Ultrasound
+5821598,8831335 Canada Inc. ,Ontario Diagnostic Centre (ODC) - Oakville,2315 Bristol Circle,Oakville,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5846492,2772721 Ontario Inc. ,Cambridge Medical Imaging,614 Coronation Boulevard,Cambridge,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5846720,2456462 Ontario Limited ,Metro Radiology (L'Amoureaux),1371 Neilson Road,Scarborough ,Mobile General Ultrasound|Mobile Vascular Ultrasound
+5846903,Oshawa Advanced Imaging Inc. ,Oshawa Advanced Imaging,115 Simcoe Street South,Oshawa,General Ultrasound
+5862577,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,10 Angeline Street North,Lindsay,Bone Mineral DXA|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+5868472,2024514 Ontario Inc. ,Malvern Sleep Clinic,1371 Neilson Road,Scarborough,Sleep Studies
+5881268,West End Radiological Laboratories Limited ,West End Radiological Laboratories Limited,2425 Bloor Street West,Toronto,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5890599,Thunder Bay Ultrasound Inc. ,Thunder Bay Ultrasound Inc.,1265 Arthur Street East,Thunder Bay,General Ultrasound
+5901814,Specialty Medical Partners (HVI) Inc. ,Simcoe Diagnostic Imaging,65 Donly Drive North,Simcoe,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5905974,MyHealth Sarnia Inc. ,WELL Health Diagnostic Centres,481 London Road,Sarnia,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+5906449,2662939 Ontario Inc. ,Essex County Respiratory Services,11958 Tecumseh Road East,Tecumseh,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+5907025,Bio-Test Laboratory Inc. ,Bio-Test Radiology Services,2006 Robertson Road,Nepean,General Ultrasound|Radiography
+5908468,Gottschalk Health Services Inc. ,Sleep Disorders Clinic - Hamilton,55 Frid Street,Hamilton,Sleep Studies
+5922447,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,510 Southdale Road East,London,General Ultrasound|Vascular Ultrasound
+5923144,Canadian Diagnostic Network Inc. ,Canadian Diagnostic Network Inc.,2 Gurdwara Road,Nepean,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography
+5926698,1076254 Ontario Limited ,Acton X-Ray & Ultrasound,10 Eastern Avenue,Acton,General Ultrasound|Radiography
+5929305,West End Radiological Laboratories Limited ,West End Diagnostic Imaging,2425 Bloor Street West,Toronto,Bone Mineral DXA
+5935623,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,Brampton West Radiology,9545 Mississauga Road,Brampton,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5936493,Specialty Medical Partners (Ottawa) Inc. ,Ottawa Cardiovascular Centre - Orleans,5929 Jeanne D'Arc Boulevard South,Orleans,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+5941130,Can Med Equipment Inc. ,Canadian Diagnostic Network Inc.,605 Longfields Drive,Nepean,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+5949017,One Vascular Corp. ,One Vascular - Vaughan,4600 Highway 7 West,Woodbridge,Bone Mineral DXA|Fluoroscopy|Mammography|Radiography|Vascular Ultrasound
+5962650,2456462 Ontario Limited ,Belleville Medical Arts X-Ray and Ultrasound,210 Dundas Street East,Belleville,General Ultrasound|Radiography
+5972525,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,462 Birchmount Avenue,Scarborough,Radiography
+5981346,Georgian Imaging Incorporated ,Georgian Radiology Consultants - Wasaga Beach,14 Ramblewood Drive,Wasaga Beach,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+5981712,Yufeng Chen Medicine Professional Corporation ,Dr. Nancy Chen Medicine Professional Corp.,121 Dundas Street East,Belleville,Ophthalmic Ultrasound
+5999996,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,7885 McLeod Road,Niagara Falls,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+6004800,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,9 Eric Devlin Lane,Perth,Bone Mineral DXA|General Ultrasound|Radiography
+6020097,Simeunovic Medicine Professional Corporation ,Simeunovic Medicine Professional Corporation,17 Park Avenue East,Chatham,Sleep Studies
+6021198,KMH MRI Inc. ,KMH MRI Inc.,751B Victoria Street South,Kitchener,Magnetic Resonance Imaging
+6022923,1000838809 Ontario Inc. ,Onsite Medical Imaging Inc.,219 Main Street East,Hawkesbury,Mobile General Ultrasound|Mobile Vascular Ultrasound
+6024148,K. Murad Medicine Professional Corporation ,Revive Fertility Clinic,131 Union Street East,Waterloo,Obs/Gyn Ultrasound
+6026877,BSA Diagnostic Imaging Inc. ,East End Breast Imaging,4002 Sheppard Avenue East,Scarborough,Mammography|Radiography
+6041443,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,17730 Leslie Street,Newmarket,General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Radiography|Vascular Ultrasound
+6054800,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,723 Rymal Road West,Hamilton,General Ultrasound|Radiography
+6054808,Dr. Arthur Grabowski ,Ajax Urology Associates,95 Bayly Street West,Ajax,General Ultrasound
+6056366,One Vascular Corp. ,One Vascular - St. Catharines,296 Welland Avenue,St. Catharines,General Ultrasound|Ophthalmic Ultrasound|Radiography|Vascular Ultrasound
+6057990,Metro Health Network Inc. ,Toronto Lung Care Clinic - East,520 Ellesmere Road,Scarborough,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+6084600,Kingston Medical Imaging Inc. ,KMI X-ray & Ultrasound,836 John Marks Avenue,Kingston,General Ultrasound|Vascular Ultrasound
+6099661,1000140706 Ontario Inc. ,Beamsville Diagnostic Imaging,4438 Ontario Street,Beamsville,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+6105659,2558874 Ontario Inc. ,Ontario Radiology (OR) - Rexdale,123 Rexdale Boulevard,Etobicoke,Bone Mineral DXA|General Ultrasound|Radiography
+6123069,Specialty Medical Partners (Kingston) Inc. ,Specialty Medical Partners (Kingston) Inc.,460 Princess Street,Kingston,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Vascular Ultrasound
+6152140,Clearview Diagnostic Imaging Inc. ,True North Imaging,2180 Meadowvale Boulevard,Mississauga,General Ultrasound
+6156400,1000101846 Ontario Inc. ,Ontario Radiology (OR) – Innisfil,7869 Yonge Street,Innisfil,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Urologic Ultrasound|Vascular Ultrasound
+6158120,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,470 Chrysler Drive,Brampton,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+6200526,2324317 Ontario Ltd. ,Clear Medical Imaging,2464 Howard Avenue,Windsor,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+6200566,York X-Ray Management Limited ,York X-Ray Management Limited,3292 Bayview Avenue,North York,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+6218000,Brampton Vascular Associates Ltd. ,Brampton Vascular Institute,164 Queen Street East,Brampton,General Ultrasound|Vascular Ultrasound
+6228834,Dr. Sylvia L. Rodriguez Medicine Professional Corporation ,Guelph Eye MD,89 Dawson Road,Guelph,Ophthalmic Ultrasound
+6250390,Murari L. Patodia Medicine Professional Corporation ,Dr. Murari Patodia,1500 London Road,Sarnia,Ophthalmic Ultrasound
+6302141,Ellies Medicine Professional Corporation ,Ellies Medicine Professional Corporation,133 Main Street West,North Bay,Ophthalmic Ultrasound
+6302467,Merivale Medical Imaging Inc. ,Merivale Medical Imaging - MRI & CT,1545A Merivale Road,Nepean,Magnetic Resonance Imaging
+6306400,7523203 Canada Inc. ,Ontario Diagnostic Centre (ODC) Brampton,36 Vodden Street East,Brampton,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography
+6328797,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,3000 Lawrence Avenue East,Scarborough,Mammography
+6341894,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,510 Southdale Road East,London,General Ultrasound|Radiography
+6342467,2540794 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Etobicoke,85 The East Mall,Etobicoke,General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+6345894,2324317 Ontario Ltd. ,Clear Medical Imaging,410 Giles Boulevard East,Windsor,Radiography
+6346054,11805177 Canada Inc. ,Care Medical Imaging,9651 Yonge Street,Richmond Hill,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+6346094,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,4949 Bathurst Street,North York,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+6359249,Dr. Joseph J.K. Ma Medicine Professional Corporation ,Dr. Joseph J.K. Ma Medicine Professional Corporation,162 Willowdale Avenue,North York,Ophthalmic Ultrasound
+6397967,Peterborough OB/GYN Imaging ,Peterborough OB/GYN Imaging,707 Charlotte Street,Peterborough,Obs/Gyn Ultrasound
+6399969,Bar Nik Inc. ,Eglinton Danforth Road Radiology,2805 Eglinton Avenue East,Scarborough,General Ultrasound
+6410566,2456462 Ontario Limited ,Metro Radiology (Markham),1371 Neilson Road,Scarborough,Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+6419378,Bayview Hill Diagnostic Imaging Inc. ,Bayview Hill Diagnostic Imaging,1 Spadina Road,Richmond Hill,General Ultrasound|Radiography
+6442467,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,260 Nebo Road,Hamilton,General Ultrasound
+6446092,Clearview Diagnostic Imaging Inc. ,Midtown Diagnostic Imaging,1849 Yonge Street,Toronto,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+6446292,L.S.G. Holding Ltd. ,IVF Canada,2347 Kennedy Road,Scarborough,Obs/Gyn Ultrasound
+6449987,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+6450566,Hitek Medical Imaging Inc. ,Hitek Medical Imaging,6464 Yonge Street,North York,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+6476722,Bellesmere Medical Diagnostic Centre Inc. ,"Bellesmere X-Ray, Ultrasound & Bone Density",1920 Ellesmere Road,Scarborough,Bone Mineral DXA|General Ultrasound|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Radiography|Vascular Ultrasound
+6477901,2360864 Ontario Inc. ,Markham Diagnostic Centre,5293 Highway 7 East,Markham,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+6478174,EMDI Holdings Inc. ,Uptown Eye Specialists,7900 Hurontario Street,Brampton,Ophthalmic Ultrasound
+6479141,Clinic Management & Technical Services ,West Whitby Sleep Clinic,198 Des Newman Boulevard,Whitby,Sleep Studies
+6479726,Specialty Medical Partners (HVI) Inc. ,Humber Valley Imaging Vaughan,191 McNaughton Road East,Maple,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+6503755,Impexxus Medical Imaging Inc. ,Oshawa X-Ray & Ultrasound,11 Gibb Street,Oshawa,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+6506715,2539398 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Golden Gate,100 Pertosa Drive,Brampton,Radiography
+6506810,123 Edward Street Diagnostic Imaging Ltd. ,123 Edward Street Diagnostic Imaging Ltd.,123 Edward Street,Toronto,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+6521323,Ellesmere X-Ray Inc. ,Harwood X-Ray and Ultrasound,601 Harwood Avenue South,Ajax,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+6525556,2595249 Ontario Inc. ,Credit Valley Diagnostic Centre,100 Nipissing Road,Milton,Bone Mineral DXA|Fluoroscopy|Mammography|Radiography
+6542468,2412209 Ontario Inc. ,Jane-Shoreham Diagnostic Services,4640 Jane Street,North York,General Ultrasound|Radiography
+6543634,Alpha Diagnostic Imaging Inc. ,Milliken Wells X-Ray and Ultrasound,2130 Lawrence Avenue East,Scarborough,Bone Mineral DXA|General Ultrasound|Radiography
+6587309,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,"1060 Speers Road, Suite 111",Oakville,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+6595963,High-Tech Medical Imaging Inc. ,Hitek Medical Imaging,245 Dixon Road,Etobicoke,General Ultrasound|Radiography
+6597961,Clarity Eye Institute Inc. ,Clarity Eye Institute,2238 Dundas Street West,Toronto,Ophthalmic Ultrasound
+6599764,2079735 Ontario Inc. ,Etobicoke Brampton Sleep Clinic,106 Humber College Boulevard,Etobicoke,Sleep Studies
+6601306,Dr. Ye Sl Lee ,Dr. E. Y. Lee Ophthalmology Clinic,525 Park Road North,Brantford,Ophthalmic Ultrasound
+6601506,Clearview Diagnostic Imaging Inc. ,True North Imaging - Generation Vaughan,955 Major Mackenzie Drive,Maple,General Ultrasound|Obs/Gyn Ultrasound
+6604270,Gastro Health Partners Inc. ,The Gastroenterology Unity Toronto (GUT) Clinic,181 Sterling Road,Toronto,GI-Endoscopy
+6621344,Canadian Diagnostic Network Inc. ,Canadian Diagnostic Network Inc.,1380 Upper Canada Street,Kanata,Bone Mineral DXA|General Ultrasound|Radiography
+6633552,1001166626 Ontario Inc. ,Rockwood Diagnostic Imaging,178 Alma Street,Rockwood,Radiography
+6651316,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,115 Parkdale Avenue South,Hamilton,General Ultrasound
+6658219,Rahim Medical Diagnostic Corporation ,Medscan Medical Imaging,6870 Goreway Drive,Mississauga,General Ultrasound|Radiography
+6661241,Metro Health Network Inc. ,Toronto Lung Care Clinic,1110 Sheppard Avenue East,North York,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+6678190,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,462 Birchmount Road,Scarborough,Radiography
+6683956,2382139 Ontario Inc. ,Dundas Medical Imaging,60 Hatt Street,Dundas,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+6710205,Specialty Medical Partners (HVI) Inc. ,PDS Diagnostic Imaging,2 Champagne Drive,North York,Bone Mineral DXA|Mammography|Radiography|Vascular Ultrasound
+6714271,Centre for Sleep and Chronobiology Inc. ,Centre for Sleep and Chronobiology Inc.,1054 Wilson Avenue,North York,Sleep Studies
+6739562,Georgian Imaging Incorporated ,Georgian Radiology Consultants - Huronia,480 Huronia Road,Barrie,General Ultrasound|Radiography|Vascular Ultrasound
+6768912,Canadian Diagnostic Network West Inc. ,Canadian Diagnostic Network,100 Marie Curie Private,Ottawa,General Ultrasound|Radiography
+6797226,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,464 Welland Avenue,St. Catharines,Radiography
+6801400,York X-Ray Management Limited ,York Radiology and Ultrasound Consultants,1100 Sheppard Avenue East,North York,General Ultrasound|Radiography|Vascular Ultrasound
+6812145,Donvale Ultrasound Services Ltd. ,Donvale Ultrasound Services Ltd.,521 Victoria Park Avenue,Scarborough,General Ultrasound
+6867950,Parkmount X-Ray & Ultrasound Services Ltd. ,Antrim X-Ray and Ultrasound,2 Antrim Crescent,Scarborough,Fluoroscopy|General Ultrasound|Radiography
+6872794,Clearview Diagnostic Imaging Inc. ,Bay Street Ultrasound,655 Bay Street,Toronto,General Ultrasound|Vascular Ultrasound
+6882555,North Toronto Eye Care Inc. ,North Toronto Eye Care Inc.,2065 Finch Avenue West,North York,Ophthalmic Ultrasound
+6905969,2456462 Ontario Limited ,Metro Radiology (Vaughan),4600 Highway 7 West,Woodbridge,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vitro|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+6929910,Dr. Christopher J. Anjema Medicine Professional Corporation ,Anjema Eye Institute,735 St. Clair Street,Chatham,Ophthalmic Ultrasound
+6941194,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,464 Welland Avenue,St. Catharines,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+6988415,2598407 Ontario Inc. ,PEAK Sleep London,931 Commissioners Road East,London,Sleep Studies
+6991291,2659428 Ontario Inc. ,GNMI MRI & CT,300 Harwood Avenue South,Ajax,Computed Tomography|Magnetic Resonance Imaging
+7017229,Specialty Medical Partners (HVI) Inc. ,College Diagnostic Imaging,474 College Street,Toronto,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+7026614,Clarity Eye Institute Inc. ,Clarity Eye Institute,2855 Markham Road,Scarborough,Ophthalmic Ultrasound
+7031510,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,2075 Hadwen Road,Mississauga,Positron Emission Tomography
+7057621,J.B.V. Management Services Ltd. ,Bloor Christie X-Ray and Ultrasound,716 Bloor Street West,Toronto,Bone Mineral DXA|General Ultrasound|Radiography
+7057816,Merivale Medical Imaging Inc. ,Merivale Medical Imaging - Hunt Club,1145 Hunt Club Road,Ottawa,Radiography|Urologic Ultrasound
+7072621,N.S. Huq Medicine Professional Corporation ,Rosedale Centre for Plastic Surgery,5668 Main Street,Niagara Falls,Plastic Surgery
+7076413,2290777 Ontario Inc. ,Trenton Diagnostics Inc.,7 Metcalfe Street,Trenton,Bone Mineral DXA
+7085583,Elgin Medical Research Inc. ,Elgin Medical Institute,300 South Edgeware Road,St. Thomas,GI-Endoscopy
+7116100,Keswick Imaging Inc. ,Keswick Advanced Imaging,23546 Woodbine Avenue,Keswick,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vitro|Nuclear Medicine - In Vivo - General|Radiography|Vascular Ultrasound
+7147908,Sault Ste. Marie and District Group Health Association ,Sault Ste. Marie and District Group Health Association,240 McNabb Street,Sault Ste. Marie,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+7174424,MedSleep Inc. ,MedSleep Milton,611 Holly Avenue,Milton,Sleep Studies
+7187966,MIS Health Resources Inc. ,Astra Minimally Invasive Surgery Unit,4296 Village Centre Court,Mississauga,Obs/Gyn
+7209495,Dr. Charles K.N. Chan ,Agincourt Pulmonary Services,240 Alton Towers Circle,Scarborough,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+7215989,Respiratory & PFT Services Inc. ,Respiratory & PFT Services Inc.,2130 Lawrence Avenue East,Scarborough,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+7234709,MedSleep Inc. ,Toronto Sleep Institute,1929 Bayview Avenue,East York,Sleep Studies
+7249105,Dr. Tarek Youssef Medicine Professional Corporation ,Dr. Tarek Youssef Medicine Professional Corporation,127 Sydney Street,Cornwall,Ophthalmic Ultrasound
+7259100,2456462 Ontario Limited ,Metro Radiology (Lakeshore),3170 Lake Shore Boulevard West,Etobicoke,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+7259110,Specialty Medical Partners (Midtown) Inc. ,Specialty Medical Partners (Midtown) Inc.,491 Lawrence Avenue West,North York,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+7288988,2582124 Ontario Inc. ,Oshawa Diagnostic Imaging,247 Simcoe Street North,Oshawa,Radiography
+7297831,Sleep Clinic Kitchener Inc. ,PEAK Sleep Cambridge,33 Blair Road,Cambridge,Sleep Studies
+7300881,2392789 Ontario Inc. ,Brantford Radiology Group,40 Shellington Place,Brantford,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+7307202,2434449 Ontario Limited ,2434449 ONTARIO LIMITED - Woodbine Steeles Sleep Clinic,7155 Woodbine Avenue,Markham,Sleep Studies
+7319242,Can Med Equipment Inc. ,Can Med Equipment Inc.,22 Costello Drive,Carleton Place,Obs/Gyn Ultrasound
+7321714,Clearview Diagnostic Imaging Inc. ,True North Imaging - The Board Walk,36 York Mills Road,North York,General Ultrasound
+7322335,Stein Surgical Centre Inc. ,Stein Surgical Centre Inc.,40 Prince Arthur Avenue,Toronto,Eye Surgery
+7341419,2537431 Ontario Inc. ,WNR,10 Church Street West,Elmira,Obs/Gyn Ultrasound
+7354767,Praesentia Diagnostic Corp. ,Alfa-Scan Caledonia,55 Argyle Street North,Caledonia,Bone Mineral DXA|General Ultrasound|Radiography
+7381723,Dr. Andrew W. Taylor ,Peninsula Eye Associates,6800 Morrison Street,Niagara Falls,Ophthalmic Ultrasound
+7398810,1440762 Ontario Inc. ,Canadian Vascular Laboratories,30 Disera Drive,Thornhill,Vascular Ultrasound
+7398890,X-Ray Associates Inc. ,X-Ray Associates,679 Davis Drive,Newmarket,General Ultrasound|Radiography
+7400617,CVL NEWMARKET INC. ,Canadian Vascular Laboratories,535 Mulock Drive,Newmarket,General Ultrasound|Vascular Ultrasound
+7423510,2456462 Ontario Limited ,Metro Radiology (L'Amoreaux),2010 Eglinton Avenue West,York,Fluoroscopy|General Ultrasound
+7431393,Focus Medical Ancillary Inc. ,Everest Surgicentre,1105 Carling Avenue,Ottawa,Eye Surgery
+7441460,1001036091 Ontario Inc. ,Downsview X-Ray and Ultrasound,1056 Wilson Avenue,North York,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography
+7458845,X-Ray Associates Inc. ,X-Ray Associates,125 Pederson Drive,Aurora,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+7462261,MR Imaging Corp ,Women's Ultrasound Centre,1355 Bank Street,Ottawa,Obs/Gyn Ultrasound
+7476710,Aylmer Ultrasound Inc. ,Aylmer Ultrasound,418 Talbot Street West,Aylmer,General Ultrasound|Vascular Ultrasound
+7477927,Dr. Emir Ali ,Mackenzie Clinic,450 Central Avenue,London,Mobile Pulmonary Function - Other Fee Codes|Mobile Pulmonary Function - Pure Screening|Mobile Pulmonary Function Lung Volumes & Diffusion
+7479246,2540794 Ontario Inc. ,Ontario Diagnostic Centre (ODC) - Etobicoke,85 The East Mall,Etobicoke,Bone Mineral DXA|Pulmonary Function B - Lung Volumes & Diffusion|Radiography
+7499244,Carling Pulmonary Function Services Inc. ,Carling Pulmonary Function Services,1081 Carling Avenue,Ottawa,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+7514768,North York Pulmonary Function Center Inc. ,North York Pulmonary Function Center,2 Champagne Drive,North York,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+7525902,X-Ray Associates Inc. ,X-Ray Associates,250 Harding Boulevard West,Richmond Hill,Radiography
+7541489,Sylvan Brook Holdings Ltd. ,Aurora Medical Centre X-Ray & Ultrasound,15017 Yonge Street,Aurora,Bone Mineral DXA|General Ultrasound|Radiography
+7565349,Precision Cornea Centre Inc. ,Precision Cornea Centre Inc.,1730 St. Laurent Boulevard,Ottawa,Ophthalmic Ultrasound
+7597613,Peterborough Radiology Associates Ltd. ,Turnbull Diagnostic Imaging,170 Simcoe Street,Peterborough,General Ultrasound|Radiography|Vascular Ultrasound
+7600385,795292 Ontario Limited ,Courtice Health Centre,1450 Highway #2,Courtice,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+7613794,1900476 Ontario Inc. ,Dragon City X-Ray & Ultrasound,280 Spadina Avenue,Toronto,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+7635696,Dr. Kranemann Medicine Professional Corporation ,Dr. Kranemann Medicine Professional Corporation,4100 Yonge Street,North York,Ophthalmic Ultrasound
+7641693,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates - Highpoint,3461 Dixie Road,Mississauga,Bone Mineral DXA|Mammography|Radiography
+7641842,Clearview Diagnostic Imaging Inc. ,True North Imaging,430 The Boardwalk,Waterloo,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+7641890,Clearview Diagnostic Imaging Inc. ,Bloor Street East Ultrasound,160 Bloor Street East,Toronto,General Ultrasound
+7643018,Leamington Sleep Laboratory (Essex) Ltd. ,Leamington Sleep Laboratory (Essex) Ltd.,33 Princess Street,Leamington,Sleep Studies
+7673856,Praesentia Diagnostic Corp. ,Alfa-Scan Hamilton,1223 Barton Street East,Hamilton,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+7698830,2456462 Ontario Limited ,Metro Radiology (Wilson),1275 Finch Avenue West,North York,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+7700617,Pape Avenue X-Ray Ltd. ,Pape Avenue X-Ray Ltd.,757 Pape Avenue,Toronto,Radiography
+7724098,Can Med Equipment Inc. ,Canadian Diagnostic Network,1181 Hunt Club Road,Ottawa,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+7761988,The Dove Corporation ,Rockland Imaging,2741 Chamberland Street,Rockland,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+7784189,2444271 Ontario Inc. ,Dufferin Medical Imaging Centre,2045 Dufferin Street,York,Radiography
+7792106,Uptown Eye Specialists Inc. ,Uptown Eye Specialists,2180 Steeles Avenue West,Concord,Ophthalmic Ultrasound
+7802188,Wilson Medical Centre Inc. ,Wilson Medical Centre X-Ray & Ultrasound,130 Wilson Street,Hamilton,Bone Mineral DXA|General Ultrasound|Radiography
+7815710,Metro Health Network Inc. ,Toronto Sleep Clinic,5 Fairview Mall Drive,North York,Sleep Studies
+7845546,Universal Sleep Disorder Clinic Inc. ,Universal Sleep Disorder Clinic,2888 Bathurst Street,North York,Sleep Studies
+7855678,Clearview Diagnostic Imaging Inc. ,Markham Mammography,39 Main Street Markham North,Markham,General Ultrasound|Mammography
+7936930,1001104531 Ontario Inc. ,Richmond Hill Sleep and Lung Institute,330 Highway 7 East,Richmond Hill,Pulmonary Function A - Pure Screening|Sleep Studies
+7951319,EXR Medical Imaging Inc. ,Ellesmere X-Ray Associates,2880 Ellesmere Road,Scarborough,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+7981219,2324317 Ontario Ltd. ,Clear Medical Imaging,2930 Dominion Boulevard,Windsor,Radiography
+7993519,Clearview Diagnostic Imaging Inc. ,True North Imaging - Pollin,2360 Yonge Street,Toronto,General Ultrasound
+8002369,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,1200 Markham Road,Scarborough,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Radiography
+8005265,1076254 Ontario Limited ,Sheppard Court X-Ray & Ultrasound,3410 Sheppard Avenue East,Scarborough,Radiography
+8022301,Specialty Medical Partners (HVI) Inc. ,Unionville Diagnostic Imaging,10 Unionville Gate,Markham,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+8023712,2376440 Ontario Inc. ,WELL Health Diagnostic Centres,1122 LaSalle Boulevard,Sudbury,General Ultrasound|Radiography
+8026714,2376440 Ontario Inc. ,WELL Health Diagnostic Centres,2009 Long Lake Road,Sudbury,General Ultrasound|Radiography
+8033567,Iizuka Medicine Professional Corporation ,Oakville Laser Eye Centre / Oakville Trafalgar Eye Centre,2401 Bristol Circle,Oakville,Ophthalmic Ultrasound
+8033569,Peterborough Vascular Lab Inc. ,Peterborough Vascular Lab,270 Charlotte Street,Peterborough,General Ultrasound|Vascular Ultrasound
+8041794,2376440 Ontario Inc. ,WELL Health Diagnostic Centres,40 Elm Street,Sudbury,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+8043924,Mr. Udaya Shankar Padmakaran ,Toronto Sleep & Pulmonary Centre,123 Edward Street,Toronto,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Sleep Studies
+8045380,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile General Ultrasound|Mobile Obs/Gyn Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+8076918,Lusitropic Diagnostics Inc. ,Lusitropic Diagnostics Inc.,194 North Court Street,Thunder Bay,Bone Mineral DXA|General Ultrasound|Mammography|Ophthalmic Ultrasound|Radiography|Vascular Ultrasound
+8077714,Cambridge Diagnostic Imaging Inc. ,Cambridge Diagnostic Imaging Inc.,167 Hespeler Road,Cambridge,General Ultrasound|Radiography|Vascular Ultrasound
+8077920,Dr. Jordan W. Cheskes ,Scarborough Eye Associates,2941 Lawrence Avenue East,Scarborough,Ophthalmic Ultrasound
+8077929,Ontario Imaging Center Inc. ,SHELBURNE DIAGNOSTIC IMAGING,303 Col. Phillips Drive,Shelburne,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Obs/Gyn|Radiography|Vascular Ultrasound
+8087364,Oak Ridges Medical Diagnostic Imaging Inc. ,Oak Ridges Medical Diagnostic Imaging,13291 Yonge Street,Richmond Hill,Bone Mineral DXA|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+8093940,2593049 Ontario Inc. ,Brampton Vascular Imaging,11755 Bramalea Road,Brampton,Vascular Ultrasound
+8099989,Thunder Bay Diagnostics Inc. ,Thunder Bay Diagnostics Inc.,530 - 10th Avenue,Thunder Bay,General Ultrasound|Radiography
+8100003,2352898 Ontario Inc. ,Northwest Imaging Associates,2221 Keele Street,North York,Fluoroscopy|General Ultrasound|Radiography
+8102441,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,2300 Eglinton Avenue West,Mississauga,General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+8125414,1921323 Ontario Inc. ,Med Image Diagnostic Centre,31 Tapscott Road,Scarborough,Bone Mineral DXA|General Ultrasound|Radiography
+8130576,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,2525 Old Bronte Road,Oakville,Bone Mineral DXA|General Ultrasound|Radiography
+8134489,Orillia X-Ray & Ultrasound Inc. ,Orillia X-Ray & Ultrasound Inc.,16 O'Brien Street,Orillia,General Ultrasound|Radiography|Vascular Ultrasound
+8155300,Specialty Medical Partners (TCC) Inc. ,Toronto Cardiac Clinic,829 St. Clair Avenue West,Toronto,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+8159666,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,1 Young Street,Hamilton,Radiography
+8163056,Canadian Medical Licences Inc. ,Canadian Medical Licences Inc.,91 Cornelia Street West,Smiths Falls,Bone Mineral DXA|Mammography|Radiography
+8170383,Mr. Udaya Shankar Padmakaran ,SLEEP CARE Solutions Scarborough,520 Ellesmere Road,Scarborough,Sleep Studies
+8177301,Linde Canada Inc. ,York County Sleep Disorders Centre,28 Main Street North,Newmarket,Sleep Studies
+8179104,MedSleep Inc. ,Brampton Sleep Clinic,40 Finchgate Boulevard,Brampton,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Sleep Studies
+8186413,Mr. Udaya Shankar Padmakaran ,Ellesmere Sleep Disorders Centre,520 Ellesmere Road,Scarborough,Sleep Studies
+8193853,1543730 Ontario Inc. ,Barrie Vascular Imaging,60 Bell Farm Road,Barrie,General Ultrasound|Vascular Ultrasound
+8195934,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,180 Vine Street South,St. Catharines,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+8197940,MedSleep Inc. ,Toronto Sleep Institute,7099 Yonge Street,Thornhill,Sleep Studies
+8219102,Clearview Diagnostic Imaging Inc. ,True North Imaging - Sheppard,1780 Markham Road,Scarborough,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+8248436,Benya Inc. ,The Morgentaler Clinic,727 Hillsdale Avenue East,Toronto,Abortion
+8249983,Hitek Medical Imaging Inc. ,Hitek Yonge Medical Imaging,6464 Yonge Street,North York,Mammography
+8276421,2376440 Ontario Inc. ,WELL Health Diagnostic Centres,2009 Long Lake Road,Sudbury,Radiography
+8277482,Windflower Diagnostic Imaging Inc. ,Windflower Diagnostic Imaging Inc.,200 Windflower Gate,Woodbridge,Bone Mineral DXA|Mammography|Radiography
+8294097,Dr. Peter W. Harding ,Dr. Peter W. Harding,879 Shefford Road,Gloucester,Ophthalmic Ultrasound
+8315235,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,282 Linwell Road,St. Catharines,General Ultrasound|Radiography
+8315668,2050912 Ontario Inc. ,Kitchener-Waterloo Vascular Laboratory,932 King Street West,Kitchener,General Ultrasound|Vascular Ultrasound
+8361818,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates,3461 Dixie Road,Mississauga,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+8379411,MyHealth Partners Inc. ,WELL Health Diagnostic Centre,3000 Lawrence Avenue East,Scarborough,General Ultrasound|Radiography|Vascular Ultrasound
+8380567,2324317 Ontario Ltd. ,Clear Medical Imaging,59 Main Street East,Kingsville,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+8413510,1000609517 Ontario Inc. ,Thorncliffe Radiology,45 Overlea Boulevard,Toronto,Bone Mineral DXA|Radiography
+8414031,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,760 Brant Street,Burlington,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+8421419,2189808 Ontario Limited ,Holly Endoscopy Clinic,40 Holly Street,Toronto,GI-Endoscopy
+8422510,GTA East Medical Imaging Corp. ,Lighthouse Medical Imaging - Fairview,5 Fairview Mall Drive,North York,Vascular Ultrasound
+8423504,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,955 Queen Street East,Sault Ste. Marie,Radiography
+8423583,London X-Ray Associates Inc. ,London X-Ray Associates,595 Bradley Avenue,London,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+8432546,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,General Ultrasound|Radiography|Vascular Ultrasound
+8443988,MKR Holdings Inc. ,Medscan Medical Imaging,6870 Goreway Drive,Mississauga,Fluoroscopy
+8446982,Impexxus Medical Imaging Inc. ,Impexxus Medical Imaging,1615 Dundas Street East,Whitby,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+8477146,MedSleep Inc. ,Limestone City Sleep Lab,920 Princess Street,Kingston,Sleep Studies
+8477160,Oshawa-Durham Sleep Laboratory Inc. ,Oshawa-Durham Sleep Laboratory,292 King Street West,Oshawa,Sleep Studies
+8513766,Trillium Sleep Laboratory Inc. ,Trillium Sleep Laboratory,4190 Finch Avenue East,Scarborough,Sleep Studies
+8566457,Whitby Diagnostics Centre Limited ,Whitby Cardiovascular,3020 Brock Street North,Whitby,Pulmonary Function - Other Fee Codes|Pulmonary Function A - Pure Screening|Pulmonary Function C - Escalated Testing|Vascular Ultrasound
+8592398,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+8597363,1317563 Ontario Inc. ,Bluewater Sleep Disorder Clinic,1315 Michigan Avenue,Sarnia,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Sleep Studies
+8620970,Dr. Niranjan Vijayakanthan ,Eye Specialists of Northern Ontario,133 Main Street West,North Bay,Ophthalmic Ultrasound
+8621976,StL Diagnostic Imaging Inc. ,StL Diagnostic Imaging,3155 Harvester Road,Burlington,Mobile General Ultrasound|Mobile Radiography|Mobile Vascular Ultrasound
+8626306,MedSleep Inc. ,MedSleep Inc.,549 King Street East,Toronto,Sleep Studies
+8661227,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,462 Birchmount Road,Scarborough,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+8667902,9731873 Canada Corporation ,Bayview Diagnostic Centre,9160 Bayview Avenue,Richmond Hill,Radiography|Vascular Ultrasound
+8754641,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,3155 Harvester Road,Burlington,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+8763574,SCOPE Clinic Inc. ,Scope Clinic,470 Chrysler Drive,Brampton,GI-Endoscopy
+8806931,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,100 Queen Street,Ottawa,Bone Mineral DXA|General Ultrasound|Radiography
+8823157,2582124 Ontario Inc. ,Oshawa Vascular Laboratory and Ultrasound Imaging,247 Simcoe Street North,Oshawa,General Ultrasound|Vascular Ultrasound
+8827980,N.S. Huq Medicine Professional Corporation ,Niagara Plastic Surgery Centre,5668 Main Street,Niagara Falls,Plastic Surgery
+8833275,2728552 Ontario Inc. ,Uxbridge Medical Imaging,2 Elgin Park Drive,Uxbridge,Bone Mineral DXA|General Ultrasound|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Radiography|Vascular Ultrasound
+8843012,Dr. Vipul Jairath ,London Digestive Disease Institute,785 Wonderland Road South,London,GI-Endoscopy
+8844468,Kingston Medical Imaging Inc. ,Kingston MRI,776 Blackburn Mews East,Kingston,Magnetic Resonance Imaging
+8849984,Taj Imaging Inc. ,Tottenham Diagnostic Imaging,130 Mill Street East,Tottenham,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+8885646,Southwest Ultrasound Ltd. ,Southwest Ultrasound Limited,460 Wellington Street,St. Thomas,General Ultrasound|Urologic Ultrasound|Vascular Ultrasound
+8897391,The Kensington Eye Institute ,Kensington Vision & Research Centre,340 College Street,Toronto,Ophthalmic Ultrasound
+8919908,2659428 Ontario Inc. ,GNMI MRI & CT,10 Kingsbridge Garden Circle,Mississauga,Radiography
+8952609,1000350689 Ontario Inc. ,Ontario Radiology (OR) - Yonge,1366 Yonge Street,Toronto,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+8958536,Focus Medical Ancillary Inc. ,Focus Medical Ancillary Inc.,750 Palladium Drive,Kanata,Ophthalmic Ultrasound
+8998526,Dr. Mark Bariciak ,Dr. Mark Bariciak,677 Great Northern Road,Sault Ste. Marie,Ophthalmic Ultrasound
+9011776,Greater Niagara Medical Imaging Inc. ,Greater Niagara Medical Imaging,37 Main Street East,Grimsby,General Ultrasound|Radiography
+9022036,1000005758 Ontario Inc. ,Oshawa Ultrasound Diagnostic Services,550 Bond Street West,Oshawa,General Ultrasound
+9062513,MetroWest Pulmonary Diagnostic Inc. ,One Breath,89 Queensway West,Mississauga,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing
+9067225,York X-Ray Management Limited ,York X-Ray Management Limited,1450 O'Connor Drive,East York,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+9071108,Ivycroft Enterprises Inc. ,Karma Ultrasound,"379 Church Street, 5th Floor",Markham,Obs/Gyn Ultrasound
+9077907,8831335 Canada Inc. ,Ontario Diagnostic Centres (ODC) - Mississauga,801 Dundas Street East,Mississauga,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+9093617,2456462 Ontario Limited ,Metro Radiology (Glencairn),150 Eglinton Avenue East,Toronto,General Ultrasound|Radiography
+9096124,2771409 Ontario Inc. ,Taigu X-ray and Ultrasound,7155 Woodbine Avenue,Markham,Bone Mineral DXA|Radiography
+9100468,Centre for Sleep and Chronobiology Inc. ,Centre for Sleep and Chronobiology Inc.,295 College Street,Toronto,Sleep Studies
+9128031,Sleep Clinic Kitchener Inc. ,PEAK Sleep Kitchener,100 Garment Street,Kitchener,Sleep Studies
+9132225,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,462 Birchmount Road,Scarborough,Bone Mineral DXA|General Ultrasound
+9152094,Algonquin X-Ray & Ultrasound Services ,Algonquin X-Ray & Ultrasound Services,1221 Algonquin Avenue,North Bay,General Ultrasound|Radiography
+9156707,Nimesh Desai Medicine Professional Corporation ,Nimesh Desai Medicine Professional Corporation,4278 King Street East,Kitchener,Ophthalmic Ultrasound
+9175675,2392789 Ontario Inc. ,Brantford Radiology Group,270 King George Road,Brantford,Radiography
+9213446,9421467 Canada Inc. ,Anova Fertility & Reproductive Health,25 Sheppard Avenue West,North York,General Ultrasound
+9312394,Canadian Medical Licences Inc. ,Hillview Urgent Diagnostic Imaging Center,320 March Road,Kanata,General Ultrasound|Radiography
+9361147,Dixie X-Ray Associates Limited ,Vaughan Imaging Consultants,8333 Weston Road,Woodbridge,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Radiography|Vascular Ultrasound
+9362513,Life Scan Diagnostic and Imaging Clinic Inc. ,Life Scan Diagnostic and Imaging Clinic Inc.,5525 Eglinton Avenue West,Etobicoke,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+9364847,2548781 Ontario Limited (GDI Gam Diagnostic Imaging) ,Bramalea X-Ray and Ultrasound,18 Kensington Road,Brampton,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+9367999,1997207 Ontario Incorporated ,Pickering Diagnostic Imaging Centre,1885 Glenanna Road,Pickering,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion|Pulmonary Function C - Escalated Testing|Radiography|Vascular Ultrasound
+9401190,2479173 Ontario Ltd. ,Westney Heights Diagnostic Centre,15 Westney Road North,Ajax,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+9422897,2747129 Ontario Inc. ,King City Diagnostic Imaging,1700 King Road,King City,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+9454133,MyHealth Partners Inc. ,WELL Health Diagnostic Centres,348 Muskoka Road 3 North,Huntsville,General Ultrasound
+9472518,2525102 Ontario Ltd. ,Toronto Ultrasound Imaging,180 Bloor Street West,Toronto,General Ultrasound
+9473928,Clearview Diagnostic Imaging Inc. ,True North Imaging - Thornhill,7330 Yonge Street,Thornhill,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+9478578,Georgian Imaging Services ,Georgian Radiology Consultants - Bellfarm,11 Lakeside Terrace,Barrie,Radiography
+9479040,Wentworth-Halton X-Ray and Ultrasound Inc. ,Wentworth-Halton X-Ray and Ultrasound Inc.,245 Dundas Street East,Waterdown,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+9491544,MyHealth Partners Inc. ,WELL Health Sleep Centres,480 Chrysler Drive,Brampton,Sleep Studies
+9537139,OV Surgical Centre Limited ,OV Surgical Centre Limited,199 Avenue Road,Toronto,Orthopedics Surgery
+9546009,West GTA Endoscopy Inc. ,West GTA Endoscopy Clinic,3545 Odyssey Drive,Mississauga,GI-Endoscopy
+9567992,2324317 Ontario Ltd. ,Clear Medical Imaging,13300 Tecumseh Road East,Tecumseh,Bone Mineral DXA|Fluoroscopy|General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Vascular Ultrasound
+9571127,Bethany Medical Properties Inc. ,Bethany Medical Properties Inc.,3331 Line 4 North,Oro-Medonte,Ophthalmic Ultrasound
+9592312,Mr. Raja Hamid ,Lawrence-Kingston Road X-Ray & Ultrasound,4125 Lawrence Avenue East,Scarborough,Bone Mineral DXA|General Ultrasound|Radiography
+9593010,Northwest Nuclear Imaging Limited ,Scarborough Cardiac Diagnostic Centre,2391 Eglinton Avenue East,Scarborough,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+9601064,Merivale Medical Imaging Inc. ,Merivale Medical Imaging,1545A Merivale Road,Nepean,General Ultrasound|Mammography|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Vascular Ultrasound
+9611404,10712078 Canada Ltd. ,Radiant Medical Imaging,385 Silver Star Boulevard,Scarborough,Fluoroscopy|General Ultrasound|Radiography
+9631550,North American Diagnostic Network Services Inc. ,Whitby X-Ray & Ultrasound Imaging,3050 Garden Street,Whitby,General Ultrasound|Radiography|Vascular Ultrasound
+9641007,2639451 Ontario Ltd. ,Annex Medical Imaging,800 Bathurst Street,Toronto,Bone Mineral DXA|Fluoroscopy|Mammography|Radiography
+9641407,Bar Nik Inc. ,Eglinton Danforth Road Radiology,2805 Eglinton Avenue East,Scarborough,Radiography
+9645264,Clearview Diagnostic Imaging Inc. ,True North Imaging,751 Victoria Street South,Kitchener,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+9651464,1000943039 Ontario Inc. ,Vaughan Diagnostic and Cardiac Centre,2640 Rutherford Road,Concord,Bone Mineral DXA|General Ultrasound|Radiography
+9652595,2601398 Ontario Inc. ,Anova Health Centre Infertility & Obstetrics Guelph,89 Dawson Road,Guelph,General Ultrasound
+9653578,Canadian Medical Licences Inc. ,Canadian Medical Licences Inc.,1221 Greenbank Road,Nepean,General Ultrasound|Radiography
+9657578,GHA Surgical Centre Ltd. ,GHA Surgical Centre,726 Upper James Street,Hamilton,GI-Endoscopy
+9669730,1049604 Ontario Inc. ,Markham Imaging Consultants,110 Copper Creek Drive,Markham,Bone Mineral DXA|General Ultrasound|Radiography|Vascular Ultrasound
+9669790,Kawartha Respirology Diagnostic Services Inc. ,Kawartha Respirology Diagnostic Services Inc.,327 Charlotte Street,Peterborough,Pulmonary Function A - Pure Screening|Pulmonary Function B - Lung Volumes & Diffusion
+9682732,Torcan Women's Reproductive Health Clinic Inc. ,Torcan Women's Reproductive Health Clinic Inc.,1678 Bloor Street West,Toronto,Abortion
+9718852,MCH Management Inc. ,Finchview X-Ray & Ultrasound,1315 Finch Avenue West,North York,Bone Mineral DXA|General Ultrasound|Radiography
+9721107,Specialty Medical Partners (Ottawa) Inc. ,The Ottawa Cardiovascular Centre,1355 Bank Street,Ottawa,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+9721188,2324317 Ontario Ltd. ,Clear Medical Imaging,7875 Riverside Drive East,Windsor,Radiography
+9728856,2537431 Ontario Inc. ,WNR,380 King Street North,Waterloo,Nuclear Medicine - In Vitro|Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT|Ophthalmic Ultrasound
+9795093,Dr. John T. Christakis ,Dr. John Christakis,245 Danforth Avenue,Toronto,Ophthalmic Ultrasound
+9808292,11102362 Canada Inc. ,Lucent Medical Imaging,3410 Sheppard Avenue East,Scarborough,General Ultrasound|Radiography
+9820029,2659428 Ontario Inc. ,Merivale Medical Imaging - MRI & CT,1545A Merivale Road,Nepean,Computed Tomography
+9827632,J.B.V. Management Services Ltd. ,Lawrence Bathurst X-Ray & Ultrasound,508 Lawrence Avenue West,North York,Bone Mineral DXA|General Ultrasound|Radiography
+9842694,Bryan Tak-Chee Chung Medical Professional Corporation ,Catalyst Surgical,325 Eglinton Avenue East,Toronto,Plastic Surgery
+9847123,2639451 Ontario Ltd. ,Annex Medical Imaging,800 Bathurst Street,Toronto,General Ultrasound|Vascular Ultrasound
+9852054,Dixon Diagnostics Ltd. ,Credit Valley Diagnostic Centre,78 - 3465 Platinum Drive,Mississauga,Radiography
+9863593,2324317 Ontario Ltd. ,Clear Medical Imaging,700 Tecumseh Road East,Windsor,Radiography
+9866432,Calotti Medicine Professional Corporation ,Great Lakes Eye Centre,99 Wayne Gretzky Parkway,Brantford,Ophthalmic Ultrasound
+9874838,2747129 Ontario Inc. ,"King City X-Ray, Ultrasound & Vascular Lab",1700 King Road,King City,Computed Tomography
+9891410,1001146676 Ontario Inc. ,Cardiac Care North York,2005 Sheppard Avenue East,North York,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+9912394,2324317 Ontario Ltd. ,Clear Medical Imaging,2825 Lauzon Parkway,Windsor,General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+9966412,MyHealth Caledon Inc. ,WELL Health Diagnostic Centres,2 Dewside Drive,Brampton,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+9966472,KMH Cardiology Centres Inc. ,KMH Cardiology Centres Inc.,50 Minthorn Boulevard,Markham,Nuclear Medicine - In Vivo - General|Nuclear Medicine - In Vivo - SPECT
+9979238,2456462 Ontario Limited ,Northwest Imaging Associates,960 Lawrence Avenue West,North York,Radiography|Vascular Ultrasound
+9991410,Queensway X-Ray and Ultrasound Clinic Inc. ,Queensway X-Ray and Ultrasound Clinic,21 Queensway West,Mississauga,Bone Mineral DXA|General Ultrasound|Mammography|Radiography
+9991980,Canadian Medical Licences Inc. ,Canadian Diagnostic Network,154 Civic Centre Road,Petawawa,Bone Mineral DXA|General Ultrasound|Mammography|Radiography|Vascular Ultrasound
+9997530,Dixie X-Ray Associates Limited ,Dixie X-Ray Associates - Burnhamthorpe,1420 Burnhamthorpe Road East,Mississauga,Fluoroscopy|General Ultrasound|Radiography|Vascular Ultrasound
+9998501,One Vascular Corp. ,One Vascular Corp.,3280 Bloor Street West,Etobicoke,General Ultrasound|Vascular Ultrasound
