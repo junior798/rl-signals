@@ -655,31 +655,45 @@ def alberta_grants(o: Out, days: int):
         o.add(x.Recipient, 129, "Alberta grant payments", x.d, x.v, None, "AB", f"{x.Ministry}: {x.Program}")
 
 
+# ---------------------------------------------------------------- shared: remember when each item was first seen
+def first_seen(name: str, keys: list[str]) -> dict:
+    """Returns {key: first_seen_date}. Keys seen on the very first run are marked 'baseline' and never sent,
+    because we can't tell if they are new. Every later key keeps the date we first saw it, so a missed week
+    loses nothing: items first seen in the last 30 days are sent again and Supabase skips the repeats."""
+    st = load_state(name)
+    today = dt.date.today().isoformat()
+    known = dict(zip(st.key, st.first_seen)) if st is not None else {}
+    mark = "baseline" if st is None else today
+    for k in keys:
+        if k and k not in known:
+            known[k] = mark
+    save_state(name, pd.DataFrame({"key": list(known), "first_seen": list(known.values())}))
+    return known
+
+
+def recent(d: str, days: int = 30) -> bool:
+    return d != "baseline" and d >= since(days).isoformat()
+
+
 # ---------------------------------------------------------------- AGCO liquor applications (s210, s211)
 def agco(o: Out, days: int):
     r = get("https://www.agco.ca/sites/default/files/opendata/LiquorApplicationsUndergoingPublicNotice.csv")
     a = pd.read_csv(io.BytesIO(r.content), dtype=str, encoding_errors="replace").fillna("")
     a["k"] = a.premises_name.map(key)
-    seen = load_state("agco_seen")
-    first_run = seen is None
-    seen = seen if seen is not None else pd.DataFrame(columns=["file_number", "k", "address", "first_seen"])
-    today = dt.date.today().isoformat()
-    known_files = set(seen.file_number)
-    new = a[~a.file_number.isin(known_files)]
-    hist = pd.concat([seen[["k", "address"]], a[["k", "address"]]]).drop_duplicates()
+    fs = first_seen("agco_files", list(a.file_number))
+    hist = load_state("agco_names")
+    hist = pd.concat([hist if hist is not None else pd.DataFrame(columns=["k", "address"]), a[["k", "address"]]]).drop_duplicates()
+    save_state("agco_names", hist)
     multi = set(hist.groupby("k").address.nunique().loc[lambda s: s > 1].index)
-    if not first_run:
-        for _, x in new.iterrows():
-            area = f"{x.application_type_en} ({x.areas})"
-            if "Additions to Existing Licensed Areas" in x.application_type_en:
-                o.add(x.premises_name, 210, "AGCO liquor applications", today, None, x.city.title(), "ON", area)
-            elif x.application_type_en.startswith("New") and x.k in multi:
-                o.add(x.premises_name, 211, "AGCO liquor applications", today, None, x.city.title(), "ON", f"{area} at {x.address}")
-    else:  # first run: the current list is the baseline, but additions are still real and recent
-        for _, x in a[a.application_type_en.str.contains("Additions to Existing Licensed Areas")].iterrows():
-            o.add(x.premises_name, 210, "AGCO liquor applications", today, None, x.city.title(), "ON", f"{x.application_type_en} ({x.areas})")
-    add_rows = new.assign(first_seen=today)[["file_number", "k", "address", "first_seen"]]
-    save_state("agco_seen", pd.concat([seen, add_rows]).drop_duplicates("file_number"))
+    today = dt.date.today().isoformat()
+    for _, x in a.iterrows():
+        d = fs.get(x.file_number, today)
+        d = today if d == "baseline" else d  # applications are only listed while their 2-3 week notice runs
+        area = f"{x.application_type_en} ({x.areas})"
+        if "Additions to Existing Licensed Areas" in x.application_type_en:
+            o.add(x.premises_name, 210, "AGCO liquor applications", d, None, x.city.title(), "ON", area)
+        elif x.application_type_en.startswith("New") and x.k in multi:
+            o.add(x.premises_name, 211, "AGCO liquor applications", d, None, x.city.title(), "ON", f"{area} at {x.address}")
 
 
 # ---------------------------------------------------------------- BC liquor licences (s213)
@@ -700,16 +714,18 @@ def bc_liquor(o: Out, days: int):
         raise RuntimeError("BC liquor file could not be downloaded after 6 tries")
     b = pd.read_excel(io.BytesIO(content), sheet_name=0, dtype=str).fillna("")
     b = b[b["Licence Type"].str.contains("Food Primary|Liquor Primary|Manufacturer", case=False)]
-    seen = load_state("bc_liquor_seen")
-    today = dt.date.today().isoformat()
-    if seen is not None:
-        new = b[~b["Licence Number"].isin(set(seen.licence))]
-        for _, x in new.iterrows():
-            lic = x.Licensee if re.search(r"\b(ltd|inc|corp|limited|ulc)\b", x.Licensee, re.I) else re.sub(r"\s*\(\d+\)\s*$", "", x.Establishment)
-            kind = x["Licence Sub Category Id"] or x["Licence Type"]
-            o.add(lic, 213, "BC liquor licences", today, None, x["Establishment Address City"].title(), "BC",
-                  f"{kind}: {re.sub(r'\s*\(\d+\)\s*$', '', x.Establishment)}")
-    save_state("bc_liquor_seen", pd.DataFrame({"licence": sorted(set(b["Licence Number"]) | (set(seen.licence) if seen is not None else set()))}))
+    old = load_state("bc_liquor_seen")  # earlier format: one column of licence numbers
+    if old is not None and "licence" in old.columns:
+        save_state("bc_liquor_seen", pd.DataFrame({"key": old.licence, "first_seen": "baseline"}))
+    fs = first_seen("bc_liquor_seen", list(b["Licence Number"]))
+    for _, x in b.iterrows():
+        d = fs.get(x["Licence Number"], "baseline")
+        if not recent(d):
+            continue
+        lic = x.Licensee if re.search(r"\b(ltd|inc|corp|limited|ulc)\b", x.Licensee, re.I) else re.sub(r"\s*\(\d+\)\s*$", "", x.Establishment)
+        kind = x["Licence Sub Category Id"] or x["Licence Type"]
+        o.add(lic, 213, "BC liquor licences", d, None, x["Establishment Address City"].title(), "BC",
+              f"{kind}: {re.sub(r'\s*\(\d+\)\s*$', '', x.Establishment)}")
 
 
 # ---------------------------------------------------------------- Ontario surgical and imaging centres (s169, s171, s173)
@@ -718,25 +734,24 @@ def ichsc(o: Out, days: int):
     res = [x for x in meta["result"]["resources"] if str(x.get("url", "")).endswith(".csv") and not str(x.get("url", "")).endswith("_fr.csv")]
     res.sort(key=lambda x: x.get("last_modified") or "")
     c = pd.read_csv(io.BytesIO(get(res[-1]["url"]).content), dtype=str, encoding_errors="replace").fillna("")
-    cur = c.groupby("Licence Num").agg(lic=("Licensee Name", "first"), fac=("Facilityname", "first"), addr=("Address1", "first"),
-                                       city=("City", "first"), svc=("Services", lambda s: "|".join(sorted({p.strip() for v in s for p in v.split(",") if p.strip()})))).reset_index()
-    seen = load_state("ichsc_seen")
-    today = dt.date.today().isoformat()
-    if seen is not None:
-        prev = seen.set_index("Licence Num")
-        surg = re.compile(r"surg|cataract|endoscop|plastic", re.I)
-        for _, x in cur.iterrows():
-            if x["Licence Num"] not in prev.index:
-                sig = 173 if surg.search(x.svc) else 169
-                o.add(x.lic, sig, "Ontario ICHSC list", today, None, x.city, "ON", f"New licence: {x.fac} ({x.svc.replace('|', ', ')[:150]})")
-                continue
-            p = prev.loc[x["Licence Num"]]
-            added = set(x.svc.split("|")) - set(str(p.svc).split("|")) - {""}
-            if added:
-                o.add(x.lic, 171, "Ontario ICHSC list", today, None, x.city, "ON", f"Added service at {x.fac}: {', '.join(sorted(added))[:150]}")
-            elif p.addr != x.addr:
-                o.add(x.lic, 173, "Ontario ICHSC list", today, None, x.city, "ON", f"Moved {x.fac} to {x.addr}")
-    save_state("ichsc_seen", cur)
+    surg = re.compile(r"surg|cataract|endoscop|plastic", re.I)
+    events = []  # one key per licence, per service and per address, so each change is seen once
+    for lic, g in c.groupby("Licence Num"):
+        x = g.iloc[0]
+        svc = sorted({p.strip() for v in g.Services for p in v.split(",") if p.strip()})
+        events.append((f"L|{lic}", 173 if surg.search(" ".join(svc)) else 169, x, f"New licence: {x.Facilityname} ({', '.join(svc)[:150]})"))
+        for sv in svc:
+            events.append((f"S|{lic}|{sv}", 171, x, f"Added service at {x.Facilityname}: {sv}"))
+        events.append((f"A|{lic}|{x.Address1}", 173, x, f"Moved {x.Facilityname} to {x.Address1}"))
+    fs = first_seen("ichsc_seen2", [e[0] for e in events])
+    new_lic = {e[0].split("|")[1] for e in events if e[0].startswith("L|") and recent(fs[e[0]])}
+    for k, sig, x, det in events:
+        if not recent(fs[k]):
+            continue
+        lic = k.split("|")[1]
+        if not k.startswith("L|") and lic in new_lic:
+            continue  # a new centre's services and address are part of its "new licence" signal
+        o.add(x["Licensee Name"], sig, "Ontario ICHSC list", fs[k], None, x.City, "ON", det)
 
 
 # ---------------------------------------------------------------- Alberta Certificate of Recognition, first time (s61)
@@ -745,16 +760,17 @@ def alberta_cor(o: Out, days: int):
     hdr = raw.index[raw[0].fillna("").str.strip() == "Legal Name"][0]
     c = raw.iloc[hdr + 1:].copy(); c.columns = [str(v).strip() for v in raw.iloc[hdr]]
     c = c[c["Legal Name"].notna()].fillna("")
+    old = load_state("ab_cor_seen")
+    if old is not None and "account" in old.columns:
+        save_state("ab_cor_seen", pd.DataFrame({"key": old.account, "first_seen": "baseline"}))
+    fs = first_seen("ab_cor_seen", list(c.Account))
     c["issued"] = pd.to_datetime(c["COR Number"].str[:8], format="%Y%m%d", errors="coerce")
-    seen = load_state("ab_cor_seen")
-    if seen is not None:
-        known = set(seen.account)
-        new = c[~c.Account.isin(known) & (c.issued >= pd.Timestamp(since(max(days, 60))))]
-        for _, x in new.iterrows():
-            o.add(x["Legal Name"], 61, "Alberta COR list", x.issued, None, None, "AB",
-                  f"First COR, {x['Certifying Partner']}" + (f" ({x['Display/Trade Name']})" if x["Display/Trade Name"] else ""))
-    save_state("ab_cor_seen", pd.DataFrame({"account": sorted(set(c.Account) | (set(seen.account) if seen is not None else set()))}))
-
+    for _, x in c.iterrows():
+        d = fs.get(x.Account, "baseline")
+        if not recent(d):
+            continue
+        o.add(x["Legal Name"], 61, "Alberta COR list", x.issued if pd.notna(x.issued) else d, None, None, "AB",
+              f"First COR, {x['Certifying Partner']}" + (f" ({x['Display/Trade Name']})" if x["Display/Trade Name"] else ""))
 
 LOADERS = {
     "calgary": calgary, "vancouver_permits": vancouver_permits, "vancouver_licences": vancouver_licences,
