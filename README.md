@@ -3,7 +3,8 @@
 Every Monday morning GitHub runs this job for free. It downloads public government and city data, finds companies showing signs they need financing, and saves the new ones in this repo:
 
 - `data/new_signals.csv`: federal contracts, CanadaBuys awards, federal grants and LMIA hiring approvals.
-- `data/new_direct.csv`: Calgary and Vancouver building permits, Vancouver and Edmonton business licences, Nova Scotia and Toronto contract awards, Vancouver bid awards, Toronto DineSafe, the Ontario child care file, Ontario Access Environment, the Ontario Environmental Registry, AER well licences and spuds, the Transport Canada aircraft register and Job Bank postings.
+- `data/new_direct.csv`: Calgary and Vancouver building permits, Vancouver and Edmonton business licences, Nova Scotia and Toronto contract awards, Vancouver bid awards, Toronto DineSafe, the Ontario child care file, Ontario Access Environment, the Ontario Environmental Registry, AER well licences and spuds, the Transport Canada aircraft register, Job Bank postings, federal contracts won 3 to 5 years ago, Alberta grant payments, AGCO liquor applications, BC liquor licences, the Ontario surgical and imaging centre list (ICHSC) and the Alberta COR list.
+- `data/state/`: for sources that only publish a current list (AGCO, BC liquor, ICHSC, Alberta COR), the date each item was first seen. The first run is a baseline and sends nothing for those lists; after that, anything first seen in the last 30 days is sent each week and Supabase skips repeats, so a missed week loses nothing.
 
 At 9am Toronto time the n8n workflow "RL Signals - Weekly GitHub signals into Supabase" loads both files into Supabase (functions `ingest_signals` and `ingest_direct`). Each signal gets the same name, campaign and duplicate key as the first big load on Nov 25, 2026, and anything already in Supabase is skipped. Alex gets an email with the counts and the name of any source that failed.
 
