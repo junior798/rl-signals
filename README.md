@@ -1,10 +1,15 @@
 # rl-signals
 
-Every Monday morning GitHub runs this job for free. It downloads government files (federal contract awards, CanadaBuys awards, federal grants and LMIA hiring approvals), finds companies showing signs they need financing, and saves the new ones in `data/new_signals.csv` in this repo.
+Every Monday morning GitHub runs this job for free. It downloads public government and city data, finds companies showing signs they need financing, and saves the new ones in this repo:
 
-At 9am Toronto time the n8n workflow "RL Signals - Weekly GitHub signals into Supabase" picks up that file and loads it into Supabase, where the outreach system takes over. It labels each signal the same way the first big load did, skips anything already in Supabase, and emails Alex a short summary.
+- `data/new_signals.csv`: federal contracts, CanadaBuys awards, federal grants and LMIA hiring approvals.
+- `data/new_direct.csv`: Calgary and Vancouver building permits, Vancouver and Edmonton business licences, Nova Scotia and Toronto contract awards, Vancouver bid awards, Toronto DineSafe, the Ontario child care file, Ontario Access Environment, the Ontario Environmental Registry, AER well licences and spuds, the Transport Canada aircraft register and Job Bank postings.
+
+At 9am Toronto time the n8n workflow "RL Signals - Weekly GitHub signals into Supabase" loads both files into Supabase (functions `ingest_signals` and `ingest_direct`). Each signal gets the same name, campaign and duplicate key as the first big load on Nov 25, 2026, and anything already in Supabase is skipped. Alex gets an email with the counts and the name of any source that failed.
 
 Nothing runs on anyone's computer and no keys are stored here. The job only writes to this repo.
+
+The rules for each source (which permits count, which job titles count, which grant programs map to which signal) are in `rl_signals/direct.py` and `rl_signals/sources/`. They copy the rules used for the Nov 25 load.
 
 ## Files
 
@@ -12,11 +17,13 @@ Nothing runs on anyone's computer and no keys are stored here. The job only writ
 |---|---|
 | data/signals.csv | Every signal the job has ever found. Used to tell new from old. |
 | data/new_signals.csv | Only what was new in the latest run. n8n reads this one. |
+| data/new_direct.csv | What the other 15 sources found in the last 14 days. n8n reads this one too. |
+| data/direct_runs.csv | One line per source for the latest run: ok or FAILED, with the error. |
 | data/last_run.txt | When the job last ran. n8n warns if it is more than 8 days old. |
 
 ## Running it by hand
 
-Actions tab, then Weekly signals, then Run workflow. Set days to 180 to reload six months.
+Actions tab, then Weekly signals, then Run workflow. "days" is the look-back for the federal files and "direct days" for the rest. To rerun one source, put its name in "direct sources" (for example `jobbank`).
 
 ## When something breaks
 
