@@ -585,7 +585,9 @@ def jobbank(o: Out, days: int):
         o.add(r["employer"], r["signal"], "Job Bank", r["date"], None, city, r["prov"], r["title"])
 
 
-# ---------------------------------------------------------------- Toronto building permits (s3, s92, s313)
+# ---------------------------------------------------------------- Toronto building permits (s3, s92)
+# Not in LOADERS: since 2026 Toronto's open data leaves the builder off commercial permits (0 of 101 in a 3-week test),
+# so there is no company to contact. Kept here in case the city adds the field back.
 def toronto_permits(o: Out, days: int):
     r = get("https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/6d0229af-bc54-46de-9c2b-26759b01dd05", timeout=300)
     t = pd.read_csv(io.StringIO(r.text), dtype=str)
@@ -759,7 +761,7 @@ LOADERS = {
     "vancouver_awards": vancouver_awards, "edmonton_licences": edmonton_licences, "nova_scotia": nova_scotia,
     "toronto_awards": toronto_awards, "dinesafe": dinesafe, "child_care": child_care,
     "access_environment": access_environment, "ero": ero, "aer_licences": aer_licences, "aer_spud": aer_spud,
-    "aircraft": aircraft, "jobbank": jobbank, "toronto_permits": toronto_permits, "old_contracts": old_contracts,
+    "aircraft": aircraft, "jobbank": jobbank, "old_contracts": old_contracts,
     "alberta_grants": alberta_grants, "agco": agco, "bc_liquor": bc_liquor, "ichsc": ichsc, "alberta_cor": alberta_cor,
 }
 
