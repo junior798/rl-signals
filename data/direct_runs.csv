@@ -1,0 +1,16 @@
+run_at,source,status,signals_found,new_signals,note
+2026-11-27 06:21 UTC,calgary,ok,32,,1s
+2026-11-27 06:21 UTC,vancouver_permits,ok,133,,0s
+2026-11-27 06:21 UTC,vancouver_licences,FAILED,0,,download failed: https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/business-licences/exports/csv?delimiter=%2C&where=folderyear%20%3E%3D%20%2724%27&select=folderyear%2Cbusinessname%2Cbusinesstradename%2Cbusinesstype%2Cstatus%2Cissueddate%2Chouse%2Cstreet: 400 Client Error: Bad Request for url: https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/business-licences/exports/c
+2026-11-27 06:21 UTC,vancouver_awards,ok,0,,0s
+2026-11-27 06:21 UTC,edmonton_licences,ok,16,,3s
+2026-11-27 06:21 UTC,nova_scotia,ok,4,,2s
+2026-11-27 06:21 UTC,toronto_awards,ok,9,,0s
+2026-11-27 06:21 UTC,dinesafe,ok,198,,10s
+2026-11-27 06:21 UTC,child_care,ok,0,,1s
+2026-11-27 06:21 UTC,access_environment,ok,136,,0s
+2026-11-27 06:21 UTC,ero,ok,62,,3s
+2026-11-27 06:21 UTC,aer_licences,ok,72,,6s
+2026-11-27 06:21 UTC,aer_spud,ok,622,,2s
+2026-11-27 06:21 UTC,aircraft,ok,3362,,2s
+2026-11-27 06:21 UTC,jobbank,ok,4087,,179s
