@@ -1,0 +1,4173 @@
+key,first_seen
+L|0002160,baseline
+S|0002160|General Ultrasound,baseline
+S|0002160|Radiography,baseline
+A|0002160|968 Albion Road,baseline
+L|0010105,baseline
+S|0010105|General Ultrasound,baseline
+S|0010105|Mammography,baseline
+S|0010105|Radiography,baseline
+A|0010105|470 Dundas Street East,baseline
+L|0016104,baseline
+S|0016104|Nuclear Medicine - In Vivo - General,baseline
+S|0016104|Nuclear Medicine - In Vivo - SPECT,baseline
+A|0016104|35 Upper Centennial Parkway,baseline
+L|0036164,baseline
+S|0036164|General Ultrasound,baseline
+S|0036164|Radiography,baseline
+A|0036164|1880 Eglinton Avenue East,baseline
+L|0050100,baseline
+S|0050100|General Ultrasound,baseline
+S|0050100|Radiography,baseline
+A|0050100|1670 Dufferin Street,baseline
+L|0055287,baseline
+S|0055287|Bone Mineral DXA,baseline
+S|0055287|Mammography,baseline
+S|0055287|Radiography,baseline
+S|0055287|Vascular Ultrasound,baseline
+A|0055287|8333 Weston Road,baseline
+L|0056104,baseline
+S|0056104|Radiography,baseline
+A|0056104|240 Duncan Mill Road,baseline
+L|0056809,baseline
+S|0056809|Bone Mineral DXA,baseline
+S|0056809|General Ultrasound,baseline
+S|0056809|Mammography,baseline
+S|0056809|Radiography,baseline
+A|0056809|119 Memorial Avenue,baseline
+L|0068591,baseline
+S|0068591|Bone Mineral DXA,baseline
+S|0068591|General Ultrasound,baseline
+S|0068591|Radiography,baseline
+S|0068591|Vascular Ultrasound,baseline
+A|0068591|220 Dundas Street West,baseline
+L|0072798,baseline
+S|0072798|Radiography,baseline
+A|0072798|2010 Eglinton Avenue West,baseline
+L|0086164,baseline
+S|0086164|Nuclear Medicine - In Vivo - General,baseline
+S|0086164|Nuclear Medicine - In Vivo - SPECT,baseline
+A|0086164|751B Victoria Street South,baseline
+L|0092384,baseline
+S|0092384|Fluoroscopy,baseline
+S|0092384|General Ultrasound,baseline
+A|0092384|10 Kingsbridge Garden Circle,baseline
+L|0093490,baseline
+S|0093490|Bone Mineral DXA,baseline
+S|0093490|General Ultrasound,baseline
+S|0093490|Mammography,baseline
+S|0093490|Nuclear Medicine - In Vivo - General,baseline
+S|0093490|Nuclear Medicine - In Vivo - SPECT,baseline
+S|0093490|Radiography,baseline
+S|0093490|Vascular Ultrasound,baseline
+A|0093490|268 Main Street,baseline
+L|0097684,baseline
+S|0097684|Mobile General Ultrasound,baseline
+S|0097684|Mobile Vascular Ultrasound,baseline
+A|0097684|797 Princess Street,baseline
+L|0099490,baseline
+S|0099490|Bone Mineral DXA,baseline
+S|0099490|Fluoroscopy,baseline
+S|0099490|General Ultrasound,baseline
+S|0099490|Nuclear Medicine - In Vivo - General,baseline
+S|0099490|Nuclear Medicine - In Vivo - SPECT,baseline
+S|0099490|Radiography,baseline
+A|0099490|555 Prince Charles Drive North,baseline
+L|0101893,baseline
+S|0101893|Fluoroscopy,baseline
+S|0101893|General Ultrasound,baseline
+S|0101893|Mammography,baseline
+S|0101893|Radiography,baseline
+S|0101893|Vascular Ultrasound,baseline
+A|0101893|450 Central Avenue,baseline
+L|0144166,baseline
+S|0144166|General Ultrasound,baseline
+A|0144166|707 Charlotte Street,baseline
+L|0156467,baseline
+S|0156467|General Ultrasound,baseline
+S|0156467|Radiography,baseline
+A|0156467|1081 Carling Avenue,baseline
+L|0156468,baseline
+S|0156468|General Ultrasound,baseline
+S|0156468|Vascular Ultrasound,baseline
+A|0156468|1145 Hunt Club Road,baseline
+L|0157522,baseline
+S|0157522|Bone Mineral DXA,baseline
+S|0157522|General Ultrasound,baseline
+S|0157522|Radiography,baseline
+S|0157522|Vascular Ultrasound,baseline
+A|0157522|2130 North Park Drive,baseline
+L|0171218,baseline
+S|0171218|Radiography,baseline
+A|0171218|260 Nebo Road,baseline
+L|0176794,baseline
+S|0176794|General Ultrasound,baseline
+S|0176794|Mammography,baseline
+S|0176794|Radiography,baseline
+A|0176794|658 Danforth Avenue,baseline
+L|0177489,baseline
+S|0177489|General Ultrasound,baseline
+S|0177489|Pulmonary Function A - Pure Screening,baseline
+S|0177489|Vascular Ultrasound,baseline
+A|0177489|1805 Queen Street East,baseline
+L|0200177,baseline
+S|0200177|General Ultrasound,baseline
+S|0200177|Radiography,baseline
+A|0200177|3420 Finch Avenue East,baseline
+L|0203501,baseline
+S|0203501|Bone Mineral DXA,baseline
+S|0203501|General Ultrasound,baseline
+S|0203501|Mammography,baseline
+S|0203501|Nuclear Medicine - In Vivo - General,baseline
+S|0203501|Nuclear Medicine - In Vivo - SPECT,baseline
+S|0203501|Radiography,baseline
+S|0203501|Vascular Ultrasound,baseline
+A|0203501|1679 Essex County Road 22,baseline
+L|0208101,baseline
+S|0208101|Bone Mineral DXA,baseline
+S|0208101|General Ultrasound,baseline
+A|0208101|520 Ellesmere Road,baseline
+L|0210879,baseline
+S|0210879|Ophthalmic Ultrasound,baseline
+A|0210879|3800 Brock Street North,baseline
+L|0256401,baseline
+S|0256401|General Ultrasound,baseline
+S|0256401|Radiography,baseline
+S|0256401|Vascular Ultrasound,baseline
+A|0256401|221 Brant Avenue,baseline
+L|0258207,baseline
+S|0258207|General Ultrasound,baseline
+A|0258207|56 Aberfoyle Crescent,baseline
+L|0277601,baseline
+S|0277601|General Ultrasound,baseline
+S|0277601|Urologic Ultrasound,baseline
+A|0277601|491 Eglinton Avenue West,baseline
+L|0283159,baseline
+S|0283159|Ophthalmic Ultrasound,baseline
+A|0283159|125 Steamship Bay Road,baseline
+L|0301510,baseline
+S|0301510|General Ultrasound,baseline
+S|0301510|Radiography,baseline
+S|0301510|Vascular Ultrasound,baseline
+A|0301510|1144 Wilson Street West,baseline
+L|0309136,baseline
+S|0309136|Obs/Gyn Ultrasound,baseline
+A|0309136|3115 Harvester Road,baseline
+L|0331166,baseline
+S|0331166|Ophthalmic Ultrasound,baseline
+A|0331166|2235 Kennedy Road,baseline
+L|0336467,baseline
+S|0336467|Ophthalmic Ultrasound,baseline
+S|0336467|Vascular Ultrasound,baseline
+A|0336467|826 King Street North,baseline
+L|0372397,baseline
+S|0372397|General Ultrasound,baseline
+S|0372397|Vascular Ultrasound,baseline
+A|0372397|240 Duncan Mill Road,baseline
+L|0391536,baseline
+S|0391536|General Ultrasound,baseline
+S|0391536|Radiography,baseline
+A|0391536|2100 Finch Avenue West,baseline
+L|0406443,baseline
+S|0406443|Nuclear Medicine - In Vivo - General,baseline
+S|0406443|Nuclear Medicine - In Vivo - SPECT,baseline
+A|0406443|100 Consilium Place,baseline
+L|0423694,baseline
+S|0423694|General Ultrasound,baseline
+A|0423694|3210 Harvester Road,baseline
+L|0456976,baseline
+S|0456976|Ophthalmic Ultrasound,baseline
+A|0456976|384 West Street North,baseline
+L|0460477,baseline
+S|0460477|General Ultrasound,baseline
+S|0460477|Radiography,baseline
+S|0460477|Vascular Ultrasound,baseline
+A|0460477|5709 Hazeldean Road,baseline
+L|0465477,baseline
+S|0465477|Nuclear Medicine - In Vivo - General,baseline
+S|0465477|Nuclear Medicine - In Vivo - SPECT,baseline
+A|0465477|1849 Yonge Street,baseline
+L|0477482,baseline
+S|0477482|Bone Mineral DXA,baseline
+S|0477482|Radiography,baseline
+A|0477482|1122 Lasalle Boulevard,baseline
+L|0479414,baseline
+S|0479414|Sleep Studies,baseline
+A|0479414|60 Champlain Street,baseline
+L|0492134,baseline
+S|0492134|Sleep Studies,baseline
+A|0492134|150 Sidney Street,baseline
+L|0499537,baseline
+S|0499537|General Ultrasound,baseline
+A|0499537|430 The Boardwalk,baseline
+L|0589576,baseline
+S|0589576|General Ultrasound,baseline
+A|0589576|130 King Street West,baseline
+L|0604290,baseline
+S|0604290|General Ultrasound,baseline
+S|0604290|Radiography,baseline
+A|0604290|250 Tecumseh Road East,baseline
+L|0604590,baseline
+S|0604590|Ophthalmic Ultrasound,baseline
+A|0604590|5 Quarry Ridge Road,baseline
+L|0609526,baseline
+S|0609526|Obs/Gyn Ultrasound,baseline
+A|0609526|707 Ross Avenue East,baseline
+L|0614160,baseline
+S|0614160|Bone Mineral DXA,baseline
+S|0614160|General Ultrasound,baseline
+S|0614160|Radiography,baseline
+S|0614160|Vascular Ultrasound,baseline
+A|0614160|955 Queen Street East,baseline
+L|0632295,baseline
+S|0632295|Bone Mineral DXA,baseline
+S|0632295|Nuclear Medicine - In Vivo - General,baseline
+S|0632295|Nuclear Medicine - In Vivo - SPECT,baseline
+A|0632295|15 Canmotor Avenue,baseline
+L|0659906,baseline
+S|0659906|Ophthalmic Ultrasound,baseline
+A|0659906|1832 County Road 2,baseline
+L|0673329,baseline
+S|0673329|Bone Mineral DXA,baseline
+S|0673329|Fluoroscopy,baseline
+S|0673329|General Ultrasound,baseline
+S|0673329|Mammography,baseline
+S|0673329|Radiography,baseline
+S|0673329|Vascular Ultrasound,baseline
+A|0673329|279 Wharncliffe Road North,baseline
+L|0682091,baseline
+S|0682091|Radiography,baseline
+A|0682091|720 Spadina Avenue,baseline
+L|0715399,baseline
+S|0715399|Bone Mineral DXA,baseline
+S|0715399|General Ultrasound,baseline
+S|0715399|Mammography,baseline
+S|0715399|Obs/Gyn Ultrasound,baseline
+S|0715399|Radiography,baseline
+A|0715399|420 Erb Street West,baseline
+L|0735119,baseline
+S|0735119|Bone Mineral DXA,baseline
+S|0735119|General Ultrasound,baseline
+S|0735119|Mammography,baseline
+S|0735119|Ophthalmic Ultrasound,baseline
+S|0735119|Vascular Ultrasound,baseline
+A|0735119|56 Queen Street North,baseline
+L|0747966,baseline
+S|0747966|Radiography,baseline
+A|0747966|520 Ellesmere Road,baseline
+L|0762129,baseline
+S|0762129|Pulmonary Function - Other Fee Codes,baseline
+S|0762129|Pulmonary Function A - Pure Screening,baseline
+S|0762129|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|0762129|Pulmonary Function C - Escalated Testing,baseline
+A|0762129|1849 Yonge Street,baseline
+L|0780453,baseline
+S|0780453|General Ultrasound,baseline
+S|0780453|Radiography,baseline
+S|0780453|Vascular Ultrasound,baseline
+A|0780453|3850 Dougall Avenue,baseline
+L|0793127,baseline
+S|0793127|Bone Mineral DXA,baseline
+S|0793127|General Ultrasound,baseline
+S|0793127|Radiography,baseline
+A|0793127|855 Broadview Avenue,baseline
+L|0823597,baseline
+S|0823597|Mobile General Ultrasound,baseline
+S|0823597|Mobile Vascular Ultrasound,baseline
+A|0823597|4810 Sheppard Avenue East,baseline
+L|0841536,baseline
+S|0841536|General Ultrasound,baseline
+S|0841536|Radiography,baseline
+A|0841536|955 Queen Street East,baseline
+L|0844166,baseline
+S|0844166|Radiography,baseline
+A|0844166|770 Broadview Avenue,baseline
+L|0847286,baseline
+S|0847286|Ophthalmic Ultrasound,baseline
+A|0847286|40 Prince Arthur Avenue,baseline
+L|0850846,baseline
+S|0850846|Bone Mineral DXA,baseline
+S|0850846|General Ultrasound,baseline
+S|0850846|Mammography,baseline
+S|0850846|Radiography,baseline
+S|0850846|Vascular Ultrasound,baseline
+"A|0850846|589 Lake Street, Suite 104",baseline
+L|0896467,baseline
+S|0896467|General Ultrasound,baseline
+A|0896467|40 Shellington Place,baseline
+L|0899634,baseline
+S|0899634|General Ultrasound,baseline
+S|0899634|Radiography,baseline
+S|0899634|Vascular Ultrasound,baseline
+A|0899634|1030 Gordon Street,baseline
+L|0899840,baseline
+S|0899840|General Ultrasound,baseline
+A|0899840|906 Sheppard Avenue West,baseline
+L|0901510,baseline
+S|0901510|Radiography,baseline
+A|0901510|1608 Tecumseh Road West,baseline
+L|0911893,baseline
+S|0911893|Bone Mineral DXA,baseline
+S|0911893|Fluoroscopy,baseline
+S|0911893|General Ultrasound,baseline
+S|0911893|Mammography,baseline
+S|0911893|Radiography,baseline
+S|0911893|Vascular Ultrasound,baseline
+A|0911893|249 Ontario Street,baseline
+L|0917765,baseline
+S|0917765|General Ultrasound,baseline
+S|0917765|Mammography,baseline
+S|0917765|Radiography,baseline
+S|0917765|Vascular Ultrasound,baseline
+A|0917765|611 Holly Avenue,baseline
+L|0919681,baseline
+S|0919681|General Ultrasound,baseline
+S|0919681|Radiography,baseline
+S|0919681|Vascular Ultrasound,baseline
+A|0919681|186 Talbot Street South,baseline
+L|0938961,baseline
+S|0938961|Ophthalmic Ultrasound,baseline
+A|0938961|190 Memorial Avenue,baseline
+L|0954510,baseline
+S|0954510|Mammography,baseline
+S|0954510|Radiography,baseline
+A|0954510|707 Charlotte Street,baseline
+L|0957098,baseline
+S|0957098|Bone Mineral DXA,baseline
+S|0957098|Nuclear Medicine - In Vivo - General,baseline
+S|0957098|Nuclear Medicine - In Vivo - SPECT,baseline
+A|0957098|300 King Street West,baseline
+L|0969265,baseline
+S|0969265|Nuclear Medicine - In Vivo - General,baseline
+S|0969265|Nuclear Medicine - In Vivo - SPECT,baseline
+A|0969265|250 Marlee Avenue,baseline
+L|0972397,baseline
+S|0972397|General Ultrasound,baseline
+S|0972397|Radiography,baseline
+A|0972397|1545 Carling Avenue,baseline
+L|0984310,baseline
+S|0984310|Radiography,baseline
+A|0984310|150 Katimavik Road,baseline
+L|0991166,baseline
+S|0991166|Fluoroscopy,baseline
+S|0991166|General Ultrasound,baseline
+S|0991166|Ophthalmic Ultrasound,baseline
+S|0991166|Radiography,baseline
+A|0991166|700 Tecumseh Road East,baseline
+L|1012598,baseline
+S|1012598|General Ultrasound,baseline
+S|1012598|Radiography,baseline
+A|1012598|250 Marlee Avenue,baseline
+L|1013514,baseline
+S|1013514|General Ultrasound,baseline
+S|1013514|Vascular Ultrasound,baseline
+A|1013514|105 Main Street,baseline
+L|1018336,baseline
+S|1018336|General Ultrasound,baseline
+S|1018336|Radiography,baseline
+A|1018336|100 Humber College Boulevard,baseline
+L|1019605,baseline
+S|1019605|General Ultrasound,baseline
+S|1019605|Radiography,baseline
+S|1019605|Vascular Ultrasound,baseline
+A|1019605|219 Main Street East,baseline
+L|1019914,baseline
+S|1019914|Eye Surgery,baseline
+A|1019914|31 Kingsbury Drive,baseline
+L|1021308,baseline
+S|1021308|Bone Mineral DXA,baseline
+S|1021308|General Ultrasound,baseline
+S|1021308|Radiography,baseline
+A|1021308|1158 Winston Churchill Boulevard,baseline
+L|1023508,baseline
+S|1023508|Mobile General Ultrasound,baseline
+S|1023508|Mobile Radiography,baseline
+S|1023508|Mobile Vascular Ultrasound,baseline
+A|1023508|3155 Harvester Road,baseline
+L|1023713,baseline
+S|1023713|General Ultrasound,baseline
+A|1023713|20 Doctors Lane,baseline
+L|1023856,baseline
+S|1023856|Ophthalmic Ultrasound,baseline
+A|1023856|60 Swayne Street,baseline
+L|1039876,baseline
+S|1039876|Bone Mineral DXA,baseline
+S|1039876|General Ultrasound,baseline
+S|1039876|Mammography,baseline
+S|1039876|Radiography,baseline
+S|1039876|Vascular Ultrasound,baseline
+A|1039876|325 Winterberry Drive,baseline
+L|1043918,baseline
+S|1043918|Radiography,baseline
+A|1043918|836 John Marks Avenue,baseline
+L|1046680,baseline
+S|1046680|Bone Mineral DXA,baseline
+S|1046680|General Ultrasound,baseline
+S|1046680|Radiography,baseline
+A|1046680|2 Dewside Drive,baseline
+L|1055313,baseline
+S|1055313|Bone Mineral DXA,baseline
+S|1055313|General Ultrasound,baseline
+S|1055313|Mammography,baseline
+S|1055313|Nuclear Medicine - In Vivo - General,baseline
+S|1055313|Nuclear Medicine - In Vivo - SPECT,baseline
+S|1055313|Radiography,baseline
+S|1055313|Vascular Ultrasound,baseline
+A|1055313|300 Rossland Road East,baseline
+L|1057016,baseline
+S|1057016|Radiography,baseline
+A|1057016|1145 Morningside Avenue,baseline
+L|1057538,baseline
+S|1057538|General Ultrasound,baseline
+S|1057538|Vascular Ultrasound,baseline
+A|1057538|35 Upper Centennial Parkway,baseline
+L|1063914,baseline
+S|1063914|Plastic Surgery,baseline
+A|1063914|50 Albert Street,baseline
+L|1064419,baseline
+S|1064419|General Ultrasound,baseline
+A|1064419|160 Bloor Street East,baseline
+L|1066440,baseline
+S|1066440|Radiography,baseline
+A|1066440|230 Browns Line,baseline
+L|1072608,baseline
+S|1072608|General Ultrasound,baseline
+A|1072608|200 Windflower Gate,baseline
+L|1095686,baseline
+S|1095686|Pulmonary Function A - Pure Screening,baseline
+S|1095686|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|1095686|1775 Sprucewood Avenue,baseline
+L|1096910,baseline
+S|1096910|Mobile General Ultrasound,baseline
+A|1096910|4303 Village Centre Court,baseline
+L|1097398,baseline
+S|1097398|Bone Mineral DXA,baseline
+S|1097398|Fluoroscopy,baseline
+S|1097398|General Ultrasound,baseline
+S|1097398|Mammography,baseline
+S|1097398|Radiography,baseline
+S|1097398|Vascular Ultrasound,baseline
+A|1097398|1525 Albion Road,baseline
+L|1102447,baseline
+S|1102447|Bone Mineral DXA,baseline
+S|1102447|General Ultrasound,baseline
+S|1102447|Radiography,baseline
+A|1102447|1448 Lawrence Avenue East,baseline
+L|1106997,baseline
+S|1106997|Bone Mineral DXA,baseline
+S|1106997|General Ultrasound,baseline
+S|1106997|Mammography,baseline
+S|1106997|Nuclear Medicine - In Vivo - General,baseline
+S|1106997|Nuclear Medicine - In Vivo - SPECT,baseline
+S|1106997|Pulmonary Function A - Pure Screening,baseline
+S|1106997|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|1106997|Radiography,baseline
+S|1106997|Vascular Ultrasound,baseline
+A|1106997|216 West Street,baseline
+L|1112352,baseline
+S|1112352|General Ultrasound,baseline
+A|1112352|6212 Main Street,baseline
+L|1114314,baseline
+S|1114314|Bone Mineral DXA,baseline
+S|1114314|Fluoroscopy,baseline
+S|1114314|General Ultrasound,baseline
+S|1114314|Mammography,baseline
+S|1114314|Radiography,baseline
+S|1114314|Vascular Ultrasound,baseline
+A|1114314|649 Scottsdale Drive,baseline
+L|1115291,baseline
+S|1115291|General Ultrasound,baseline
+S|1115291|Vascular Ultrasound,baseline
+A|1115291|27 Queen Street East,baseline
+L|1123910,baseline
+S|1123910|Mobile General Ultrasound,baseline
+S|1123910|Mobile Radiography,baseline
+S|1123910|Mobile Vascular Ultrasound,baseline
+A|1123910|100 Matheson Boulevard,baseline
+L|1124016,baseline
+S|1124016|Ophthalmic Ultrasound,baseline
+A|1124016|195 The West Mall,baseline
+L|1128788,baseline
+S|1128788|Ophthalmic Ultrasound,baseline
+A|1128788|564 Belmont Avenue West,baseline
+L|1134842,baseline
+S|1134842|General Ultrasound,baseline
+A|1134842|1145 Morningside Avenue,baseline
+L|1138903,baseline
+S|1138903|Pulmonary Function A - Pure Screening,baseline
+S|1138903|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|1138903|600 Sherbourne Street,baseline
+L|1141335,baseline
+S|1141335|GI-Endoscopy,baseline
+A|1141335|1031 Brock Road,baseline
+L|1147879,baseline
+S|1147879|Mammography,baseline
+A|1147879|4800 Leslie Street,baseline
+L|1149497,baseline
+S|1149497|General Ultrasound,baseline
+S|1149497|Radiography,baseline
+A|1149497|3530 Derry Road East,baseline
+L|1154419,baseline
+S|1154419|Bone Mineral DXA,baseline
+S|1154419|Fluoroscopy,baseline
+S|1154419|General Ultrasound,baseline
+S|1154419|Mammography,baseline
+S|1154419|Radiography,baseline
+S|1154419|Vascular Ultrasound,baseline
+A|1154419|1568 Ouellette Avenue,baseline
+L|1154514,baseline
+S|1154514|Bone Mineral DXA,baseline
+S|1154514|General Ultrasound,baseline
+S|1154514|Radiography,baseline
+A|1154514|1062 Ghislain Street,baseline
+L|1155846,baseline
+S|1155846|Bone Mineral DXA,baseline
+S|1155846|General Ultrasound,baseline
+S|1155846|Radiography,baseline
+A|1155846|2683 Lawrence Avenue East,baseline
+L|1165189,baseline
+S|1165189|Vascular Ultrasound,baseline
+A|1165189|724 Arlington Park Place,baseline
+L|1192028,baseline
+S|1192028|Sleep Studies,baseline
+A|1192028|222 King Street East,baseline
+L|1203541,baseline
+S|1203541|Ophthalmic Ultrasound,baseline
+A|1203541|26 Hospital Drive,baseline
+L|1208542,baseline
+S|1208542|Radiography,baseline
+A|1208542|110 Michael Cowpland Drive,baseline
+L|1215393,baseline
+S|1215393|Vascular Ultrasound,baseline
+A|1215393|217 Davenport Road,baseline
+L|1236356,baseline
+S|1236356|Bone Mineral DXA,baseline
+S|1236356|General Ultrasound,baseline
+S|1236356|Mammography,baseline
+S|1236356|Radiography,baseline
+S|1236356|Vascular Ultrasound,baseline
+A|1236356|2065 Finch Avenue West,baseline
+L|1236624,baseline
+S|1236624|Pulmonary Function A - Pure Screening,baseline
+S|1236624|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|1236624|340 College Street,baseline
+L|1238765,baseline
+S|1238765|Radiography,baseline
+A|1238765|535 Mulock Drive,baseline
+L|1239760,baseline
+S|1239760|General Ultrasound,baseline
+S|1239760|Radiography,baseline
+S|1239760|Vascular Ultrasound,baseline
+A|1239760|631 Queenston Road,baseline
+L|1255307,baseline
+S|1255307|Radiography,baseline
+A|1255307|480 Huronia Road,baseline
+L|1259588,baseline
+S|1259588|Bone Mineral DXA,baseline
+S|1259588|General Ultrasound,baseline
+S|1259588|Radiography,baseline
+A|1259588|2374 Eglinton Avenue East,baseline
+L|1275988,baseline
+S|1275988|General Ultrasound,baseline
+S|1275988|Radiography,baseline
+A|1275988|181 University Avenue,baseline
+L|1276899,baseline
+S|1276899|Bone Mineral DXA,baseline
+S|1276899|General Ultrasound,baseline
+S|1276899|Radiography,baseline
+S|1276899|Vascular Ultrasound,baseline
+A|1276899|6633 Highway 7 East,baseline
+L|1277724,baseline
+S|1277724|General Ultrasound,baseline
+A|1277724|2900 Steeles Avenue East,baseline
+L|1280501,baseline
+S|1280501|Bone Mineral DXA,baseline
+S|1280501|Fluoroscopy,baseline
+S|1280501|General Ultrasound,baseline
+S|1280501|Radiography,baseline
+A|1280501|260 Nebo Road,baseline
+L|1300104,baseline
+S|1300104|Abortion,baseline
+A|1300104|1624 Queen Street East,baseline
+L|1305104,baseline
+S|1305104|Bone Mineral DXA,baseline
+S|1305104|Fluoroscopy,baseline
+S|1305104|General Ultrasound,baseline
+S|1305104|Radiography,baseline
+S|1305104|Vascular Ultrasound,baseline
+A|1305104|150 Eglinton Avenue East,baseline
+L|1309436,baseline
+S|1309436|Bone Mineral DXA,baseline
+S|1309436|General Ultrasound,baseline
+S|1309436|Radiography,baseline
+S|1309436|Vascular Ultrasound,baseline
+A|1309436|11 Lakeside Terrace,baseline
+L|1309439,baseline
+S|1309439|Bone Mineral DXA,baseline
+S|1309439|General Ultrasound,baseline
+S|1309439|Radiography,baseline
+S|1309439|Vascular Ultrasound,baseline
+A|1309439|29 Toronto Street South,baseline
+L|1313367,baseline
+S|1313367|Mobile General Ultrasound,baseline
+S|1313367|Mobile Radiography,baseline
+S|1313367|Mobile Vascular Ultrasound,baseline
+A|1313367|3155 Harvester Road,baseline
+L|1315320,baseline
+S|1315320|Sleep Studies,baseline
+A|1315320|135 Queen's Plate Drive,baseline
+L|1330087,baseline
+S|1330087|Bone Mineral DXA,baseline
+S|1330087|General Ultrasound,baseline
+S|1330087|Radiography,baseline
+S|1330087|Vascular Ultrasound,baseline
+A|1330087|222 King Street East,baseline
+L|1341170,baseline
+S|1341170|Radiography,baseline
+A|1341170|18371 Hurontario Street,baseline
+L|1344410,baseline
+S|1344410|Vascular Ultrasound,baseline
+A|1344410|4168 Finch Avenue East,baseline
+L|1355103,baseline
+S|1355103|Ophthalmic Ultrasound,baseline
+A|1355103|2009 Long Lake Road,baseline
+L|1356617,baseline
+S|1356617|General Ultrasound,baseline
+S|1356617|Vascular Ultrasound,baseline
+A|1356617|3555 North Service Road East,baseline
+L|1357216,baseline
+S|1357216|Pulmonary Function A - Pure Screening,baseline
+S|1357216|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|1357216|Pulmonary Function C - Escalated Testing,baseline
+A|1357216|4728 Dorchester Road,baseline
+L|1366497,baseline
+S|1366497|Bone Mineral DXA,baseline
+S|1366497|General Ultrasound,baseline
+S|1366497|Mammography,baseline
+S|1366497|Nuclear Medicine - In Vivo - General,baseline
+S|1366497|Nuclear Medicine - In Vivo - SPECT,baseline
+S|1366497|Radiography,baseline
+S|1366497|Vascular Ultrasound,baseline
+A|1366497|462 Paxton Street,baseline
+L|1376959,baseline
+S|1376959|Computed Tomography,baseline
+A|1376959|230 Cumberland Street North,baseline
+L|1391236,baseline
+S|1391236|General Ultrasound,baseline
+S|1391236|Radiography,baseline
+A|1391236|10425 Kennedy Road North,baseline
+L|1391442,baseline
+S|1391442|General Ultrasound,baseline
+S|1391442|Radiography,baseline
+A|1391442|2741 Chamberland Street,baseline
+L|1401372,baseline
+S|1401372|General Ultrasound,baseline
+S|1401372|Radiography,baseline
+S|1401372|Vascular Ultrasound,baseline
+A|1401372|440 Boler Road,baseline
+L|1408174,baseline
+S|1408174|Computed Tomography,baseline
+S|1408174|Magnetic Resonance Imaging,baseline
+A|1408174|836 John Marks Avenue,baseline
+L|1421306,baseline
+S|1421306|Obs/Gyn Ultrasound,baseline
+S|1421306|Vascular Ultrasound,baseline
+A|1421306|2951 Walker's Line,baseline
+L|1421632,baseline
+S|1421632|General Ultrasound,baseline
+S|1421632|Vascular Ultrasound,baseline
+A|1421632|4600 Highway 7,baseline
+L|1423510,baseline
+S|1423510|Obs/Gyn Ultrasound,baseline
+A|1423510|2225 Sheppard Avenue East,baseline
+L|1424304,baseline
+S|1424304|Bone Mineral DXA,baseline
+S|1424304|General Ultrasound,baseline
+S|1424304|Radiography,baseline
+A|1424304|550 Terminal Avenue,baseline
+L|1437712,baseline
+S|1437712|Bone Mineral DXA,baseline
+S|1437712|General Ultrasound,baseline
+S|1437712|Radiography,baseline
+S|1437712|Vascular Ultrasound,baseline
+A|1437712|19834 Airport Road,baseline
+L|1454827,baseline
+S|1454827|Fluoroscopy,baseline
+S|1454827|General Ultrasound,baseline
+S|1454827|Nuclear Medicine - In Vivo - General,baseline
+S|1454827|Nuclear Medicine - In Vivo - SPECT,baseline
+S|1454827|Radiography,baseline
+A|1454827|1615 Dundas Street East,baseline
+L|1461001,baseline
+S|1461001|Fluoroscopy,baseline
+S|1461001|General Ultrasound,baseline
+S|1461001|Radiography,baseline
+A|1461001|7070 Saint Barbara Boulevard,baseline
+L|1462198,baseline
+S|1462198|General Ultrasound,baseline
+S|1462198|Radiography,baseline
+A|1462198|911A Jane Street,baseline
+L|1464613,baseline
+S|1464613|Ophthalmic Ultrasound,baseline
+A|1464613|274 Lynden Road,baseline
+L|1464810,baseline
+S|1464810|Pulmonary Function - Other Fee Codes,baseline
+S|1464810|Pulmonary Function A - Pure Screening,baseline
+S|1464810|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|1464810|Pulmonary Function C - Escalated Testing,baseline
+A|1464810|1385 Bank Street,baseline
+L|1476703,baseline
+S|1476703|Bone Mineral DXA,baseline
+A|1476703|3585 Lawrence Avenue East,baseline
+L|1477780,baseline
+S|1477780|Bone Mineral DXA,baseline
+S|1477780|General Ultrasound,baseline
+S|1477780|Nuclear Medicine - In Vivo - General,baseline
+S|1477780|Nuclear Medicine - In Vivo - SPECT,baseline
+S|1477780|Radiography,baseline
+S|1477780|Vascular Ultrasound,baseline
+A|1477780|12 Morgan Avenue,baseline
+L|1481540,baseline
+S|1481540|GI-Endoscopy,baseline
+A|1481540|790 Bay Street,baseline
+L|1506131,baseline
+S|1506131|GI-Endoscopy,baseline
+A|1506131|1144 Wilson Street West,baseline
+L|1509129,baseline
+S|1509129|General Ultrasound,baseline
+S|1509129|Radiography,baseline
+A|1509129|3695 Keele Street,baseline
+L|1539185,baseline
+S|1539185|Bone Mineral DXA,baseline
+S|1539185|General Ultrasound,baseline
+S|1539185|Mammography,baseline
+S|1539185|Radiography,baseline
+S|1539185|Vascular Ultrasound,baseline
+A|1539185|328 Highway 7 East,baseline
+L|1544413,baseline
+S|1544413|General Ultrasound,baseline
+A|1544413|2035 Cornwall Road,baseline
+L|1548875,baseline
+S|1548875|General Ultrasound,baseline
+S|1548875|Radiography,baseline
+A|1548875|1400 Ritson Road North,baseline
+L|1575789,baseline
+S|1575789|General Ultrasound,baseline
+S|1575789|Radiography,baseline
+S|1575789|Vascular Ultrasound,baseline
+A|1575789|1525 Bristol Road West,baseline
+L|1649261,baseline
+S|1649261|Ophthalmic Ultrasound,baseline
+A|1649261|4256 Portage Road,baseline
+L|1663135,baseline
+S|1663135|Bone Mineral DXA,baseline
+S|1663135|General Ultrasound,baseline
+S|1663135|Nuclear Medicine - In Vivo - General,baseline
+S|1663135|Nuclear Medicine - In Vivo - SPECT,baseline
+S|1663135|Radiography,baseline
+S|1663135|Vascular Ultrasound,baseline
+A|1663135|1757 Sherbrooke Street,baseline
+L|1664966,baseline
+S|1664966|General Ultrasound,baseline
+S|1664966|Radiography,baseline
+A|1664966|200 James Street South,baseline
+L|1670323,baseline
+S|1670323|Ophthalmic Ultrasound,baseline
+A|1670323|2101 Brimley Road,baseline
+L|1716639,baseline
+S|1716639|Pulmonary Function A - Pure Screening,baseline
+S|1716639|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|1716639|2888 Bathurst Street,baseline
+L|1739204,baseline
+S|1739204|Sleep Studies,baseline
+A|1739204|320 Byron Street South,baseline
+L|1754000,baseline
+S|1754000|General Ultrasound,baseline
+S|1754000|Radiography,baseline
+A|1754000|2200 Fairview Street,baseline
+L|1754847,baseline
+S|1754847|Vascular Ultrasound,baseline
+A|1754847|5293 Highway 7 East,baseline
+L|1755537,baseline
+S|1755537|Ophthalmic Ultrasound,baseline
+A|1755537|1919 Riverside Drive,baseline
+L|1783840,baseline
+S|1783840|General Ultrasound,baseline
+S|1783840|Mammography,baseline
+S|1783840|Radiography,baseline
+A|1783840|304 Victoria Avenue North,baseline
+L|1791799,baseline
+S|1791799|Radiography,baseline
+A|1791799|86 Angeline Street South,baseline
+L|1813156,baseline
+S|1813156|Ophthalmic Ultrasound,baseline
+A|1813156|26 Hospital Drive,baseline
+L|1813587,baseline
+S|1813587|General Ultrasound,baseline
+A|1813587|21589 Richmond Street,baseline
+L|1816720,baseline
+S|1816720|Bone Mineral DXA,baseline
+S|1816720|General Ultrasound,baseline
+S|1816720|Mammography,baseline
+S|1816720|Radiography,baseline
+S|1816720|Vascular Ultrasound,baseline
+A|1816720|459 Holland Street West,baseline
+L|1826494,baseline
+S|1826494|General Ultrasound,baseline
+S|1826494|Vascular Ultrasound,baseline
+A|1826494|4025 Yonge Street,baseline
+L|1851890,baseline
+S|1851890|Obs/Gyn Ultrasound,baseline
+A|1851890|313 Eglinton Avenue West,baseline
+L|1876720,baseline
+S|1876720|Bone Mineral DXA,baseline
+S|1876720|General Ultrasound,baseline
+S|1876720|Mammography,baseline
+S|1876720|Nuclear Medicine - In Vivo - General,baseline
+S|1876720|Nuclear Medicine - In Vivo - SPECT,baseline
+S|1876720|Radiography,baseline
+S|1876720|Vascular Ultrasound,baseline
+A|1876720|2810 Major MacKenzie Drive,baseline
+L|1876782,baseline
+S|1876782|Ophthalmic Ultrasound,baseline
+A|1876782|149 King Street West,baseline
+L|1880121,baseline
+S|1880121|Radiography,baseline
+A|1880121|2900 Markham Road,baseline
+L|1923550,baseline
+S|1923550|Bone Mineral DXA,baseline
+S|1923550|Fluoroscopy,baseline
+S|1923550|General Ultrasound,baseline
+S|1923550|Mammography,baseline
+S|1923550|Radiography,baseline
+S|1923550|Vascular Ultrasound,baseline
+A|1923550|2025 Midland Avenue,baseline
+L|1927203,baseline
+S|1927203|GI-Endoscopy,baseline
+A|1927203|305 Milner Avenue,baseline
+L|1932458,baseline
+S|1932458|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|1932458|240 Duncan Mill Road,baseline
+L|1957327,baseline
+S|1957327|Computed Tomography,baseline
+S|1957327|Magnetic Resonance Imaging,baseline
+A|1957327|9355 Leslie Street,baseline
+L|1966725,baseline
+S|1966725|Bone Mineral DXA,baseline
+S|1966725|General Ultrasound,baseline
+S|1966725|Mammography,baseline
+S|1966725|Radiography,baseline
+S|1966725|Vascular Ultrasound,baseline
+A|1966725|595 Montreal Road,baseline
+L|1966730,baseline
+S|1966730|Ophthalmic Ultrasound,baseline
+A|1966730|350 Sparks Street,baseline
+L|1982119,baseline
+S|1982119|Bone Mineral DXA,baseline
+S|1982119|General Ultrasound,baseline
+S|1982119|Radiography,baseline
+S|1982119|Vascular Ultrasound,baseline
+A|1982119|3075 Hospital Gate,baseline
+L|2004864,baseline
+S|2004864|Obs/Gyn Ultrasound,baseline
+A|2004864|12050 Airport Road,baseline
+L|2013561,baseline
+S|2013561|Mobile General Ultrasound,baseline
+A|2013561|4271 King Street East,baseline
+L|2021087,baseline
+S|2021087|General Ultrasound,baseline
+S|2021087|Vascular Ultrasound,baseline
+A|2021087|1310 Don Mills Road,baseline
+L|2026913,baseline
+S|2026913|Bone Mineral DXA,baseline
+S|2026913|General Ultrasound,baseline
+S|2026913|Mammography,baseline
+S|2026913|Radiography,baseline
+S|2026913|Vascular Ultrasound,baseline
+A|2026913|12560 Kennedy Road,baseline
+L|2027798,baseline
+S|2027798|Ophthalmic Ultrasound,baseline
+A|2027798|2075 Bayview Avenue,baseline
+L|2045846,baseline
+S|2045846|Radiography,baseline
+A|2045846|2010 Eglinton Avenue West,baseline
+L|2046597,baseline
+S|2046597|Plastic Surgery,baseline
+A|2046597|1421 Hurontario Street,baseline
+L|2049359,baseline
+S|2049359|Obs/Gyn Ultrasound,baseline
+A|2049359|1057 Main Street West,baseline
+L|2055985,baseline
+S|2055985|General Ultrasound,baseline
+S|2055985|Radiography,baseline
+S|2055985|Vascular Ultrasound,baseline
+A|2055985|660 Eglinton Avenue West,baseline
+L|2073604,baseline
+S|2073604|General Ultrasound,baseline
+A|2073604|377 Church Street,baseline
+L|2076728,baseline
+S|2076728|Mobile General Ultrasound,baseline
+S|2076728|Mobile Radiography,baseline
+S|2076728|Mobile Vascular Ultrasound,baseline
+A|2076728|219 Sheppard Avenue West,baseline
+L|2086353,baseline
+S|2086353|Ophthalmic Ultrasound,baseline
+A|2086353|262B Main Street North,baseline
+L|2089444,baseline
+S|2089444|Ophthalmic Ultrasound,baseline
+A|2089444|18 Wynford Drive,baseline
+L|2092219,baseline
+S|2092219|Vascular Ultrasound,baseline
+A|2092219|107 Shirreff Avenue,baseline
+L|2103687,baseline
+S|2103687|General Ultrasound,baseline
+A|2103687|56 Aberfoyle Crescent,baseline
+L|2105556,baseline
+S|2105556|Bone Mineral DXA,baseline
+S|2105556|General Ultrasound,baseline
+S|2105556|Nuclear Medicine - In Vivo - General,baseline
+S|2105556|Nuclear Medicine - In Vivo - SPECT,baseline
+S|2105556|Vascular Ultrasound,baseline
+A|2105556|398 Steeles Avenue West,baseline
+L|2108575,baseline
+S|2108575|Bone Mineral DXA,baseline
+S|2108575|General Ultrasound,baseline
+S|2108575|Ophthalmic Ultrasound,baseline
+S|2108575|Radiography,baseline
+S|2108575|Vascular Ultrasound,baseline
+A|2108575|2224 Walker Road,baseline
+L|2108881,baseline
+S|2108881|Pulmonary Function A - Pure Screening,baseline
+S|2108881|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|2108881|601 Harwood Avenue South,baseline
+L|2122342,baseline
+S|2122342|Bone Mineral DXA,baseline
+S|2122342|General Ultrasound,baseline
+S|2122342|Mammography,baseline
+S|2122342|Radiography,baseline
+A|2122342|645 Remembrance Road,baseline
+L|2130346,baseline
+S|2130346|Bone Mineral DXA,baseline
+S|2130346|General Ultrasound,baseline
+S|2130346|Mammography,baseline
+S|2130346|Radiography,baseline
+A|2130346|849 Upper Wentworth Street,baseline
+L|2131921,baseline
+S|2131921|General Ultrasound,baseline
+S|2131921|Radiography,baseline
+A|2131921|110 Queen's Plate Drive,baseline
+L|2138487,baseline
+S|2138487|General Ultrasound,baseline
+S|2138487|Mammography,baseline
+S|2138487|Radiography,baseline
+A|2138487|200 Brock Street North,baseline
+L|2142310,baseline
+S|2142310|Bone Mineral DXA,baseline
+S|2142310|General Ultrasound,baseline
+S|2142310|Mammography,baseline
+S|2142310|Nuclear Medicine - In Vivo - General,baseline
+S|2142310|Nuclear Medicine - In Vivo - SPECT,baseline
+S|2142310|Radiography,baseline
+S|2142310|Vascular Ultrasound,baseline
+A|2142310|6 Thompson Crescent ,baseline
+L|2149972,baseline
+S|2149972|Ophthalmic Ultrasound,baseline
+A|2149972|700 Mackay Street,baseline
+L|2150369,baseline
+S|2150369|Bone Mineral DXA,baseline
+S|2150369|Fluoroscopy,baseline
+S|2150369|General Ultrasound,baseline
+S|2150369|Mammography,baseline
+S|2150369|Radiography,baseline
+S|2150369|Vascular Ultrasound,baseline
+A|2150369|54 Cardigan Street,baseline
+L|2151417,baseline
+S|2151417|Pulmonary Function A - Pure Screening,baseline
+S|2151417|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|2151417|4040 Finch Avenue East,baseline
+L|2195305,baseline
+S|2195305|Fluoroscopy,baseline
+S|2195305|General Ultrasound,baseline
+S|2195305|Nuclear Medicine - In Vivo - General,baseline
+S|2195305|Nuclear Medicine - In Vivo - SPECT,baseline
+S|2195305|Radiography,baseline
+S|2195305|Vascular Ultrasound,baseline
+A|2195305|11 King Street West,baseline
+L|2200647,baseline
+S|2200647|General Ultrasound,baseline
+S|2200647|Mammography,baseline
+S|2200647|Radiography,baseline
+A|2200647|1735 Kipling Avenue,baseline
+L|2200847,baseline
+S|2200847|Pulmonary Function A - Pure Screening,baseline
+S|2200847|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|2200847|3865 Major Mackenzie Drive,baseline
+L|2201541,baseline
+S|2201541|Bone Mineral DXA,baseline
+A|2201541|1017 Wilson Avenue,baseline
+L|2211548,baseline
+S|2211548|Bone Mineral DXA,baseline
+S|2211548|General Ultrasound,baseline
+A|2211548|462 Birchmount Avenue,baseline
+L|2251547,baseline
+S|2251547|Bone Mineral DXA,baseline
+S|2251547|Fluoroscopy,baseline
+S|2251547|General Ultrasound,baseline
+S|2251547|Radiography,baseline
+A|2251547|4040 Finch Avenue East,baseline
+L|2273702,baseline
+S|2273702|General Ultrasound,baseline
+S|2273702|Mammography,baseline
+S|2273702|Radiography,baseline
+S|2273702|Vascular Ultrasound,baseline
+A|2273702|95 Bayly Street West,baseline
+L|2283351,baseline
+S|2283351|Bone Mineral DXA,baseline
+S|2283351|General Ultrasound,baseline
+S|2283351|Mammography,baseline
+S|2283351|Radiography,baseline
+A|2283351|150 York Street,baseline
+L|2293188,baseline
+S|2293188|Radiography,baseline
+A|2293188|2425 Tecumseh Road East,baseline
+L|2299605,baseline
+S|2299605|General Ultrasound,baseline
+S|2299605|Obs/Gyn Ultrasound,baseline
+A|2299605|373 Commissioners Road West,baseline
+L|2301413,baseline
+S|2301413|Obs/Gyn Ultrasound,baseline
+A|2301413|7191 Yonge Street,baseline
+L|2311145,baseline
+S|2311145|General Ultrasound,baseline
+S|2311145|Nuclear Medicine - In Vivo - General,baseline
+S|2311145|Nuclear Medicine - In Vivo - SPECT,baseline
+A|2311145|83 Dawson Road,baseline
+L|2313077,baseline
+S|2313077|Nuclear Medicine - In Vivo - General,baseline
+S|2313077|Nuclear Medicine - In Vivo - SPECT,baseline
+A|2313077|4002 Sheppard Avenue East,baseline
+L|2320846,baseline
+S|2320846|Nuclear Medicine - In Vivo - General,baseline
+S|2320846|Nuclear Medicine - In Vivo - SPECT,baseline
+A|2320846|236 Avenue Road,baseline
+L|2331095,baseline
+S|2331095|Radiography,baseline
+A|2331095|433 Sandwich Street South,baseline
+L|2343444,baseline
+S|2343444|Pulmonary Function - Other Fee Codes,baseline
+S|2343444|Pulmonary Function A - Pure Screening,baseline
+S|2343444|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|2343444|435 The Boardwalk,baseline
+L|2343567,baseline
+S|2343567|General Ultrasound,baseline
+S|2343567|Radiography,baseline
+A|2343567|234 Eglinton Avenue East,baseline
+L|2346477,baseline
+S|2346477|General Ultrasound,baseline
+S|2346477|Radiography,baseline
+A|2346477|3585 Lawrence Avenue East,baseline
+L|2349977,baseline
+S|2349977|General Ultrasound,baseline
+S|2349977|Radiography,baseline
+A|2349977|99 Kakulu Road,baseline
+L|2350366,baseline
+S|2350366|General Ultrasound,baseline
+S|2350366|Radiography,baseline
+A|2350366|4190 Finch Avenue East,baseline
+L|2351968,baseline
+S|2351968|Bone Mineral DXA,baseline
+S|2351968|General Ultrasound,baseline
+S|2351968|Mammography,baseline
+S|2351968|Radiography,baseline
+S|2351968|Vascular Ultrasound,baseline
+A|2351968|1690 Dersan Street,baseline
+L|2355930,baseline
+S|2355930|General Ultrasound,baseline
+S|2355930|Radiography,baseline
+A|2355930|790 Bay Street,baseline
+L|2363315,baseline
+S|2363315|General Ultrasound,baseline
+S|2363315|Mammography,baseline
+A|2363315|520 Ellesmere Road,baseline
+L|2391559,baseline
+S|2391559|Radiography,baseline
+A|2391559|245 Pelham Road,baseline
+L|2391566,baseline
+S|2391566|Bone Mineral DXA,baseline
+S|2391566|General Ultrasound,baseline
+S|2391566|Mammography,baseline
+S|2391566|Radiography,baseline
+S|2391566|Vascular Ultrasound,baseline
+A|2391566|481 London Road,baseline
+L|2391568,baseline
+S|2391568|Bone Mineral DXA,baseline
+S|2391568|Nuclear Medicine - In Vivo - General,baseline
+S|2391568|Nuclear Medicine - In Vivo - SPECT,baseline
+S|2391568|Vascular Ultrasound,baseline
+A|2391568|220 Dundas Street West,baseline
+L|2428912,baseline
+S|2428912|Ophthalmic Ultrasound,baseline
+A|2428912|309 Midland Avenue,baseline
+L|2443052,baseline
+S|2443052|Ophthalmic Ultrasound,baseline
+A|2443052|771 Erie Street,baseline
+L|2460946,baseline
+S|2460946|General Ultrasound,baseline
+S|2460946|Vascular Ultrasound,baseline
+A|2460946|1333 Sheppard Avenue East,baseline
+L|2465946,baseline
+S|2465946|Bone Mineral DXA,baseline
+S|2465946|General Ultrasound,baseline
+S|2465946|Radiography,baseline
+A|2465946|6590 Meadowvale Town Centre Circle,baseline
+L|2479120,baseline
+S|2479120|Sleep Studies,baseline
+A|2479120|1333 Sheppard Avenue East,baseline
+L|2523136,baseline
+S|2523136|Bone Mineral DXA,baseline
+S|2523136|General Ultrasound,baseline
+A|2523136|60 Gillingham Drive,baseline
+L|2546447,baseline
+S|2546447|Nuclear Medicine - In Vivo - General,baseline
+S|2546447|Nuclear Medicine - In Vivo - SPECT,baseline
+A|2546447|1525 Cornwall Road,baseline
+L|2546871,baseline
+S|2546871|General Ultrasound,baseline
+S|2546871|Radiography,baseline
+A|2546871|4841 Yonge Street,baseline
+L|2549971,baseline
+S|2549971|General Ultrasound,baseline
+S|2549971|Radiography,baseline
+A|2549971|1436 Royal York Road,baseline
+L|2585972,baseline
+S|2585972|Bone Mineral DXA,baseline
+S|2585972|General Ultrasound,baseline
+S|2585972|Radiography,baseline
+A|2585972|1020 Wilson Avenue,baseline
+L|2587918,baseline
+S|2587918|Bone Mineral DXA,baseline
+S|2587918|General Ultrasound,baseline
+S|2587918|Radiography,baseline
+A|2587918|5400 Portage Road,baseline
+L|2601696,baseline
+S|2601696|General Ultrasound,baseline
+S|2601696|Radiography,baseline
+S|2601696|Vascular Ultrasound,baseline
+A|2601696|2330 Kennedy Road,baseline
+L|2601890,baseline
+S|2601890|General Ultrasound,baseline
+S|2601890|Vascular Ultrasound,baseline
+A|2601890|460 Springbank Drive,baseline
+L|2603076,baseline
+S|2603076|Fluoroscopy,baseline
+S|2603076|General Ultrasound,baseline
+S|2603076|Mammography,baseline
+S|2603076|Radiography,baseline
+S|2603076|Vascular Ultrasound,baseline
+A|2603076|200 Montclair Drive,baseline
+L|2611505,baseline
+S|2611505|General Ultrasound,baseline
+A|2611505|701 Sheppard Avenue East,baseline
+L|2617999,baseline
+S|2617999|Pulmonary Function A - Pure Screening,baseline
+S|2617999|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|2617999|311 Woolwich Street,baseline
+L|2620058,baseline
+S|2620058|Radiography,baseline
+A|2620058|10243 Yong Street,baseline
+L|2640846,baseline
+S|2640846|Bone Mineral DXA,baseline
+S|2640846|General Ultrasound,baseline
+S|2640846|Mammography,baseline
+S|2640846|Radiography,baseline
+S|2640846|Vascular Ultrasound,baseline
+A|2640846|380 King Street North,baseline
+L|2642434,baseline
+S|2642434|General Ultrasound,baseline
+S|2642434|Mammography,baseline
+S|2642434|Radiography,baseline
+S|2642434|Vascular Ultrasound,baseline
+A|2642434|751 Victoria Street South,baseline
+L|2645846,baseline
+S|2645846|Bone Mineral DXA,baseline
+S|2645846|General Ultrasound,baseline
+S|2645846|Radiography,baseline
+A|2645846|1980 Ogilvie Road,baseline
+L|2649434,baseline
+S|2649434|Bone Mineral DXA,baseline
+S|2649434|General Ultrasound,baseline
+S|2649434|Radiography,baseline
+S|2649434|Vascular Ultrasound,baseline
+A|2649434|4800 Leslie Street,baseline
+L|2651790,baseline
+S|2651790|Bone Mineral DXA,baseline
+S|2651790|General Ultrasound,baseline
+S|2651790|Radiography,baseline
+A|2651790|119 Langstaff Drive,baseline
+L|2658325,baseline
+S|2658325|General Ultrasound,baseline
+S|2658325|Mammography,baseline
+S|2658325|Radiography,baseline
+A|2658325|2494 Danforth Avenue,baseline
+L|2658790,baseline
+S|2658790|General Ultrasound,baseline
+S|2658790|Mammography,baseline
+S|2658790|Vascular Ultrasound,baseline
+A|2658790|63 Algoma Street North,baseline
+L|2671943,baseline
+S|2671943|General Ultrasound,baseline
+S|2671943|Radiography,baseline
+S|2671943|Vascular Ultrasound,baseline
+A|2671943|629 Principale Street,baseline
+L|2674525,baseline
+S|2674525|Ophthalmic Ultrasound,baseline
+A|2674525|1081 Innisfil Beach Road,baseline
+L|2675538,baseline
+S|2675538|Bone Mineral DXA,baseline
+S|2675538|General Ultrasound,baseline
+S|2675538|Mammography,baseline
+S|2675538|Radiography,baseline
+A|2675538|2951 Walkers Line,baseline
+L|2678588,baseline
+S|2678588|Bone Mineral DXA,baseline
+S|2678588|Fluoroscopy,baseline
+S|2678588|General Ultrasound,baseline
+S|2678588|Mammography,baseline
+S|2678588|Radiography,baseline
+S|2678588|Vascular Ultrasound,baseline
+A|2678588|71 King Street West,baseline
+L|2681045,baseline
+S|2681045|Fluoroscopy,baseline
+S|2681045|General Ultrasound,baseline
+S|2681045|Mammography,baseline
+S|2681045|Nuclear Medicine - In Vivo - General,baseline
+S|2681045|Nuclear Medicine - In Vivo - SPECT,baseline
+S|2681045|Radiography,baseline
+S|2681045|Vascular Ultrasound,baseline
+A|2681045|2125 Front Road North,baseline
+L|2681532,baseline
+S|2681532|Bone Mineral DXA,baseline
+S|2681532|General Ultrasound,baseline
+S|2681532|Mammography,baseline
+S|2681532|Radiography,baseline
+S|2681532|Vascular Ultrasound,baseline
+A|2681532|400 Queen Street West,baseline
+L|2685185,baseline
+S|2685185|General Ultrasound,baseline
+S|2685185|Radiography,baseline
+S|2685185|Vascular Ultrasound,baseline
+A|2685185|3420 Hurontario Street,baseline
+L|2699424,baseline
+S|2699424|General Ultrasound,baseline
+S|2699424|Radiography,baseline
+A|2699424|9255 Woodbine Avenue,baseline
+L|2699434,baseline
+S|2699434|Ophthalmic Ultrasound,baseline
+A|2699434|477 Queen Street East,baseline
+L|2701551,baseline
+S|2701551|Radiography,baseline
+A|2701551|325 Winterberry Drive,baseline
+L|2761662,baseline
+S|2761662|General Ultrasound,baseline
+S|2761662|Vascular Ultrasound,baseline
+A|2761662|4256 Portage Road,baseline
+L|2771167,baseline
+S|2771167|Radiography,baseline
+A|2771167|2741 Chamberland Street,baseline
+L|2780785,baseline
+S|2780785|Ophthalmic Ultrasound,baseline
+A|2780785|1105 Carling Avenue,baseline
+L|2815050,baseline
+S|2815050|Sleep Studies,baseline
+A|2815050|1835 Yonge Street,baseline
+L|2838225,baseline
+S|2838225|General Ultrasound,baseline
+A|2838225|435 The Boardwalk,baseline
+L|2842285,baseline
+S|2842285|General Ultrasound,baseline
+S|2842285|Vascular Ultrasound,baseline
+A|2842285|2140 Regent Street South,baseline
+L|2853922,baseline
+S|2853922|General Ultrasound,baseline
+S|2853922|Radiography,baseline
+A|2853922|3447 Kennedy Road,baseline
+L|2857823,baseline
+S|2857823|Radiography,baseline
+A|2857823|6453 Morrison Street,baseline
+L|2860601,baseline
+S|2860601|Sleep Studies,baseline
+A|2860601|1099 Kingston Road,baseline
+L|2869975,baseline
+S|2869975|Bone Mineral DXA,baseline
+S|2869975|General Ultrasound,baseline
+S|2869975|Mammography,baseline
+S|2869975|Radiography,baseline
+S|2869975|Vascular Ultrasound,baseline
+A|2869975|350 Conestoga Boulevard,baseline
+L|2876790,baseline
+S|2876790|Abortion,baseline
+A|2876790|65 Bank Street,baseline
+L|2896836,baseline
+S|2896836|Ophthalmic Ultrasound,baseline
+A|2896836|835 Paramount Drive,baseline
+L|2901413,baseline
+S|2901413|General Ultrasound,baseline
+S|2901413|Radiography,baseline
+A|2901413|300 Legget Drive,baseline
+L|2911175,baseline
+S|2911175|Bone Mineral DXA,baseline
+S|2911175|Mammography,baseline
+S|2911175|Radiography,baseline
+A|2911175|658 Danforth Avenue,baseline
+L|2943444,baseline
+S|2943444|General Ultrasound,baseline
+S|2943444|Radiography,baseline
+A|2943444|338 Waterloo Street,baseline
+L|2946427,baseline
+S|2946427|General Ultrasound,baseline
+S|2946427|Radiography,baseline
+S|2946427|Vascular Ultrasound,baseline
+A|2946427|751 Victoria Street South,baseline
+L|2952163,baseline
+S|2952163|Ophthalmic Ultrasound,baseline
+A|2952163|35 Sunday Drive,baseline
+L|2968147,baseline
+S|2968147|Ophthalmic Ultrasound,baseline
+A|2968147|801 Eglinton Avenue West,baseline
+L|2984302,baseline
+S|2984302|Sleep Studies,baseline
+A|2984302|2 Champagne Drive,baseline
+L|2988099,baseline
+S|2988099|Bone Mineral DXA,baseline
+A|2988099|1735 Kipling Avenue,baseline
+L|3005225,baseline
+S|3005225|Ophthalmic Ultrasound,baseline
+A|3005225|1149 Barton Street East,baseline
+L|3011367,baseline
+S|3011367|General Ultrasound,baseline
+S|3011367|Radiography,baseline
+A|3011367|3227 Eglinton Avenue East,baseline
+L|3011387,baseline
+S|3011387|Fluoroscopy,baseline
+S|3011387|General Ultrasound,baseline
+S|3011387|Mammography,baseline
+S|3011387|Nuclear Medicine - In Vivo - General,baseline
+S|3011387|Nuclear Medicine - In Vivo - SPECT,baseline
+S|3011387|Radiography,baseline
+S|3011387|Vascular Ultrasound,baseline
+A|3011387|1055 Fanshawe Park Road West,baseline
+L|3011914,baseline
+S|3011914|Bone Mineral DXA,baseline
+S|3011914|General Ultrasound,baseline
+S|3011914|Radiography,baseline
+A|3011914|31 Disera Drive,baseline
+L|3018297,baseline
+S|3018297|Sleep Studies,baseline
+A|3018297|2130 Lawrence Avenue East,baseline
+L|3023145,baseline
+S|3023145|Plastic Surgery,baseline
+A|3023145|343 - 50 Burnhamthorpe Road West,baseline
+L|3031776,baseline
+S|3031776|Bone Mineral DXA,baseline
+S|3031776|General Ultrasound,baseline
+S|3031776|Mammography,baseline
+S|3031776|Radiography,baseline
+A|3031776|960 Lawrence Avenue West,baseline
+L|3033585,baseline
+S|3033585|General Ultrasound,baseline
+A|3033585|2900 Markham Road,baseline
+L|3033991,baseline
+S|3033991|Fluoroscopy,baseline
+S|3033991|General Ultrasound,baseline
+S|3033991|Mammography,baseline
+S|3033991|Radiography,baseline
+S|3033991|Vascular Ultrasound,baseline
+A|3033991|704 Mara Street,baseline
+L|3041449,baseline
+S|3041449|Bone Mineral DXA,baseline
+S|3041449|General Ultrasound,baseline
+S|3041449|Radiography,baseline
+S|3041449|Vascular Ultrasound,baseline
+A|3041449|298 Sheppard Avenue East,baseline
+L|3043514,baseline
+S|3043514|Bone Mineral DXA,baseline
+S|3043514|General Ultrasound,baseline
+S|3043514|Mammography,baseline
+S|3043514|Radiography,baseline
+S|3043514|Vascular Ultrasound,baseline
+A|3043514|10 Cottrelle Boulevard,baseline
+L|3046724,baseline
+S|3046724|General Ultrasound,baseline
+S|3046724|Vascular Ultrasound,baseline
+A|3046724|1405 Cornwall Road,baseline
+L|3046918,baseline
+S|3046918|Mobile General Ultrasound,baseline
+A|3046918|5492 South River Drive,baseline
+L|3054106,baseline
+S|3054106|Radiography,baseline
+A|3054106|1657 Dundas Street,baseline
+L|3054654,baseline
+S|3054654|General Ultrasound,baseline
+S|3054654|Radiography,baseline
+A|3054654|80 Michael Cowpland Drive,baseline
+L|3058099,baseline
+S|3058099|Ophthalmic Ultrasound,baseline
+A|3058099|3101 Bloor Street West,baseline
+L|3062794,baseline
+S|3062794|General Ultrasound,baseline
+S|3062794|Radiography,baseline
+A|3062794|12560 Kennedy Road,baseline
+L|3075544,baseline
+S|3075544|General Ultrasound,baseline
+S|3075544|Radiography,baseline
+A|3075544|385 Silver Star Boulevard,baseline
+L|3076125,baseline
+S|3076125|General Ultrasound,baseline
+S|3076125|Radiography,baseline
+A|3076125|206 Fifth Avenue,baseline
+L|3090625,baseline
+S|3090625|Ophthalmic Ultrasound,baseline
+A|3090625|135 Queen's Plate Drive,baseline
+L|3092988,baseline
+S|3092988|Midwifery,baseline
+A|3092988|525 Dundas Street East,baseline
+L|3111683,baseline
+S|3111683|General Ultrasound,baseline
+S|3111683|Radiography,baseline
+A|3111683|3333 Brimley Road,baseline
+L|3116962,baseline
+S|3116962|General Ultrasound,baseline
+S|3116962|Mammography,baseline
+S|3116962|Radiography,baseline
+S|3116962|Vascular Ultrasound,baseline
+A|3116962|25 Curtis Avenue North,baseline
+L|3121417,baseline
+S|3121417|General Ultrasound,baseline
+S|3121417|Radiography,baseline
+S|3121417|Vascular Ultrasound,baseline
+A|3121417|11 Lakeside Terrace,baseline
+L|3122506,baseline
+S|3122506|Nuclear Medicine - In Vivo - General,baseline
+S|3122506|Nuclear Medicine - In Vivo - SPECT,baseline
+A|3122506|191 McNaughton Road East,baseline
+L|3123625,baseline
+S|3123625|Mobile Vascular Ultrasound,baseline
+A|3123625|1986 Cedar Creek Road,baseline
+L|3149489,baseline
+S|3149489|General Ultrasound,baseline
+S|3149489|Mammography,baseline
+S|3149489|Radiography,baseline
+A|3149489|8333 Weston Road,baseline
+L|3150721,baseline
+S|3150721|Bone Mineral DXA,baseline
+S|3150721|Fluoroscopy,baseline
+S|3150721|General Ultrasound,baseline
+S|3150721|Radiography,baseline
+A|3150721|1980 St. Clair Avenue West,baseline
+L|3153812,baseline
+S|3153812|Nuclear Medicine - In Vivo - General,baseline
+S|3153812|Nuclear Medicine - In Vivo - SPECT,baseline
+A|3153812|18 Wynford Drive,baseline
+L|3171114,baseline
+S|3171114|Sleep Studies,baseline
+A|3171114|420 North Service Road East,baseline
+L|3177417,baseline
+S|3177417|Bone Mineral DXA,baseline
+S|3177417|General Ultrasound,baseline
+S|3177417|Mammography,baseline
+S|3177417|Radiography,baseline
+S|3177417|Vascular Ultrasound,baseline
+A|3177417|4289 Innes Road,baseline
+L|3180971,baseline
+S|3180971|Ophthalmic Ultrasound,baseline
+A|3180971|2148 Carling Avenue,baseline
+L|3195382,baseline
+S|3195382|GI-Endoscopy,baseline
+A|3195382|340 College Street,baseline
+L|3197120,baseline
+S|3197120|Bone Mineral DXA,baseline
+S|3197120|General Ultrasound,baseline
+S|3197120|Mammography,baseline
+S|3197120|Radiography,baseline
+S|3197120|Vascular Ultrasound,baseline
+A|3197120|338 Waterloo Street,baseline
+L|3200843,baseline
+S|3200843|Vascular Ultrasound,baseline
+A|3200843|1033 Bay Street,baseline
+L|3201545,baseline
+S|3201545|Nuclear Medicine - In Vivo - General,baseline
+S|3201545|Nuclear Medicine - In Vivo - SPECT,baseline
+A|3201545|229 Broadway Avenue,baseline
+L|3214899,baseline
+S|3214899|Pulmonary Function A - Pure Screening,baseline
+S|3214899|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|3214899|1720 Howard Avenue,baseline
+L|3218304,baseline
+S|3218304|Ophthalmic Ultrasound,baseline
+A|3218304|9080 Yonge Street,baseline
+L|3256753,baseline
+S|3256753|Radiography,baseline
+A|3256753|521 Victoria Park Avenue,baseline
+L|3276351,baseline
+S|3276351|Pulmonary Function A - Pure Screening,baseline
+S|3276351|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|3276351|3155 Harvester Road,baseline
+L|3279068,baseline
+S|3279068|Bone Mineral DXA,baseline
+S|3279068|General Ultrasound,baseline
+S|3279068|Mammography,baseline
+S|3279068|Radiography,baseline
+S|3279068|Vascular Ultrasound,baseline
+A|3279068|150 Katimavik Road,baseline
+L|3284160,baseline
+S|3284160|Sleep Studies,baseline
+A|3284160|945 - 3rd Avenue East,baseline
+L|3300103,baseline
+S|3300103|Pulmonary Function - Other Fee Codes,baseline
+S|3300103|Pulmonary Function A - Pure Screening,baseline
+S|3300103|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|3300103|Pulmonary Function C - Escalated Testing,baseline
+A|3300103|399 Bathurst Street,baseline
+L|3306447,baseline
+S|3306447|General Ultrasound,baseline
+S|3306447|Radiography,baseline
+A|3306447|738 Notre Dame Street,baseline
+L|3319513,baseline
+S|3319513|Eye Surgery,baseline
+A|3319513|10700 Tecumseh Road East,baseline
+L|3324016,baseline
+S|3324016|Bone Mineral DXA,baseline
+S|3324016|General Ultrasound,baseline
+S|3324016|Radiography,baseline
+S|3324016|Vascular Ultrasound,baseline
+A|3324016|12295 Hwy 50,baseline
+L|3362255,baseline
+S|3362255|Bone Mineral DXA,baseline
+S|3362255|Fluoroscopy,baseline
+S|3362255|General Ultrasound,baseline
+S|3362255|Mammography,baseline
+S|3362255|Nuclear Medicine - In Vivo - General,baseline
+S|3362255|Nuclear Medicine - In Vivo - SPECT,baseline
+S|3362255|Radiography,baseline
+S|3362255|Vascular Ultrasound,baseline
+A|3362255|5055 Plantation Place,baseline
+L|3363065,baseline
+S|3363065|Ophthalmic Ultrasound,baseline
+A|3363065|123 Millennium Parkway,baseline
+L|3374136,baseline
+S|3374136|Computed Tomography,baseline
+S|3374136|Magnetic Resonance Imaging,baseline
+A|3374136|464 Welland Avenue,baseline
+L|3402156,baseline
+S|3402156|Sleep Studies,baseline
+A|3402156|139 Grand River Street North,baseline
+L|3406312,baseline
+S|3406312|General Ultrasound,baseline
+S|3406312|Radiography,baseline
+S|3406312|Vascular Ultrasound,baseline
+A|3406312|2 Gurdwara Road,baseline
+L|3406812,baseline
+S|3406812|Pulmonary Function - Other Fee Codes,baseline
+S|3406812|Pulmonary Function A - Pure Screening,baseline
+S|3406812|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|3406812|Pulmonary Function C - Escalated Testing,baseline
+A|3406812|2250 Bovaird Drive East,baseline
+L|3407890,baseline
+S|3407890|Bone Mineral DXA,baseline
+S|3407890|General Ultrasound,baseline
+S|3407890|Nuclear Medicine - In Vivo - General,baseline
+S|3407890|Nuclear Medicine - In Vivo - SPECT,baseline
+S|3407890|Radiography,baseline
+S|3407890|Vascular Ultrasound,baseline
+A|3407890|955 Major Mackenzie Drive,baseline
+L|3413583,baseline
+S|3413583|Positron Emission Tomography,baseline
+"A|3413583|G04 - 2300 Eglinton Avenue West, ",baseline
+L|3423195,baseline
+S|3423195|Bone Mineral DXA,baseline
+S|3423195|Mammography,baseline
+S|3423195|Radiography,baseline
+A|3423195|751 Victoria Street South,baseline
+L|3424685,baseline
+S|3424685|Computed Tomography,baseline
+A|3424685|100 Frank Miller Drive,baseline
+L|3425711,baseline
+S|3425711|Ophthalmic Ultrasound,baseline
+A|3425711|65 Angeline Street North,baseline
+L|3428306,baseline
+S|3428306|Bone Mineral DXA,baseline
+S|3428306|Fluoroscopy,baseline
+S|3428306|General Ultrasound,baseline
+S|3428306|Mammography,baseline
+S|3428306|Radiography,baseline
+S|3428306|Vascular Ultrasound,baseline
+A|3428306|797 Princess Street,baseline
+L|3432501,baseline
+S|3432501|Bone Mineral DXA,baseline
+S|3432501|General Ultrasound,baseline
+S|3432501|Radiography,baseline
+A|3432501|1262 Don Mills Road,baseline
+L|3433683,baseline
+S|3433683|General Ultrasound,baseline
+S|3433683|Vascular Ultrasound,baseline
+A|3433683|1000 Middlegate Road,baseline
+L|3452164,baseline
+S|3452164|Bone Mineral DXA,baseline
+S|3452164|General Ultrasound,baseline
+S|3452164|Mammography,baseline
+S|3452164|Radiography,baseline
+A|3452164|4525 Ebenezer Road,baseline
+L|3461004,baseline
+S|3461004|Fluoroscopy,baseline
+S|3461004|General Ultrasound,baseline
+S|3461004|Radiography,baseline
+S|3461004|Vascular Ultrasound,baseline
+A|3461004|25 Charlton Avenue East,baseline
+L|3461204,baseline
+S|3461204|Radiography,baseline
+A|3461204|2421 Dougall Avenue,baseline
+L|3473798,baseline
+S|3473798|General Ultrasound,baseline
+S|3473798|Mammography,baseline
+S|3473798|Radiography,baseline
+S|3473798|Vascular Ultrasound,baseline
+A|3473798|3800 Brock Street North,baseline
+L|3476695,baseline
+S|3476695|General Ultrasound,baseline
+A|3476695|790 Bay Street,baseline
+L|3487302,baseline
+S|3487302|Sleep Studies,baseline
+A|3487302|900 Division Street,baseline
+L|3511991,baseline
+S|3511991|General Ultrasound,baseline
+S|3511991|Radiography,baseline
+S|3511991|Vascular Ultrasound,baseline
+A|3511991|1243 Islington Avenue,baseline
+L|3512576,baseline
+S|3512576|Bone Mineral DXA,baseline
+S|3512576|Fluoroscopy,baseline
+S|3512576|General Ultrasound,baseline
+S|3512576|Mammography,baseline
+S|3512576|Radiography,baseline
+S|3512576|Vascular Ultrasound,baseline
+A|3512576|1077 North Service Road,baseline
+L|3544741,baseline
+S|3544741|Bone Mineral DXA,baseline
+S|3544741|General Ultrasound,baseline
+S|3544741|Mammography,baseline
+S|3544741|Radiography,baseline
+S|3544741|Vascular Ultrasound,baseline
+A|3544741|99 Sinclair Avenue,baseline
+L|3560322,baseline
+S|3560322|GI-Endoscopy,baseline
+A|3560322|2125 Wyecroft Road,baseline
+L|3570063,baseline
+S|3570063|General Ultrasound,baseline
+S|3570063|Vascular Ultrasound,baseline
+A|3570063|10243 Yonge Street,baseline
+L|3577982,baseline
+S|3577982|Bone Mineral DXA,baseline
+S|3577982|Fluoroscopy,baseline
+S|3577982|General Ultrasound,baseline
+S|3577982|Radiography,baseline
+A|3577982|4002 Sheppard Avenue East,baseline
+L|3612839,baseline
+S|3612839|Bone Mineral DXA,baseline
+S|3612839|Radiography,baseline
+A|3612839|245 Pelham Road,baseline
+L|3616430,baseline
+S|3616430|Nuclear Medicine - In Vivo - General,baseline
+S|3616430|Nuclear Medicine - In Vivo - SPECT,baseline
+A|3616430|437 Norwich Avenue,baseline
+L|3617984,baseline
+S|3617984|Dialysis,baseline
+A|3617984|1087 Camp Dorset Road,baseline
+L|3630988,baseline
+S|3630988|Ophthalmic Ultrasound,baseline
+A|3630988|180 Vine Street South,baseline
+L|3646159,baseline
+S|3646159|General Ultrasound,baseline
+S|3646159|Ophthalmic Ultrasound,baseline
+A|3646159|7982 Yonge Street,baseline
+L|3660970,baseline
+S|3660970|Ophthalmic Ultrasound,baseline
+A|3660970|1849 Yonge Street,baseline
+L|3684649,baseline
+S|3684649|Bone Mineral DXA,baseline
+S|3684649|General Ultrasound,baseline
+S|3684649|Mammography,baseline
+S|3684649|Radiography,baseline
+S|3684649|Vascular Ultrasound,baseline
+A|3684649|240 Penetanguishene Road,baseline
+L|3700104,baseline
+S|3700104|Nuclear Medicine - In Vivo - General,baseline
+S|3700104|Nuclear Medicine - In Vivo - SPECT,baseline
+S|3700104|Vascular Ultrasound,baseline
+A|3700104|2075 Hadwen Road,baseline
+L|3704912,baseline
+S|3704912|Magnetic Resonance Imaging,baseline
+A|3704912|50 Minthorn Boulevard,baseline
+L|3708734,baseline
+S|3708734|GI-Endoscopy,baseline
+A|3708734|700 Lawrence Avenue West,baseline
+L|3763195,baseline
+S|3763195|Obs/Gyn Ultrasound,baseline
+A|3763195|658 Danforth Avenue,baseline
+L|3809136,baseline
+S|3809136|General Ultrasound,baseline
+S|3809136|Radiography,baseline
+A|3809136|790 Bay Street,baseline
+L|3810104,baseline
+S|3810104|Bone Mineral DXA,baseline
+S|3810104|General Ultrasound,baseline
+S|3810104|Mammography,baseline
+S|3810104|Radiography,baseline
+S|3810104|Vascular Ultrasound,baseline
+A|3810104|198 Des Newman Boulevard,baseline
+L|3824216,baseline
+S|3824216|Bone Mineral DXA,baseline
+S|3824216|Mammography,baseline
+S|3824216|Radiography,baseline
+A|3824216|1333 Sheppard Avenue East,baseline
+L|3842356,baseline
+S|3842356|General Ultrasound,baseline
+S|3842356|Radiography,baseline
+A|3842356|385 Fairway Road South,baseline
+L|3851600,baseline
+S|3851600|Ophthalmic Ultrasound,baseline
+A|3851600|46 Norfolk Street North,baseline
+L|3852223,baseline
+S|3852223|Vascular Ultrasound,baseline
+A|3852223|880 North Service Road,baseline
+L|3855279,baseline
+S|3855279|Nuclear Medicine - In Vivo - General,baseline
+S|3855279|Nuclear Medicine - In Vivo - SPECT,baseline
+A|3855279|1310 Don Mills Road,baseline
+L|3858202,baseline
+S|3858202|General Ultrasound,baseline
+S|3858202|Mammography,baseline
+S|3858202|Vascular Ultrasound,baseline
+A|3858202|110 Michael Cowpland Drive,baseline
+L|3862680,baseline
+S|3862680|Ophthalmic Ultrasound,baseline
+A|3862680|377 Church Street,baseline
+L|3872770,baseline
+S|3872770|Bone Mineral DXA,baseline
+S|3872770|General Ultrasound,baseline
+S|3872770|Radiography,baseline
+A|3872770|2065 Finch Avenue West,baseline
+L|3876219,baseline
+S|3876219|Bone Mineral DXA,baseline
+S|3876219|General Ultrasound,baseline
+S|3876219|Nuclear Medicine - In Vivo - General,baseline
+S|3876219|Nuclear Medicine - In Vivo - SPECT,baseline
+S|3876219|Pulmonary Function A - Pure Screening,baseline
+S|3876219|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|3876219|Pulmonary Function C - Escalated Testing,baseline
+S|3876219|Radiography,baseline
+S|3876219|Vascular Ultrasound,baseline
+A|3876219|117 Young Street,baseline
+L|3876784,baseline
+S|3876784|Mobile General Ultrasound,baseline
+S|3876784|Mobile Vascular Ultrasound,baseline
+A|3876784|101 Westmore Drive,baseline
+L|3885239,baseline
+S|3885239|Fluoroscopy,baseline
+S|3885239|General Ultrasound,baseline
+S|3885239|Radiography,baseline
+S|3885239|Vascular Ultrasound,baseline
+A|3885239|1275 Walker Road,baseline
+L|3898523,baseline
+S|3898523|Nuclear Medicine - In Vivo - General,baseline
+S|3898523|Nuclear Medicine - In Vivo - SPECT,baseline
+A|3898523|1000 Middlegate Road,baseline
+L|3906255,baseline
+S|3906255|General Ultrasound,baseline
+S|3906255|Radiography,baseline
+A|3906255|723 Rymal Road West,baseline
+L|3966782,baseline
+S|3966782|General Ultrasound,baseline
+S|3966782|Radiography,baseline
+A|3966782|99 Firvalley Court,baseline
+L|3979430,baseline
+S|3979430|Radiography,baseline
+A|3979430|70 Meredith Street,baseline
+L|3980103,baseline
+S|3980103|Bone Mineral DXA,baseline
+S|3980103|General Ultrasound,baseline
+S|3980103|Mammography,baseline
+S|3980103|Pulmonary Function A - Pure Screening,baseline
+S|3980103|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|3980103|Pulmonary Function C - Escalated Testing,baseline
+S|3980103|Radiography,baseline
+S|3980103|Vascular Ultrasound,baseline
+A|3980103|314 Broadway Avenue,baseline
+L|3987671,baseline
+S|3987671|General Ultrasound,baseline
+S|3987671|Radiography,baseline
+S|3987671|Vascular Ultrasound,baseline
+A|3987671|150 Sidney Street,baseline
+L|3996912,baseline
+S|3996912|General Ultrasound,baseline
+S|3996912|Mammography,baseline
+A|3996912|658 Danforth Avenue ,baseline
+L|4001894,baseline
+S|4001894|Bone Mineral DXA,baseline
+S|4001894|General Ultrasound,baseline
+S|4001894|Mammography,baseline
+S|4001894|Radiography,baseline
+S|4001894|Vascular Ultrasound,baseline
+A|4001894|3950 Grand Park Drive,baseline
+L|4013891,baseline
+S|4013891|Dialysis,baseline
+A|4013891|815 High Street,baseline
+L|4014432,baseline
+S|4014432|Bone Mineral DXA,baseline
+S|4014432|Fluoroscopy,baseline
+S|4014432|General Ultrasound,baseline
+S|4014432|Radiography,baseline
+A|4014432|2291 Kipling Avenue,baseline
+L|4019989,baseline
+S|4019989|General Ultrasound,baseline
+S|4019989|Radiography,baseline
+S|4019989|Vascular Ultrasound,baseline
+A|4019989|857 Grand Avenue West,baseline
+L|4023504,baseline
+S|4023504|General Ultrasound,baseline
+S|4023504|Radiography,baseline
+A|4023504|523 The Queensway,baseline
+L|4023918,baseline
+S|4023918|Bone Mineral DXA,baseline
+S|4023918|General Ultrasound,baseline
+S|4023918|Mammography,baseline
+S|4023918|Radiography,baseline
+S|4023918|Vascular Ultrasound,baseline
+A|4023918|65 University Avenue East,baseline
+L|4026910,baseline
+S|4026910|Plastic Surgery,baseline
+A|4026910|5668 Main Street,baseline
+L|4027423,baseline
+S|4027423|General Ultrasound,baseline
+A|4027423|720 Spadina Avenue,baseline
+L|4028209,baseline
+S|4028209|Ophthalmic Ultrasound,baseline
+A|4028209|27 Place d'Armes,baseline
+L|4042591,baseline
+S|4042591|Bone Mineral DXA,baseline
+S|4042591|General Ultrasound,baseline
+S|4042591|Mammography,baseline
+S|4042591|Radiography,baseline
+A|4042591|491 Lawrence Avenue West,baseline
+L|4052919,baseline
+S|4052919|General Ultrasound,baseline
+S|4052919|Vascular Ultrasound,baseline
+A|4052919|86 Angeline Street South,baseline
+L|4053917,baseline
+S|4053917|Mobile General Ultrasound,baseline
+S|4053917|Mobile Vascular Ultrasound,baseline
+A|4053917|2525 Old Bronte Road,baseline
+L|4076791,baseline
+S|4076791|General Ultrasound,baseline
+S|4076791|Radiography,baseline
+S|4076791|Vascular Ultrasound,baseline
+A|4076791|1290 Keith Ross Court,baseline
+L|4076856,baseline
+S|4076856|Bone Mineral DXA,baseline
+S|4076856|Fluoroscopy,baseline
+S|4076856|General Ultrasound,baseline
+S|4076856|Mammography,baseline
+S|4076856|Radiography,baseline
+A|4076856|40 Finchgate Boulevard,baseline
+L|4092520,baseline
+S|4092520|Mobile General Ultrasound,baseline
+S|4092520|Mobile Vascular Ultrasound,baseline
+A|4092520|430 The Boardwalk,baseline
+L|4093960,baseline
+S|4093960|General Ultrasound,baseline
+S|4093960|Vascular Ultrasound,baseline
+A|4093960|1881 Yonge Street,baseline
+L|4097988,baseline
+S|4097988|Mobile Obs/Gyn Ultrasound,baseline
+S|4097988|Mobile Radiography,baseline
+A|4097988|3155 Harvester Road,baseline
+L|4123551,baseline
+S|4123551|Mobile General Ultrasound,baseline
+S|4123551|Mobile Radiography,baseline
+S|4123551|Mobile Vascular Ultrasound,baseline
+A|4123551|152 Newbold Court,baseline
+L|4124581,baseline
+S|4124581|General Ultrasound,baseline
+A|4124581|1261 Kennedy Road,baseline
+L|4137151,baseline
+S|4137151|Sleep Studies,baseline
+A|4137151|282 Linwell Road,baseline
+L|4137196,baseline
+S|4137196|Nuclear Medicine - In Vivo - General,baseline
+S|4137196|Nuclear Medicine - In Vivo - SPECT,baseline
+A|4137196|1000 Middlegate Road,baseline
+L|4139984,baseline
+S|4139984|Midwifery,baseline
+A|4139984|2260 Walkley Road,baseline
+L|4140949,baseline
+S|4140949|Sleep Studies,baseline
+A|4140949|4040 Finch Avenue East,baseline
+L|4152906,baseline
+S|4152906|Bone Mineral DXA,baseline
+S|4152906|General Ultrasound,baseline
+S|4152906|Mammography,baseline
+S|4152906|Radiography,baseline
+S|4152906|Vascular Ultrasound,baseline
+A|4152906|1960 Appleby Line,baseline
+L|4164804,baseline
+S|4164804|Nuclear Medicine - In Vivo - General,baseline
+S|4164804|Nuclear Medicine - In Vivo - SPECT,baseline
+A|4164804|2800 Highpoint Drive,baseline
+L|4171308,baseline
+S|4171308|Radiography,baseline
+A|4171308|1929 Russell Road,baseline
+L|4172891,baseline
+S|4172891|Bone Mineral DXA,baseline
+S|4172891|Fluoroscopy,baseline
+S|4172891|General Ultrasound,baseline
+S|4172891|Mammography,baseline
+S|4172891|Radiography,baseline
+S|4172891|Vascular Ultrasound,baseline
+A|4172891|1235 Trafalgar Road,baseline
+L|4173982,baseline
+S|4173982|Sleep Studies,baseline
+A|4173982|200 Windflower Gate,baseline
+L|4179104,baseline
+S|4179104|Sleep Studies,baseline
+A|4179104|63 Lombard Street,baseline
+L|4195960,baseline
+S|4195960|Sleep Studies,baseline
+A|4195960|1835 Yonge Street,baseline
+L|4201319,baseline
+S|4201319|General Ultrasound,baseline
+S|4201319|Vascular Ultrasound,baseline
+A|4201319|1657 Dundas Street,baseline
+L|4208420,baseline
+S|4208420|General Ultrasound,baseline
+S|4208420|Radiography,baseline
+S|4208420|Vascular Ultrasound,baseline
+A|4208420|1005 Elgin Street West,baseline
+L|4220266,baseline
+S|4220266|Radiography,baseline
+A|4220266|4430 Bathurst Street,baseline
+L|4223075,baseline
+S|4223075|Vascular Ultrasound,baseline
+A|4223075|216 West Street,baseline
+L|4262698,baseline
+S|4262698|General Ultrasound,baseline
+S|4262698|Radiography,baseline
+S|4262698|Vascular Ultrasound,baseline
+A|4262698|2741 Chamberland Street,baseline
+L|4275127,baseline
+S|4275127|Pulmonary Function A - Pure Screening,baseline
+S|4275127|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|4275127|Pulmonary Function C - Escalated Testing,baseline
+A|4275127|2125 Front Street,baseline
+L|4276168,baseline
+S|4276168|GI-Endoscopy,baseline
+A|4276168|1960 Appleby Line,baseline
+L|4276791,baseline
+S|4276791|Mobile General Ultrasound,baseline
+S|4276791|Mobile Radiography,baseline
+S|4276791|Mobile Vascular Ultrasound,baseline
+A|4276791|1 Centrepointe Drive,baseline
+L|4327119,baseline
+S|4327119|Ophthalmic Ultrasound,baseline
+A|4327119|206 Sheppard Avenue West,baseline
+L|4360874,baseline
+S|4360874|Nuclear Medicine - In Vivo - General,baseline
+S|4360874|Nuclear Medicine - In Vivo - SPECT,baseline
+S|4360874|Ophthalmic Ultrasound,baseline
+A|4360874|2464 Howard Avenue,baseline
+L|4361825,baseline
+S|4361825|GI-Endoscopy,baseline
+A|4361825|1065 Canadian Place,baseline
+L|4363375,baseline
+S|4363375|Sleep Studies,baseline
+A|4363375|1840 Woodward Avenue,baseline
+L|4405477,baseline
+S|4405477|Bone Mineral DXA,baseline
+S|4405477|General Ultrasound,baseline
+S|4405477|Radiography,baseline
+A|4405477|1220 Promenade Place D'Orleans,baseline
+L|4412518,baseline
+S|4412518|Eye Surgery,baseline
+A|4412518|340 College Street,baseline
+L|4412910,baseline
+S|4412910|Eye Surgery,baseline
+A|4412910|1730 St. Laurent Boulevard,baseline
+L|4413503,baseline
+S|4413503|Positron Emission Tomography,baseline
+A|4413503|2462 Howard Avenue,baseline
+L|4428801,baseline
+S|4428801|Ophthalmic Ultrasound,baseline
+A|4428801|564 Belmont Avenue West,baseline
+L|4429580,baseline
+S|4429580|Bone Mineral DXA,baseline
+S|4429580|General Ultrasound,baseline
+S|4429580|Radiography,baseline
+A|4429580|7241 Bathurst Street,baseline
+L|4441238,baseline
+S|4441238|Nuclear Medicine - In Vivo - General,baseline
+S|4441238|Nuclear Medicine - In Vivo - SPECT,baseline
+A|4441238|327 Charlotte Street,baseline
+L|4443981,baseline
+S|4443981|Dialysis,baseline
+A|4443981|1550 Kingston Road,baseline
+L|4461442,baseline
+S|4461442|Bone Mineral DXA,baseline
+S|4461442|General Ultrasound,baseline
+S|4461442|Mammography,baseline
+S|4461442|Radiography,baseline
+S|4461442|Vascular Ultrasound,baseline
+A|4461442|2050 Weston Road,baseline
+L|4499203,baseline
+S|4499203|Bone Mineral DXA,baseline
+S|4499203|General Ultrasound,baseline
+S|4499203|Nuclear Medicine - In Vivo - General,baseline
+S|4499203|Nuclear Medicine - In Vivo - SPECT,baseline
+S|4499203|Radiography,baseline
+S|4499203|Vascular Ultrasound,baseline
+A|4499203|7325 Yonge Street,baseline
+L|4591009,baseline
+S|4591009|Ophthalmic Ultrasound,baseline
+A|4591009|39 Commerce Road,baseline
+L|4600375,baseline
+S|4600375|Sleep Studies,baseline
+A|4600375|845 Wilson Avenue,baseline
+L|4610057,baseline
+S|4610057|Ophthalmic Ultrasound,baseline
+A|4610057|2115 Finch Avenue West,baseline
+L|4611989,baseline
+S|4611989|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|4611989|Sleep Studies,baseline
+A|4611989|820 Red River Road,baseline
+L|4612369,baseline
+S|4612369|Orthopedics Surgery,baseline
+A|4612369|9355 Leslie Street,baseline
+L|4614799,baseline
+S|4614799|Sleep Studies,baseline
+A|4614799|55 Edinborough Street,baseline
+L|4627346,baseline
+S|4627346|Bone Mineral DXA,baseline
+S|4627346|General Ultrasound,baseline
+S|4627346|Radiography,baseline
+A|4627346|4789 Yonge Street,baseline
+L|4646978,baseline
+S|4646978|Bone Mineral DXA,baseline
+S|4646978|Radiography,baseline
+A|4646978|1545A Merivale Road,baseline
+L|4682097,baseline
+S|4682097|General Ultrasound,baseline
+A|4682097|807 Broadview Avenue,baseline
+L|4689533,baseline
+S|4689533|General Ultrasound,baseline
+S|4689533|Radiography,baseline
+A|4689533|1252 Lawrence Avenue East,baseline
+L|4706496,baseline
+S|4706496|General Ultrasound,baseline
+A|4706496|4637 Kingston Road,baseline
+L|4726294,baseline
+S|4726294|GI-Endoscopy,baseline
+A|4726294|4610 Highway 7,baseline
+L|4750600,baseline
+S|4750600|Ophthalmic Ultrasound,baseline
+A|4750600|16945 Leslie Street,baseline
+L|4751893,baseline
+S|4751893|General Ultrasound,baseline
+S|4751893|Radiography,baseline
+S|4751893|Vascular Ultrasound,baseline
+A|4751893|13278 Tecumseh Road East,baseline
+L|4781632,baseline
+S|4781632|Bone Mineral DXA,baseline
+S|4781632|Fluoroscopy,baseline
+S|4781632|General Ultrasound,baseline
+S|4781632|Mammography,baseline
+S|4781632|Radiography,baseline
+A|4781632|8077 Islington Avenue,baseline
+L|4791326,baseline
+S|4791326|General Ultrasound,baseline
+A|4791326|100 Nipissing Road,baseline
+L|4791536,baseline
+S|4791536|Pulmonary Function A - Pure Screening,baseline
+S|4791536|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|4791536|2300 Eglinton Avenue West,baseline
+L|4901319,baseline
+S|4901319|Bone Mineral DXA,baseline
+S|4901319|General Ultrasound,baseline
+S|4901319|Mammography,baseline
+S|4901319|Radiography,baseline
+A|4901319|4168 Finch Avenue East,baseline
+L|4923529,baseline
+S|4923529|General Ultrasound,baseline
+S|4923529|Radiography,baseline
+S|4923529|Vascular Ultrasound,baseline
+A|4923529|7 Metcalfe Street,baseline
+L|4923987,baseline
+S|4923987|Mobile General Ultrasound,baseline
+S|4923987|Mobile Radiography,baseline
+S|4923987|Mobile Vascular Ultrasound,baseline
+A|4923987|3155 Harvester Road,baseline
+L|4971684,baseline
+S|4971684|Sleep Studies,baseline
+A|4971684|6453 Morrison Street,baseline
+L|4976719,baseline
+S|4976719|Fluoroscopy,baseline
+S|4976719|General Ultrasound,baseline
+S|4976719|Radiography,baseline
+S|4976719|Vascular Ultrasound,baseline
+A|4976719|4250 Weston Road,baseline
+L|4979129,baseline
+S|4979129|Sleep Studies,baseline
+A|4979129|190 Sherway Drive,baseline
+L|4993143,baseline
+S|4993143|Ophthalmic Ultrasound,baseline
+A|4993143|1 Frankford Crescent,baseline
+L|4999144,baseline
+S|4999144|Bone Mineral DXA,baseline
+S|4999144|General Ultrasound,baseline
+S|4999144|Mammography,baseline
+S|4999144|Radiography,baseline
+S|4999144|Vascular Ultrasound,baseline
+A|4999144|826 King Street North,baseline
+L|4999844,baseline
+S|4999844|General Ultrasound,baseline
+S|4999844|Radiography,baseline
+A|4999844|2780 Jane Street,baseline
+L|5002106,baseline
+S|5002106|Fluoroscopy,baseline
+S|5002106|General Ultrasound,baseline
+S|5002106|Radiography,baseline
+S|5002106|Vascular Ultrasound,baseline
+A|5002106|2575 Dundas Street West,baseline
+L|5005756,baseline
+S|5005756|Obs/Gyn Ultrasound,baseline
+A|5005756|955 Green Valley Crescent,baseline
+L|5006169,baseline
+S|5006169|Pulmonary Function A - Pure Screening,baseline
+S|5006169|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|5006169|Pulmonary Function C - Escalated Testing,baseline
+S|5006169|Vascular Ultrasound,baseline
+A|5006169|31 Centre Street South,baseline
+L|5016914,baseline
+S|5016914|Sleep Studies,baseline
+A|5016914|264 McNabb Street,baseline
+L|5038767,baseline
+S|5038767|Bone Mineral DXA,baseline
+S|5038767|General Ultrasound,baseline
+S|5038767|Mammography,baseline
+S|5038767|Radiography,baseline
+S|5038767|Vascular Ultrasound,baseline
+A|5038767|240 Alton Towers Circle,baseline
+L|5038832,baseline
+S|5038832|Radiography,baseline
+A|5038832|63 Algoma Street North,baseline
+L|5041449,baseline
+S|5041449|General Ultrasound,baseline
+A|5041449|45 Overlea Boulevard,baseline
+L|5041744,baseline
+S|5041744|Radiography,baseline
+A|5041744|270 Charlotte Street,baseline
+L|5041844,baseline
+S|5041844|Bone Mineral DXA,baseline
+S|5041844|General Ultrasound,baseline
+S|5041844|Mammography,baseline
+S|5041844|Pulmonary Function A - Pure Screening,baseline
+S|5041844|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|5041844|Radiography,baseline
+S|5041844|Vascular Ultrasound,baseline
+A|5041844|2475 McDougall Street,baseline
+L|5043916,baseline
+S|5043916|General Ultrasound,baseline
+A|5043916|89 Queensway West,baseline
+L|5049912,baseline
+S|5049912|Bone Mineral DXA,baseline
+S|5049912|General Ultrasound,baseline
+S|5049912|Mammography,baseline
+S|5049912|Radiography,baseline
+S|5049912|Vascular Ultrasound,baseline
+A|5049912|600 Sherbourne Street,baseline
+L|5050068,baseline
+S|5050068|Nuclear Medicine - In Vivo - General,baseline
+S|5050068|Nuclear Medicine - In Vivo - SPECT,baseline
+A|5050068|325 Milner Avenue,baseline
+L|5051268,baseline
+S|5051268|Ophthalmic Ultrasound,baseline
+A|5051268|1450 Highway 2,baseline
+L|5051367,baseline
+S|5051367|Bone Mineral DXA,baseline
+S|5051367|General Ultrasound,baseline
+S|5051367|Mammography,baseline
+S|5051367|Radiography,baseline
+A|5051367|168 Charlotte Street,baseline
+L|5051744,baseline
+S|5051744|General Ultrasound,baseline
+S|5051744|Radiography,baseline
+A|5051744|1017 Wilson Avenue,baseline
+L|5054894,baseline
+S|5054894|Obs/Gyn Ultrasound,baseline
+A|5054894|1919 Riverside Drive,baseline
+L|5056225,baseline
+S|5056225|Fluoroscopy,baseline
+S|5056225|General Ultrasound,baseline
+S|5056225|Radiography,baseline
+S|5056225|Vascular Ultrasound,baseline
+A|5056225|1 Young Street,baseline
+L|5056976,baseline
+S|5056976|General Ultrasound,baseline
+A|5056976|260 Lynden Road,baseline
+L|5058023,baseline
+S|5058023|General Ultrasound,baseline
+S|5058023|Radiography,baseline
+A|5058023|20 Wynford Drive,baseline
+L|5058744,baseline
+S|5058744|General Ultrasound,baseline
+S|5058744|Radiography,baseline
+A|5058744|2700 Dufferin Street,baseline
+L|5061413,baseline
+S|5061413|General Ultrasound,baseline
+S|5061413|Vascular Ultrasound,baseline
+A|5061413|2800 Highpoint Drive,baseline
+L|5061463,baseline
+S|5061463|General Ultrasound,baseline
+S|5061463|Vascular Ultrasound,baseline
+A|5061463|1577 Danforth Avenue,baseline
+L|5066420,baseline
+S|5066420|Bone Mineral DXA,baseline
+S|5066420|General Ultrasound,baseline
+S|5066420|Mammography,baseline
+S|5066420|Radiography,baseline
+A|5066420|1654 Lakeshore Road West,baseline
+L|5072418,baseline
+S|5072418|Mobile General Ultrasound,baseline
+A|5072418|65 University Avenue East,baseline
+L|5076918,baseline
+S|5076918|General Ultrasound,baseline
+S|5076918|Radiography,baseline
+A|5076918|2 Champagne Drive,baseline
+L|5081582,baseline
+S|5081582|General Ultrasound,baseline
+S|5081582|Radiography,baseline
+S|5081582|Vascular Ultrasound,baseline
+A|5081582|1415 - 1st Avenue West,baseline
+L|5094573,baseline
+S|5094573|Computed Tomography,baseline
+S|5094573|Magnetic Resonance Imaging,baseline
+A|5094573|10 Kingsbridge Garden Circle,baseline
+L|5095356,baseline
+S|5095356|General Ultrasound,baseline
+S|5095356|Mammography,baseline
+S|5095356|Radiography,baseline
+S|5095356|Vascular Ultrasound,baseline
+A|5095356|445 Grand Avenue West,baseline
+L|5101514,baseline
+S|5101514|General Ultrasound,baseline
+S|5101514|Radiography,baseline
+A|5101514|11811 Tecumseh Road East,baseline
+L|5106332,baseline
+S|5106332|Ophthalmic Ultrasound,baseline
+A|5106332|9 Eric Devlin Lane,baseline
+L|5116153,baseline
+S|5116153|General Ultrasound,baseline
+A|5116153|2355 Keele Street,baseline
+L|5120350,baseline
+S|5120350|General Ultrasound,baseline
+S|5120350|Radiography,baseline
+A|5120350|1255 The Queensway,baseline
+L|5123616,baseline
+S|5123616|Mobile General Ultrasound,baseline
+A|5123616|4250 Sherwoodtowne Boulevard,baseline
+L|5149419,baseline
+S|5149419|Ophthalmic Ultrasound,baseline
+A|5149419|274 Lynden Road,baseline
+L|5168762,baseline
+S|5168762|General Ultrasound,baseline
+S|5168762|Radiography,baseline
+A|5168762|3938 Cottrelle Boulevard,baseline
+L|5175509,baseline
+S|5175509|Ophthalmic Ultrasound,baseline
+A|5175509|344 Consumers Road,baseline
+L|5179105,baseline
+S|5179105|Sleep Studies,baseline
+A|5179105|435 The Boardwalk,baseline
+L|5182135,baseline
+S|5182135|Bone Mineral DXA,baseline
+S|5182135|General Ultrasound,baseline
+S|5182135|Radiography,baseline
+A|5182135|2020 Brimley Road,baseline
+L|5185553,baseline
+S|5185553|General Ultrasound,baseline
+S|5185553|Radiography,baseline
+S|5185553|Vascular Ultrasound,baseline
+A|5185553|6212 Main Street,baseline
+L|5196153,baseline
+S|5196153|General Ultrasound,baseline
+S|5196153|Radiography,baseline
+S|5196153|Vascular Ultrasound,baseline
+A|5196153|205 Francis Street East,baseline
+L|5200302,baseline
+S|5200302|General Ultrasound,baseline
+A|5200302|240 Penetanguishene Road,baseline
+L|5201893,baseline
+S|5201893|General Ultrasound,baseline
+S|5201893|Radiography,baseline
+S|5201893|Vascular Ultrasound,baseline
+A|5201893|601 Limoges Road,baseline
+L|5205302,baseline
+S|5205302|Bone Mineral DXA,baseline
+S|5205302|Fluoroscopy,baseline
+S|5205302|General Ultrasound,baseline
+S|5205302|Mammography,baseline
+S|5205302|Radiography,baseline
+A|5205302|27 Roncesvalles Avenue,baseline
+L|5218300,baseline
+S|5218300|GI-Endoscopy,baseline
+A|5218300|2109 Ottawa Street,baseline
+L|5221255,baseline
+S|5221255|General Ultrasound,baseline
+S|5221255|Radiography,baseline
+A|5221255|1466 Bathurst Street,baseline
+L|5225596,baseline
+S|5225596|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|5225596|520 Ellesmere Road,baseline
+L|5230117,baseline
+S|5230117|General Ultrasound,baseline
+S|5230117|Radiography,baseline
+S|5230117|Vascular Ultrasound,baseline
+A|5230117|820 McConnell Avenue,baseline
+L|5234768,baseline
+S|5234768|Bone Mineral DXA,baseline
+S|5234768|General Ultrasound,baseline
+S|5234768|Mammography,baseline
+S|5234768|Radiography,baseline
+A|5234768|3101 Bloor Street West,baseline
+L|5254199,baseline
+S|5254199|Radiography,baseline
+A|5254199|233 Evans Avenue,baseline
+L|5259129,baseline
+S|5259129|Bone Mineral DXA,baseline
+S|5259129|General Ultrasound,baseline
+S|5259129|Radiography,baseline
+A|5259129|6453 Morrison Street,baseline
+L|5261893,baseline
+S|5261893|Bone Mineral DXA,baseline
+S|5261893|General Ultrasound,baseline
+S|5261893|Mammography,baseline
+S|5261893|Nuclear Medicine - In Vivo - General,baseline
+S|5261893|Nuclear Medicine - In Vivo - SPECT,baseline
+S|5261893|Radiography,baseline
+S|5261893|Vascular Ultrasound,baseline
+A|5261893|480 Bronte Street South,baseline
+L|5265117,baseline
+S|5265117|Bone Mineral DXA,baseline
+S|5265117|Radiography,baseline
+A|5265117|1261 Kennedy Road,baseline
+L|5280982,baseline
+S|5280982|Bone Mineral DXA,baseline
+S|5280982|General Ultrasound,baseline
+S|5280982|Nuclear Medicine - In Vivo - General,baseline
+S|5280982|Nuclear Medicine - In Vivo - SPECT,baseline
+S|5280982|Radiography,baseline
+A|5280982|230 First Avenue,baseline
+L|5285202,baseline
+S|5285202|Fluoroscopy,baseline
+S|5285202|General Ultrasound,baseline
+S|5285202|Radiography,baseline
+A|5285202|491 Eglinton Avenue West,baseline
+L|5300569,baseline
+S|5300569|Bone Mineral DXA,baseline
+S|5300569|General Ultrasound,baseline
+S|5300569|Mammography,baseline
+S|5300569|Radiography,baseline
+S|5300569|Vascular Ultrasound,baseline
+A|5300569|15 Mountain Avenue South,baseline
+L|5306447,baseline
+S|5306447|Bone Mineral DXA,baseline
+S|5306447|General Ultrasound,baseline
+S|5306447|Mammography,baseline
+S|5306447|Radiography,baseline
+S|5306447|Vascular Ultrasound,baseline
+A|5306447|150 Katimavik Road,baseline
+L|5306449,baseline
+S|5306449|Bone Mineral DXA,baseline
+S|5306449|General Ultrasound,baseline
+S|5306449|Mammography,baseline
+S|5306449|Radiography,baseline
+A|5306449|2000 Credit Valley Road,baseline
+L|5315511,baseline
+S|5315511|Bone Mineral DXA,baseline
+S|5315511|General Ultrasound,baseline
+S|5315511|Mammography,baseline
+S|5315511|Radiography,baseline
+A|5315511|35 Upper Centennial Parkway,baseline
+L|5320546,baseline
+S|5320546|General Ultrasound,baseline
+S|5320546|Radiography,baseline
+A|5320546|26 Hospital Drive,baseline
+L|5322447,baseline
+S|5322447|Ophthalmic Ultrasound,baseline
+A|5322447|3460 Schmon Parkway,baseline
+L|5324144,baseline
+S|5324144|Bone Mineral DXA,baseline
+S|5324144|General Ultrasound,baseline
+S|5324144|Radiography,baseline
+S|5324144|Vascular Ultrasound,baseline
+A|5324144|5959 Anderson Street,baseline
+L|5324467,baseline
+S|5324467|General Ultrasound,baseline
+S|5324467|Obs/Gyn Ultrasound,baseline
+A|5324467|655 Bay Street,baseline
+L|5326698,baseline
+S|5326698|Bone Mineral DXA,baseline
+S|5326698|Nuclear Medicine - In Vivo - General,baseline
+S|5326698|Nuclear Medicine - In Vivo - SPECT,baseline
+A|5326698|790 Bay Street,baseline
+L|5341130,baseline
+S|5341130|Obs/Gyn Ultrasound,baseline
+A|5341130|379 Church Street,baseline
+L|5344492,baseline
+S|5344492|Ophthalmic Ultrasound,baseline
+A|5344492|9135 Keele Street,baseline
+L|5344747,baseline
+S|5344747|General Ultrasound,baseline
+A|5344747|2888 Bathurst Street,baseline
+L|5356493,baseline
+S|5356493|Bone Mineral DXA,baseline
+S|5356493|General Ultrasound,baseline
+S|5356493|Radiography,baseline
+A|5356493|2401 Yonge Street,baseline
+L|5381746,baseline
+S|5381746|Ophthalmic Ultrasound,baseline
+A|5381746|3101 Bloor Street West,baseline
+L|5391410,baseline
+S|5391410|Bone Mineral DXA,baseline
+S|5391410|Fluoroscopy,baseline
+S|5391410|General Ultrasound,baseline
+S|5391410|Mammography,baseline
+S|5391410|Radiography,baseline
+S|5391410|Vascular Ultrasound,baseline
+A|5391410|123 Edward Street,baseline
+L|5401322,baseline
+S|5401322|Bone Mineral DXA,baseline
+S|5401322|Fluoroscopy,baseline
+S|5401322|General Ultrasound,baseline
+S|5401322|Mammography,baseline
+S|5401322|Radiography,baseline
+S|5401322|Vascular Ultrasound,baseline
+A|5401322|1223 St. Clair Avenue West,baseline
+L|5401460,baseline
+S|5401460|General Ultrasound,baseline
+S|5401460|Vascular Ultrasound,baseline
+A|5401460|2525 Old Bronte Road,baseline
+L|5401822,baseline
+S|5401822|Bone Mineral DXA,baseline
+S|5401822|General Ultrasound,baseline
+S|5401822|Mammography,baseline
+S|5401822|Radiography,baseline
+S|5401822|Vascular Ultrasound,baseline
+A|5401822|340 College Street,baseline
+L|5403904,baseline
+S|5403904|Bone Mineral DXA,baseline
+S|5403904|General Ultrasound,baseline
+S|5403904|Mammography,baseline
+S|5403904|Nuclear Medicine - In Vivo - General,baseline
+S|5403904|Nuclear Medicine - In Vivo - SPECT,baseline
+S|5403904|Radiography,baseline
+S|5403904|Vascular Ultrasound,baseline
+A|5403904|1105 Kingston Road,baseline
+L|5409190,baseline
+S|5409190|Sleep Studies,baseline
+A|5409190|809 Brant Street,baseline
+L|5409604,baseline
+S|5409604|Sleep Studies,baseline
+A|5409604|849 Alexander Court,baseline
+L|5413507,baseline
+S|5413507|General Ultrasound,baseline
+A|5413507|1600 Steeles Avenue West,baseline
+L|5419181,baseline
+S|5419181|Sleep Studies,baseline
+A|5419181|3024 Hurontario Street,baseline
+L|5419692,baseline
+S|5419692|Pulmonary Function - Other Fee Codes,baseline
+S|5419692|Pulmonary Function A - Pure Screening,baseline
+S|5419692|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|5419692|Sleep Studies,baseline
+A|5419692|13291 Yonge Street,baseline
+L|5426707,baseline
+S|5426707|Bone Mineral DXA,baseline
+S|5426707|General Ultrasound,baseline
+S|5426707|Mammography,baseline
+S|5426707|Radiography,baseline
+S|5426707|Vascular Ultrasound,baseline
+A|5426707|444 Douro Street,baseline
+L|5426830,baseline
+S|5426830|Obs/Gyn Ultrasound,baseline
+A|5426830|152 Cleopatra Drive,baseline
+L|5443511,baseline
+S|5443511|General Ultrasound,baseline
+A|5443511|1881 Yonge Street,baseline
+L|5443988,baseline
+S|5443988|Mobile General Ultrasound,baseline
+A|5443988|300 Rossland Road East,baseline
+L|5446730,baseline
+S|5446730|General Ultrasound,baseline
+S|5446730|Nuclear Medicine - In Vivo - General,baseline
+S|5446730|Nuclear Medicine - In Vivo - SPECT,baseline
+S|5446730|Radiography,baseline
+A|5446730|191 McNaughton Road East,baseline
+L|5456687,baseline
+S|5456687|Bone Mineral DXA,baseline
+S|5456687|General Ultrasound,baseline
+S|5456687|Mammography,baseline
+S|5456687|Radiography,baseline
+A|5456687|5 Fairview Mall Drive,baseline
+L|5456817,baseline
+S|5456817|General Ultrasound,baseline
+S|5456817|Mammography,baseline
+S|5456817|Vascular Ultrasound,baseline
+A|5456817|605 Brock Street North,baseline
+L|5460296,baseline
+S|5460296|Bone Mineral DXA,baseline
+S|5460296|General Ultrasound,baseline
+S|5460296|Vascular Ultrasound,baseline
+A|5460296|4430 Bathurst Street,baseline
+L|5461810,baseline
+S|5461810|Ophthalmic Ultrasound,baseline
+A|5461810|2201 Bristol Circle,baseline
+L|5461818,baseline
+S|5461818|Ophthalmic Ultrasound,baseline
+A|5461818|601 Westney Road South,baseline
+L|5463510,baseline
+S|5463510|General Ultrasound,baseline
+S|5463510|Vascular Ultrasound,baseline
+A|5463510|755 Queensway East,baseline
+L|5465096,baseline
+S|5465096|Bone Mineral DXA,baseline
+S|5465096|Fluoroscopy,baseline
+S|5465096|General Ultrasound,baseline
+S|5465096|Mammography,baseline
+S|5465096|Nuclear Medicine - In Vivo - General,baseline
+S|5465096|Nuclear Medicine - In Vivo - SPECT,baseline
+S|5465096|Pulmonary Function A - Pure Screening,baseline
+S|5465096|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|5465096|Radiography,baseline
+S|5465096|Vascular Ultrasound,baseline
+A|5465096|6175 Highway 7,baseline
+L|5476409,baseline
+S|5476409|General Ultrasound,baseline
+S|5476409|Radiography,baseline
+S|5476409|Vascular Ultrasound,baseline
+A|5476409|776 Blackburn Mews East,baseline
+L|5476417,baseline
+S|5476417|Pulmonary Function A - Pure Screening,baseline
+S|5476417|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|5476417|725 Arlington Park Place,baseline
+L|5479040,baseline
+S|5479040|Bone Mineral DXA,baseline
+S|5479040|General Ultrasound,baseline
+S|5479040|Mammography,baseline
+S|5479040|Radiography,baseline
+S|5479040|Vascular Ultrasound,baseline
+A|5479040|1 Centrepointe Drive,baseline
+L|5505751,baseline
+S|5505751|General Ultrasound,baseline
+S|5505751|Radiography,baseline
+A|5505751|157 Queen Street East,baseline
+L|5512851,baseline
+S|5512851|General Ultrasound,baseline
+S|5512851|Radiography,baseline
+A|5512851|745 Coronation Boulevard,baseline
+L|5515053,baseline
+S|5515053|Ophthalmic Ultrasound,baseline
+A|5515053|1 Young Street,baseline
+L|5516558,baseline
+S|5516558|Radiography,baseline
+A|5516558|797 Princess Street,baseline
+L|5523772,baseline
+S|5523772|General Ultrasound,baseline
+S|5523772|Radiography,baseline
+A|5523772|6 Borden Street,baseline
+L|5527691,baseline
+S|5527691|Radiography,baseline
+A|5527691|83 Dawson Road,baseline
+L|5536975,baseline
+S|5536975|Bone Mineral DXA,baseline
+S|5536975|General Ultrasound,baseline
+S|5536975|Radiography,baseline
+S|5536975|Vascular Ultrasound,baseline
+A|5536975|820 McConnell Avenue,baseline
+L|5542672,baseline
+S|5542672|Sleep Studies,baseline
+A|5542672|101 Queensway West,baseline
+L|5556035,baseline
+S|5556035|Bone Mineral DXA,baseline
+S|5556035|General Ultrasound,baseline
+S|5556035|Radiography,baseline
+S|5556035|Vascular Ultrasound,baseline
+A|5556035|869 Notre Dame Street,baseline
+L|5563222,baseline
+S|5563222|Bone Mineral DXA,baseline
+S|5563222|General Ultrasound,baseline
+S|5563222|Mammography,baseline
+S|5563222|Radiography,baseline
+S|5563222|Vascular Ultrasound,baseline
+"A|5563222|2330 Kennedy Road, Suite 402",baseline
+L|5592602,baseline
+S|5592602|General Ultrasound,baseline
+A|5592602|4270 Innes Road,baseline
+L|5601769,baseline
+S|5601769|Mobile General Ultrasound,baseline
+S|5601769|Mobile Radiography,baseline
+S|5601769|Mobile Vascular Ultrasound,baseline
+A|5601769|19834 Airport Road,baseline
+L|5606887,baseline
+S|5606887|Fluoroscopy,baseline
+S|5606887|General Ultrasound,baseline
+S|5606887|Radiography,baseline
+A|5606887|2141 Jane Street,baseline
+L|5611024,baseline
+S|5611024|Obs/Gyn Ultrasound,baseline
+A|5611024|419 King Street West,baseline
+L|5620970,baseline
+S|5620970|Bone Mineral DXA,baseline
+S|5620970|General Ultrasound,baseline
+S|5620970|Radiography,baseline
+A|5620970|525 Legget Drive,baseline
+L|5634290,baseline
+S|5634290|Dialysis,baseline
+A|5634290|7300 Warden Avenue,baseline
+L|5642197,baseline
+S|5642197|General Ultrasound,baseline
+S|5642197|Radiography,baseline
+S|5642197|Vascular Ultrasound,baseline
+A|5642197|28 Huron Street,baseline
+L|5642199,baseline
+S|5642199|General Ultrasound,baseline
+A|5642199|1596 Regent Street,baseline
+L|5655971,baseline
+S|5655971|Bone Mineral DXA,baseline
+S|5655971|General Ultrasound,baseline
+S|5655971|Mammography,baseline
+S|5655971|Radiography,baseline
+S|5655971|Vascular Ultrasound,baseline
+A|5655971|170 McEwan Drive East,baseline
+L|5655977,baseline
+S|5655977|Ophthalmic Ultrasound,baseline
+A|5655977|2037 Long Lake Road,baseline
+L|5661478,baseline
+S|5661478|General Ultrasound,baseline
+S|5661478|Vascular Ultrasound,baseline
+A|5661478|849 Upper Wentworth Street,baseline
+L|5701040,baseline
+S|5701040|Radiography,baseline
+A|5701040|150 York Street,baseline
+L|5701240,baseline
+S|5701240|Nuclear Medicine - In Vivo - General,baseline
+S|5701240|Nuclear Medicine - In Vivo - SPECT,baseline
+A|5701240|2464 Howard Avenue,baseline
+L|5711840,baseline
+S|5711840|General Ultrasound,baseline
+S|5711840|Radiography,baseline
+A|5711840|3209 Wonderland Road South,baseline
+L|5739908,baseline
+S|5739908|Sleep Studies,baseline
+A|5739908|190 Cundles Road East,baseline
+L|5755971,baseline
+S|5755971|Bone Mineral DXA,baseline
+S|5755971|General Ultrasound,baseline
+S|5755971|Mammography,baseline
+S|5755971|Radiography,baseline
+A|5755971|4256 Bathurst Street,baseline
+L|5758151,baseline
+S|5758151|Ophthalmic Ultrasound,baseline
+A|5758151|7700 Hurontario Street,baseline
+L|5804857,baseline
+S|5804857|GI-Endoscopy,baseline
+A|5804857|9355 Leslie Street,baseline
+L|5812004,baseline
+S|5812004|Ophthalmic Ultrasound,baseline
+A|5812004|2148 Carling Avenue,baseline
+L|5820546,baseline
+S|5820546|Nuclear Medicine - In Vivo - General,baseline
+S|5820546|Nuclear Medicine - In Vivo - SPECT,baseline
+A|5820546|200 Ronson Drive,baseline
+L|5820599,baseline
+S|5820599|Bone Mineral DXA,baseline
+S|5820599|Fluoroscopy,baseline
+S|5820599|Mammography,baseline
+S|5820599|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|5820599|Radiography,baseline
+S|5820599|Vascular Ultrasound,baseline
+A|5820599|807 Broadview Avenue,baseline
+L|5821598,baseline
+S|5821598|General Ultrasound,baseline
+S|5821598|Mammography,baseline
+S|5821598|Radiography,baseline
+S|5821598|Vascular Ultrasound,baseline
+A|5821598|2315 Bristol Circle,baseline
+L|5846492,baseline
+S|5846492|Bone Mineral DXA,baseline
+S|5846492|General Ultrasound,baseline
+S|5846492|Mammography,baseline
+S|5846492|Radiography,baseline
+S|5846492|Vascular Ultrasound,baseline
+A|5846492|614 Coronation Boulevard,baseline
+L|5846720,baseline
+S|5846720|Mobile General Ultrasound,baseline
+S|5846720|Mobile Vascular Ultrasound,baseline
+A|5846720|1371 Neilson Road,baseline
+L|5846903,baseline
+S|5846903|General Ultrasound,baseline
+A|5846903|115 Simcoe Street South,baseline
+L|5862577,baseline
+S|5862577|Bone Mineral DXA,baseline
+S|5862577|Nuclear Medicine - In Vivo - General,baseline
+S|5862577|Nuclear Medicine - In Vivo - SPECT,baseline
+A|5862577|10 Angeline Street North,baseline
+L|5868472,baseline
+S|5868472|Sleep Studies,baseline
+A|5868472|1371 Neilson Road,baseline
+L|5881268,baseline
+S|5881268|General Ultrasound,baseline
+S|5881268|Mammography,baseline
+S|5881268|Radiography,baseline
+S|5881268|Vascular Ultrasound,baseline
+A|5881268|2425 Bloor Street West,baseline
+L|5890599,baseline
+S|5890599|General Ultrasound,baseline
+A|5890599|1265 Arthur Street East,baseline
+L|5901814,baseline
+S|5901814|General Ultrasound,baseline
+S|5901814|Mammography,baseline
+S|5901814|Radiography,baseline
+S|5901814|Vascular Ultrasound,baseline
+A|5901814|65 Donly Drive North,baseline
+L|5905974,baseline
+S|5905974|Nuclear Medicine - In Vivo - General,baseline
+S|5905974|Nuclear Medicine - In Vivo - SPECT,baseline
+A|5905974|481 London Road,baseline
+L|5906449,baseline
+S|5906449|Pulmonary Function A - Pure Screening,baseline
+S|5906449|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|5906449|11958 Tecumseh Road East,baseline
+L|5907025,baseline
+S|5907025|General Ultrasound,baseline
+S|5907025|Radiography,baseline
+A|5907025|2006 Robertson Road,baseline
+L|5908468,baseline
+S|5908468|Sleep Studies,baseline
+A|5908468|55 Frid Street,baseline
+L|5922447,baseline
+S|5922447|General Ultrasound,baseline
+S|5922447|Vascular Ultrasound,baseline
+A|5922447|510 Southdale Road East,baseline
+L|5923144,baseline
+S|5923144|Nuclear Medicine - In Vivo - General,baseline
+S|5923144|Nuclear Medicine - In Vivo - SPECT,baseline
+S|5923144|Radiography,baseline
+A|5923144|2 Gurdwara Road,baseline
+L|5926698,baseline
+S|5926698|General Ultrasound,baseline
+S|5926698|Radiography,baseline
+A|5926698|10 Eastern Avenue,baseline
+L|5929305,baseline
+S|5929305|Bone Mineral DXA,baseline
+A|5929305|2425 Bloor Street West,baseline
+L|5935623,baseline
+S|5935623|Bone Mineral DXA,baseline
+S|5935623|General Ultrasound,baseline
+S|5935623|Mammography,baseline
+S|5935623|Radiography,baseline
+S|5935623|Vascular Ultrasound,baseline
+A|5935623|9545 Mississauga Road,baseline
+L|5936493,baseline
+S|5936493|Nuclear Medicine - In Vivo - General,baseline
+S|5936493|Nuclear Medicine - In Vivo - SPECT,baseline
+A|5936493|5929 Jeanne D'Arc Boulevard South,baseline
+L|5941130,baseline
+S|5941130|Bone Mineral DXA,baseline
+S|5941130|General Ultrasound,baseline
+S|5941130|Mammography,baseline
+S|5941130|Radiography,baseline
+S|5941130|Vascular Ultrasound,baseline
+A|5941130|605 Longfields Drive,baseline
+L|5949017,baseline
+S|5949017|Bone Mineral DXA,baseline
+S|5949017|Fluoroscopy,baseline
+S|5949017|Mammography,baseline
+S|5949017|Radiography,baseline
+S|5949017|Vascular Ultrasound,baseline
+A|5949017|4600 Highway 7 West,baseline
+L|5962650,baseline
+S|5962650|General Ultrasound,baseline
+S|5962650|Radiography,baseline
+A|5962650|210 Dundas Street East,baseline
+L|5972525,baseline
+S|5972525|Radiography,baseline
+A|5972525|462 Birchmount Avenue,baseline
+L|5981346,baseline
+S|5981346|Bone Mineral DXA,baseline
+S|5981346|General Ultrasound,baseline
+S|5981346|Radiography,baseline
+S|5981346|Vascular Ultrasound,baseline
+A|5981346|14 Ramblewood Drive,baseline
+L|5981712,baseline
+S|5981712|Ophthalmic Ultrasound,baseline
+A|5981712|121 Dundas Street East,baseline
+L|5999996,baseline
+S|5999996|Bone Mineral DXA,baseline
+S|5999996|Fluoroscopy,baseline
+S|5999996|General Ultrasound,baseline
+S|5999996|Mammography,baseline
+S|5999996|Nuclear Medicine - In Vivo - General,baseline
+S|5999996|Nuclear Medicine - In Vivo - SPECT,baseline
+S|5999996|Radiography,baseline
+S|5999996|Vascular Ultrasound,baseline
+A|5999996|7885 McLeod Road,baseline
+L|6004800,baseline
+S|6004800|Bone Mineral DXA,baseline
+S|6004800|General Ultrasound,baseline
+S|6004800|Radiography,baseline
+A|6004800|9 Eric Devlin Lane,baseline
+L|6020097,baseline
+S|6020097|Sleep Studies,baseline
+A|6020097|17 Park Avenue East,baseline
+L|6021198,baseline
+S|6021198|Magnetic Resonance Imaging,baseline
+A|6021198|751B Victoria Street South,baseline
+L|6022923,baseline
+S|6022923|Mobile General Ultrasound,baseline
+S|6022923|Mobile Vascular Ultrasound,baseline
+A|6022923|219 Main Street East,baseline
+L|6024148,baseline
+S|6024148|Obs/Gyn Ultrasound,baseline
+A|6024148|131 Union Street East,baseline
+L|6026877,baseline
+S|6026877|Mammography,baseline
+S|6026877|Radiography,baseline
+A|6026877|4002 Sheppard Avenue East,baseline
+L|6041443,baseline
+S|6041443|General Ultrasound,baseline
+S|6041443|Mammography,baseline
+S|6041443|Nuclear Medicine - In Vivo - General,baseline
+S|6041443|Nuclear Medicine - In Vivo - SPECT,baseline
+S|6041443|Pulmonary Function A - Pure Screening,baseline
+S|6041443|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|6041443|Radiography,baseline
+S|6041443|Vascular Ultrasound,baseline
+A|6041443|17730 Leslie Street,baseline
+L|6054800,baseline
+S|6054800|General Ultrasound,baseline
+S|6054800|Radiography,baseline
+A|6054800|723 Rymal Road West,baseline
+L|6054808,baseline
+S|6054808|General Ultrasound,baseline
+A|6054808|95 Bayly Street West,baseline
+L|6056366,baseline
+S|6056366|General Ultrasound,baseline
+S|6056366|Ophthalmic Ultrasound,baseline
+S|6056366|Radiography,baseline
+S|6056366|Vascular Ultrasound,baseline
+A|6056366|296 Welland Avenue,baseline
+L|6057990,baseline
+S|6057990|Pulmonary Function A - Pure Screening,baseline
+S|6057990|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|6057990|520 Ellesmere Road,baseline
+L|6084600,baseline
+S|6084600|General Ultrasound,baseline
+S|6084600|Vascular Ultrasound,baseline
+A|6084600|836 John Marks Avenue,baseline
+L|6099661,baseline
+S|6099661|Bone Mineral DXA,baseline
+S|6099661|General Ultrasound,baseline
+S|6099661|Mammography,baseline
+S|6099661|Radiography,baseline
+A|6099661|4438 Ontario Street,baseline
+L|6105659,baseline
+S|6105659|Bone Mineral DXA,baseline
+S|6105659|General Ultrasound,baseline
+S|6105659|Radiography,baseline
+A|6105659|123 Rexdale Boulevard,baseline
+L|6123069,baseline
+S|6123069|Nuclear Medicine - In Vivo - General,baseline
+S|6123069|Nuclear Medicine - In Vivo - SPECT,baseline
+S|6123069|Vascular Ultrasound,baseline
+A|6123069|460 Princess Street,baseline
+L|6152140,baseline
+S|6152140|General Ultrasound,baseline
+A|6152140|2180 Meadowvale Boulevard,baseline
+L|6156400,baseline
+S|6156400|Bone Mineral DXA,baseline
+S|6156400|General Ultrasound,baseline
+S|6156400|Mammography,baseline
+S|6156400|Nuclear Medicine - In Vivo - General,baseline
+S|6156400|Urologic Ultrasound,baseline
+S|6156400|Vascular Ultrasound,baseline
+A|6156400|7869 Yonge Street,baseline
+L|6158120,baseline
+S|6158120|Nuclear Medicine - In Vivo - General,baseline
+S|6158120|Nuclear Medicine - In Vivo - SPECT,baseline
+A|6158120|470 Chrysler Drive,baseline
+L|6200526,baseline
+S|6200526|Bone Mineral DXA,baseline
+S|6200526|Fluoroscopy,baseline
+S|6200526|General Ultrasound,baseline
+S|6200526|Mammography,baseline
+S|6200526|Radiography,baseline
+S|6200526|Vascular Ultrasound,baseline
+A|6200526|2464 Howard Avenue,baseline
+L|6200566,baseline
+S|6200566|Bone Mineral DXA,baseline
+S|6200566|General Ultrasound,baseline
+S|6200566|Radiography,baseline
+S|6200566|Vascular Ultrasound,baseline
+A|6200566|3292 Bayview Avenue,baseline
+L|6218000,baseline
+S|6218000|General Ultrasound,baseline
+S|6218000|Vascular Ultrasound,baseline
+A|6218000|164 Queen Street East,baseline
+L|6228834,baseline
+S|6228834|Ophthalmic Ultrasound,baseline
+A|6228834|89 Dawson Road,baseline
+L|6250390,baseline
+S|6250390|Ophthalmic Ultrasound,baseline
+A|6250390|1500 London Road,baseline
+L|6302141,baseline
+S|6302141|Ophthalmic Ultrasound,baseline
+A|6302141|133 Main Street West,baseline
+L|6302467,baseline
+S|6302467|Magnetic Resonance Imaging,baseline
+A|6302467|1545A Merivale Road,baseline
+L|6306400,baseline
+S|6306400|Bone Mineral DXA,baseline
+S|6306400|Fluoroscopy,baseline
+S|6306400|General Ultrasound,baseline
+S|6306400|Mammography,baseline
+S|6306400|Radiography,baseline
+A|6306400|36 Vodden Street East,baseline
+L|6328797,baseline
+S|6328797|Mammography,baseline
+A|6328797|3000 Lawrence Avenue East,baseline
+L|6341894,baseline
+S|6341894|General Ultrasound,baseline
+S|6341894|Radiography,baseline
+A|6341894|510 Southdale Road East,baseline
+L|6342467,baseline
+S|6342467|General Ultrasound,baseline
+S|6342467|Mammography,baseline
+S|6342467|Nuclear Medicine - In Vivo - General,baseline
+S|6342467|Nuclear Medicine - In Vivo - SPECT,baseline
+A|6342467|85 The East Mall,baseline
+L|6345894,baseline
+S|6345894|Radiography,baseline
+A|6345894|410 Giles Boulevard East,baseline
+L|6346054,baseline
+S|6346054|Bone Mineral DXA,baseline
+S|6346054|General Ultrasound,baseline
+S|6346054|Radiography,baseline
+S|6346054|Vascular Ultrasound,baseline
+A|6346054|9651 Yonge Street,baseline
+L|6346094,baseline
+S|6346094|Bone Mineral DXA,baseline
+S|6346094|General Ultrasound,baseline
+S|6346094|Mammography,baseline
+S|6346094|Radiography,baseline
+A|6346094|4949 Bathurst Street,baseline
+L|6359249,baseline
+S|6359249|Ophthalmic Ultrasound,baseline
+A|6359249|162 Willowdale Avenue,baseline
+L|6397967,baseline
+S|6397967|Obs/Gyn Ultrasound,baseline
+A|6397967|707 Charlotte Street,baseline
+L|6399969,baseline
+S|6399969|General Ultrasound,baseline
+A|6399969|2805 Eglinton Avenue East,baseline
+L|6410566,baseline
+S|6410566|Fluoroscopy,baseline
+S|6410566|General Ultrasound,baseline
+S|6410566|Radiography,baseline
+S|6410566|Vascular Ultrasound,baseline
+A|6410566|1371 Neilson Road,baseline
+L|6419378,baseline
+S|6419378|General Ultrasound,baseline
+S|6419378|Radiography,baseline
+A|6419378|1 Spadina Road,baseline
+L|6442467,baseline
+S|6442467|General Ultrasound,baseline
+A|6442467|260 Nebo Road,baseline
+L|6446092,baseline
+S|6446092|Bone Mineral DXA,baseline
+S|6446092|General Ultrasound,baseline
+S|6446092|Mammography,baseline
+S|6446092|Radiography,baseline
+A|6446092|1849 Yonge Street,baseline
+L|6446292,baseline
+S|6446292|Obs/Gyn Ultrasound,baseline
+A|6446292|2347 Kennedy Road,baseline
+L|6449987,baseline
+S|6449987|Mobile General Ultrasound,baseline
+S|6449987|Mobile Radiography,baseline
+S|6449987|Mobile Vascular Ultrasound,baseline
+A|6449987|3155 Harvester Road,baseline
+L|6450566,baseline
+S|6450566|Bone Mineral DXA,baseline
+S|6450566|General Ultrasound,baseline
+S|6450566|Radiography,baseline
+S|6450566|Vascular Ultrasound,baseline
+A|6450566|6464 Yonge Street,baseline
+L|6476722,baseline
+S|6476722|Bone Mineral DXA,baseline
+S|6476722|General Ultrasound,baseline
+S|6476722|Pulmonary Function A - Pure Screening,baseline
+S|6476722|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|6476722|Radiography,baseline
+S|6476722|Vascular Ultrasound,baseline
+A|6476722|1920 Ellesmere Road,baseline
+L|6477901,baseline
+S|6477901|Bone Mineral DXA,baseline
+S|6477901|General Ultrasound,baseline
+S|6477901|Mammography,baseline
+S|6477901|Radiography,baseline
+S|6477901|Vascular Ultrasound,baseline
+A|6477901|5293 Highway 7 East,baseline
+L|6478174,baseline
+S|6478174|Ophthalmic Ultrasound,baseline
+A|6478174|7900 Hurontario Street,baseline
+L|6479141,baseline
+S|6479141|Sleep Studies,baseline
+A|6479141|198 Des Newman Boulevard,baseline
+L|6479726,baseline
+S|6479726|Bone Mineral DXA,baseline
+S|6479726|General Ultrasound,baseline
+S|6479726|Mammography,baseline
+S|6479726|Radiography,baseline
+A|6479726|191 McNaughton Road East,baseline
+L|6503755,baseline
+S|6503755|Bone Mineral DXA,baseline
+S|6503755|General Ultrasound,baseline
+S|6503755|Mammography,baseline
+S|6503755|Radiography,baseline
+S|6503755|Vascular Ultrasound,baseline
+A|6503755|11 Gibb Street,baseline
+L|6506715,baseline
+S|6506715|Radiography,baseline
+A|6506715|100 Pertosa Drive,baseline
+L|6506810,baseline
+S|6506810|Nuclear Medicine - In Vivo - General,baseline
+S|6506810|Nuclear Medicine - In Vivo - SPECT,baseline
+A|6506810|123 Edward Street,baseline
+L|6521323,baseline
+S|6521323|Bone Mineral DXA,baseline
+S|6521323|General Ultrasound,baseline
+S|6521323|Radiography,baseline
+S|6521323|Vascular Ultrasound,baseline
+A|6521323|601 Harwood Avenue South,baseline
+L|6525556,baseline
+S|6525556|Bone Mineral DXA,baseline
+S|6525556|Fluoroscopy,baseline
+S|6525556|Mammography,baseline
+S|6525556|Radiography,baseline
+A|6525556|100 Nipissing Road,baseline
+L|6542468,baseline
+S|6542468|General Ultrasound,baseline
+S|6542468|Radiography,baseline
+A|6542468|4640 Jane Street,baseline
+L|6543634,baseline
+S|6543634|Bone Mineral DXA,baseline
+S|6543634|General Ultrasound,baseline
+S|6543634|Radiography,baseline
+A|6543634|2130 Lawrence Avenue East,baseline
+L|6587309,baseline
+S|6587309|Bone Mineral DXA,baseline
+S|6587309|General Ultrasound,baseline
+S|6587309|Mammography,baseline
+S|6587309|Radiography,baseline
+"A|6587309|1060 Speers Road, Suite 111",baseline
+L|6595963,baseline
+S|6595963|General Ultrasound,baseline
+S|6595963|Radiography,baseline
+A|6595963|245 Dixon Road,baseline
+L|6597961,baseline
+S|6597961|Ophthalmic Ultrasound,baseline
+A|6597961|2238 Dundas Street West,baseline
+L|6599764,baseline
+S|6599764|Sleep Studies,baseline
+A|6599764|106 Humber College Boulevard,baseline
+L|6601306,baseline
+S|6601306|Ophthalmic Ultrasound,baseline
+A|6601306|525 Park Road North,baseline
+L|6601506,baseline
+S|6601506|General Ultrasound,baseline
+S|6601506|Obs/Gyn Ultrasound,baseline
+A|6601506|955 Major Mackenzie Drive,baseline
+L|6604270,baseline
+S|6604270|GI-Endoscopy,baseline
+A|6604270|181 Sterling Road,baseline
+L|6621344,baseline
+S|6621344|Bone Mineral DXA,baseline
+S|6621344|General Ultrasound,baseline
+S|6621344|Radiography,baseline
+A|6621344|1380 Upper Canada Street,baseline
+L|6633552,baseline
+S|6633552|Radiography,baseline
+A|6633552|178 Alma Street,baseline
+L|6651316,baseline
+S|6651316|General Ultrasound,baseline
+A|6651316|115 Parkdale Avenue South,baseline
+L|6658219,baseline
+S|6658219|General Ultrasound,baseline
+S|6658219|Radiography,baseline
+A|6658219|6870 Goreway Drive,baseline
+L|6661241,baseline
+S|6661241|Pulmonary Function A - Pure Screening,baseline
+S|6661241|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|6661241|1110 Sheppard Avenue East,baseline
+L|6678190,baseline
+S|6678190|Radiography,baseline
+A|6678190|462 Birchmount Road,baseline
+L|6683956,baseline
+S|6683956|General Ultrasound,baseline
+S|6683956|Mammography,baseline
+S|6683956|Radiography,baseline
+S|6683956|Vascular Ultrasound,baseline
+A|6683956|60 Hatt Street,baseline
+L|6710205,baseline
+S|6710205|Bone Mineral DXA,baseline
+S|6710205|Mammography,baseline
+S|6710205|Radiography,baseline
+S|6710205|Vascular Ultrasound,baseline
+A|6710205|2 Champagne Drive,baseline
+L|6714271,baseline
+S|6714271|Sleep Studies,baseline
+A|6714271|1054 Wilson Avenue,baseline
+L|6739562,baseline
+S|6739562|General Ultrasound,baseline
+S|6739562|Radiography,baseline
+S|6739562|Vascular Ultrasound,baseline
+A|6739562|480 Huronia Road,baseline
+L|6768912,baseline
+S|6768912|General Ultrasound,baseline
+S|6768912|Radiography,baseline
+A|6768912|100 Marie Curie Private,baseline
+L|6797226,baseline
+S|6797226|Radiography,baseline
+A|6797226|464 Welland Avenue,baseline
+L|6801400,baseline
+S|6801400|General Ultrasound,baseline
+S|6801400|Radiography,baseline
+S|6801400|Vascular Ultrasound,baseline
+A|6801400|1100 Sheppard Avenue East,baseline
+L|6812145,baseline
+S|6812145|General Ultrasound,baseline
+A|6812145|521 Victoria Park Avenue,baseline
+L|6867950,baseline
+S|6867950|Fluoroscopy,baseline
+S|6867950|General Ultrasound,baseline
+S|6867950|Radiography,baseline
+A|6867950|2 Antrim Crescent,baseline
+L|6872794,baseline
+S|6872794|General Ultrasound,baseline
+S|6872794|Vascular Ultrasound,baseline
+A|6872794|655 Bay Street,baseline
+L|6882555,baseline
+S|6882555|Ophthalmic Ultrasound,baseline
+A|6882555|2065 Finch Avenue West,baseline
+L|6905969,baseline
+S|6905969|Bone Mineral DXA,baseline
+S|6905969|Fluoroscopy,baseline
+S|6905969|General Ultrasound,baseline
+S|6905969|Mammography,baseline
+S|6905969|Nuclear Medicine - In Vitro,baseline
+S|6905969|Nuclear Medicine - In Vivo - General,baseline
+S|6905969|Nuclear Medicine - In Vivo - SPECT,baseline
+S|6905969|Radiography,baseline
+S|6905969|Vascular Ultrasound,baseline
+A|6905969|4600 Highway 7 West,baseline
+L|6929910,baseline
+S|6929910|Ophthalmic Ultrasound,baseline
+A|6929910|735 St. Clair Street,baseline
+L|6941194,baseline
+S|6941194|Bone Mineral DXA,baseline
+S|6941194|Fluoroscopy,baseline
+S|6941194|General Ultrasound,baseline
+S|6941194|Mammography,baseline
+S|6941194|Radiography,baseline
+S|6941194|Vascular Ultrasound,baseline
+A|6941194|464 Welland Avenue,baseline
+L|6988415,baseline
+S|6988415|Sleep Studies,baseline
+A|6988415|931 Commissioners Road East,baseline
+L|6991291,baseline
+S|6991291|Computed Tomography,baseline
+S|6991291|Magnetic Resonance Imaging,baseline
+A|6991291|300 Harwood Avenue South,baseline
+L|7017229,baseline
+S|7017229|Bone Mineral DXA,baseline
+S|7017229|Fluoroscopy,baseline
+S|7017229|General Ultrasound,baseline
+S|7017229|Mammography,baseline
+S|7017229|Radiography,baseline
+S|7017229|Vascular Ultrasound,baseline
+A|7017229|474 College Street,baseline
+L|7026614,baseline
+S|7026614|Ophthalmic Ultrasound,baseline
+A|7026614|2855 Markham Road,baseline
+L|7031510,baseline
+S|7031510|Positron Emission Tomography,baseline
+A|7031510|2075 Hadwen Road,baseline
+L|7057621,baseline
+S|7057621|Bone Mineral DXA,baseline
+S|7057621|General Ultrasound,baseline
+S|7057621|Radiography,baseline
+A|7057621|716 Bloor Street West,baseline
+L|7057816,baseline
+S|7057816|Radiography,baseline
+S|7057816|Urologic Ultrasound,baseline
+A|7057816|1145 Hunt Club Road,baseline
+L|7072621,baseline
+S|7072621|Plastic Surgery,baseline
+A|7072621|5668 Main Street,baseline
+L|7076413,baseline
+S|7076413|Bone Mineral DXA,baseline
+A|7076413|7 Metcalfe Street,baseline
+L|7085583,baseline
+S|7085583|GI-Endoscopy,baseline
+A|7085583|300 South Edgeware Road,baseline
+L|7116100,baseline
+S|7116100|Bone Mineral DXA,baseline
+S|7116100|General Ultrasound,baseline
+S|7116100|Mammography,baseline
+S|7116100|Nuclear Medicine - In Vitro,baseline
+S|7116100|Nuclear Medicine - In Vivo - General,baseline
+S|7116100|Radiography,baseline
+S|7116100|Vascular Ultrasound,baseline
+A|7116100|23546 Woodbine Avenue,baseline
+L|7147908,baseline
+S|7147908|Bone Mineral DXA,baseline
+S|7147908|General Ultrasound,baseline
+S|7147908|Mammography,baseline
+S|7147908|Radiography,baseline
+S|7147908|Vascular Ultrasound,baseline
+A|7147908|240 McNabb Street,baseline
+L|7174424,baseline
+S|7174424|Sleep Studies,baseline
+A|7174424|611 Holly Avenue,baseline
+L|7187966,baseline
+S|7187966|Obs/Gyn,baseline
+A|7187966|4296 Village Centre Court,baseline
+L|7209495,baseline
+S|7209495|Pulmonary Function A - Pure Screening,baseline
+S|7209495|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|7209495|240 Alton Towers Circle,baseline
+L|7215989,baseline
+S|7215989|Pulmonary Function A - Pure Screening,baseline
+S|7215989|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|7215989|2130 Lawrence Avenue East,baseline
+L|7234709,baseline
+S|7234709|Sleep Studies,baseline
+A|7234709|1929 Bayview Avenue,baseline
+L|7249105,baseline
+S|7249105|Ophthalmic Ultrasound,baseline
+A|7249105|127 Sydney Street,baseline
+L|7259100,baseline
+S|7259100|Bone Mineral DXA,baseline
+S|7259100|Fluoroscopy,baseline
+S|7259100|General Ultrasound,baseline
+S|7259100|Radiography,baseline
+A|7259100|3170 Lake Shore Boulevard West,baseline
+L|7259110,baseline
+S|7259110|Nuclear Medicine - In Vivo - General,baseline
+S|7259110|Nuclear Medicine - In Vivo - SPECT,baseline
+A|7259110|491 Lawrence Avenue West,baseline
+L|7288988,baseline
+S|7288988|Radiography,baseline
+A|7288988|247 Simcoe Street North,baseline
+L|7297831,baseline
+S|7297831|Sleep Studies,baseline
+A|7297831|33 Blair Road,baseline
+L|7300881,baseline
+S|7300881|Bone Mineral DXA,baseline
+S|7300881|General Ultrasound,baseline
+S|7300881|Radiography,baseline
+S|7300881|Vascular Ultrasound,baseline
+A|7300881|40 Shellington Place,baseline
+L|7307202,baseline
+S|7307202|Sleep Studies,baseline
+A|7307202|7155 Woodbine Avenue,baseline
+L|7319242,baseline
+S|7319242|Obs/Gyn Ultrasound,baseline
+A|7319242|22 Costello Drive,baseline
+L|7321714,baseline
+S|7321714|General Ultrasound,baseline
+A|7321714|36 York Mills Road,baseline
+L|7322335,baseline
+S|7322335|Eye Surgery,baseline
+A|7322335|40 Prince Arthur Avenue,baseline
+L|7341419,baseline
+S|7341419|Obs/Gyn Ultrasound,baseline
+A|7341419|10 Church Street West,baseline
+L|7354767,baseline
+S|7354767|Bone Mineral DXA,baseline
+S|7354767|General Ultrasound,baseline
+S|7354767|Radiography,baseline
+A|7354767|55 Argyle Street North,baseline
+L|7381723,baseline
+S|7381723|Ophthalmic Ultrasound,baseline
+A|7381723|6800 Morrison Street,baseline
+L|7398810,baseline
+S|7398810|Vascular Ultrasound,baseline
+A|7398810|30 Disera Drive,baseline
+L|7398890,baseline
+S|7398890|General Ultrasound,baseline
+S|7398890|Radiography,baseline
+A|7398890|679 Davis Drive,baseline
+L|7400617,baseline
+S|7400617|General Ultrasound,baseline
+S|7400617|Vascular Ultrasound,baseline
+A|7400617|535 Mulock Drive,baseline
+L|7423510,baseline
+S|7423510|Fluoroscopy,baseline
+S|7423510|General Ultrasound,baseline
+A|7423510|2010 Eglinton Avenue West,baseline
+L|7431393,baseline
+S|7431393|Eye Surgery,baseline
+A|7431393|1105 Carling Avenue,baseline
+L|7441460,baseline
+S|7441460|Bone Mineral DXA,baseline
+S|7441460|Fluoroscopy,baseline
+S|7441460|General Ultrasound,baseline
+S|7441460|Mammography,baseline
+S|7441460|Radiography,baseline
+A|7441460|1056 Wilson Avenue,baseline
+L|7458845,baseline
+S|7458845|Bone Mineral DXA,baseline
+S|7458845|General Ultrasound,baseline
+S|7458845|Nuclear Medicine - In Vivo - General,baseline
+S|7458845|Nuclear Medicine - In Vivo - SPECT,baseline
+S|7458845|Radiography,baseline
+S|7458845|Vascular Ultrasound,baseline
+A|7458845|125 Pederson Drive,baseline
+L|7462261,baseline
+S|7462261|Obs/Gyn Ultrasound,baseline
+A|7462261|1355 Bank Street,baseline
+L|7476710,baseline
+S|7476710|General Ultrasound,baseline
+S|7476710|Vascular Ultrasound,baseline
+A|7476710|418 Talbot Street West,baseline
+L|7477927,baseline
+S|7477927|Mobile Pulmonary Function - Other Fee Codes,baseline
+S|7477927|Mobile Pulmonary Function - Pure Screening,baseline
+S|7477927|Mobile Pulmonary Function Lung Volumes & Diffusion,baseline
+A|7477927|450 Central Avenue,baseline
+L|7479246,baseline
+S|7479246|Bone Mineral DXA,baseline
+S|7479246|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|7479246|Radiography,baseline
+A|7479246|85 The East Mall,baseline
+L|7499244,baseline
+S|7499244|Pulmonary Function A - Pure Screening,baseline
+S|7499244|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|7499244|1081 Carling Avenue,baseline
+L|7514768,baseline
+S|7514768|Pulmonary Function A - Pure Screening,baseline
+S|7514768|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|7514768|2 Champagne Drive,baseline
+L|7525902,baseline
+S|7525902|Radiography,baseline
+A|7525902|250 Harding Boulevard West,baseline
+L|7541489,baseline
+S|7541489|Bone Mineral DXA,baseline
+S|7541489|General Ultrasound,baseline
+S|7541489|Radiography,baseline
+A|7541489|15017 Yonge Street,baseline
+L|7565349,baseline
+S|7565349|Ophthalmic Ultrasound,baseline
+A|7565349|1730 St. Laurent Boulevard,baseline
+L|7597613,baseline
+S|7597613|General Ultrasound,baseline
+S|7597613|Radiography,baseline
+S|7597613|Vascular Ultrasound,baseline
+A|7597613|170 Simcoe Street,baseline
+L|7600385,baseline
+S|7600385|Bone Mineral DXA,baseline
+S|7600385|General Ultrasound,baseline
+S|7600385|Mammography,baseline
+S|7600385|Radiography,baseline
+S|7600385|Vascular Ultrasound,baseline
+A|7600385|1450 Highway #2,baseline
+L|7613794,baseline
+S|7613794|Bone Mineral DXA,baseline
+S|7613794|General Ultrasound,baseline
+S|7613794|Mammography,baseline
+S|7613794|Radiography,baseline
+S|7613794|Vascular Ultrasound,baseline
+A|7613794|280 Spadina Avenue,baseline
+L|7635696,baseline
+S|7635696|Ophthalmic Ultrasound,baseline
+A|7635696|4100 Yonge Street,baseline
+L|7641693,baseline
+S|7641693|Bone Mineral DXA,baseline
+S|7641693|Mammography,baseline
+S|7641693|Radiography,baseline
+A|7641693|3461 Dixie Road,baseline
+L|7641842,baseline
+S|7641842|Bone Mineral DXA,baseline
+S|7641842|General Ultrasound,baseline
+S|7641842|Mammography,baseline
+S|7641842|Radiography,baseline
+S|7641842|Vascular Ultrasound,baseline
+A|7641842|430 The Boardwalk,baseline
+L|7641890,baseline
+S|7641890|General Ultrasound,baseline
+A|7641890|160 Bloor Street East,baseline
+L|7643018,baseline
+S|7643018|Sleep Studies,baseline
+A|7643018|33 Princess Street,baseline
+L|7673856,baseline
+S|7673856|Bone Mineral DXA,baseline
+S|7673856|Fluoroscopy,baseline
+S|7673856|General Ultrasound,baseline
+S|7673856|Radiography,baseline
+A|7673856|1223 Barton Street East,baseline
+L|7698830,baseline
+S|7698830|Bone Mineral DXA,baseline
+S|7698830|Fluoroscopy,baseline
+S|7698830|General Ultrasound,baseline
+S|7698830|Radiography,baseline
+A|7698830|1275 Finch Avenue West,baseline
+L|7700617,baseline
+S|7700617|Radiography,baseline
+A|7700617|757 Pape Avenue,baseline
+L|7724098,baseline
+S|7724098|Bone Mineral DXA,baseline
+S|7724098|General Ultrasound,baseline
+S|7724098|Mammography,baseline
+S|7724098|Radiography,baseline
+A|7724098|1181 Hunt Club Road,baseline
+L|7761988,baseline
+S|7761988|Bone Mineral DXA,baseline
+S|7761988|General Ultrasound,baseline
+S|7761988|Mammography,baseline
+S|7761988|Radiography,baseline
+S|7761988|Vascular Ultrasound,baseline
+A|7761988|2741 Chamberland Street,baseline
+L|7784189,baseline
+S|7784189|Radiography,baseline
+A|7784189|2045 Dufferin Street,baseline
+L|7792106,baseline
+S|7792106|Ophthalmic Ultrasound,baseline
+A|7792106|2180 Steeles Avenue West,baseline
+L|7802188,baseline
+S|7802188|Bone Mineral DXA,baseline
+S|7802188|General Ultrasound,baseline
+S|7802188|Radiography,baseline
+A|7802188|130 Wilson Street,baseline
+L|7815710,baseline
+S|7815710|Sleep Studies,baseline
+A|7815710|5 Fairview Mall Drive,baseline
+L|7845546,baseline
+S|7845546|Sleep Studies,baseline
+A|7845546|2888 Bathurst Street,baseline
+L|7855678,baseline
+S|7855678|General Ultrasound,baseline
+S|7855678|Mammography,baseline
+A|7855678|39 Main Street Markham North,baseline
+L|7936930,baseline
+S|7936930|Pulmonary Function A - Pure Screening,baseline
+S|7936930|Sleep Studies,baseline
+A|7936930|330 Highway 7 East,baseline
+L|7951319,baseline
+S|7951319|Bone Mineral DXA,baseline
+S|7951319|General Ultrasound,baseline
+S|7951319|Mammography,baseline
+S|7951319|Radiography,baseline
+S|7951319|Vascular Ultrasound,baseline
+A|7951319|2880 Ellesmere Road,baseline
+L|7981219,baseline
+S|7981219|Radiography,baseline
+A|7981219|2930 Dominion Boulevard,baseline
+L|7993519,baseline
+S|7993519|General Ultrasound,baseline
+A|7993519|2360 Yonge Street,baseline
+L|8002369,baseline
+S|8002369|Bone Mineral DXA,baseline
+S|8002369|Fluoroscopy,baseline
+S|8002369|General Ultrasound,baseline
+S|8002369|Radiography,baseline
+A|8002369|1200 Markham Road,baseline
+L|8005265,baseline
+S|8005265|Radiography,baseline
+A|8005265|3410 Sheppard Avenue East,baseline
+L|8022301,baseline
+S|8022301|Bone Mineral DXA,baseline
+S|8022301|General Ultrasound,baseline
+S|8022301|Mammography,baseline
+S|8022301|Radiography,baseline
+S|8022301|Vascular Ultrasound,baseline
+A|8022301|10 Unionville Gate,baseline
+L|8023712,baseline
+S|8023712|General Ultrasound,baseline
+S|8023712|Radiography,baseline
+A|8023712|1122 LaSalle Boulevard,baseline
+L|8026714,baseline
+S|8026714|General Ultrasound,baseline
+S|8026714|Radiography,baseline
+A|8026714|2009 Long Lake Road,baseline
+L|8033567,baseline
+S|8033567|Ophthalmic Ultrasound,baseline
+A|8033567|2401 Bristol Circle,baseline
+L|8033569,baseline
+S|8033569|General Ultrasound,baseline
+S|8033569|Vascular Ultrasound,baseline
+A|8033569|270 Charlotte Street,baseline
+L|8041794,baseline
+S|8041794|Bone Mineral DXA,baseline
+S|8041794|Fluoroscopy,baseline
+S|8041794|General Ultrasound,baseline
+S|8041794|Mammography,baseline
+S|8041794|Nuclear Medicine - In Vivo - General,baseline
+S|8041794|Nuclear Medicine - In Vivo - SPECT,baseline
+S|8041794|Radiography,baseline
+S|8041794|Vascular Ultrasound,baseline
+A|8041794|40 Elm Street,baseline
+L|8043924,baseline
+S|8043924|Pulmonary Function A - Pure Screening,baseline
+S|8043924|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|8043924|Sleep Studies,baseline
+A|8043924|123 Edward Street,baseline
+L|8045380,baseline
+S|8045380|Mobile General Ultrasound,baseline
+S|8045380|Mobile Obs/Gyn Ultrasound,baseline
+S|8045380|Mobile Radiography,baseline
+S|8045380|Mobile Vascular Ultrasound,baseline
+A|8045380|3155 Harvester Road,baseline
+L|8076918,baseline
+S|8076918|Bone Mineral DXA,baseline
+S|8076918|General Ultrasound,baseline
+S|8076918|Mammography,baseline
+S|8076918|Ophthalmic Ultrasound,baseline
+S|8076918|Radiography,baseline
+S|8076918|Vascular Ultrasound,baseline
+A|8076918|194 North Court Street,baseline
+L|8077714,baseline
+S|8077714|General Ultrasound,baseline
+S|8077714|Radiography,baseline
+S|8077714|Vascular Ultrasound,baseline
+A|8077714|167 Hespeler Road,baseline
+L|8077920,baseline
+S|8077920|Ophthalmic Ultrasound,baseline
+A|8077920|2941 Lawrence Avenue East,baseline
+L|8077929,baseline
+S|8077929|Bone Mineral DXA,baseline
+S|8077929|Fluoroscopy,baseline
+S|8077929|General Ultrasound,baseline
+S|8077929|Obs/Gyn,baseline
+S|8077929|Radiography,baseline
+S|8077929|Vascular Ultrasound,baseline
+A|8077929|303 Col. Phillips Drive,baseline
+L|8087364,baseline
+S|8087364|Bone Mineral DXA,baseline
+S|8087364|General Ultrasound,baseline
+S|8087364|Mammography,baseline
+S|8087364|Nuclear Medicine - In Vivo - General,baseline
+S|8087364|Nuclear Medicine - In Vivo - SPECT,baseline
+S|8087364|Radiography,baseline
+S|8087364|Vascular Ultrasound,baseline
+A|8087364|13291 Yonge Street,baseline
+L|8093940,baseline
+S|8093940|Vascular Ultrasound,baseline
+A|8093940|11755 Bramalea Road,baseline
+L|8099989,baseline
+S|8099989|General Ultrasound,baseline
+S|8099989|Radiography,baseline
+A|8099989|530 - 10th Avenue,baseline
+L|8100003,baseline
+S|8100003|Fluoroscopy,baseline
+S|8100003|General Ultrasound,baseline
+S|8100003|Radiography,baseline
+A|8100003|2221 Keele Street,baseline
+L|8102441,baseline
+S|8102441|General Ultrasound,baseline
+S|8102441|Mammography,baseline
+S|8102441|Nuclear Medicine - In Vivo - General,baseline
+S|8102441|Nuclear Medicine - In Vivo - SPECT,baseline
+S|8102441|Radiography,baseline
+S|8102441|Vascular Ultrasound,baseline
+A|8102441|2300 Eglinton Avenue West,baseline
+L|8125414,baseline
+S|8125414|Bone Mineral DXA,baseline
+S|8125414|General Ultrasound,baseline
+S|8125414|Radiography,baseline
+A|8125414|31 Tapscott Road,baseline
+L|8130576,baseline
+S|8130576|Bone Mineral DXA,baseline
+S|8130576|General Ultrasound,baseline
+S|8130576|Radiography,baseline
+A|8130576|2525 Old Bronte Road,baseline
+L|8134489,baseline
+S|8134489|General Ultrasound,baseline
+S|8134489|Radiography,baseline
+S|8134489|Vascular Ultrasound,baseline
+A|8134489|16 O'Brien Street,baseline
+L|8155300,baseline
+S|8155300|Nuclear Medicine - In Vivo - General,baseline
+S|8155300|Nuclear Medicine - In Vivo - SPECT,baseline
+A|8155300|829 St. Clair Avenue West,baseline
+L|8159666,baseline
+S|8159666|Radiography,baseline
+A|8159666|1 Young Street,baseline
+L|8163056,baseline
+S|8163056|Bone Mineral DXA,baseline
+S|8163056|Mammography,baseline
+S|8163056|Radiography,baseline
+A|8163056|91 Cornelia Street West,baseline
+L|8170383,baseline
+S|8170383|Sleep Studies,baseline
+A|8170383|520 Ellesmere Road,baseline
+L|8177301,baseline
+S|8177301|Sleep Studies,baseline
+A|8177301|28 Main Street North,baseline
+L|8179104,baseline
+S|8179104|Pulmonary Function A - Pure Screening,baseline
+S|8179104|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|8179104|Sleep Studies,baseline
+A|8179104|40 Finchgate Boulevard,baseline
+L|8186413,baseline
+S|8186413|Sleep Studies,baseline
+A|8186413|520 Ellesmere Road,baseline
+L|8193853,baseline
+S|8193853|General Ultrasound,baseline
+S|8193853|Vascular Ultrasound,baseline
+A|8193853|60 Bell Farm Road,baseline
+L|8195934,baseline
+S|8195934|Nuclear Medicine - In Vivo - General,baseline
+S|8195934|Nuclear Medicine - In Vivo - SPECT,baseline
+A|8195934|180 Vine Street South,baseline
+L|8197940,baseline
+S|8197940|Sleep Studies,baseline
+A|8197940|7099 Yonge Street,baseline
+L|8219102,baseline
+S|8219102|Bone Mineral DXA,baseline
+S|8219102|General Ultrasound,baseline
+S|8219102|Mammography,baseline
+S|8219102|Radiography,baseline
+A|8219102|1780 Markham Road,baseline
+L|8248436,baseline
+S|8248436|Abortion,baseline
+A|8248436|727 Hillsdale Avenue East,baseline
+L|8249983,baseline
+S|8249983|Mammography,baseline
+A|8249983|6464 Yonge Street,baseline
+L|8276421,baseline
+S|8276421|Radiography,baseline
+A|8276421|2009 Long Lake Road,baseline
+L|8277482,baseline
+S|8277482|Bone Mineral DXA,baseline
+S|8277482|Mammography,baseline
+S|8277482|Radiography,baseline
+A|8277482|200 Windflower Gate,baseline
+L|8294097,baseline
+S|8294097|Ophthalmic Ultrasound,baseline
+A|8294097|879 Shefford Road,baseline
+L|8315235,baseline
+S|8315235|General Ultrasound,baseline
+S|8315235|Radiography,baseline
+A|8315235|282 Linwell Road,baseline
+L|8315668,baseline
+S|8315668|General Ultrasound,baseline
+S|8315668|Vascular Ultrasound,baseline
+A|8315668|932 King Street West,baseline
+L|8361818,baseline
+S|8361818|Bone Mineral DXA,baseline
+S|8361818|General Ultrasound,baseline
+S|8361818|Mammography,baseline
+S|8361818|Radiography,baseline
+S|8361818|Vascular Ultrasound,baseline
+A|8361818|3461 Dixie Road,baseline
+L|8379411,baseline
+S|8379411|General Ultrasound,baseline
+S|8379411|Radiography,baseline
+S|8379411|Vascular Ultrasound,baseline
+A|8379411|3000 Lawrence Avenue East,baseline
+L|8380567,baseline
+S|8380567|Bone Mineral DXA,baseline
+S|8380567|General Ultrasound,baseline
+S|8380567|Mammography,baseline
+S|8380567|Radiography,baseline
+S|8380567|Vascular Ultrasound,baseline
+A|8380567|59 Main Street East,baseline
+L|8413510,baseline
+S|8413510|Bone Mineral DXA,baseline
+S|8413510|Radiography,baseline
+A|8413510|45 Overlea Boulevard,baseline
+L|8414031,baseline
+S|8414031|Bone Mineral DXA,baseline
+S|8414031|General Ultrasound,baseline
+S|8414031|Mammography,baseline
+S|8414031|Radiography,baseline
+S|8414031|Vascular Ultrasound,baseline
+A|8414031|760 Brant Street,baseline
+L|8421419,baseline
+S|8421419|GI-Endoscopy,baseline
+A|8421419|40 Holly Street,baseline
+L|8422510,baseline
+S|8422510|Vascular Ultrasound,baseline
+A|8422510|5 Fairview Mall Drive,baseline
+L|8423504,baseline
+S|8423504|Radiography,baseline
+A|8423504|955 Queen Street East,baseline
+L|8423583,baseline
+S|8423583|Bone Mineral DXA,baseline
+S|8423583|General Ultrasound,baseline
+S|8423583|Mammography,baseline
+S|8423583|Radiography,baseline
+S|8423583|Vascular Ultrasound,baseline
+A|8423583|595 Bradley Avenue,baseline
+L|8432546,baseline
+S|8432546|General Ultrasound,baseline
+S|8432546|Radiography,baseline
+S|8432546|Vascular Ultrasound,baseline
+A|8432546|3155 Harvester Road,baseline
+L|8443988,baseline
+S|8443988|Fluoroscopy,baseline
+A|8443988|6870 Goreway Drive,baseline
+L|8446982,baseline
+S|8446982|Bone Mineral DXA,baseline
+S|8446982|Fluoroscopy,baseline
+S|8446982|General Ultrasound,baseline
+S|8446982|Mammography,baseline
+S|8446982|Radiography,baseline
+S|8446982|Vascular Ultrasound,baseline
+A|8446982|1615 Dundas Street East,baseline
+L|8477146,baseline
+S|8477146|Sleep Studies,baseline
+A|8477146|920 Princess Street,baseline
+L|8477160,baseline
+S|8477160|Sleep Studies,baseline
+A|8477160|292 King Street West,baseline
+L|8513766,baseline
+S|8513766|Sleep Studies,baseline
+A|8513766|4190 Finch Avenue East,baseline
+L|8566457,baseline
+S|8566457|Pulmonary Function - Other Fee Codes,baseline
+S|8566457|Pulmonary Function A - Pure Screening,baseline
+S|8566457|Pulmonary Function C - Escalated Testing,baseline
+S|8566457|Vascular Ultrasound,baseline
+A|8566457|3020 Brock Street North,baseline
+L|8592398,baseline
+S|8592398|Mobile General Ultrasound,baseline
+S|8592398|Mobile Radiography,baseline
+S|8592398|Mobile Vascular Ultrasound,baseline
+A|8592398|3155 Harvester Road,baseline
+L|8597363,baseline
+S|8597363|Pulmonary Function A - Pure Screening,baseline
+S|8597363|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|8597363|Sleep Studies,baseline
+A|8597363|1315 Michigan Avenue,baseline
+L|8620970,baseline
+S|8620970|Ophthalmic Ultrasound,baseline
+A|8620970|133 Main Street West,baseline
+L|8621976,baseline
+S|8621976|Mobile General Ultrasound,baseline
+S|8621976|Mobile Radiography,baseline
+S|8621976|Mobile Vascular Ultrasound,baseline
+A|8621976|3155 Harvester Road,baseline
+L|8626306,baseline
+S|8626306|Sleep Studies,baseline
+A|8626306|549 King Street East,baseline
+L|8661227,baseline
+S|8661227|Nuclear Medicine - In Vivo - General,baseline
+S|8661227|Nuclear Medicine - In Vivo - SPECT,baseline
+A|8661227|462 Birchmount Road,baseline
+L|8667902,baseline
+S|8667902|Radiography,baseline
+S|8667902|Vascular Ultrasound,baseline
+A|8667902|9160 Bayview Avenue,baseline
+L|8754641,baseline
+S|8754641|Nuclear Medicine - In Vivo - General,baseline
+S|8754641|Nuclear Medicine - In Vivo - SPECT,baseline
+A|8754641|3155 Harvester Road,baseline
+L|8763574,baseline
+S|8763574|GI-Endoscopy,baseline
+A|8763574|470 Chrysler Drive,baseline
+L|8806931,baseline
+S|8806931|Bone Mineral DXA,baseline
+S|8806931|General Ultrasound,baseline
+S|8806931|Radiography,baseline
+A|8806931|100 Queen Street,baseline
+L|8823157,baseline
+S|8823157|General Ultrasound,baseline
+S|8823157|Vascular Ultrasound,baseline
+A|8823157|247 Simcoe Street North,baseline
+L|8827980,baseline
+S|8827980|Plastic Surgery,baseline
+A|8827980|5668 Main Street,baseline
+L|8833275,baseline
+S|8833275|Bone Mineral DXA,baseline
+S|8833275|General Ultrasound,baseline
+S|8833275|Nuclear Medicine - In Vivo - General,baseline
+S|8833275|Nuclear Medicine - In Vivo - SPECT,baseline
+S|8833275|Radiography,baseline
+S|8833275|Vascular Ultrasound,baseline
+A|8833275|2 Elgin Park Drive,baseline
+L|8843012,baseline
+S|8843012|GI-Endoscopy,baseline
+A|8843012|785 Wonderland Road South,baseline
+L|8844468,baseline
+S|8844468|Magnetic Resonance Imaging,baseline
+A|8844468|776 Blackburn Mews East,baseline
+L|8849984,baseline
+S|8849984|Bone Mineral DXA,baseline
+S|8849984|General Ultrasound,baseline
+S|8849984|Mammography,baseline
+S|8849984|Radiography,baseline
+S|8849984|Vascular Ultrasound,baseline
+A|8849984|130 Mill Street East,baseline
+L|8885646,baseline
+S|8885646|General Ultrasound,baseline
+S|8885646|Urologic Ultrasound,baseline
+S|8885646|Vascular Ultrasound,baseline
+A|8885646|460 Wellington Street,baseline
+L|8897391,baseline
+S|8897391|Ophthalmic Ultrasound,baseline
+A|8897391|340 College Street,baseline
+L|8919908,baseline
+S|8919908|Radiography,baseline
+A|8919908|10 Kingsbridge Garden Circle,baseline
+L|8952609,baseline
+S|8952609|Bone Mineral DXA,baseline
+S|8952609|General Ultrasound,baseline
+S|8952609|Radiography,baseline
+S|8952609|Vascular Ultrasound,baseline
+A|8952609|1366 Yonge Street,baseline
+L|8958536,baseline
+S|8958536|Ophthalmic Ultrasound,baseline
+A|8958536|750 Palladium Drive,baseline
+L|8998526,baseline
+S|8998526|Ophthalmic Ultrasound,baseline
+A|8998526|677 Great Northern Road,baseline
+L|9011776,baseline
+S|9011776|General Ultrasound,baseline
+S|9011776|Radiography,baseline
+A|9011776|37 Main Street East,baseline
+L|9022036,baseline
+S|9022036|General Ultrasound,baseline
+A|9022036|550 Bond Street West,baseline
+L|9062513,baseline
+S|9062513|Pulmonary Function A - Pure Screening,baseline
+S|9062513|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|9062513|Pulmonary Function C - Escalated Testing,baseline
+A|9062513|89 Queensway West,baseline
+L|9067225,baseline
+S|9067225|Bone Mineral DXA,baseline
+S|9067225|General Ultrasound,baseline
+S|9067225|Radiography,baseline
+S|9067225|Vascular Ultrasound,baseline
+A|9067225|1450 O'Connor Drive,baseline
+L|9071108,baseline
+S|9071108|Obs/Gyn Ultrasound,baseline
+"A|9071108|379 Church Street, 5th Floor",baseline
+L|9077907,baseline
+S|9077907|Bone Mineral DXA,baseline
+S|9077907|General Ultrasound,baseline
+S|9077907|Mammography,baseline
+S|9077907|Radiography,baseline
+A|9077907|801 Dundas Street East,baseline
+L|9093617,baseline
+S|9093617|General Ultrasound,baseline
+S|9093617|Radiography,baseline
+A|9093617|150 Eglinton Avenue East,baseline
+L|9096124,baseline
+S|9096124|Bone Mineral DXA,baseline
+S|9096124|Radiography,baseline
+A|9096124|7155 Woodbine Avenue,baseline
+L|9100468,baseline
+S|9100468|Sleep Studies,baseline
+A|9100468|295 College Street,baseline
+L|9128031,baseline
+S|9128031|Sleep Studies,baseline
+A|9128031|100 Garment Street,baseline
+L|9132225,baseline
+S|9132225|Bone Mineral DXA,baseline
+S|9132225|General Ultrasound,baseline
+A|9132225|462 Birchmount Road,baseline
+L|9152094,baseline
+S|9152094|General Ultrasound,baseline
+S|9152094|Radiography,baseline
+A|9152094|1221 Algonquin Avenue,baseline
+L|9156707,baseline
+S|9156707|Ophthalmic Ultrasound,baseline
+A|9156707|4278 King Street East,baseline
+L|9175675,baseline
+S|9175675|Radiography,baseline
+A|9175675|270 King George Road,baseline
+L|9213446,baseline
+S|9213446|General Ultrasound,baseline
+A|9213446|25 Sheppard Avenue West,baseline
+L|9312394,baseline
+S|9312394|General Ultrasound,baseline
+S|9312394|Radiography,baseline
+A|9312394|320 March Road,baseline
+L|9361147,baseline
+S|9361147|Bone Mineral DXA,baseline
+S|9361147|Fluoroscopy,baseline
+S|9361147|General Ultrasound,baseline
+S|9361147|Mammography,baseline
+S|9361147|Nuclear Medicine - In Vivo - General,baseline
+S|9361147|Nuclear Medicine - In Vivo - SPECT,baseline
+S|9361147|Pulmonary Function A - Pure Screening,baseline
+S|9361147|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|9361147|Radiography,baseline
+S|9361147|Vascular Ultrasound,baseline
+A|9361147|8333 Weston Road,baseline
+L|9362513,baseline
+S|9362513|Nuclear Medicine - In Vivo - General,baseline
+S|9362513|Nuclear Medicine - In Vivo - SPECT,baseline
+A|9362513|5525 Eglinton Avenue West,baseline
+L|9364847,baseline
+S|9364847|Bone Mineral DXA,baseline
+S|9364847|Fluoroscopy,baseline
+S|9364847|General Ultrasound,baseline
+S|9364847|Mammography,baseline
+S|9364847|Radiography,baseline
+S|9364847|Vascular Ultrasound,baseline
+A|9364847|18 Kensington Road,baseline
+L|9367999,baseline
+S|9367999|Bone Mineral DXA,baseline
+S|9367999|Fluoroscopy,baseline
+S|9367999|General Ultrasound,baseline
+S|9367999|Mammography,baseline
+S|9367999|Nuclear Medicine - In Vivo - General,baseline
+S|9367999|Nuclear Medicine - In Vivo - SPECT,baseline
+S|9367999|Pulmonary Function A - Pure Screening,baseline
+S|9367999|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+S|9367999|Pulmonary Function C - Escalated Testing,baseline
+S|9367999|Radiography,baseline
+S|9367999|Vascular Ultrasound,baseline
+A|9367999|1885 Glenanna Road,baseline
+L|9401190,baseline
+S|9401190|Bone Mineral DXA,baseline
+S|9401190|General Ultrasound,baseline
+S|9401190|Radiography,baseline
+S|9401190|Vascular Ultrasound,baseline
+A|9401190|15 Westney Road North,baseline
+L|9422897,baseline
+S|9422897|Bone Mineral DXA,baseline
+S|9422897|Fluoroscopy,baseline
+S|9422897|General Ultrasound,baseline
+S|9422897|Mammography,baseline
+S|9422897|Radiography,baseline
+S|9422897|Vascular Ultrasound,baseline
+A|9422897|1700 King Road,baseline
+L|9454133,baseline
+S|9454133|General Ultrasound,baseline
+A|9454133|348 Muskoka Road 3 North,baseline
+L|9472518,baseline
+S|9472518|General Ultrasound,baseline
+A|9472518|180 Bloor Street West,baseline
+L|9473928,baseline
+S|9473928|Bone Mineral DXA,baseline
+S|9473928|General Ultrasound,baseline
+S|9473928|Mammography,baseline
+S|9473928|Radiography,baseline
+A|9473928|7330 Yonge Street,baseline
+L|9478578,baseline
+S|9478578|Radiography,baseline
+A|9478578|11 Lakeside Terrace,baseline
+L|9479040,baseline
+S|9479040|General Ultrasound,baseline
+S|9479040|Mammography,baseline
+S|9479040|Radiography,baseline
+S|9479040|Vascular Ultrasound,baseline
+A|9479040|245 Dundas Street East,baseline
+L|9491544,baseline
+S|9491544|Sleep Studies,baseline
+A|9491544|480 Chrysler Drive,baseline
+L|9537139,baseline
+S|9537139|Orthopedics Surgery,baseline
+A|9537139|199 Avenue Road,baseline
+L|9546009,baseline
+S|9546009|GI-Endoscopy,baseline
+A|9546009|3545 Odyssey Drive,baseline
+L|9567992,baseline
+S|9567992|Bone Mineral DXA,baseline
+S|9567992|Fluoroscopy,baseline
+S|9567992|General Ultrasound,baseline
+S|9567992|Mammography,baseline
+S|9567992|Nuclear Medicine - In Vivo - General,baseline
+S|9567992|Nuclear Medicine - In Vivo - SPECT,baseline
+S|9567992|Vascular Ultrasound,baseline
+A|9567992|13300 Tecumseh Road East,baseline
+L|9571127,baseline
+S|9571127|Ophthalmic Ultrasound,baseline
+A|9571127|3331 Line 4 North,baseline
+L|9592312,baseline
+S|9592312|Bone Mineral DXA,baseline
+S|9592312|General Ultrasound,baseline
+S|9592312|Radiography,baseline
+A|9592312|4125 Lawrence Avenue East,baseline
+L|9593010,baseline
+S|9593010|Nuclear Medicine - In Vivo - General,baseline
+S|9593010|Nuclear Medicine - In Vivo - SPECT,baseline
+A|9593010|2391 Eglinton Avenue East,baseline
+L|9601064,baseline
+S|9601064|General Ultrasound,baseline
+S|9601064|Mammography,baseline
+S|9601064|Nuclear Medicine - In Vivo - General,baseline
+S|9601064|Nuclear Medicine - In Vivo - SPECT,baseline
+S|9601064|Vascular Ultrasound,baseline
+A|9601064|1545A Merivale Road,baseline
+L|9611404,baseline
+S|9611404|Fluoroscopy,baseline
+S|9611404|General Ultrasound,baseline
+S|9611404|Radiography,baseline
+A|9611404|385 Silver Star Boulevard,baseline
+L|9631550,baseline
+S|9631550|General Ultrasound,baseline
+S|9631550|Radiography,baseline
+S|9631550|Vascular Ultrasound,baseline
+A|9631550|3050 Garden Street,baseline
+L|9641007,baseline
+S|9641007|Bone Mineral DXA,baseline
+S|9641007|Fluoroscopy,baseline
+S|9641007|Mammography,baseline
+S|9641007|Radiography,baseline
+A|9641007|800 Bathurst Street,baseline
+L|9641407,baseline
+S|9641407|Radiography,baseline
+A|9641407|2805 Eglinton Avenue East,baseline
+L|9645264,baseline
+S|9645264|Bone Mineral DXA,baseline
+S|9645264|General Ultrasound,baseline
+S|9645264|Mammography,baseline
+S|9645264|Radiography,baseline
+A|9645264|751 Victoria Street South,baseline
+L|9651464,baseline
+S|9651464|Bone Mineral DXA,baseline
+S|9651464|General Ultrasound,baseline
+S|9651464|Radiography,baseline
+A|9651464|2640 Rutherford Road,baseline
+L|9652595,baseline
+S|9652595|General Ultrasound,baseline
+A|9652595|89 Dawson Road,baseline
+L|9653578,baseline
+S|9653578|General Ultrasound,baseline
+S|9653578|Radiography,baseline
+A|9653578|1221 Greenbank Road,baseline
+L|9657578,baseline
+S|9657578|GI-Endoscopy,baseline
+A|9657578|726 Upper James Street,baseline
+L|9669730,baseline
+S|9669730|Bone Mineral DXA,baseline
+S|9669730|General Ultrasound,baseline
+S|9669730|Radiography,baseline
+S|9669730|Vascular Ultrasound,baseline
+A|9669730|110 Copper Creek Drive,baseline
+L|9669790,baseline
+S|9669790|Pulmonary Function A - Pure Screening,baseline
+S|9669790|Pulmonary Function B - Lung Volumes & Diffusion,baseline
+A|9669790|327 Charlotte Street,baseline
+L|9682732,baseline
+S|9682732|Abortion,baseline
+A|9682732|1678 Bloor Street West,baseline
+L|9718852,baseline
+S|9718852|Bone Mineral DXA,baseline
+S|9718852|General Ultrasound,baseline
+S|9718852|Radiography,baseline
+A|9718852|1315 Finch Avenue West,baseline
+L|9721107,baseline
+S|9721107|Nuclear Medicine - In Vivo - General,baseline
+S|9721107|Nuclear Medicine - In Vivo - SPECT,baseline
+A|9721107|1355 Bank Street,baseline
+L|9721188,baseline
+S|9721188|Radiography,baseline
+A|9721188|7875 Riverside Drive East,baseline
+L|9728856,baseline
+S|9728856|Nuclear Medicine - In Vitro,baseline
+S|9728856|Nuclear Medicine - In Vivo - General,baseline
+S|9728856|Nuclear Medicine - In Vivo - SPECT,baseline
+S|9728856|Ophthalmic Ultrasound,baseline
+A|9728856|380 King Street North,baseline
+L|9795093,baseline
+S|9795093|Ophthalmic Ultrasound,baseline
+A|9795093|245 Danforth Avenue,baseline
+L|9808292,baseline
+S|9808292|General Ultrasound,baseline
+S|9808292|Radiography,baseline
+A|9808292|3410 Sheppard Avenue East,baseline
+L|9820029,baseline
+S|9820029|Computed Tomography,baseline
+A|9820029|1545A Merivale Road,baseline
+L|9827632,baseline
+S|9827632|Bone Mineral DXA,baseline
+S|9827632|General Ultrasound,baseline
+S|9827632|Radiography,baseline
+A|9827632|508 Lawrence Avenue West,baseline
+L|9842694,baseline
+S|9842694|Plastic Surgery,baseline
+A|9842694|325 Eglinton Avenue East,baseline
+L|9847123,baseline
+S|9847123|General Ultrasound,baseline
+S|9847123|Vascular Ultrasound,baseline
+A|9847123|800 Bathurst Street,baseline
+L|9852054,baseline
+S|9852054|Radiography,baseline
+A|9852054|78 - 3465 Platinum Drive,baseline
+L|9863593,baseline
+S|9863593|Radiography,baseline
+A|9863593|700 Tecumseh Road East,baseline
+L|9866432,baseline
+S|9866432|Ophthalmic Ultrasound,baseline
+A|9866432|99 Wayne Gretzky Parkway,baseline
+L|9874838,baseline
+S|9874838|Computed Tomography,baseline
+A|9874838|1700 King Road,baseline
+L|9891410,baseline
+S|9891410|Nuclear Medicine - In Vivo - General,baseline
+S|9891410|Nuclear Medicine - In Vivo - SPECT,baseline
+A|9891410|2005 Sheppard Avenue East,baseline
+L|9912394,baseline
+S|9912394|General Ultrasound,baseline
+S|9912394|Mammography,baseline
+S|9912394|Radiography,baseline
+S|9912394|Vascular Ultrasound,baseline
+A|9912394|2825 Lauzon Parkway,baseline
+L|9966412,baseline
+S|9966412|Nuclear Medicine - In Vivo - General,baseline
+S|9966412|Nuclear Medicine - In Vivo - SPECT,baseline
+A|9966412|2 Dewside Drive,baseline
+L|9966472,baseline
+S|9966472|Nuclear Medicine - In Vivo - General,baseline
+S|9966472|Nuclear Medicine - In Vivo - SPECT,baseline
+A|9966472|50 Minthorn Boulevard,baseline
+L|9979238,baseline
+S|9979238|Radiography,baseline
+S|9979238|Vascular Ultrasound,baseline
+A|9979238|960 Lawrence Avenue West,baseline
+L|9991410,baseline
+S|9991410|Bone Mineral DXA,baseline
+S|9991410|General Ultrasound,baseline
+S|9991410|Mammography,baseline
+S|9991410|Radiography,baseline
+A|9991410|21 Queensway West,baseline
+L|9991980,baseline
+S|9991980|Bone Mineral DXA,baseline
+S|9991980|General Ultrasound,baseline
+S|9991980|Mammography,baseline
+S|9991980|Radiography,baseline
+S|9991980|Vascular Ultrasound,baseline
+A|9991980|154 Civic Centre Road,baseline
+L|9997530,baseline
+S|9997530|Fluoroscopy,baseline
+S|9997530|General Ultrasound,baseline
+S|9997530|Radiography,baseline
+S|9997530|Vascular Ultrasound,baseline
+A|9997530|1420 Burnhamthorpe Road East,baseline
+L|9998501,baseline
+S|9998501|General Ultrasound,baseline
+S|9998501|Vascular Ultrasound,baseline
+A|9998501|3280 Bloor Street West,baseline
