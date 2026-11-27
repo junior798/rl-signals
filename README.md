@@ -1,33 +1,22 @@
 # rl-signals
 
-Every Monday this job downloads free government files, finds companies showing signs they will need equipment financing, scores them, and writes the results to a Google Sheet.
+Every Monday morning GitHub runs this job for free. It downloads government files (federal contract awards, CanadaBuys awards, federal grants and LMIA hiring approvals), finds companies showing signs they need financing, and saves the new ones in `data/new_signals.csv` in this repo.
 
-The sources are Quebec public contract awards (SEAO), federal contract awards (CanadaBuys), federal grants, employers approved to hire foreign workers (LMIA), and Job Bank postings.
+At 9am Toronto time the n8n workflow "RL Signals - Weekly GitHub signals into Supabase" picks up that file and loads it into Supabase, where the outreach system takes over. It labels each signal the same way the first big load did, skips anything already in Supabase, and emails Alex a short summary.
 
-Nothing runs on your computer. GitHub runs it for free, and if a run fails, GitHub emails you.
+Nothing runs on anyone's computer and no keys are stored here. The job only writes to this repo.
 
-## What ends up in the sheet
+## Files
 
-| Tab | What it holds |
+| File | What it holds |
 |---|---|
-| Signals | Every signal ever found, one row each. Never deleted. |
-| Companies | One row per company with its score, tier (hot, sequence, hold) and the event that triggered it. Rebuilt every run. |
-| Hot list | The top 30 companies with a score of 60 or more. |
-| Runs | One line per source per run: how many signals it found, how many were new, and any error. |
+| data/signals.csv | Every signal the job has ever found. Used to tell new from old. |
+| data/new_signals.csv | Only what was new in the latest run. n8n reads this one. |
+| data/last_run.txt | When the job last ran. n8n warns if it is more than 8 days old. |
 
-## One-time setup (about 20 minutes)
+## Running it by hand
 
-1. **GitHub.** Create an account at github.com, then a **private** repository named `rl-signals`. Upload every file in this folder, including the hidden `.github` folder.
-2. **Google Sheet.** Create a blank Google Sheet. Its ID is the long part of the URL between `/d/` and `/edit`.
-3. **Google service account** (this is how the job writes to the sheet):
-   - Go to console.cloud.google.com and create a project.
-   - Enable the **Google Sheets API**.
-   - Go to IAM and Admin, then Service Accounts, and create one. Open it, go to Keys, then Add key, then JSON. A file downloads.
-   - Share the Google Sheet with the service account's email address (it ends in `iam.gserviceaccount.com`) as an **Editor**.
-4. **Secrets.** In the GitHub repo, go to Settings, then Secrets and variables, then Actions, and add two secrets:
-   - `GOOGLE_SERVICE_ACCOUNT_JSON`: paste the whole content of the JSON file.
-   - `SHEET_ID`: the sheet ID from step 2.
-5. **First run.** In the repo, go to Actions, then Weekly signals, then Run workflow. Set **days = 180** so it loads six months, then run it. Later Monday runs load the last 21 days on their own.
+Actions tab, then Weekly signals, then Run workflow. Set days to 180 to reload six months.
 
 ## When something breaks
 
