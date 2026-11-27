@@ -23,7 +23,8 @@ from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
 import requests
 
-UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"}
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
+      "Accept": "*/*", "Accept-Language": "en-CA,en;q=0.9"}
 
 SIGN = {
     1: ("Contractor on a Calgary commercial, industrial or institutional permit", "Expansion"),
@@ -115,7 +116,7 @@ def key(name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", n)
 
 
-def get(url: str, timeout: int = 180, tries: int = 3, **kw) -> requests.Response:
+def get(url: str, timeout: int = 180, tries: int = 4, **kw) -> requests.Response:
     last = None
     for i in range(tries):
         try:
@@ -124,7 +125,7 @@ def get(url: str, timeout: int = 180, tries: int = 3, **kw) -> requests.Response
             return r
         except Exception as e:  # network hiccups
             last = e
-            time.sleep(3 + 5 * i)
+            time.sleep(5 + 15 * i)
     raise RuntimeError(f"download failed: {url}: {last}")
 
 
@@ -590,13 +591,16 @@ def toronto_permits(o: Out, days: int):
     t = pd.read_csv(io.StringIO(r.text), dtype=str)
     t = t[t.ISSUED_DATE.fillna("") >= since(days).isoformat()]
     num = lambda c: pd.to_numeric(t[c], errors="coerce").fillna(0)
-    nonres = (num("INDUSTRIAL") + num("MERCANTILE") + num("BUSINESS_AND_PERSONAL_SERVICES") + num("ASSEMBLY") + num("INSTITUTIONAL")) > 0
-    nonres |= t.PERMIT_TYPE.fillna("").str.contains("Non-Residential", case=False)
+    use = (t.CURRENT_USE.fillna("") + " " + t.PROPOSED_USE.fillna("")).str.lower()
+    resi = use.str.contains(r"sfd|semi|townhouse|duplex|triplex|residential|apartment|dwelling|house|condo|multiple unit|res\b", regex=True)
+    nonres = ((num("INDUSTRIAL") + num("MERCANTILE") + num("BUSINESS_AND_PERSONAL_SERVICES") + num("ASSEMBLY") + num("INSTITUTIONAL")) > 0) | \
+             t.PERMIT_TYPE.fillna("").str.contains("Non-Residential", case=False) | \
+             (t.PERMIT_TYPE.fillna("").isin(["Building Additions/Alterations", "New Building"]) & ~resi & (use.str.strip() != ""))
     cost = pd.to_numeric(t.EST_CONST_COST.fillna("").str.replace(",", ""), errors="coerce").fillna(0)
     for _, x in t[nonres & (cost >= 100000)].iterrows():
         desc = str(x.DESCRIPTION or "")
         o.add(x.BUILDER_NAME, 3, "Toronto building permits", x.ISSUED_DATE, x.EST_CONST_COST, "Toronto", "ON", f"{x.WORK}: {desc[:180]}")
-    ind = (num("INDUSTRIAL") > 0) & t.WORK.fillna("").str.contains("New Building|Addition", case=False)
+    ind = ((num("INDUSTRIAL") > 0) | use.str.contains("industrial|warehouse|manufactur")) & t.WORK.fillna("").str.contains("New Building|Addition", case=False)
     for _, x in t[ind].iterrows():
         o.add(x.BUILDER_NAME, 92, "Toronto building permits", x.ISSUED_DATE, x.EST_CONST_COST, "Toronto", "ON", f"{x.WORK}: {str(x.DESCRIPTION or '')[:180]}")
 
@@ -638,7 +642,7 @@ def alberta_grants(o: Out, days: int):
     g = pd.read_csv(io.BytesIO(r.content), dtype=str, encoding_errors="replace")
     g["d"] = pd.to_datetime(g.PaymentDate, errors="coerce", format="mixed")
     g["v"] = pd.to_numeric(g.Amount, errors="coerce").fillna(0)
-    g = g[(g.d >= pd.Timestamp(since(max(days, 45)))) & (g.v >= 10000)]
+    g = g[(g.d >= pd.Timestamp(since(max(days, 120)))) & (g.v >= 10000)]  # Alberta posts payments about a quarter late
     corp = g.Recipient.fillna("").str.contains(r"\b(?:LTD|LIMITED|INC|CORP|CORPORATION|ULC|LLP|CO\.)\b", case=False)
     g = g[corp & ~g.Recipient.fillna("").str.contains(r"SOCIETY|ASSOCIATION|FOUNDATION|CHURCH|SCHOOL|UNIVERSITY|COLLEGE|HOSPITAL|CO-OP|COOPERATIVE|AUTHORITY|COUNTY|TOWN OF|CITY OF|FIRST NATION|METIS|CHILD|DAYCARE|DAY CARE|CARE CENTRE|HOMES? FOR|SENIOR", case=False)]
     g = g[~g.Ministry.fillna("").str.contains(r"EDUCATION|HEALTH|SENIORS|CHILDREN|SOCIAL|MENTAL|INDIGENOUS|ARTS|CULTURE|PUBLIC SAFETY|JUSTICE", case=False)]
