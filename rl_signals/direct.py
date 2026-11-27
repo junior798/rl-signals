@@ -75,7 +75,31 @@ SIGN = {
     311: ("Ontario waste site or processing approval", "Compliance-driven spend"),
     312: ("Ontario end-of-life vehicle site registration", "Asset turnover"),
     313: ("Building permit to install equipment (booth, racking, crane, kitchen, lab, cold storage)", "Expansion"),
+    2: ("Builder on Calgary apartment or townhouse permits", "Expansion"),
+    3: ("Contractor named on Toronto building permits", "Expansion"),
+    92: ("Industrial new building or addition permit", "Expansion"),
+    196: ("Big contract won 3-5 years ago (equipment now paid down)", "Asset turnover"),
+    129: ("Alberta grant payment", "Funding event"),
+    210: ("Existing restaurant adding area (AGCO)", "Expansion"),
+    211: ("New licensed spot by an existing operator (AGCO)", "Expansion"),
+    213: ("New BC brewery, winery, distillery or restaurant licence", "Expansion"),
+    169: ("Licensed surgical / diagnostic imaging centre", "Expansion"),
+    171: ("Imaging centre new licence or added service", "Expansion"),
+    173: ("New or relocated surgical / cosmetic clinic (Ontario)", "Expansion"),
+    61: ("First-time Alberta Certificate of Recognition (diff of daily file)", "Expansion"),
 }
+
+STATE = __import__("pathlib").Path("data/state")
+
+
+def load_state(name: str) -> pd.DataFrame | None:
+    f = STATE / f"{name}.csv"
+    return pd.read_csv(f, dtype=str).fillna("") if f.exists() else None
+
+
+def save_state(name: str, df: pd.DataFrame):
+    STATE.mkdir(parents=True, exist_ok=True)
+    df.to_csv(STATE / f"{name}.csv", index=False)
 
 PUBLIC = re.compile(r"\b(city of|town of|township|municipality|county of|region(al)? (municipality|district)|district of|village of|university|college|hospital|health (authority|network|services)|school board|board of education|government|ministry|minister|her majesty|his majesty|corporation of the|first nation|band council|conservation authority|public works|crown)\b", re.I)
 SUFFIX = re.compile(r"\b(incorporated|inc|ltd|limited|ltee|corp|corporation|co|company|ulc|llp|lp|llc|plc)\b\.?", re.I)
@@ -158,7 +182,13 @@ def calgary(o: Out, days: int):
         pc = str(x.get("permitclassgroup")); desc = str(x.get("description"))
         d = x.get("issueddate"); cost = x.get("estprojectcost")
         if "Residential" in pc or "Residential" in str(x.get("permitclassmapped")):
+            if re.search(r"multi|apartment|townhouse|row house|rowhouse", f"{x.get('permitclassmapped')} {x.get('permitclass')} {desc}", re.I) \
+                    and re.search(r"new", str(x.get("workclassgroup")), re.I):
+                o.add(x.get("contractorname"), 2, "Calgary building permits", d, cost, "Calgary", "AB", desc[:200])
             continue
+        if re.search(r"industr|warehouse|manufactur", f"{pc} {x.get('permitclassmapped')} {x.get('permitclass')}", re.I) \
+                and re.search(r"new|addition", str(x.get("workclassgroup")), re.I):
+            o.add(x.get("applicantname"), 92, "Calgary building permits", d, cost, "Calgary", "AB", desc[:200])
         o.add(x.get("contractorname"), 1, "Calgary building permits", d, cost, "Calgary", "AB", desc[:200])
         if re.search(r"restaurant|food|kitchen|cafe|bar ", desc, re.I):
             o.add(x.get("applicantname"), 209, "Calgary building permits", d, cost, "Calgary", "AB", desc[:200])
@@ -193,6 +223,11 @@ def vancouver_permits(o: Out, days: int):
         hits = [w for w in EQUIP if re.search(rf"\b{re.escape(w)}\b", desc, re.I)]
         if hits:
             o.add(x.get("applicant"), 313, "Vancouver building permits", x.d, x.get("projectvalue"), "Vancouver", "BC", f"{', '.join(hits)}: {desc[:200]}")
+    ind = v[v.permitcategory.fillna("").str.contains("Industrial", case=False)
+            & v.typeofwork.fillna("").str.contains("New Building|Addition", case=False)]
+    for _, x in ind.iterrows():
+        o.add(re.sub(r"^.*DBA:\s*", "", str(x.get("applicant") or "")), 92, "Vancouver building permits", x.d, x.get("projectvalue"),
+              "Vancouver", "BC", f"{x.get('typeofwork')}: {str(x.get('projectdescription') or '')[:200]}")
     bc = v[v.buildingcontractor.notna()]
     for _, x in bc.iterrows():
         o.add(x.buildingcontractor, 93, "Vancouver building permits", x.d, x.get("projectvalue"), "Vancouver", "BC", None)
@@ -549,12 +584,165 @@ def jobbank(o: Out, days: int):
         o.add(r["employer"], r["signal"], "Job Bank", r["date"], None, city, r["prov"], r["title"])
 
 
+# ---------------------------------------------------------------- Toronto building permits (s3, s92, s313)
+def toronto_permits(o: Out, days: int):
+    r = get("https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/6d0229af-bc54-46de-9c2b-26759b01dd05", timeout=300)
+    t = pd.read_csv(io.StringIO(r.text), dtype=str)
+    t = t[t.ISSUED_DATE.fillna("") >= since(days).isoformat()]
+    num = lambda c: pd.to_numeric(t[c], errors="coerce").fillna(0)
+    nonres = (num("INDUSTRIAL") + num("MERCANTILE") + num("BUSINESS_AND_PERSONAL_SERVICES") + num("ASSEMBLY") + num("INSTITUTIONAL")) > 0
+    nonres |= t.PERMIT_TYPE.fillna("").str.contains("Non-Residential", case=False)
+    cost = pd.to_numeric(t.EST_CONST_COST.fillna("").str.replace(",", ""), errors="coerce").fillna(0)
+    for _, x in t[nonres & (cost >= 100000)].iterrows():
+        desc = str(x.DESCRIPTION or "")
+        o.add(x.BUILDER_NAME, 3, "Toronto building permits", x.ISSUED_DATE, x.EST_CONST_COST, "Toronto", "ON", f"{x.WORK}: {desc[:180]}")
+    ind = (num("INDUSTRIAL") > 0) & t.WORK.fillna("").str.contains("New Building|Addition", case=False)
+    for _, x in t[ind].iterrows():
+        o.add(x.BUILDER_NAME, 92, "Toronto building permits", x.ISSUED_DATE, x.EST_CONST_COST, "Toronto", "ON", f"{x.WORK}: {str(x.DESCRIPTION or '')[:180]}")
+
+
+# ---------------------------------------------------------------- Big federal contract 3 to 5 years ago (s196)
+def old_contracts(o: Out, days: int):
+    meta = get("https://open.canada.ca/data/api/action/package_show?id=d8f85d91-7dec-4fd1-8055-483b77225d8b").json()
+    url = next(x["url"] for x in meta["result"]["resources"] if (x.get("url") or "").lower().endswith("/contracts.csv"))
+    path = "/tmp/fed_contracts_all.csv"
+    with requests.get(url, headers=UA, timeout=600, stream=True) as r:
+        r.raise_for_status()
+        with open(path, "wb") as f:
+            for chunk in r.iter_content(1 << 20):
+                f.write(chunk)
+    today = dt.date.today()
+    lo, hi = today.replace(year=today.year - 5).isoformat(), today.replace(year=today.year - 3).isoformat()
+    cols = ["vendor_name", "vendor_postal_code", "contract_date", "description_en", "contract_value", "commodity_type", "country_of_vendor"]
+    post = {"A": "NL", "B": "NS", "C": "PE", "E": "NB", "K": "ON", "L": "ON", "M": "ON", "N": "ON", "P": "ON", "R": "MB", "S": "SK", "T": "AB", "V": "BC"}
+    work = re.compile(r"construct|repair|renovat|road|paving|excavat|demolition|dredg|marine|snow|haul|landscap|roof|mechanical|electrical|building|infrastructure|bridge|airfield|grounds", re.I)
+    for ch in pd.read_csv(path, usecols=lambda c: c in cols, dtype=str, chunksize=200_000, encoding_errors="replace"):
+        ch = ch[(ch.contract_date.fillna("") >= lo) & (ch.contract_date.fillna("") <= hi)]
+        ch = ch[ch.country_of_vendor.fillna("CA").str.upper().isin(["CA", ""])]
+        ch["v"] = pd.to_numeric(ch.contract_value, errors="coerce").fillna(0)
+        ch = ch[ch.v >= 250000]
+        for _, x in ch.iterrows():
+            desc = str(x.description_en or "")
+            if not (str(x.commodity_type).upper() == "C" or work.search(desc)):
+                continue
+            prov = post.get(str(x.vendor_postal_code or "")[:1].upper(), "")
+            if not prov:
+                continue
+            o.add(x.vendor_name, 196, "Federal contracts proactive disclosure", None, x.v, None, prov,
+                  f"Federal contract {str(x.contract_date)[:4]}: {desc[:150]}", campaign="Asset turnover")
+
+
+# ---------------------------------------------------------------- Alberta grant payments (s129)
+def alberta_grants(o: Out, days: int):
+    r = get("https://grants.dataservices.alberta.ca/GrantsDataService.svc/file.exportcsv", timeout=600)
+    g = pd.read_csv(io.BytesIO(r.content), dtype=str, encoding_errors="replace")
+    g["d"] = pd.to_datetime(g.PaymentDate, errors="coerce", format="mixed")
+    g["v"] = pd.to_numeric(g.Amount, errors="coerce").fillna(0)
+    g = g[(g.d >= pd.Timestamp(since(max(days, 45)))) & (g.v >= 10000)]
+    corp = g.Recipient.fillna("").str.contains(r"\b(?:LTD|LIMITED|INC|CORP|CORPORATION|ULC|LLP|CO\.)\b", case=False)
+    g = g[corp & ~g.Recipient.fillna("").str.contains(r"SOCIETY|ASSOCIATION|FOUNDATION|CHURCH|SCHOOL|UNIVERSITY|COLLEGE|HOSPITAL|CO-OP|COOPERATIVE|AUTHORITY|COUNTY|TOWN OF|CITY OF|FIRST NATION|METIS|CHILD|DAYCARE|DAY CARE|CARE CENTRE|HOMES? FOR|SENIOR", case=False)]
+    g = g[~g.Ministry.fillna("").str.contains(r"EDUCATION|HEALTH|SENIORS|CHILDREN|SOCIAL|MENTAL|INDIGENOUS|ARTS|CULTURE|PUBLIC SAFETY|JUSTICE", case=False)]
+    agg = g.groupby(["Recipient", "Ministry", "Program"]).agg(d=("d", "max"), v=("v", "sum")).reset_index()
+    for _, x in agg.iterrows():
+        o.add(x.Recipient, 129, "Alberta grant payments", x.d, x.v, None, "AB", f"{x.Ministry}: {x.Program}")
+
+
+# ---------------------------------------------------------------- AGCO liquor applications (s210, s211)
+def agco(o: Out, days: int):
+    r = get("https://www.agco.ca/sites/default/files/opendata/LiquorApplicationsUndergoingPublicNotice.csv")
+    a = pd.read_csv(io.BytesIO(r.content), dtype=str, encoding_errors="replace").fillna("")
+    a["k"] = a.premises_name.map(key)
+    seen = load_state("agco_seen")
+    first_run = seen is None
+    seen = seen if seen is not None else pd.DataFrame(columns=["file_number", "k", "address", "first_seen"])
+    today = dt.date.today().isoformat()
+    known_files = set(seen.file_number)
+    new = a[~a.file_number.isin(known_files)]
+    hist = pd.concat([seen[["k", "address"]], a[["k", "address"]]]).drop_duplicates()
+    multi = set(hist.groupby("k").address.nunique().loc[lambda s: s > 1].index)
+    if not first_run:
+        for _, x in new.iterrows():
+            area = f"{x.application_type_en} ({x.areas})"
+            if "Additions to Existing Licensed Areas" in x.application_type_en:
+                o.add(x.premises_name, 210, "AGCO liquor applications", today, None, x.city.title(), "ON", area)
+            elif x.application_type_en.startswith("New") and x.k in multi:
+                o.add(x.premises_name, 211, "AGCO liquor applications", today, None, x.city.title(), "ON", f"{area} at {x.address}")
+    else:  # first run: the current list is the baseline, but additions are still real and recent
+        for _, x in a[a.application_type_en.str.contains("Additions to Existing Licensed Areas")].iterrows():
+            o.add(x.premises_name, 210, "AGCO liquor applications", today, None, x.city.title(), "ON", f"{x.application_type_en} ({x.areas})")
+    add_rows = new.assign(first_seen=today)[["file_number", "k", "address", "first_seen"]]
+    save_state("agco_seen", pd.concat([seen, add_rows]).drop_duplicates("file_number"))
+
+
+# ---------------------------------------------------------------- BC liquor licences (s213)
+def bc_liquor(o: Out, days: int):
+    u = ("https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-development/business-management/"
+         "liquor-regulation-licensing/reports/all_liquor_licensed_establishments_in_bc.xlsx")
+    b = pd.read_excel(io.BytesIO(get(u, timeout=300).content), sheet_name=0, dtype=str).fillna("")
+    b = b[b["Licence Type"].str.contains("Food Primary|Liquor Primary|Manufacturer", case=False)]
+    seen = load_state("bc_liquor_seen")
+    today = dt.date.today().isoformat()
+    if seen is not None:
+        new = b[~b["Licence Number"].isin(set(seen.licence))]
+        for _, x in new.iterrows():
+            lic = x.Licensee if re.search(r"\b(ltd|inc|corp|limited|ulc)\b", x.Licensee, re.I) else re.sub(r"\s*\(\d+\)\s*$", "", x.Establishment)
+            kind = x["Licence Sub Category Id"] or x["Licence Type"]
+            o.add(lic, 213, "BC liquor licences", today, None, x["Establishment Address City"].title(), "BC",
+                  f"{kind}: {re.sub(r'\s*\(\d+\)\s*$', '', x.Establishment)}")
+    save_state("bc_liquor_seen", pd.DataFrame({"licence": sorted(set(b["Licence Number"]) | (set(seen.licence) if seen is not None else set()))}))
+
+
+# ---------------------------------------------------------------- Ontario surgical and imaging centres (s169, s171, s173)
+def ichsc(o: Out, days: int):
+    meta = get("https://data.ontario.ca/api/3/action/package_show?id=integrated-community-health-services-centres-ichsc-locations").json()
+    res = [x for x in meta["result"]["resources"] if str(x.get("url", "")).endswith(".csv") and not str(x.get("url", "")).endswith("_fr.csv")]
+    res.sort(key=lambda x: x.get("last_modified") or "")
+    c = pd.read_csv(io.BytesIO(get(res[-1]["url"]).content), dtype=str, encoding_errors="replace").fillna("")
+    cur = c.groupby("Licence Num").agg(lic=("Licensee Name", "first"), fac=("Facilityname", "first"), addr=("Address1", "first"),
+                                       city=("City", "first"), svc=("Services", lambda s: "|".join(sorted({p.strip() for v in s for p in v.split(",") if p.strip()})))).reset_index()
+    seen = load_state("ichsc_seen")
+    today = dt.date.today().isoformat()
+    if seen is not None:
+        prev = seen.set_index("Licence Num")
+        surg = re.compile(r"surg|cataract|endoscop|plastic", re.I)
+        for _, x in cur.iterrows():
+            if x["Licence Num"] not in prev.index:
+                sig = 173 if surg.search(x.svc) else 169
+                o.add(x.lic, sig, "Ontario ICHSC list", today, None, x.city, "ON", f"New licence: {x.fac} ({x.svc.replace('|', ', ')[:150]})")
+                continue
+            p = prev.loc[x["Licence Num"]]
+            added = set(x.svc.split("|")) - set(str(p.svc).split("|")) - {""}
+            if added:
+                o.add(x.lic, 171, "Ontario ICHSC list", today, None, x.city, "ON", f"Added service at {x.fac}: {', '.join(sorted(added))[:150]}")
+            elif p.addr != x.addr:
+                o.add(x.lic, 173, "Ontario ICHSC list", today, None, x.city, "ON", f"Moved {x.fac} to {x.addr}")
+    save_state("ichsc_seen", cur)
+
+
+# ---------------------------------------------------------------- Alberta Certificate of Recognition, first time (s61)
+def alberta_cor(o: Out, days: int):
+    raw = pd.read_excel(io.BytesIO(get("https://extern.labour.alberta.ca/cor-listing/ohs-employers-with-cor.xlsx").content), header=None, dtype=str)
+    hdr = raw.index[raw[0].fillna("").str.strip() == "Legal Name"][0]
+    c = raw.iloc[hdr + 1:].copy(); c.columns = [str(v).strip() for v in raw.iloc[hdr]]
+    c = c[c["Legal Name"].notna()].fillna("")
+    c["issued"] = pd.to_datetime(c["COR Number"].str[:8], format="%Y%m%d", errors="coerce")
+    seen = load_state("ab_cor_seen")
+    if seen is not None:
+        known = set(seen.account)
+        new = c[~c.Account.isin(known) & (c.issued >= pd.Timestamp(since(max(days, 60))))]
+        for _, x in new.iterrows():
+            o.add(x["Legal Name"], 61, "Alberta COR list", x.issued, None, None, "AB",
+                  f"First COR, {x['Certifying Partner']}" + (f" ({x['Display/Trade Name']})" if x["Display/Trade Name"] else ""))
+    save_state("ab_cor_seen", pd.DataFrame({"account": sorted(set(c.Account) | (set(seen.account) if seen is not None else set()))}))
+
+
 LOADERS = {
     "calgary": calgary, "vancouver_permits": vancouver_permits, "vancouver_licences": vancouver_licences,
     "vancouver_awards": vancouver_awards, "edmonton_licences": edmonton_licences, "nova_scotia": nova_scotia,
     "toronto_awards": toronto_awards, "dinesafe": dinesafe, "child_care": child_care,
     "access_environment": access_environment, "ero": ero, "aer_licences": aer_licences, "aer_spud": aer_spud,
-    "aircraft": aircraft, "jobbank": jobbank,
+    "aircraft": aircraft, "jobbank": jobbank, "toronto_permits": toronto_permits, "old_contracts": old_contracts,
+    "alberta_grants": alberta_grants, "agco": agco, "bc_liquor": bc_liquor, "ichsc": ichsc, "alberta_cor": alberta_cor,
 }
 
 COLS = ["dedupe_key", "source_name", "trigger_type", "signal_no", "campaign", "company", "city", "province", "date", "amount", "detail"]

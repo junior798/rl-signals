@@ -46,7 +46,8 @@ jobs:
           date -u +"%Y-%m-%dT%H:%M:%SZ" > data/last_run.txt
           git config user.name "rl-signals bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/signals.csv data/new_signals.csv data/last_run.txt data/new_direct.csv data/direct_runs.csv
+          mkdir -p data/state && touch data/state/.keep
+          git add data/signals.csv data/new_signals.csv data/last_run.txt data/new_direct.csv data/direct_runs.csv data/state
           git commit -m "Weekly signals $(date -u +%Y-%m-%d)" || echo "nothing new"
           git push
       - name: Keep CSV copies of this run
