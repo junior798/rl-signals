@@ -201,7 +201,7 @@ def vancouver_permits(o: Out, days: int):
 # ---------------------------------------------------------------- Vancouver business licences (s305)
 def vancouver_licences(o: Out, days: int):
     y = dt.date.today().year % 100
-    v = _van_all("business-licences", f"folderyear >= '{y - 2:02d}'",
+    v = _van_all("business-licences", f"issueddate >= date'{dt.date.today().year - 2}-01-01'",
                  "folderyear,businessname,businesstradename,businesstype,status,issueddate,house,street")
     v = v[~v.businessname.fillna("(").str.startswith("(")]
     v = v[~v.businesstype.fillna("").str.contains("Legal|Real Estate|Consulting|Health Care Professionals|Rental|Association")]
@@ -278,7 +278,7 @@ def child_care(o: Out, days: int):
     res.sort(key=lambda x: x.get("last_modified") or x.get("created") or "")
     b = pd.read_excel(io.BytesIO(get(res[-1]["url"]).content))
     b["iss"] = pd.to_datetime(b["Original Issue Date"], errors="coerce")
-    cut = pd.Timestamp(since(days))
+    cut = pd.Timestamp(since(max(days, 75)))  # the file only updates once a month
     x = b[b.iss >= cut]
     prior = set(b[b.iss < cut]["Licensee Name"])
     for _, r in x[x["Licensee Name"].isin(prior)].iterrows():
